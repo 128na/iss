@@ -1,0 +1,20 @@
+name: Release
+
+on:
+  push:
+    tags: ["**"]
+  pull_request:
+    branches: [master]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: install makeobj via apt
+        run: sudo apt install -y simutrans-makeobj
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: make pak files
+        run: cd src && makeobj pak256 && mv *.pak ../dist && ls -la ../dist
+        # uses: softprops/action-gh-release@v1
