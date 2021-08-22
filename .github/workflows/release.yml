@@ -34,7 +34,7 @@ jobs:
         run: cd src && /usr/lib/simutrans/makeobj pak256
 
       - name: move pak files
-        run: cd ../ && mkdir ./dist && mv ./src/*.pak ./dist
+        run: mkdir ./dist && mv ./src/*.pak ./dist
 
       - name: make release file
         run: cp README.md ./dist && zip -r dist.zip ./dist
