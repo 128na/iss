@@ -31,10 +31,16 @@ jobs:
         uses: actions/checkout@v2
 
       - name: make pak files
-        run: cd src && /usr/lib/simutrans/makeobj pak256 && mv *.pak ../dist
+        run: cd src && /usr/lib/simutrans/makeobj pak256
+
+      - name: move pak files
+        run: cd ../ && mkdir ./dist && mv ./src/*.pak ./dist
+
+      - name: make release file
+        run: cp README.md ./dist && zip -r dist.zip ./dist
 
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            dist/*
+            release.zip
