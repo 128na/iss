@@ -24,7 +24,8 @@ system_type
 topspeed
   4桁数値
 additional
-  バリエーションなど
+  任意項目。バリエーションなどオリジナリティ高い感じの名称をいい感じに設定する
+  eg. iss_rg_30_without_center_line
 ```
 
 
