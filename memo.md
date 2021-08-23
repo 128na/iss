@@ -28,4 +28,14 @@ additional
   eg. iss_rg_30_without_center_line
 ```
 
+# テクスチャ重い問題
 
+## 出力画像に後付けでノイズを付ける
+imagemagickで出来そう。ビルド自動化するならjsとかで書いた方がよさげ
+
+# タイル境界に隙間が出る問題
+## AA無しで出力した画像を後ろに合成する
+
+```
+magick composite backimage_ns.png image_ns.png: result.png
+```
