@@ -1,8 +1,8 @@
 const makePak = require('./makePak');
 
-const definitions = require('../src/definitions');
-const targetDir = process.env.TARGET_DIR || './src';
-const outputDir = process.env.OUTPUT_DIR || './dist';
+const definitions = require(process.argv[2] || '../src/definitions.js');
+const targetDir = './src';
+const outputDir = process.argv[3] || './dist';
 const makeobjPath = process.env.MAKEOBJ_PATH;
 
 return makePak(makeobjPath, targetDir, outputDir, definitions)
