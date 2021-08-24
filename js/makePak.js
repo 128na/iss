@@ -23,21 +23,21 @@ module.exports = async function (makeobjPath, targetDir, outputDir, definitions)
   const pakFiles = await Promise.all(definitions.map(async def => {
     // 画像をマージして出力
     await Promise.all(Object.entries(def.imageSet).map(([key, value]) => {
-      logger('mergeImages', key);
+      logger('mergeImages', key, value);
       return mergeImages(`${outputDir}/${key}`, value.map(v => `${targetDir}/${v}`))
     }));
 
     // datコピー
     const datFiles = def.datFiles.map(d => {
       const dir = `${outputDir}/${d}`;
-      logger('copyFile', dir);
       copyFile(`${targetDir}/${d}`, dir);
       return dir;
     });
+    logger('copyFile', datFiles);
 
     // 定義単位でpak化
     const pakFile = `${outputDir}/${def.pakFile}`;
-    logger('pak', pakFile);
+    logger('pak', pakFile, datFiles);
     pak(makeobjPath, def.size, pakFile, datFiles);
     return pakFile;
   }));
