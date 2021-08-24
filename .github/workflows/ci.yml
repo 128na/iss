@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+    tags: ["**"]
+  pull_request:
+    branches: [master]
+jobs:
+  pak-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: install makeobj via apt
+        run: sudo apt install -y simutrans-makeobj
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: copy env
+        run: cp .env.ci .env
+
+      - name: make pak files
+        run: npm ci && npm run build
+
+  release:
+    needs: pak-test
+    if: startsWith(github.ref, 'refs/tags/')
+    runs-on: ubuntu-latest
+    steps:
+      - name: install makeobj via apt
+        run: sudo apt install -y simutrans-makeobj
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: copy env
+        run: cp .env.ci .env
+
+      - name: make pak files
+        run: npm ci && npm run build
+
+      - name: make release file
+        run: cp README.md ./dist && zip -r release.zip ./dist
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            release.zip

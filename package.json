@@ -1,0 +1,25 @@
+{
+  "name": "iss",
+  "version": "1.0.0",
+  "description": "それなりにそれっぽい感じのインフラアドオンになる予定（未定",
+  "scripts": {
+    "serve": "node js/serve.js",
+    "build": "node js/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/128na/iss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/128na/iss/issues"
+  },
+  "homepage": "https://github.com/128na/iss#readme",
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "chokidar": "^3.5.2",
+    "dotenv": "^10.0.0",
+    "fs-extra": "^10.0.0",
+    "merge-images": "^2.0.0"
+  }
+}
