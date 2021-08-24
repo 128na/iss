@@ -20,6 +20,7 @@
     "chokidar": "^3.5.2",
     "dotenv": "^10.0.0",
     "fs-extra": "^10.0.0",
-    "merge-images": "^2.0.0"
+    "merge-images": "^2.0.0",
+    "require-reload": "^0.2.2"
   }
 }
