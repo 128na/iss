@@ -14,10 +14,14 @@ const pakDir = process.env.SIMUTRANS_PAKDIR;
 const simutransPath = process.env.SIMUTRANS_EXECUTABLE;
 
 watcher(targetDir, async () => {
-  const pakFiles = await makePak(makeobjPath, targetDir, outputDir, definitions, pakName);
-  const mergePakFile = `${outputDir}/${pakName}`;
+  try {
+    const pakFiles = await makePak(makeobjPath, targetDir, outputDir, definitions, pakName);
+    const mergePakFile = `${outputDir}/${pakName}`;
 
-  merge(makeobjPath, mergePakFile, pakFiles);
-  copyFile(mergePakFile, `${pakDir}/${pakName}`);
-  handleSimutrans(simutransPath);
+    merge(makeobjPath, mergePakFile, pakFiles);
+    copyFile(mergePakFile, `${pakDir}/${pakName}`);
+    handleSimutrans(simutransPath);
+  } catch (e) {
+    console.error(e);
+  }
 });
