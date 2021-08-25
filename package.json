@@ -16,11 +16,10 @@
   },
   "homepage": "https://github.com/128na/iss#readme",
   "dependencies": {
-    "canvas": "^2.8.0",
-    "chokidar": "^3.5.2",
-    "dotenv": "^10.0.0",
-    "fs-extra": "^10.0.0",
-    "merge-images": "^2.0.0",
-    "require-reload": "^0.2.2"
+    "canvas": "^2.8",
+    "chokidar": "^3.5",
+    "dotenv": "^10",
+    "fs-extra": "^10",
+    "require-reload": "^0.2"
   }
 }
