@@ -9,7 +9,7 @@
 module.exports = [
   {
     size: 256,
-    pakFile: 'road.pak',
+    pakFile: 'iss_road.pak',
     datFiles: ['rg.dat', 're.dat'],
     imageSet: {
       'rg_0030.png': ['rg_0030_b.png', 'rg_0030_f.png'],
@@ -20,6 +20,14 @@ module.exports = [
       're_0050.png': ['rg_0050_b.png', 're_0050_f.png'],
       're_0100.png': ['rg_0100_b.png', 're_0100_f.png'],
       're_1200.png': ['rg_1200_b.png', 're_1200_f.png'],
+    }
+  },
+  {
+    size: 256,
+    pakFile: 'iss_sign.pak',
+    datFiles: ['sign.dat'],
+    imageSet: {
+      'sign1.png': ['sign1.png'],
     }
   }
 ];
