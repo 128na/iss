@@ -14,11 +14,13 @@ module.exports = [
     imageSet: {
       'rg_0030.png': ['r_0030.png', 'rg_0030.png', 'r_0030_n.png'],
       'rg_0050.png': ['r_0050.png', 'rg_0050.png', 'r_0050_n.png'],
-      'rg_0100.png': ['r_0100.png', 'rg_0100.png', 'r_0100_n.png'],
+      'rg_0080.png': ['r_0100.png', 'rg_0080.png', 'r_0100_n.png'],
+      'rg_0120.png': ['r_0100.png', 'rg_0120.png', 'r_0100_n.png'],
       'rg_1200.png': ['r_1200.png', 'rg_1200.png', 'r_1200_n.png'],
       're_0030.png': ['r_0030.png', 're_0030.png', 'r_0030_n.png'],
       're_0050.png': ['r_0050.png', 're_0050.png', 'r_0050_n.png'],
-      're_0100.png': ['r_0100.png', 're_0100.png', 'r_0100_n.png'],
+      're_0080.png': ['r_0100.png', 're_0080.png', 'r_0100_n.png'],
+      're_0120.png': ['r_0100.png', 're_0120.png', 'r_0100_n.png'],
       're_1200.png': ['r_1200.png', 're_1200.png', 'r_1200_n.png'],
     }
   },
