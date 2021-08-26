@@ -40,7 +40,7 @@ jobs:
         run: npm ci && npm run build
 
       - name: make release file
-        run: cp README.md ./dist && zip -r release.zip ./dist
+        run: cp README.md ./dist && cp tumbnail.png ./dist && zip -r release.zip ./dist
 
       - name: Release
         uses: softprops/action-gh-release@v1

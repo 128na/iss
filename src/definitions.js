@@ -26,6 +26,15 @@ module.exports = [
   },
   {
     size: 256,
+    pakFile: 'iss_road-tunnel.pak',
+    datFiles: ['rt.dat'],
+    imageSet: {
+      'rt_1200.png': ['rt_1200_b.png', 'rt_1200.png'],
+      'rt_0120.png': ['rt_0120_b.png', 'rt_0120.png'],
+    }
+  },
+  {
+    size: 256,
     pakFile: 'iss_sign.pak',
     datFiles: ['sign.dat'],
     imageSet: {

@@ -1,5 +1,7 @@
 # Infrastructure of Sorenarini Soreppoi series
 
+![tumbnail](./tumbnail.png)
+
 それなりにそれっぽい感じのインフラアドオンになる予定（未定
 
 # 導入
