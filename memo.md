@@ -11,7 +11,7 @@ waytype
   s tram_track(Straßenbahn)
   w water
   a air
-  m maglev_track
+  g maglev_track
   n narrowgauge_track
 system_type
   g ground
@@ -21,6 +21,7 @@ system_type
   r runway
   u underground(トンネル用画像)
   s special(255)
+  w wayobj
 topspeed
   4桁数値
 additional

@@ -29,5 +29,13 @@ module.exports = [
     imageSet: {
       'sign1.png': ['sign1.png'],
     }
+  },
+  {
+    size: 256,
+    pakFile: 'iss_road-object.pak',
+    datFiles: ['rw.dat'],
+    imageSet: {
+      'r_wall.png': ['r_wall.png'],
+    }
   }
 ];
