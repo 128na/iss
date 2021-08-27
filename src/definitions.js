@@ -29,8 +29,8 @@ module.exports = [
     pakFile: 'iss_tunnel_road.pak',
     datFiles: ['tunnel/road/tunnel.dat'],
     imageSet: {
-      'tunnel/road/rt_1200.png': ['tunnel/road/1200_base.png', 'tunnel/road/1200.png'],
-      'tunnel/road/rt_0120.png': ['tunnel/road/0120_base.png', 'tunnel/road/0120.png'],
+      'tunnel/road/rt_1200.png': ['tunnel/road/1200_base.png', 'tunnel/road/1200.png', 'tunnel/road/1200_noise.png'],
+      'tunnel/road/rt_0120.png': ['tunnel/road/0120_base.png', 'tunnel/road/0120.png', 'tunnel/road/0120_noise.png'],
     }
   },
   {
@@ -46,7 +46,7 @@ module.exports = [
     pakFile: 'iss_way-object_road.pak',
     datFiles: ['way-object/road/wall.dat'],
     imageSet: {
-      'way-object/road/wall.png': ['way-object/road/wall_base.png', 'way-object/road/wall.png'],
+      'way-object/road/wall.png': ['way-object/road/wall_base.png', 'way-object/road/wall.png', 'way-object/road/wall_noise.png'],
     }
   },
   {
@@ -54,7 +54,7 @@ module.exports = [
     pakFile: 'iss_way_tram.pak',
     datFiles: ['way/tram/pier.dat'],
     imageSet: {
-      'way/tram/pier1.png': ['way/tram/pier1_base.png', 'way/tram/pier1.png'],
+      'way/tram/pier1.png': ['way/tram/pier1_base.png', 'way/tram/pier1.png', 'way/tram/pier1_noise.png'],
     }
   },
 ];

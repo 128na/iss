@@ -4,7 +4,7 @@
   "description": "それなりにそれっぽい感じのインフラアドオンになる予定（未定",
   "scripts": {
     "serve": "node js/serve.js ../src/definitions.js",
-    "build": "node js/build.js ../src/definitions.js ./dist/pak128",
+    "build": "node js/build.js ../src/definitions.js ./dist/src/pak128",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
