@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "それなりにそれっぽい感じのインフラアドオンになる予定（未定",
   "scripts": {
-    "serve": "node js/serve.js ../src/definitions.js",
-    "build": "node js/build.js ../src/definitions.js ./dist/src/pak128",
+    "serve": "npx ts-node js/ServeCommand.ts --definition=../src/definitions.js",
+    "build": "npx ts-node js/BuildCommand.ts --definition=../src/definitions.js --output=./dist/pak128",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,8 +18,15 @@
   "dependencies": {
     "canvas": "^2.8",
     "chokidar": "^3.5",
+    "commander": "^8.1.0",
     "dotenv": "^10",
     "fs-extra": "^10",
     "require-reload": "^0.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.12",
+    "@types/node": "^16.7.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
   }
 }

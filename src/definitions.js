@@ -1,11 +1,3 @@
-/*
-  size: pak化時のサイズ,
-  pakFile: 出力ファイル名,
-  datFiles: datファイル名配列,
-  imageSet: {
-    出力画像名: マージ画像配列(後->前の順),
-  }
-*/
 module.exports = [
   {
     size: 256,
