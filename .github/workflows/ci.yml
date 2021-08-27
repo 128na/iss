@@ -19,8 +19,8 @@ jobs:
       - name: copy env
         run: cp .env.ci .env
 
-      - name: install npx
-        run: npm install -g npx
+      - name: npx?
+        run: npx -v
 
       - name: make pak files
         run: npm ci && npm run build
