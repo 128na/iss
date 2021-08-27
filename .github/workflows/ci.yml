@@ -19,11 +19,12 @@ jobs:
       - name: copy env
         run: cp .env.ci .env
 
-      - name: npx?
-        run: npx -v
-
       - name: make pak files
         run: npm ci && npm run build
+
+      - name: show error log
+        if: failure()
+        run: cat /home/runner/.npm/_logs/*.log
 
   release:
     needs: pak-test
