@@ -21,9 +21,7 @@
     "commander": "^8.1.0",
     "dotenv": "^10",
     "fs-extra": "^10",
-    "require-reload": "^0.2"
-  },
-  "devDependencies": {
+    "require-reload": "^0.2",
     "@types/fs-extra": "^9.0.12",
     "@types/node": "^16.7.2",
     "ts-node": "^10.2.1",
