@@ -9,44 +9,52 @@
 module.exports = [
   {
     size: 256,
-    pakFile: 'iss_road.pak',
-    datFiles: ['rg.dat', 're.dat'],
+    pakFile: 'iss_way_road.pak',
+    datFiles: ['way/road/ground.dat', 'way/road/elevated.dat'],
     imageSet: {
-      'rg_0030.png': ['r_0030.png', 'rg_0030.png', 'r_0030_n.png'],
-      'rg_0050.png': ['r_0050.png', 'rg_0050.png', 'r_0050_n.png'],
-      'rg_0080.png': ['r_0100.png', 'rg_0080.png', 'r_0100_n.png'],
-      'rg_0120.png': ['r_0100.png', 'rg_0120.png', 'r_0100_n.png'],
-      'rg_1200.png': ['r_1200.png', 'rg_1200.png', 'r_1200_n.png'],
-      're_0030.png': ['r_0030.png', 're_0030.png', 'r_0030_n.png'],
-      're_0050.png': ['r_0050.png', 're_0050.png', 'r_0050_n.png'],
-      're_0080.png': ['r_0100.png', 're_0080.png', 'r_0100_n.png'],
-      're_0120.png': ['r_0100.png', 're_0120.png', 'r_0100_n.png'],
-      're_1200.png': ['r_1200.png', 're_1200.png', 'r_1200_n.png'],
+      'way/road/rg_0030.png': ['way/road/0030_base.png', 'way/road/0030_ground.png', 'way/road/0030_noise.png'],
+      'way/road/rg_0050.png': ['way/road/0050_base.png', 'way/road/0050_ground.png', 'way/road/0050_noise.png'],
+      'way/road/rg_0080.png': ['way/road/0100_base.png', 'way/road/0080_ground.png', 'way/road/0100_noise.png'],
+      'way/road/rg_0120.png': ['way/road/0100_base.png', 'way/road/0120_ground.png', 'way/road/0100_noise.png'],
+      'way/road/rg_1200.png': ['way/road/1200_base.png', 'way/road/1200_ground.png', 'way/road/1200_noise.png'],
+      'way/road/re_0030.png': ['way/road/0030_base.png', 'way/road/0030_elevated.png', 'way/road/0030_noise.png'],
+      'way/road/re_0050.png': ['way/road/0050_base.png', 'way/road/0050_elevated.png', 'way/road/0050_noise.png'],
+      'way/road/re_0080.png': ['way/road/0100_base.png', 'way/road/0080_elevated.png', 'way/road/0100_noise.png'],
+      'way/road/re_0120.png': ['way/road/0100_base.png', 'way/road/0120_elevated.png', 'way/road/0100_noise.png'],
+      'way/road/re_1200.png': ['way/road/1200_base.png', 'way/road/1200_elevated.png', 'way/road/1200_noise.png'],
     }
   },
   {
     size: 256,
-    pakFile: 'iss_road-tunnel.pak',
-    datFiles: ['rt.dat'],
+    pakFile: 'iss_tunnel_road.pak',
+    datFiles: ['tunnel/road/tunnel.dat'],
     imageSet: {
-      'rt_1200.png': ['rt_1200_b.png', 'rt_1200.png'],
-      'rt_0120.png': ['rt_0120_b.png', 'rt_0120.png'],
+      'tunnel/road/rt_1200.png': ['tunnel/road/1200_base.png', 'tunnel/road/1200.png'],
+      'tunnel/road/rt_0120.png': ['tunnel/road/0120_base.png', 'tunnel/road/0120.png'],
     }
   },
   {
     size: 256,
-    pakFile: 'iss_sign.pak',
-    datFiles: ['sign.dat'],
+    pakFile: 'iss_sign_road.pak',
+    datFiles: ['sign/road/sign.dat'],
     imageSet: {
-      'sign1.png': ['sign1.png'],
+      'sign/road/sign1.png': ['sign/road/sign1.png'],
     }
   },
   {
     size: 256,
-    pakFile: 'iss_road-object.pak',
-    datFiles: ['rw.dat'],
+    pakFile: 'iss_way-object_road.pak',
+    datFiles: ['way-object/road/wall.dat'],
     imageSet: {
-      'r_wall.png': ['r_wall.png'],
+      'way-object/road/wall.png': ['way-object/road/wall_base.png', 'way-object/road/wall.png'],
     }
-  }
+  },
+  {
+    size: 256,
+    pakFile: 'iss_way_tram.pak',
+    datFiles: ['way/tram/pier.dat'],
+    imageSet: {
+      'way/tram/pier1.png': ['way/tram/pier1_base.png', 'way/tram/pier1.png'],
+    }
+  },
 ];

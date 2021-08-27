@@ -1,6 +1,6 @@
 // https://www.npmjs.com/package/merge-images#nodejs-usage
 const { Image, createCanvas } = require('canvas');
-const fs = require('fs');
+const fs = require('fs-extra');
 const specialColorReplace = require('./specialColorReplace');
 
 const SPECIAL_KEYWORD = 'special_color.png';
@@ -19,6 +19,7 @@ module.exports = async function (output, imageFiles = []) {
  * @param {string} dateUri
  */
 function write(filename, dateUri) {
+  fs.ensureFileSync(filename);
   // https://gist.github.com/miguelmota/4e9864f182c053d7a51d
   fs.writeFileSync(filename, dateUri.replace(/^data:image\/png;base64,/, ''), 'base64');
 }

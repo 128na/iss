@@ -14,7 +14,7 @@ const makeobjPath = process.env.MAKEOBJ_PATH;
 const pakDir = process.env.SIMUTRANS_PAKDIR;
 const simutransPath = process.env.SIMUTRANS_EXECUTABLE;
 
-const target = ['dat', 'png', 'js'].map(ext => `${targetDir}/*.${ext}`);
+const target = ['dat', 'png', 'js'].map(ext => `${targetDir}/**/*.${ext}`);
 const definitionsPath = process.argv[2] || '../src/definitions.js'
 
 emptyDir(outputDir);
