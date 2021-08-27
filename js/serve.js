@@ -18,10 +18,10 @@ const target = ['dat', 'png', 'js'].map(ext => `${targetDir}/**/*.${ext}`);
 const definitionsPath = process.argv[2] || '../src/definitions.js'
 
 emptyDir(outputDir);
-watcher(target, async updatedFile => {
+watcher(target, async () => {
   try {
     const definitions = reload(definitionsPath);
-    const pakFiles = await makePak(makeobjPath, targetDir, outputDir, definitions, updatedFile);
+    const pakFiles = await makePak(makeobjPath, targetDir, outputDir, definitions);
     const mergePakFile = `${outputDir}/${pakName}`;
 
     merge(makeobjPath, mergePakFile, pakFiles);
