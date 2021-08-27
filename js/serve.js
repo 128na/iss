@@ -26,6 +26,7 @@ watcher(target, async () => {
 
     merge(makeobjPath, mergePakFile, pakFiles);
     copyFile(mergePakFile, `${pakDir}/${pakName}`);
+    console.log('re-run simutrans');
     handleSimutrans(simutransPath);
   } catch (e) {
     console.error(e);
