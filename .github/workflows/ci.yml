@@ -20,7 +20,7 @@ jobs:
         run: cp .env.ci .env
 
       - name: setup node
-      - uses: actions/setup-node@v2
+        uses: actions/setup-node@v2
 
       - name: make pak files
         run: npm ci && npm run build
