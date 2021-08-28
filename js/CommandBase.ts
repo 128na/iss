@@ -39,6 +39,9 @@ export abstract class CommandBase {
   protected async handleDefinitions(): Promise<string[]> {
     const definitions = this.loadDefinitions();
 
+    fs.copySync(`${this.source}/text`, `${this.output}/text`, { overwrite: true });
+
+
     const pakFiles = [];
     for (const definition of definitions) {
       pakFiles.push(await this.handleDefinition(definition));
@@ -101,8 +104,10 @@ export abstract class CommandBase {
     if (this.paklib) {
       logger('copyToPakDirectory', mergePakFile);
       this.simutransjManager.copyToPakDirectory(mergePakFile, this.paklib);
+      this.simutransjManager.copyToPakDirectory(`${this.output}/text`, '/text');
     }
   }
+
   protected reRunSimutrans() {
     logger('reRunSimutrans');
     this.simutransjManager.reRun();

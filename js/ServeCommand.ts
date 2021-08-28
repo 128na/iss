@@ -3,7 +3,7 @@ import { CommandBase } from "./CommandBase";
 import watcher from './managers/watcher';
 
 class ServeCommand extends CommandBase {
-  static watchExt = ['dat', 'png', 'js'];
+  static watchExt = ['dat', 'png', 'js', 'tab'];
 
   public async run() {
     fs.emptyDirSync(this.output);
