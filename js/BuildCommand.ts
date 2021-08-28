@@ -9,14 +9,14 @@ class BuildCommand extends BuildCommandBase {
 }
 
 import { Command } from 'commander';
-import { commandOption } from './interface';
+import { buildCommandOption } from './interface';
 const runner = new Command('build');
 runner
   .description('ソースファイルをビルドします。')
   .option('-d, --definition <file>', 'Definition file path', '../src/definition.js')
   .option('-s, --source <directory>', 'Source directory path', './src')
   .option('-o, --output <directory>', 'Output directory path', './dist')
-  .action((options: commandOption) => {
+  .action((options: buildCommandOption) => {
     const buildCommand = new BuildCommand(options);
     try {
       buildCommand.run();

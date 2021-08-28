@@ -9,7 +9,7 @@ class ServeCommand extends BuildCommandBase {
   private paklib?: string;
   private simutransjManager: SimutransManager
 
-  public constructor({ definition, source, output, paklib }: commandOption) {
+  public constructor({ definition, source, output, paklib }: serveCommandOption) {
     super({ definition, source, output });
     this.paklib = paklib;
     this.simutransjManager = new SimutransManager(
@@ -55,7 +55,7 @@ class ServeCommand extends BuildCommandBase {
 }
 
 import { Command } from 'commander';
-import { commandOption, logger } from './interface';
+import { serveCommandOption, logger } from './interface';
 const runner = new Command('build');
 runner
   .description('ソースファイルの更新を監視して自動ビルド、検証用シムトラを起動します。')
@@ -63,7 +63,7 @@ runner
   .option('-s, --source <directory>', 'Source directory path', './src')
   .option('-o, --output <directory>', 'Output directory path', './dist')
   .option('-p, --paklib <file>', 'Output pak file library path', 'dev.pak')
-  .action((options: commandOption) => {
+  .action((options: serveCommandOption) => {
     const serveCommand = new ServeCommand(options);
     try {
       serveCommand.run();

@@ -7,11 +7,14 @@ export interface definition {
   }
 }
 
-export interface commandOption {
+export interface buildCommandOption {
   definition: string
   source: string
   output: string
-  paklib?: string
+}
+
+export interface serveCommandOption extends buildCommandOption {
+  paklib: string
 }
 
 export const logger = (message: string, ...args: any) => {
