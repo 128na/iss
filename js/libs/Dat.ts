@@ -38,10 +38,6 @@ class Cache {
   _keyMap: { [index: string]: Param | undefined } = { };
   _keyValueMap: { [index: string]: Param[] } = { };
 
-  constructor() {
-    // console.log('cache::constructor');
-  }
-
   getKey(key: string): Param | undefined {
     return this._keyMap[key];
   }
@@ -99,6 +95,9 @@ export class Obj {
   }
   get name(): string | undefined {
     return this.findParam('name')?.valueVal;
+  }
+  get comments(): Param[] {
+    return this._params.filter(p => p.isComment);
   }
 
   updateFromString(original: string) {
@@ -179,19 +178,25 @@ export class Param {
   _value: Value;
 
   constructor(original: string) {
-    const tmp = original
-      .split('#')[0]    // 末尾コメントを削除
-      .match(regParam) || [];
-
-    // フォーマット不一致なら値として処理する（コメント行）
-    if (!tmp[2]) {
+    if (original.startsWith('#')) {
       this._key = new Key("");
       this._operator = "";
-      this._value = new Value(tmp[1] || "");
+      this._value = new Value(original || "");
     } else {
-      this._key = new Key((tmp[1] || "").toLowerCase());
-      this._operator = tmp[2] || "";
-      this._value = new Value(tmp[3] || "");
+      const tmp = original
+        .split('#')[0]    // 末尾コメントを削除
+        .match(regParam) || [];
+
+      // フォーマット不一致なら値として処理する（コメント行）
+      if (!tmp[2]) {
+        this._key = new Key("");
+        this._operator = "";
+        this._value = new Value(tmp[1] || "");
+      } else {
+        this._key = new Key((tmp[1] || "").toLowerCase());
+        this._operator = tmp[2] || "";
+        this._value = new Value(tmp[3] || "");
+      }
     }
   }
 
@@ -262,8 +267,14 @@ class Value {
   _params: number[];
 
   constructor(original: string) {
-    this._original = original.replace(regSpecial, '')
-    this._val = this._original.split(".")[0] || "";
-    this._params = [...this._original.matchAll(regValueParam)].map(p => parseInt(p[1], 10) || 0);
+    if (original.startsWith('#')) {
+      this._original = original;
+      this._val = original;
+      this._params = [];
+    } else {
+      this._original = original.replace(regSpecial, '')
+      this._val = this._original.split(".")[0] || "";
+      this._params = [...this._original.matchAll(regValueParam)].map(p => parseInt(p[1], 10) || 0);
+    }
   }
 }

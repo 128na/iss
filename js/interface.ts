@@ -1,3 +1,5 @@
+import { Dat } from "./libs/Dat";
+
 export interface definition {
   size: number
   pakFile: string
@@ -17,16 +19,12 @@ export interface serveCommandOption extends buildCommandOption {
   paklib: string
 }
 
-export interface ListingCommandOption {
-  format: string
+export interface AddonCommandOption {
   source: string
   output: string
 }
-
-
-export const logger = (message: string, ...args: any) => {
-  const d = new Date();
-  console.log(`[${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}] ------ ${message} ------`, ...args);
+export interface ListingCommandOption extends AddonCommandOption {
+  format: string
 }
 
 export interface makeojbResponse {
@@ -37,7 +35,13 @@ export interface makeojbResponse {
 
 export interface parsedDat {
   file: string
+  dat: Dat
+}
+
+export interface parsedObj {
   obj: string
+  name: string
   waytype: string
-  objNames: string[]
+  system_type: string
+  translates: string[]
 }

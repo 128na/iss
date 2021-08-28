@@ -2,6 +2,9 @@ import fs from 'fs-extra';
 import { BuildCommandBase } from "./BuildCommandBase";
 import watcher from './libs/watcher';
 import SimutransManager from './managers/SimutransManager';
+import { Command } from 'commander';
+import { serveCommandOption } from './interface';
+import { logger } from './util';
 
 class ServeCommand extends BuildCommandBase {
   static watchExt = ['dat', 'png', 'js', 'tab'];
@@ -54,8 +57,6 @@ class ServeCommand extends BuildCommandBase {
   }
 }
 
-import { Command } from 'commander';
-import { serveCommandOption, logger } from './interface';
 const runner = new Command('build');
 runner
   .description('ソースファイルの更新を監視して自動ビルド、検証用シムトラを起動します。')

@@ -1,3 +1,6 @@
+# @text ja:側壁(両方)
+# ただのこめんと
+# @text en:Side wall(both)
 obj=way-object
 name=iss_or_side_wall_both
 copyright=128na

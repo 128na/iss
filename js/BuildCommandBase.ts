@@ -3,10 +3,11 @@ require('dotenv').config();
 import fs from 'fs-extra';
 const reload = require('require-reload')(require);
 
-import { buildCommandOption, definition, logger } from "./interface";
+import { buildCommandOption, definition } from "./interface";
 import FileUpdateManager from './managers/FileUpdateManager';
 import ImageManager from './managers/ImageManager';
 import MakeobjManager from './managers/MakeobjManager';
+import { logger } from './util';
 
 export abstract class BuildCommandBase {
   private definition: string
