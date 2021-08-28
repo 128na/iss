@@ -47,7 +47,6 @@ class ServeCommand extends BuildCommandBase {
     if (this.paklib) {
       logger('copyToPakDirectory', mergePakFile);
       this.simutransjManager.copyToPakDirectory(mergePakFile, this.paklib);
-      this.simutransjManager.copyToPakDirectory(`${this.output}/text`, '/text');
     }
   }
 

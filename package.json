@@ -4,7 +4,7 @@
   "description": "それなりにそれっぽい感じのインフラアドオンになる予定（未定",
   "scripts": {
     "serve": "npx ts-node js/ServeCommand.ts --definition=../src/definitions.js",
-    "build": "npx ts-node js/BuildCommand.ts --definition=../src/definitions.js --output=./dist/pak128",
+    "build": "npx ts-node js/BuildCommand.ts --definition=../src/definitions.js --output=./dist/pak128 && npx ts-node js/GenerateTranslateCommand.ts --output=./dist/pak128/text",
     "listing": "npx ts-node js/GenerateAddonListCommand.ts",
     "translate": "npx ts-node js/GenerateTranslateCommand.ts",
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,6 +1,5 @@
 # @text ja:側壁(両方)
-# ただのこめんと
-# @text en:Side wall(both)
+# @text en:Sound barrier(both sides)
 obj=way-object
 name=iss_or_side_wall_both
 copyright=128na
@@ -72,6 +71,8 @@ frontdiagonal[nw]=wall.7.5,-64,-96
 frontdiagonal[ne]=wall.7.6,-64,-96
 frontdiagonal[se]=-
 ---
+# @text ja:側壁(背面)
+# @text en:Sound barrier(back side)
 obj=way-object
 name=iss_or_side_wall_back
 copyright=128na
@@ -143,6 +144,8 @@ frontdiagonal[nw]=-
 frontdiagonal[ne]=-
 frontdiagonal[se]=-
 ---
+# @text ja:側壁(前面)
+# @text en:Sound barrier(front side)
 obj=way-object
 name=iss_or_side_wall_front
 copyright=128na

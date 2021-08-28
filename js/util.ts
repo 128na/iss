@@ -1,6 +1,8 @@
+import { DateTime } from "luxon";
+
 export const logger = (message: string, ...args: any) => {
-  const d = new Date();
-  console.log(`[${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}] ------ ${message} ------`, ...args);
+  const time = DateTime.now().toLocaleString(DateTime.TIME_WITH_SECONDS);
+  console.log(`[${time}] ------ ${message} ------`, ...args);
 }
 
 export const TRANSLATE_KEY = '# @text';

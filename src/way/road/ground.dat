@@ -1,5 +1,5 @@
-# @text ja:路地
-
+# @text ja:[地上] 路地（南北優先）
+# @text en:[Ground] Alley (North-south priority)
 obj=way
 name=iss_wrg_0030_ns
 copyright=128na
@@ -43,6 +43,8 @@ diagonal[nw]=ground_0030.9.1,-64,-96
 diagonal[ne]=ground_0030.9.2,-64,-96
 diagonal[se]=ground_0030.9.3,-64,-96
 ---
+# @text ja:[地上] 路地（東西優先）
+# @text en:[Ground] Alley (East-west priority)
 obj=way
 name=iss_wrg_0030_ew
 copyright=128na
@@ -86,6 +88,8 @@ diagonal[nw]=ground_0030.9.1,-64,-96
 diagonal[ne]=ground_0030.9.2,-64,-96
 diagonal[se]=ground_0030.9.3,-64,-96
 ---
+# @text ja:[地上] 市道
+# @text en:[Ground] City road
 obj=way
 name=iss_wrg_0050
 copyright=128na
@@ -129,6 +133,8 @@ diagonal[nw]=ground_0050.9.1,-64,-96
 diagonal[ne]=ground_0050.9.2,-64,-96
 diagonal[se]=ground_0050.9.3,-64,-96
 ---
+# @text ja:[地上] 幹線道路
+# @text en:[Ground] Main road
 obj=way
 name=iss_wrg_0080
 copyright=128na
@@ -172,6 +178,8 @@ diagonal[nw]=ground_0080.9.1,-64,-96
 diagonal[ne]=ground_0080.9.2,-64,-96
 diagonal[se]=ground_0080.9.3,-64,-96
 ---
+# @text ja:[地上] 都市高速
+# @text en:[Ground] Urban expressway
 obj=way
 name=iss_wrg_0120
 copyright=128na
@@ -215,6 +223,8 @@ diagonal[nw]=ground_0120.9.1,-64,-96
 diagonal[ne]=ground_0120.9.2,-64,-96
 diagonal[se]=ground_0120.9.3,-64,-96
 ---
+# @text ja:[地上] 高速道路（南北優先）
+# @text en:[Ground] Expressway (North-south priority)
 obj=way
 name=iss_wrg_1200_ns
 copyright=128na
@@ -258,6 +268,8 @@ diagonal[nw]=ground_1200.9.1,-64,-96
 diagonal[ne]=ground_1200.9.2,-64,-96
 diagonal[se]=ground_1200.9.3,-64,-96
 ---
+# @text ja:[地上] 高速道路（東西優先）
+# @text en:[Ground] Expressway (East-west priority)
 obj=way
 name=iss_wrg_1200_ew
 copyright=128na

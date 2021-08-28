@@ -18,6 +18,7 @@ export default class FileReader {
   }
 
   public writeFile(path: string, content: string): void {
+    fs.ensureFileSync(path);
     return fs.writeFileSync(path, content);
   }
 }

@@ -1,3 +1,5 @@
+# @text ja:[トンネル] 高速道路
+# @text en:[Tunnel] Expressway
 obj=tunnel
 name=iss_tr_1200
 copyright=128na
@@ -21,6 +23,8 @@ frontImage[e]=1200.3.3,-64,-96
 backImage[w]=1200.2.1,-64,-96
 frontImage[w]=1200.3.1,-64,-96
 ---
+# @text ja:[トンネル] 都市高速
+# @text en:[Tunnel] Urban expressway
 obj=tunnel
 name=iss_tr_0120
 copyright=128na

@@ -31,10 +31,6 @@ export abstract class BuildCommandBase {
 
   protected async handleDefinitions(): Promise<string[]> {
     const definitions = this.loadDefinitions();
-
-    fs.copySync(`${this.source}/text`, `${this.output}/text`, { overwrite: true });
-
-
     const pakFiles = [];
     for (const definition of definitions) {
       pakFiles.push(await this.handleDefinition(definition));
