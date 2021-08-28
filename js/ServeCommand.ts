@@ -1,9 +1,22 @@
 import fs from 'fs-extra';
-import { CommandBase } from "./CommandBase";
+import { BuildCommandBase } from "./BuildCommandBase";
 import watcher from './managers/watcher';
+import SimutransManager from './managers/SimutransManager';
 
-class ServeCommand extends CommandBase {
+class ServeCommand extends BuildCommandBase {
   static watchExt = ['dat', 'png', 'js', 'tab'];
+
+  protected paklib?: string;
+  protected simutransjManager: SimutransManager
+
+  public constructor({ definition, source, output, paklib }: commandOption) {
+    super({ definition, source, output });
+    this.paklib = paklib;
+    this.simutransjManager = new SimutransManager(
+      process.env.SIMUTRANS_PAKDIR,
+      process.env.SIMUTRANS_EXECUTABLE
+    );
+  }
 
   public async run() {
     fs.emptyDirSync(this.output);
@@ -16,10 +29,33 @@ class ServeCommand extends CommandBase {
       this.reRunSimutrans();
     });
   }
+
+  protected merge(pakFiles: string[]): string {
+    const pakFileLib = `${this.output}/${this.paklib}`;
+    const result = this.makeobjManager.merge(pakFileLib, pakFiles);
+    logger('merge', result);
+    if (result.status !== 0) {
+      throw new Error('merge failed ' + pakFileLib);
+    }
+    return pakFileLib;
+  }
+
+  protected copyToPakDirectory(mergePakFile: string) {
+    if (this.paklib) {
+      logger('copyToPakDirectory', mergePakFile);
+      this.simutransjManager.copyToPakDirectory(mergePakFile, this.paklib);
+      this.simutransjManager.copyToPakDirectory(`${this.output}/text`, '/text');
+    }
+  }
+
+  protected reRunSimutrans() {
+    logger('reRunSimutrans');
+    this.simutransjManager.reRun();
+  }
 }
 
 import { Command } from 'commander';
-import { commandOption } from './interface';
+import { commandOption, logger } from './interface';
 const runner = new Command('build');
 runner
   .description('ソースファイルの更新を監視して自動ビルド、検証用シムトラを起動します。')

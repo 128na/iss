@@ -1,7 +1,7 @@
 import fs from 'fs-extra';
-import { CommandBase } from "./CommandBase";
+import { BuildCommandBase } from "./BuildCommandBase";
 
-class BuildCommand extends CommandBase {
+class BuildCommand extends BuildCommandBase {
   public async run() {
     fs.emptyDirSync(this.output);
     await this.handleDefinitions();
