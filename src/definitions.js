@@ -53,6 +53,7 @@ module.exports = [
     datFiles: ['way/tram/pier.dat'],
     imageSet: {
       'way/tram/pier1.png': ['way/tram/pier1_base.png', 'way/tram/pier1.png', 'way/tram/pier1_noise.png'],
+      'way/tram/pier2.png': ['way/tram/pier2.png'],
     }
   },
 ];
