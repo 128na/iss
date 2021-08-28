@@ -6,8 +6,8 @@ import SimutransManager from './managers/SimutransManager';
 class ServeCommand extends BuildCommandBase {
   static watchExt = ['dat', 'png', 'js', 'tab'];
 
-  protected paklib?: string;
-  protected simutransjManager: SimutransManager
+  private paklib?: string;
+  private simutransjManager: SimutransManager
 
   public constructor({ definition, source, output, paklib }: commandOption) {
     super({ definition, source, output });
@@ -30,7 +30,7 @@ class ServeCommand extends BuildCommandBase {
     });
   }
 
-  protected merge(pakFiles: string[]): string {
+  private merge(pakFiles: string[]): string {
     const pakFileLib = `${this.output}/${this.paklib}`;
     const result = this.makeobjManager.merge(pakFileLib, pakFiles);
     logger('merge', result);
@@ -40,7 +40,7 @@ class ServeCommand extends BuildCommandBase {
     return pakFileLib;
   }
 
-  protected copyToPakDirectory(mergePakFile: string) {
+  private copyToPakDirectory(mergePakFile: string) {
     if (this.paklib) {
       logger('copyToPakDirectory', mergePakFile);
       this.simutransjManager.copyToPakDirectory(mergePakFile, this.paklib);
@@ -48,7 +48,7 @@ class ServeCommand extends BuildCommandBase {
     }
   }
 
-  protected reRunSimutrans() {
+  private reRunSimutrans() {
     logger('reRunSimutrans');
     this.simutransjManager.reRun();
   }
