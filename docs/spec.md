@@ -9,7 +9,7 @@
 
 ### ディレクトリ名
 
-obj,waytype単位で分ける。 `{obj}/{waytype.name}/`
+obj,waytype単位で分ける。 `{obj.name}/{waytype.name}/`
 
 例 モノレールトンネル： `tunnel/monorail`
 

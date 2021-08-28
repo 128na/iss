@@ -1,5 +1,5 @@
 obj=way-object
-name=iss_rw_side_wall_both
+name=iss_or_side_wall_both
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -70,7 +70,7 @@ frontdiagonal[ne]=wall.7.6,-64,-96
 frontdiagonal[se]=-
 ---
 obj=way-object
-name=iss_rw_side_wall_back
+name=iss_or_side_wall_back
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -141,7 +141,7 @@ frontdiagonal[ne]=-
 frontdiagonal[se]=-
 ---
 obj=way-object
-name=iss_rw_side_wall_front
+name=iss_or_side_wall_front
 copyright=128na
 intro_year=1900
 intro_month=1

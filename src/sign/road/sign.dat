@@ -1,5 +1,5 @@
 obj=roadsign
-name=iss_s_no_entry
+name=iss_sr_no_entry
 copyright=128na
 cost=1
 waytype=road
@@ -18,7 +18,7 @@ image[2]=sign1.2.0,-64,-96
 image[3]=-
 ---
 obj=roadsign
-name=iss_s_player_only
+name=iss_sr_player_only
 copyright=128na
 cost=1
 waytype=road
@@ -37,7 +37,7 @@ image[2]=sign1.1.1,-64,-96
 image[3]=sign1.2.1,-64,-96
 ---
 obj=roadsign
-name=iss_s_crosswalk_available
+name=iss_sr_crosswalk_available
 copyright=128na
 cost=1
 waytype=road
@@ -55,7 +55,7 @@ image[2]=sign1.2.2,-64,-96
 image[3]=-
 ---
 obj=roadsign
-name=iss_s_front_priority_road
+name=iss_sr_front_priority_road
 copyright=128na
 cost=1
 waytype=road
@@ -73,7 +73,7 @@ image[2]=sign1.2.3,-64,-96
 image[3]=-
 ---
 obj=roadsign
-name=iss_s_school_zone
+name=iss_sr_school_zone
 copyright=128na
 cost=1
 waytype=road
@@ -91,7 +91,7 @@ image[2]=sign1.2.4,-64,-96
 image[3]=-
 ---
 obj=roadsign
-name=iss_s_no_turning
+name=iss_sr_no_turning
 copyright=128na
 cost=1
 waytype=road
@@ -109,7 +109,7 @@ image[2]=sign1.2.5,-64,-96
 image[3]=-
 ---
 obj=roadsign
-name=iss_s_direction_straight
+name=iss_sr_direction_straight
 copyright=128na
 cost=1
 waytype=road
@@ -127,7 +127,7 @@ image[2]=sign1.2.6,-64,-96
 image[3]=sign1.4.6,-64,-96
 ---
 obj=roadsign
-name=iss_s_direction_straight_right
+name=iss_sr_direction_straight_right
 copyright=128na
 cost=1
 waytype=road
@@ -145,7 +145,7 @@ image[2]=sign1.2.7,-64,-96
 image[3]=sign1.4.7,-64,-96
 ---
 obj=roadsign
-name=iss_s_direction_left_straight
+name=iss_sr_direction_left_straight
 copyright=128na
 cost=1
 waytype=road
@@ -163,7 +163,7 @@ image[2]=sign1.2.8,-64,-96
 image[3]=sign1.4.8,-64,-96
 ---
 obj=roadsign
-name=iss_s_crosswalk
+name=iss_sr_crosswalk
 copyright=128na
 cost=1
 waytype=road
@@ -181,7 +181,7 @@ image[2]=sign1.2.9,-64,-96
 image[3]=-
 ---
 obj=roadsign
-name=iss_s_min_speed_0030
+name=iss_sr_min_speed_0030
 copyright=128na
 cost=1
 waytype=road
@@ -200,7 +200,7 @@ image[2]=sign1.2.10,-64,-96
 image[3]=-
 ---
 obj=roadsign
-name=iss_s_min_speed_0050
+name=iss_sr_min_speed_0050
 copyright=128na
 cost=1
 waytype=road
@@ -219,7 +219,7 @@ image[2]=sign1.2.11,-64,-96
 image[3]=-
 ---
 obj=roadsign
-name=iss_s_min_speed_0100
+name=iss_sr_min_speed_0100
 copyright=128na
 cost=1
 waytype=road
@@ -238,7 +238,7 @@ image[2]=sign1.2.12,-64,-96
 image[3]=sign1.4.12,-64,-96
 ---
 obj=roadsign
-name=iss_s_min_speed_0150
+name=iss_sr_min_speed_0150
 copyright=128na
 cost=1
 waytype=road
@@ -257,7 +257,7 @@ image[2]=sign1.2.13,-64,-96
 image[3]=sign1.4.13,-64,-96
 ---
 obj=roadsign
-name=iss_s_min_speed_0200
+name=iss_sr_min_speed_0200
 copyright=128na
 cost=1
 waytype=road
@@ -276,7 +276,7 @@ image[2]=sign1.2.14,-64,-96
 image[3]=sign1.4.14,-64,-96
 ---
 obj=roadsign
-name=iss_s_min_speed_0999
+name=iss_sr_min_speed_0999
 copyright=128na
 cost=1
 waytype=road
@@ -295,7 +295,7 @@ image[2]=sign1.2.15,-64,-96
 image[3]=sign1.4.15,-64,-96
 ---
 obj=roadsign
-name=iss_s_min_speed_0080
+name=iss_sr_min_speed_0080
 copyright=128na
 cost=1
 waytype=road
@@ -314,7 +314,7 @@ image[2]=sign1.2.16,-64,-96
 image[3]=sign1.4.16,-64,-96
 ---
 obj=roadsign
-name=iss_s_min_speed_0120
+name=iss_sr_min_speed_0120
 copyright=128na
 cost=1
 waytype=road
