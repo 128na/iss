@@ -17,9 +17,9 @@ runner
   .option('-s, --source <directory>', 'Source directory path', './src')
   .option('-o, --output <directory>', 'Output directory path', './dist')
   .action((options: buildCommandOption) => {
-    const buildCommand = new BuildCommand(options);
+    const command = new BuildCommand(options);
     try {
-      buildCommand.run();
+      command.run();
     } catch (e) {
       console.log({ e })
     }

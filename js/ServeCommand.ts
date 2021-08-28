@@ -1,6 +1,6 @@
 import fs from 'fs-extra';
 import { BuildCommandBase } from "./BuildCommandBase";
-import watcher from './managers/watcher';
+import watcher from './libs/watcher';
 import SimutransManager from './managers/SimutransManager';
 
 class ServeCommand extends BuildCommandBase {
@@ -64,9 +64,9 @@ runner
   .option('-o, --output <directory>', 'Output directory path', './dist')
   .option('-p, --paklib <file>', 'Output pak file library path', 'dev.pak')
   .action((options: serveCommandOption) => {
-    const serveCommand = new ServeCommand(options);
+    const command = new ServeCommand(options);
     try {
-      serveCommand.run();
+      command.run();
     } catch (e) {
       console.log({ e })
     }

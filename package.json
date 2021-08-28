@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "npx ts-node js/ServeCommand.ts --definition=../src/definitions.js",
     "build": "npx ts-node js/BuildCommand.ts --definition=../src/definitions.js --output=./dist/pak128",
+    "listing": "npx ts-node js/ListingObjNameCommand.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,15 +17,19 @@
   },
   "homepage": "https://github.com/128na/iss#readme",
   "dependencies": {
+    "@types/fs-extra": "^9.0.12",
+    "@types/node": "^16.7.2",
     "canvas": "^2.8",
     "chokidar": "^3.5",
     "commander": "^8.1.0",
     "dotenv": "^10",
     "fs-extra": "^10",
+    "luxon": "^2.0.2",
     "require-reload": "^0.2",
-    "@types/fs-extra": "^9.0.12",
-    "@types/node": "^16.7.2",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.2"
+  },
+  "devDependencies": {
+    "@types/luxon": "^2.0.1"
   }
 }
