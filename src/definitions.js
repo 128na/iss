@@ -67,4 +67,12 @@ module.exports = [
       'way/track/pier3.png': ['way/track/pier3_base.png', 'way/track/pier3.png', 'way/track/pier3_noise.png'],
     }
   },
+  {
+    size: 256,
+    pakFile: 'iss_track_way_bridge.pak',
+    datFiles: ['way/track/bridge.dat'],
+    imageSet: {
+      'way/track/bridge1.png': ['way/track/bridge1_shift.png'],
+    }
+  },
 ];
