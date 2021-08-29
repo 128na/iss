@@ -1,8 +1,8 @@
 ---
-# @text ja:[高架] 橋１
-# @text en:[Elevated] Bridge 1
+# @text ja:[高架] 橋２
+# @text en:[Elevated] Bridge 2
 obj=way
-name=iss_wte_bridge1
+name=iss_wte_bridge2
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -13,29 +13,32 @@ cost=1
 maintenance=1
 topspeed=100
 system_type=1
-icon=> bridge1.0.0
-cursor=bridge1.0.0
-image[n]=-
-image[s]=-
-image[e]=-
-image[w]=-
-image[sw]=-
-image[nw]=-
-image[ne]=-
-image[se]=-
-image[ns]=-
-image[ew]=-
-image[nsew]=-
-image[-]=-
-image[new]=-
-image[nse]=-
-image[sew]=-
-image[nsw]=-
-imageUp[9]=bridge1.0.0,0,-16
-imageUp2[6]=bridge1.0.1,0,-16
-imageUp2[9]=bridge1.0.2,0,-16
-imageUp[6]=bridge1.0.3,0,-16
-imageUp[3]=bridge1.0.4,0,-16
-imageUp2[12]=bridge1.0.5,0,-16
-imageUp2[3]=bridge1.0.6,0,-16
-imageUp[12]=bridge1.0.7,0,-16
+icon=> bridge_icon.2.0
+cursor=bridge_icon.2.1,-64,-48
+# l=3
+image[e]=bridge2.1.0,0,-16
+image[ew]=bridge2.1.1,0,-16
+image[w]=bridge2.1.2,0,-16
+image[n]=bridge2.1.5,0,-16
+image[ns]=bridge2.1.6,0,-16
+image[s]=bridge2.1.7,0,-16
+# l=4
+imageUp[9]=bridge2.0.0,0,-16
+imageUp2[6]=bridge2.0.1,0,-16
+imageUp2[9]=bridge2.0.2,0,-16
+imageUp[6]=bridge2.0.3,0,-16
+imageUp[3]=bridge2.0.4,0,-16
+imageUp2[12]=bridge2.0.5,0,-16
+imageUp2[3]=bridge2.0.6,0,-16
+imageUp[12]=bridge2.0.7,0,-16
+# no image
+image[sw]=bridge_icon.0.1,-64,-48
+image[nw]=bridge_icon.0.1,-64,-48
+image[ne]=bridge_icon.0.1,-64,-48
+image[se]=bridge_icon.0.1,-64,-48
+image[nsew]=bridge_icon.0.1,-64,-48
+image[-]=bridge_icon.0.1,-64,-48
+image[new]=bridge_icon.0.1,-64,-48
+image[nse]=bridge_icon.0.1,-64,-48
+image[sew]=bridge_icon.0.1,-64,-48
+image[nsw]=bridge_icon.0.1,-64,-48
