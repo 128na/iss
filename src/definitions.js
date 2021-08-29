@@ -53,7 +53,18 @@ module.exports = [
     datFiles: ['way/tram/pier.dat'],
     imageSet: {
       'way/tram/pier1.png': ['way/tram/pier1_base.png', 'way/tram/pier1.png', 'way/tram/pier1_noise.png'],
-      'way/tram/pier2.png': ['way/tram/pier2.png'],
+      'way/tram/pier2.png': ['way/tram/pier2_base.png', 'way/tram/pier2.png', 'way/tram/pier2_noise.png'],
+      'way/tram/pier3.png': ['way/tram/pier3_base.png', 'way/tram/pier3.png', 'way/tram/pier3_noise.png'],
+    }
+  },
+  {
+    size: 256,
+    pakFile: 'iss_track_way.pak',
+    datFiles: ['way/track/pier.dat'],
+    imageSet: {
+      'way/track/pier1.png': ['way/track/pier1_base.png', 'way/track/pier1.png', 'way/track/pier1_noise.png'],
+      'way/track/pier2.png': ['way/track/pier2_base.png', 'way/track/pier2.png', 'way/track/pier2_noise.png'],
+      'way/track/pier3.png': ['way/track/pier3_base.png', 'way/track/pier3.png', 'way/track/pier3_noise.png'],
     }
   },
 ];

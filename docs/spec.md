@@ -69,7 +69,7 @@ additional
 |c|crossing||
 |u|building||
 
-### waytype
+### way.waytype
 
 |ID|name|waytype|備考|
 |:---:|---|---|---|
@@ -84,7 +84,7 @@ additional
 |p|power|power||
 
 
-### system_type
+### way.system_type
 
 |ID|name|system_type|備考|
 |:---:|---|---|---|
@@ -94,6 +94,22 @@ additional
 |r|runway|1||
 |u|underground|64||
 |s|special|255||
+
+### building.type
+
+|ID|type|備考|
+|:---:|---|---|
+|r|res|0|
+|c|com|1|
+|i|ind|0|
+|m|mon|1|
+|u|cur|64|
+|t|tow|255|
+|h|hq|255|
+|s|stop|255|
+|e|extension|255|
+|d|depot|255|
+|a|habour|255|
 
 ### タイル角度
 
