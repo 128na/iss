@@ -2,6 +2,9 @@ import fs from 'fs-extra';
 import { Command } from 'commander';
 import { createCanvas, Image } from 'canvas';
 
+/**
+ * npx ts-node .\js\ShiftImageCommand.ts --source=.\src\path\to\file.png
+ */
 const runner = new Command('build');
 runner
   .description('画像分割')

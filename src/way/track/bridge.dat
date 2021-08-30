@@ -1,8 +1,7 @@
----
-# @text ja:[高架] 橋２
-# @text en:[Elevated] Bridge 2
+# @text ja:エクストラドーズド橋（長さ７）
+# @text en:Extradosed bridge (length 7)
 obj=way
-name=iss_wte_bridge2
+name=iss_wte_bridge1_length_7
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -11,34 +10,216 @@ retire_month=1
 waytype=track
 cost=1
 maintenance=1
-topspeed=100
+topspeed=65535
+system_type=1
+icon=> bridge_icon.5.0
+cursor=bridge_icon.5.1,-64,-48
+# l=7
+image[e]=bridge1.0.0,0,-32
+imageUp[9]=bridge1.0.1,0,-48
+imageUp2[6]=bridge1.0.2,0,-48
+image[ew]=bridge1.0.3,0,-16
+imageUp2[9]=bridge1.0.4,0,-48
+imageUp[6]=bridge1.0.5,0,-48
+image[w]=bridge1.0.6,0,-32
+image[n]=bridge1.0.7,0,-32
+imageUp[3]=bridge1.0.8,0,-48
+imageUp2[12]=bridge1.0.9,0,-48
+image[ns]=bridge1.0.10,0,-16
+imageUp2[3]=bridge1.0.11,0,-48
+imageUp[12]=bridge1.0.12,0,-48
+image[s]=bridge1.0.13,0,-32
+# unused
+image[se]=bridge_icon.5.1,-64,-48
+image[sw]=bridge_icon.5.1,-64,-48
+image[nw]=bridge_icon.5.1,-64,-48
+image[ne]=bridge_icon.5.1,-64,-48
+image[nsew]=bridge_icon.5.1,-64,-48
+image[-]=bridge_icon.5.1,-64,-48
+image[new]=bridge_icon.5.1,-64,-48
+image[nse]=bridge_icon.5.1,-64,-48
+image[sew]=bridge_icon.5.1,-64,-48
+image[nsw]=bridge_icon.5.1,-64,-48
+---
+# @text ja:エクストラドーズド橋（長さ６）
+# @text en:Extradosed bridge (length 6)
+obj=way
+name=iss_wte_bridge1_length_6
+copyright=128na
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+waytype=track
+cost=1
+maintenance=1
+topspeed=65535
+system_type=1
+icon=> bridge_icon.4.0
+cursor=bridge_icon.4.1,-64,-48
+# l=6
+image[e]=bridge1.1.0,0,-32
+imageUp[9]=bridge1.1.1,0,-48
+imageUp2[6]=bridge1.1.2,0,-48
+imageUp2[9]=bridge1.1.3,0,-48
+imageUp[6]=bridge1.1.4,0,-48
+image[w]=bridge1.1.5,0,-32
+image[n]=bridge1.1.8,0,-32
+imageUp[3]=bridge1.1.9,0,-48
+imageUp2[12]=bridge1.1.10,0,-48
+imageUp2[3]=bridge1.1.11,0,-48
+imageUp[12]=bridge1.1.12,0,-48
+image[s]=bridge1.1.13,0,-32
+# unused
+image[ew]=bridge_icon.4.1,-64,-48
+image[ns]=bridge_icon.4.1,-64,-48
+image[se]=bridge_icon.4.1,-64,-48
+image[sw]=bridge_icon.4.1,-64,-48
+image[nw]=bridge_icon.4.1,-64,-48
+image[ne]=bridge_icon.4.1,-64,-48
+image[nsew]=bridge_icon.4.1,-64,-48
+image[-]=bridge_icon.4.1,-64,-48
+image[new]=bridge_icon.4.1,-64,-48
+image[nse]=bridge_icon.4.1,-64,-48
+image[sew]=bridge_icon.4.1,-64,-48
+image[nsw]=bridge_icon.4.1,-64,-48
+---
+# @text ja:エクストラドーズド橋（長さ５）
+# @text en:Extradosed bridge (length 5)
+obj=way
+name=iss_wte_bridge1_length_5
+copyright=128na
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+waytype=track
+cost=1
+maintenance=1
+topspeed=65535
+system_type=1
+icon=> bridge_icon.3.0
+cursor=bridge_icon.3.1,-64,-48
+# l=5
+imageUp[9]=bridge1.2.0,0,-48
+imageUp2[6]=bridge1.2.1,0,-48
+image[ew]=bridge1.2.2,0,-16
+imageUp2[9]=bridge1.2.3,0,-48
+imageUp[6]=bridge1.2.4,0,-48
+imageUp[3]=bridge1.2.9,0,-48
+imageUp2[12]=bridge1.2.10,0,-48
+image[ns]=bridge1.2.11,0,-16
+imageUp2[3]=bridge1.2.12,0,-48
+imageUp[12]=bridge1.2.13,0,-48
+# pier
+image[e]=bridge_icon.6.0,-32,-48
+image[w]=bridge_icon.6.0,-96,-80
+image[n]=bridge_icon.6.0,-32,-80
+image[s]=bridge_icon.6.0,-96,-48
+image[-]=bridge_icon.6.0,-64,-96
+# unused
+image[se]=bridge_icon.3.1,-64,-48
+image[sw]=bridge_icon.3.1,-64,-48
+image[nw]=bridge_icon.3.1,-64,-48
+image[ne]=bridge_icon.3.1,-64,-48
+image[nsew]=bridge_icon.3.1,-64,-48
+image[new]=bridge_icon.3.1,-64,-48
+image[nse]=bridge_icon.3.1,-64,-48
+image[sew]=bridge_icon.3.1,-64,-48
+image[nsw]=bridge_icon.3.1,-64,-48
+---
+# @text ja:エクストラドーズド橋（長さ３～４）
+# @text en:Extradosed bridge (length 3~4)
+obj=way
+name=iss_wte_bridge1_length_3-4
+copyright=128na
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+waytype=track
+cost=1
+maintenance=1
+topspeed=65535
 system_type=1
 icon=> bridge_icon.2.0
 cursor=bridge_icon.2.1,-64,-48
-# l=3
-image[e]=bridge2.1.0,0,-16
-image[ew]=bridge2.1.1,0,-16
-image[w]=bridge2.1.2,0,-16
-image[n]=bridge2.1.5,0,-16
-image[ns]=bridge2.1.6,0,-16
-image[s]=bridge2.1.7,0,-16
 # l=4
-imageUp[9]=bridge2.0.0,0,-16
-imageUp2[6]=bridge2.0.1,0,-16
-imageUp2[9]=bridge2.0.2,0,-16
-imageUp[6]=bridge2.0.3,0,-16
-imageUp[3]=bridge2.0.4,0,-16
-imageUp2[12]=bridge2.0.5,0,-16
-imageUp2[3]=bridge2.0.6,0,-16
-imageUp[12]=bridge2.0.7,0,-16
-# no image
-image[sw]=bridge_icon.0.1,-64,-48
-image[nw]=bridge_icon.0.1,-64,-48
-image[ne]=bridge_icon.0.1,-64,-48
-image[se]=bridge_icon.0.1,-64,-48
-image[nsew]=bridge_icon.0.1,-64,-48
-image[-]=bridge_icon.0.1,-64,-48
-image[new]=bridge_icon.0.1,-64,-48
-image[nse]=bridge_icon.0.1,-64,-48
-image[sew]=bridge_icon.0.1,-64,-48
-image[nsw]=bridge_icon.0.1,-64,-48
+imageUp[9]=bridge1.3.0,0,-48
+imageUp2[6]=bridge1.3.1,0,-48
+imageUp2[9]=bridge1.3.2,0,-48
+imageUp[6]=bridge1.3.3,0,-48
+imageUp[3]=bridge1.3.10,0,-48
+imageUp2[12]=bridge1.3.11,0,-48
+imageUp2[3]=bridge1.3.12,0,-48
+imageUp[12]=bridge1.3.13,0,-48
+# l=3
+image[e]=bridge1.4.0,0,-48
+image[ew]=bridge1.4.1,0,-48
+image[w]=bridge1.4.2,0,-48
+image[n]=bridge1.4.11,0,-48
+image[ns]=bridge1.4.12,0,-48
+image[s]=bridge1.4.13,0,-48
+# unused
+image[ew]=bridge_icon.2.1,-64,-48
+image[ns]=bridge_icon.2.1,-64,-48
+image[e]=bridge_icon.2.1,-64,-48
+image[w]=bridge_icon.2.1,-64,-48
+image[n]=bridge_icon.2.1,-64,-48
+image[s]=bridge_icon.2.1,-64,-48
+image[se]=bridge_icon.2.1,-64,-48
+image[sw]=bridge_icon.2.1,-64,-48
+image[nw]=bridge_icon.2.1,-64,-48
+image[ne]=bridge_icon.2.1,-64,-48
+image[nsew]=bridge_icon.2.1,-64,-48
+image[-]=bridge_icon.2.1,-64,-48
+image[new]=bridge_icon.2.1,-64,-48
+image[nse]=bridge_icon.2.1,-64,-48
+image[sew]=bridge_icon.2.1,-64,-48
+image[nsw]=bridge_icon.2.1,-64,-48
+---
+# @text ja:エクストラドーズド橋（長さ１～２）
+# @text en:Extradosed bridge (length 1~2)
+obj=way
+name=iss_wte_bridge1_length_1-2
+copyright=128na
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+waytype=track
+cost=1
+maintenance=1
+topspeed=65535
+system_type=1
+icon=> bridge_icon.1.0
+cursor=bridge_icon.1.1,-64,-48
+# l=2
+imageUp2[9]=bridge1.5.0,0,-48
+image[w]=bridge1.5.1,0,-48
+image[n]=bridge1.5.12,0,-48
+imageUp2[12]=bridge1.5.13,0,-48
+# l=2
+image[e]=bridge1.6.0,0,-48
+imageUp2[6]=bridge1.6.1,0,-48
+imageUp2[3]=bridge1.6.12,0,-48
+image[s]=bridge1.6.13,0,-48
+# l=1
+imageUp[6]=bridge1.7.0,0,-48
+imageUp[9]=bridge1.7.0,0,-48
+imageUp[3]=bridge1.7.13,0,-48
+imageUp[12]=bridge1.7.13,0,-48
+# unused
+image[ew]=bridge_icon.1.1,-64,-48
+image[ns]=bridge_icon.1.1,-64,-48
+image[se]=bridge_icon.1.1,-64,-48
+image[sw]=bridge_icon.1.1,-64,-48
+image[nw]=bridge_icon.1.1,-64,-48
+image[ne]=bridge_icon.1.1,-64,-48
+image[nsew]=bridge_icon.1.1,-64,-48
+image[-]=bridge_icon.1.1,-64,-48
+image[new]=bridge_icon.1.1,-64,-48
+image[nse]=bridge_icon.1.1,-64,-48
+image[sew]=bridge_icon.1.1,-64,-48
+image[nsw]=bridge_icon.1.1,-64,-48
+---

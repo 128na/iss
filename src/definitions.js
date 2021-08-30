@@ -72,7 +72,7 @@ module.exports = [
     pakFile: 'iss_track_way_bridge.pak',
     datFiles: ['way/track/bridge.dat'],
     imageSet: {
-      'way/track/bridge2.png': ['way/track/bridge2_shift.png'],
+      'way/track/bridge1.png': ['way/track/bridge1_shift.png'],
       'way/track/bridge_icon.png': ['way/track/bridge_icon.png'],
     }
   },
