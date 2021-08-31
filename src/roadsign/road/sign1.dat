@@ -1,0 +1,369 @@
+# @text ja:進入禁止
+# @text en:No entry
+obj=roadsign
+name=iss_sr_no_entry
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+min_speed=65535
+single_way=0
+offset_left=0
+icon=> sign1.0.0
+cursor=sign1.1.0,-64,-104
+image[0]=sign1.1.0,-64,-96
+image[1]=-
+image[2]=sign1.2.0,-64,-96
+image[3]=-
+---
+# @text ja:プライベート標識
+# @text en:Private sign
+obj=roadsign
+name=iss_sr_player_only
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+is_private=1
+single_way=0
+offset_left=0
+icon=> sign1.0.1
+cursor=sign1.1.1,-64,-104
+image[0]=sign1.1.1,-64,-96
+image[1]=sign1.2.1,-64,-96
+image[2]=sign1.1.1,-64,-96
+image[3]=sign1.2.1,-64,-96
+---
+# @text ja:横断歩道又は自転車横断帯あり
+# @text en:Crosswalk in front
+obj=roadsign
+name=iss_sr_crosswalk_available
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=0
+offset_left=0
+icon=> sign1.0.2
+cursor=sign1.1.2,-64,-104
+image[0]=sign1.1.2,-64,-96
+image[1]=-
+image[2]=sign1.2.2,-64,-96
+image[3]=-
+---
+# @text ja:前方優先道路
+# @text en:Priority road in front
+obj=roadsign
+name=iss_sr_front_priority_road
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=0
+offset_left=0
+icon=> sign1.0.3
+cursor=sign1.1.3,-64,-104
+image[0]=sign1.1.3,-64,-96
+image[1]=-
+image[2]=sign1.2.3,-64,-96
+image[3]=-
+---
+# @text ja:スクールゾーン
+# @text en:School zone
+obj=roadsign
+name=iss_sr_school_zone
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=0
+offset_left=0
+icon=> sign1.0.4
+cursor=sign1.1.4,-64,-104
+image[0]=sign1.1.4,-64,-96
+image[1]=-
+image[2]=sign1.2.4,-64,-96
+image[3]=-
+---
+# @text ja:転回禁止
+# @text en:No turning
+obj=roadsign
+name=iss_sr_no_turning
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=0
+offset_left=0
+icon=> sign1.0.5
+cursor=sign1.1.5,-64,-104
+image[0]=sign1.1.5,-64,-96
+image[1]=-
+image[2]=sign1.2.5,-64,-96
+image[3]=-
+---
+# @text ja:直進
+# @text en:Go straight
+obj=roadsign
+name=iss_sr_direction_straight
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+offset_left=0
+icon=> sign1.0.6
+cursor=sign1.1.6,-64,-104
+image[0]=sign1.3.6,-64,-96
+image[1]=sign1.1.6,-64,-96
+image[2]=sign1.2.6,-64,-96
+image[3]=sign1.4.6,-64,-96
+---
+# @text ja:直進と右折
+# @text en:Go straight and turn right
+obj=roadsign
+name=iss_sr_direction_straight_right
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+offset_left=0
+icon=> sign1.0.7
+cursor=sign1.1.7,-64,-104
+image[0]=sign1.3.7,-64,-96
+image[1]=sign1.1.7,-64,-96
+image[2]=sign1.2.7,-64,-96
+image[3]=sign1.4.7,-64,-96
+---
+# @text ja:直進と左折
+# @text en:Go straight and turn left
+obj=roadsign
+name=iss_sr_direction_left_straight
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+offset_left=0
+icon=> sign1.0.8
+cursor=sign1.1.8,-64,-104
+image[0]=sign1.3.8,-64,-96
+image[1]=sign1.1.8,-64,-96
+image[2]=sign1.2.8,-64,-96
+image[3]=sign1.4.8,-64,-96
+---
+# @text ja:横断歩道
+# @text en:Crosswalk
+obj=roadsign
+name=iss_sr_crosswalk
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=0
+offset_left=0
+icon=> sign1.0.9
+cursor=sign1.1.9,-64,-104
+image[0]=sign1.1.9,-64,-96
+image[1]=-
+image[2]=sign1.2.9,-64,-96
+image[3]=-
+---
+# @text ja:最低速度30km/h
+# @text en:Min speed 30km/h
+obj=roadsign
+name=iss_sr_min_speed_0030
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=0
+min_speed=30
+offset_left=0
+icon=> sign1.0.10
+cursor=sign1.1.10,-64,-104
+image[0]=sign1.1.10,-64,-96
+image[1]=-
+image[2]=sign1.2.10,-64,-96
+image[3]=-
+---
+# @text ja:最低速度50km/h
+# @text en:Min speed 50km/h
+obj=roadsign
+name=iss_sr_min_speed_0050
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=0
+min_speed=50
+offset_left=0
+icon=> sign1.0.11
+cursor=sign1.1.11,-64,-104
+image[0]=sign1.1.11,-64,-96
+image[1]=-
+image[2]=sign1.2.11,-64,-96
+image[3]=-
+---
+# @text ja:最低速度100km/h
+# @text en:Min speed 100km/h
+obj=roadsign
+name=iss_sr_min_speed_0100
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+min_speed=100
+offset_left=0
+icon=> sign1.0.12
+cursor=sign1.1.12,-64,-104
+image[0]=sign1.3.12,-64,-96
+image[1]=sign1.1.12,-64,-96
+image[2]=sign1.2.12,-64,-96
+image[3]=sign1.4.12,-64,-96
+---
+# @text ja:最低速度150km/h
+# @text en:Min speed 150km/h
+obj=roadsign
+name=iss_sr_min_speed_0150
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+min_speed=150
+offset_left=0
+icon=> sign1.0.13
+cursor=sign1.1.13,-64,-104
+image[0]=sign1.3.13,-64,-96
+image[1]=sign1.1.13,-64,-96
+image[2]=sign1.2.13,-64,-96
+image[3]=sign1.4.13,-64,-96
+---
+# @text ja:最低速度200km/h
+# @text en:Min speed 200km/h
+obj=roadsign
+name=iss_sr_min_speed_0200
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+min_speed=200
+offset_left=0
+icon=> sign1.0.14
+cursor=sign1.1.14,-64,-104
+image[0]=sign1.3.14,-64,-96
+image[1]=sign1.1.14,-64,-96
+image[2]=sign1.2.14,-64,-96
+image[3]=sign1.4.14,-64,-96
+---
+# @text ja:最低速度999km/h
+# @text en:Min speed 999km/h
+obj=roadsign
+name=iss_sr_min_speed_0999
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+min_speed=999
+offset_left=0
+icon=> sign1.0.15
+cursor=sign1.1.15,-64,-104
+image[0]=sign1.3.15,-64,-96
+image[1]=sign1.1.15,-64,-96
+image[2]=sign1.2.15,-64,-96
+image[3]=sign1.4.15,-64,-96
+---
+# @text ja:最低速度80km/h
+# @text en:Min speed 80km/h
+obj=roadsign
+name=iss_sr_min_speed_0080
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+min_speed=80
+offset_left=0
+icon=> sign1.0.16
+cursor=sign1.1.16,-64,-104
+image[0]=sign1.3.16,-64,-96
+image[1]=sign1.1.16,-64,-96
+image[2]=sign1.2.16,-64,-96
+image[3]=sign1.4.16,-64,-96
+---
+# @text ja:最低速度120km/h
+# @text en:Min speed 120km/h
+obj=roadsign
+name=iss_sr_min_speed_0120
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+min_speed=120
+offset_left=0
+icon=> sign1.0.17
+cursor=sign1.1.17,-64,-104
+image[0]=sign1.3.17,-64,-96
+image[1]=sign1.1.17,-64,-96
+image[2]=sign1.2.17,-64,-96
+image[3]=sign1.4.17,-64,-96

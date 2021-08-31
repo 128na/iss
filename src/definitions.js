@@ -34,9 +34,10 @@ module.exports = [
   {
     size: 256,
     pakFile: 'iss_road_sign.pak',
-    datFiles: ['sign/road/sign.dat'],
+    datFiles: ['roadsign/road/sign1.dat', 'roadsign/road/sign2.dat'],
     imageSet: {
-      'sign/road/sign1.png': ['sign/road/sign1.png'],
+      'roadsign/road/sign1.png': ['roadsign/road/sign1.png'],
+      'roadsign/road/sign2.png': ['roadsign/road/sign2.png'],
     }
   },
   {
