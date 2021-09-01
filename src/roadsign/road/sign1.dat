@@ -1,5 +1,5 @@
-# @text ja:進入禁止
-# @text en:No entry
+# @text ja:[最低速度制限] 進入禁止
+# @text en:[Min speed limit] No entry
 obj=roadsign
 name=iss_sr_no_entry
 copyright=128na
@@ -19,8 +19,8 @@ image[1]=-
 image[2]=sign1.2.0,-64,-96
 image[3]=-
 ---
-# @text ja:プライベート標識
-# @text en:Private sign
+# @text ja:[プライベート] プレーヤー専用標識舗装
+# @text en:[Private] Only player sign pavement
 obj=roadsign
 name=iss_sr_player_only
 copyright=128na
@@ -40,8 +40,8 @@ image[1]=sign1.2.1,-64,-96
 image[2]=sign1.1.1,-64,-96
 image[3]=sign1.2.1,-64,-96
 ---
-# @text ja:横断歩道又は自転車横断帯あり
-# @text en:Crosswalk in front
+# @text ja:[機能なし] 横断歩道又は自転車横断帯あり舗装
+# @text en:[No effect] Crosswalk in front pavement
 obj=roadsign
 name=iss_sr_crosswalk_available
 copyright=128na
@@ -60,8 +60,8 @@ image[1]=-
 image[2]=sign1.2.2,-64,-96
 image[3]=-
 ---
-# @text ja:前方優先道路
-# @text en:Priority road in front
+# @text ja:[機能なし] 前方優先道路舗装
+# @text en:[No effect] Priority road in front pavement
 obj=roadsign
 name=iss_sr_front_priority_road
 copyright=128na
@@ -80,8 +80,8 @@ image[1]=-
 image[2]=sign1.2.3,-64,-96
 image[3]=-
 ---
-# @text ja:スクールゾーン
-# @text en:School zone
+# @text ja:[機能なし] スクールゾーン舗装
+# @text en:[No effect] School zone pavement
 obj=roadsign
 name=iss_sr_school_zone
 copyright=128na
@@ -100,8 +100,8 @@ image[1]=-
 image[2]=sign1.2.4,-64,-96
 image[3]=-
 ---
-# @text ja:転回禁止
-# @text en:No turning
+# @text ja:[機能なし] 転回禁止舗装
+# @text en:[No effect] No turning pavement
 obj=roadsign
 name=iss_sr_no_turning
 copyright=128na
@@ -120,8 +120,8 @@ image[1]=-
 image[2]=sign1.2.5,-64,-96
 image[3]=-
 ---
-# @text ja:直進
-# @text en:Go straight
+# @text ja:[一方通行] 直進舗装
+# @text en:[One way] Go straight pavement
 obj=roadsign
 name=iss_sr_direction_straight
 copyright=128na
@@ -140,8 +140,8 @@ image[1]=sign1.1.6,-64,-96
 image[2]=sign1.2.6,-64,-96
 image[3]=sign1.4.6,-64,-96
 ---
-# @text ja:直進と右折
-# @text en:Go straight and turn right
+# @text ja:[一方通行] 直進と右折舗装
+# @text en:[One way] Go straight and turn right pavement
 obj=roadsign
 name=iss_sr_direction_straight_right
 copyright=128na
@@ -160,8 +160,8 @@ image[1]=sign1.1.7,-64,-96
 image[2]=sign1.2.7,-64,-96
 image[3]=sign1.4.7,-64,-96
 ---
-# @text ja:直進と左折
-# @text en:Go straight and turn left
+# @text ja:[一方通行] 直進と左折
+# @text en:[One way] Go straight and turn left
 obj=roadsign
 name=iss_sr_direction_left_straight
 copyright=128na
@@ -180,8 +180,8 @@ image[1]=sign1.1.8,-64,-96
 image[2]=sign1.2.8,-64,-96
 image[3]=sign1.4.8,-64,-96
 ---
-# @text ja:横断歩道
-# @text en:Crosswalk
+# @text ja:[一方通行] 横断歩道舗装
+# @text en:[One way] Crosswalk pavement
 obj=roadsign
 name=iss_sr_crosswalk
 copyright=128na
@@ -200,8 +200,8 @@ image[1]=-
 image[2]=sign1.2.9,-64,-96
 image[3]=-
 ---
-# @text ja:最低速度30km/h
-# @text en:Min speed 30km/h
+# @text ja:[最低速度制限] 30km/h舗装
+# @text en:[Min speed limit] 30km/h pavement
 obj=roadsign
 name=iss_sr_min_speed_0030
 copyright=128na
@@ -221,8 +221,8 @@ image[1]=-
 image[2]=sign1.2.10,-64,-96
 image[3]=-
 ---
-# @text ja:最低速度50km/h
-# @text en:Min speed 50km/h
+# @text ja:[最低速度制限] 50km/h舗装
+# @text en:[Min speed limit] 50km/h pavement
 obj=roadsign
 name=iss_sr_min_speed_0050
 copyright=128na
@@ -242,8 +242,8 @@ image[1]=-
 image[2]=sign1.2.11,-64,-96
 image[3]=-
 ---
-# @text ja:最低速度100km/h
-# @text en:Min speed 100km/h
+# @text ja:[一方通行＆最低速度制限] 100km/h舗装
+# @text en:[One way & Min speed limit] 100km/h pavement
 obj=roadsign
 name=iss_sr_min_speed_0100
 copyright=128na
@@ -263,8 +263,8 @@ image[1]=sign1.1.12,-64,-96
 image[2]=sign1.2.12,-64,-96
 image[3]=sign1.4.12,-64,-96
 ---
-# @text ja:最低速度150km/h
-# @text en:Min speed 150km/h
+# @text ja:[一方通行＆最低速度制限] 150km/h舗装
+# @text en:[One way & Min speed limit] 150km/h pavement
 obj=roadsign
 name=iss_sr_min_speed_0150
 copyright=128na
@@ -284,8 +284,8 @@ image[1]=sign1.1.13,-64,-96
 image[2]=sign1.2.13,-64,-96
 image[3]=sign1.4.13,-64,-96
 ---
-# @text ja:最低速度200km/h
-# @text en:Min speed 200km/h
+# @text ja:[一方通行＆最低速度制限] 200km/h舗装
+# @text en:[One way & Min speed limit] 200km/h pavement
 obj=roadsign
 name=iss_sr_min_speed_0200
 copyright=128na
@@ -305,8 +305,8 @@ image[1]=sign1.1.14,-64,-96
 image[2]=sign1.2.14,-64,-96
 image[3]=sign1.4.14,-64,-96
 ---
-# @text ja:最低速度999km/h
-# @text en:Min speed 999km/h
+# @text ja:[一方通行＆最低速度制限] 999km/h舗装
+# @text en:[One way & Min speed limit] 999km/h pavement
 obj=roadsign
 name=iss_sr_min_speed_0999
 copyright=128na
@@ -326,8 +326,8 @@ image[1]=sign1.1.15,-64,-96
 image[2]=sign1.2.15,-64,-96
 image[3]=sign1.4.15,-64,-96
 ---
-# @text ja:最低速度80km/h
-# @text en:Min speed 80km/h
+# @text ja:[一方通行＆最低速度制限] 80km/h舗装
+# @text en:[One way & Min speed limit] 80km/h pavement
 obj=roadsign
 name=iss_sr_min_speed_0080
 copyright=128na
@@ -347,8 +347,8 @@ image[1]=sign1.1.16,-64,-96
 image[2]=sign1.2.16,-64,-96
 image[3]=sign1.4.16,-64,-96
 ---
-# @text ja:最低速度120km/h
-# @text en:Min speed 120km/h
+# @text ja:[一方通行＆最低速度制限] 120km/h舗装
+# @text en:[One way & Min speed limit] 120km/h pavement
 obj=roadsign
 name=iss_sr_min_speed_0120
 copyright=128na

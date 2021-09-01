@@ -1,5 +1,5 @@
-# @text ja:エクストラドーズド橋（長さ７）
-# @text en:Extradosed bridge (length 7)
+# @text ja:[高架] エクストラドーズド橋（長さ７）
+# @text en:[Elevated] Extradosed bridge (length 7)
 obj=way
 name=iss_wte_bridge1_length_7
 copyright=128na
@@ -41,8 +41,8 @@ image[nse]=bridge_icon.5.1,-64,-48
 image[sew]=bridge_icon.5.1,-64,-48
 image[nsw]=bridge_icon.5.1,-64,-48
 ---
-# @text ja:エクストラドーズド橋（長さ６）
-# @text en:Extradosed bridge (length 6)
+# @text ja:[高架] エクストラドーズド橋（長さ６）
+# @text en:[Elevated] Extradosed bridge (length 6)
 obj=way
 name=iss_wte_bridge1_length_6
 copyright=128na
@@ -84,8 +84,8 @@ image[nse]=bridge_icon.4.1,-64,-48
 image[sew]=bridge_icon.4.1,-64,-48
 image[nsw]=bridge_icon.4.1,-64,-48
 ---
-# @text ja:エクストラドーズド橋（長さ５）
-# @text en:Extradosed bridge (length 5)
+# @text ja:[高架] エクストラドーズド橋（長さ５）
+# @text en:[Elevated] Extradosed bridge (length 5)
 obj=way
 name=iss_wte_bridge1_length_5
 copyright=128na
@@ -128,8 +128,8 @@ image[nse]=bridge_icon.3.1,-64,-48
 image[sew]=bridge_icon.3.1,-64,-48
 image[nsw]=bridge_icon.3.1,-64,-48
 ---
-# @text ja:エクストラドーズド橋（長さ３～４）
-# @text en:Extradosed bridge (length 3~4)
+# @text ja:[高架] エクストラドーズド橋（長さ３～４）
+# @text en:[Elevated] Extradosed bridge (length 3~4)
 obj=way
 name=iss_wte_bridge1_length_3-4
 copyright=128na
@@ -178,8 +178,8 @@ image[nse]=bridge_icon.2.1,-64,-48
 image[sew]=bridge_icon.2.1,-64,-48
 image[nsw]=bridge_icon.2.1,-64,-48
 ---
-# @text ja:エクストラドーズド橋（長さ１～２）
-# @text en:Extradosed bridge (length 1~2)
+# @text ja:[高架] エクストラドーズド橋（長さ１～２）
+# @text en:[Elevated] Extradosed bridge (length 1~2)
 obj=way
 name=iss_wte_bridge1_length_1-2
 copyright=128na
