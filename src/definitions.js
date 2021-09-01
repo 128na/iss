@@ -51,11 +51,12 @@ module.exports = [
   {
     size: 256,
     pakFile: 'iss_tram_way.pak',
-    datFiles: ['way/tram/pier.dat'],
+    datFiles: ['way/tram/pier.dat', 'way/tram/round_about.dat'],
     imageSet: {
       'way/tram/pier1.png': ['way/tram/pier1_base.png', 'way/tram/pier1.png', 'way/tram/pier1_noise.png'],
       'way/tram/pier2.png': ['way/tram/pier2_base.png', 'way/tram/pier2.png', 'way/tram/pier2_noise.png'],
       'way/tram/pier3.png': ['way/tram/pier3_base.png', 'way/tram/pier3.png', 'way/tram/pier3_noise.png'],
+      'way/tram/round_about.png': ['way/tram/round_about_base.png', 'way/tram/round_about.png', 'way/tram/round_about_noise.png'],
     }
   },
   {
