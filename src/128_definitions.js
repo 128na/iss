@@ -10,16 +10,12 @@ module.exports = [
     pakFile: 'iss_road_way.pak',
     datFiles: ['way/road/ground.dat', 'way/road/elevated.dat'],
     imageSet: {
-      'way/road/ground_0030.png': ['way/road/128_0030_base.png', 'way/road/128_0030_ground.png', 'way/road/128_0030_noise.png'],
-      'way/road/ground_0050.png': ['way/road/128_0050_base.png', 'way/road/128_0050_ground.png', 'way/road/128_0050_noise.png'],
-      'way/road/ground_0080.png': ['way/road/128_0100_base.png', 'way/road/128_0080_ground.png', 'way/road/128_0100_noise.png'],
-      'way/road/ground_0120.png': ['way/road/128_0100_base.png', 'way/road/128_0120_ground.png', 'way/road/128_0100_noise.png'],
-      'way/road/ground_1200.png': ['way/road/128_1200_base.png', 'way/road/128_1200_ground.png', 'way/road/128_1200_noise.png'],
-      'way/road/elevated_0030.png': ['way/road/128_0030_base.png', 'way/road/128_0030_elevated.png', 'way/road/128_0030_noise.png'],
-      'way/road/elevated_0050.png': ['way/road/128_0050_base.png', 'way/road/128_0050_elevated.png', 'way/road/128_0050_noise.png'],
-      'way/road/elevated_0080.png': ['way/road/128_0100_base.png', 'way/road/128_0080_elevated.png', 'way/road/128_0100_noise.png'],
-      'way/road/elevated_0120.png': ['way/road/128_0100_base.png', 'way/road/128_0120_elevated.png', 'way/road/128_0100_noise.png'],
-      'way/road/elevated_1200.png': ['way/road/128_1200_base.png', 'way/road/128_1200_elevated.png', 'way/road/128_1200_noise.png'],
+      'icon.png': ['icon.png'],
+      'way/road/0030.png': ['way/road/128_0030_base.png', 'way/road/128_0030.png', 'way/road/128_0030_noise.png'],
+      'way/road/0050.png': ['way/road/128_0050_base.png', 'way/road/128_0050.png', 'way/road/128_0050_noise.png'],
+      'way/road/0080.png': ['way/road/128_0100_base.png', 'way/road/128_0080.png', 'way/road/128_0100_noise.png'],
+      'way/road/0120.png': ['way/road/128_0100_base.png', 'way/road/128_0120.png', 'way/road/128_0100_noise.png'],
+      'way/road/1200.png': ['way/road/128_1200_base.png', 'way/road/128_1200.png', 'way/road/128_1200_noise.png'],
     }
   },
   {
@@ -75,7 +71,7 @@ module.exports = [
     datFiles: ['way/track/bridge.dat'],
     imageSet: {
       'way/track/bridge1.png': ['way/track/128_bridge1_base_shift.png', 'way/track/128_bridge1_shift.png', 'way/track/128_bridge1_base_shift_noise.png'],
-      'way/track/bridge_icon.png': ['way/track/128_bridge_icon_base.png', 'way/track/128_bridge_icon.png', 'way/track/128_bridge_icon_noise.png'],
+      'way/track/bridge_cursor.png': ['way/track/128_bridge_cursor_base.png', 'way/track/128_bridge_cursor.png', 'way/track/128_bridge_cursor_noise.png'],
     }
   },
 ];

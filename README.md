@@ -11,9 +11,9 @@
 https://github.com/128na/iss/releases
 
 - アドオン本体
-  - `dist/pak128/***.pak` -> `addons/pak128/`
+  - `dist/pak***/***.pak` -> `addons/pak***/`
 - 翻訳ファイル（日本語、英語のみ対応）
-  - `dist/pak128/text` -> `addons/pak128/`
+  - `dist/text/***.tab` -> `addons/pak***/text/***.tab`
 
 
 # リリースバージョン
