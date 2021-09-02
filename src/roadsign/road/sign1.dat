@@ -179,8 +179,8 @@ icon=> ../../icon.6.8
 cursor=sign1.8.0,-64,-104
 image[0]=sign1.8.2,-64,-96
 image[1]=sign1.8.0,-64,-96
-image[2]=sign1.8.1,-64,-96
-image[3]=sign1.8.3,-64,-96
+image[2]=sign1.8.3,-64,-96
+image[3]=sign1.8.1,-64,-96
 ---
 # @text ja:[一方通行＆最低速度制限] 100km/h舗装
 # @text en:[One way & Min speed limit] 100km/h pavement
@@ -200,8 +200,8 @@ icon=> ../../icon.6.9
 cursor=sign1.9.0,-64,-104
 image[0]=sign1.9.2,-64,-96
 image[1]=sign1.9.0,-64,-96
-image[2]=sign1.9.1,-64,-96
-image[3]=sign1.9.3,-64,-96
+image[2]=sign1.9.3,-64,-96
+image[3]=sign1.9.1,-64,-96
 ---
 # @text ja:[一方通行＆最低速度制限] 120km/h舗装
 # @text en:[One way & Min speed limit] 120km/h pavement
@@ -221,8 +221,8 @@ icon=> ../../icon.6.10
 cursor=sign1.10.0,-64,-104
 image[0]=sign1.10.2,-64,-96
 image[1]=sign1.10.0,-64,-96
-image[2]=sign1.10.1,-64,-96
-image[3]=sign1.10.3,-64,-96
+image[2]=sign1.10.3,-64,-96
+image[3]=sign1.10.1,-64,-96
 ---
 # @text ja:[一方通行＆最低速度制限] 150km/h舗装
 # @text en:[One way & Min speed limit] 150km/h pavement
@@ -242,8 +242,8 @@ icon=> ../../icon.6.11
 cursor=sign1.11.0,-64,-104
 image[0]=sign1.11.2,-64,-96
 image[1]=sign1.11.0,-64,-96
-image[2]=sign1.11.1,-64,-96
-image[3]=sign1.11.3,-64,-96
+image[2]=sign1.11.3,-64,-96
+image[3]=sign1.11.1,-64,-96
 ---
 # @text ja:[一方通行＆最低速度制限] 200km/h舗装
 # @text en:[One way & Min speed limit] 200km/h pavement
@@ -263,8 +263,8 @@ icon=> ../../icon.6.12
 cursor=sign1.12.0,-64,-104
 image[0]=sign1.12.2,-64,-96
 image[1]=sign1.12.0,-64,-96
-image[2]=sign1.12.1,-64,-96
-image[3]=sign1.12.3,-64,-96
+image[2]=sign1.12.3,-64,-96
+image[3]=sign1.12.1,-64,-96
 ---
 # @text ja:[一方通行＆最低速度制限] 999km/h舗装
 # @text en:[One way & Min speed limit] 999km/h pavement
@@ -284,8 +284,8 @@ icon=> ../../icon.6.13
 cursor=sign1.13.0,-64,-104
 image[0]=sign1.13.2,-64,-96
 image[1]=sign1.13.0,-64,-96
-image[2]=sign1.13.1,-64,-96
-image[3]=sign1.13.3,-64,-96
+image[2]=sign1.13.3,-64,-96
+image[3]=sign1.13.1,-64,-96
 ---
 # @text ja:[一方通行] 直進舗装
 # @text en:[One way] Go straight pavement
@@ -304,8 +304,8 @@ icon=> ../../icon.7.0
 cursor=sign1.14.0,-64,-104
 image[0]=sign1.14.2,-64,-96
 image[1]=sign1.14.0,-64,-96
-image[2]=sign1.14.1,-64,-96
-image[3]=sign1.14.3,-64,-96
+image[2]=sign1.14.3,-64,-96
+image[3]=sign1.14.1,-64,-96
 ---
 # @text ja:[一方通行] 直進と右方向舗装
 # @text en:[One way] Go straight and right direction pavement
@@ -324,8 +324,8 @@ icon=> ../../icon.7.1
 cursor=sign1.15.0,-64,-104
 image[0]=sign1.15.2,-64,-96
 image[1]=sign1.15.0,-64,-96
-image[2]=sign1.15.1,-64,-96
-image[3]=sign1.15.3,-64,-96
+image[2]=sign1.15.3,-64,-96
+image[3]=sign1.15.1,-64,-96
 ---
 # @text ja:[一方通行] 直進と左方向
 # @text en:[One way] Go straight and left direction pavement
@@ -344,8 +344,8 @@ icon=> ../../icon.7.2
 cursor=sign1.16.0,-64,-104
 image[0]=sign1.16.2,-64,-96
 image[1]=sign1.16.0,-64,-96
-image[2]=sign1.16.1,-64,-96
-image[3]=sign1.16.3,-64,-96
+image[2]=sign1.16.3,-64,-96
+image[3]=sign1.16.1,-64,-96
 ---
 # @text ja:[一方通行] 直進と左折及び直進
 # @text en:[One way] Go straight and turn left and go straight pavement
@@ -364,8 +364,8 @@ icon=> ../../icon.7.3
 cursor=sign1.17.0,-64,-104
 image[0]=sign1.17.2,-64,-96
 image[1]=sign1.17.0,-64,-96
-image[2]=sign1.17.1,-64,-96
-image[3]=sign1.17.3,-64,-96
+image[2]=sign1.17.3,-64,-96
+image[3]=sign1.17.1,-64,-96
 ---
 # @text ja:[一方通行] 直進と右折及び直進
 # @text en:[One way] Go straight and turn right and go straight pavement
@@ -384,8 +384,8 @@ icon=> ../../icon.7.4
 cursor=sign1.18.0,-64,-104
 image[0]=sign1.18.2,-64,-96
 image[1]=sign1.18.0,-64,-96
-image[2]=sign1.18.1,-64,-96
-image[3]=sign1.18.3,-64,-96
+image[2]=sign1.18.3,-64,-96
+image[3]=sign1.18.1,-64,-96
 ---
 # @text ja:[一方通行] 左折及び直進と右折及び直進舗装
 # @text en:[One way] Turn left and go straight and turn right and go straight pavement
@@ -404,8 +404,8 @@ icon=> ../../icon.7.5
 cursor=sign1.19.0,-64,-104
 image[0]=sign1.19.2,-64,-96
 image[1]=sign1.19.0,-64,-96
-image[2]=sign1.19.1,-64,-96
-image[3]=sign1.19.3,-64,-96
+image[2]=sign1.19.3,-64,-96
+image[3]=sign1.19.1,-64,-96
 ---
 # @text ja:[一方通行] 左折と右折舗装
 # @text en:[One way] Turn left and and turn right pavement
@@ -424,6 +424,6 @@ icon=> ../../icon.7.6
 cursor=sign1.20.0,-64,-104
 image[0]=sign1.20.2,-64,-96
 image[1]=sign1.20.0,-64,-96
-image[2]=sign1.20.1,-64,-96
-image[3]=sign1.20.3,-64,-96
+image[2]=sign1.20.3,-64,-96
+image[3]=sign1.20.1,-64,-96
 ---

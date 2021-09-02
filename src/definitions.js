@@ -11,11 +11,11 @@ module.exports = [
     datFiles: ['way/road/ground.dat', 'way/road/elevated.dat'],
     imageSet: {
       'icon.png': ['icon.png'],
-      'way/road/0030.png': ['way/road/0030_base.png', 'way/road/0030.png', 'way/road/0030_noise.png'],
-      'way/road/0050.png': ['way/road/0050_base.png', 'way/road/0050.png', 'way/road/0050_noise.png'],
-      'way/road/0080.png': ['way/road/0100_base.png', 'way/road/0080.png', 'way/road/0100_noise.png'],
-      'way/road/0120.png': ['way/road/0100_base.png', 'way/road/0120.png', 'way/road/0100_noise.png'],
-      'way/road/1200.png': ['way/road/1200_base.png', 'way/road/1200.png', 'way/road/1200_noise.png'],
+      'way/road/0030.png': ['way/road/0030_base.png', 'way/road/0030.png', 'way/road/0030_noise.png', 'way/road/overwrite.png'],
+      'way/road/0050.png': ['way/road/0050_base.png', 'way/road/0050.png', 'way/road/0050_noise.png', 'way/road/overwrite.png'],
+      'way/road/0080.png': ['way/road/0100_base.png', 'way/road/0080.png', 'way/road/0100_noise.png', 'way/road/overwrite.png'],
+      'way/road/0120.png': ['way/road/0100_base.png', 'way/road/0120.png', 'way/road/0100_noise.png', 'way/road/overwrite.png'],
+      'way/road/1200.png': ['way/road/1200_base.png', 'way/road/1200.png', 'way/road/1200_noise.png', 'way/road/overwrite.png'],
     }
   },
   {
@@ -61,9 +61,9 @@ module.exports = [
     pakFile: 'iss_track_way.pak',
     datFiles: ['way/track/pier.dat'],
     imageSet: {
-      'way/track/pier1.png': ['way/track/pier1_base.png', 'way/track/pier1.png', 'way/track/pier1_noise.png'],
-      'way/track/pier2.png': ['way/track/pier2_base.png', 'way/track/pier2.png', 'way/track/pier2_noise.png'],
-      'way/track/pier3.png': ['way/track/pier3_base.png', 'way/track/pier3.png', 'way/track/pier3_noise.png'],
+      'way/track/pier1.png': ['way/track/pier1_base.png', 'way/track/pier1.png', 'way/track/pier1_noise.png', 'way/track/pier1_overwrite.png'],
+      'way/track/pier2.png': ['way/track/pier2_base.png', 'way/track/pier2.png', 'way/track/pier2_noise.png', 'way/track/pier2_overwrite.png'],
+      'way/track/pier3.png': ['way/track/pier3_base.png', 'way/track/pier3.png', 'way/track/pier3_noise.png', 'way/track/pier3_overwrite.png'],
     }
   },
   {
@@ -71,7 +71,7 @@ module.exports = [
     pakFile: 'iss_track_way_bridge.pak',
     datFiles: ['way/track/bridge.dat'],
     imageSet: {
-      'way/track/bridge1.png': ['way/track/bridge1_base_shift.png', 'way/track/bridge1_shift.png', 'way/track/bridge1_base_shift_noise.png'],
+      'way/track/bridge1.png': ['way/track/bridge1_base_shift.png', 'way/track/bridge1_shift.png', 'way/track/bridge1_base_shift_noise.png', 'way/track/bridge1_overwrite.png', 'way/track/bridge1_special_color.png'],
       'way/track/bridge_cursor.png': ['way/track/bridge_cursor_base.png', 'way/track/bridge_cursor.png', 'way/track/bridge_cursor_noise.png'],
     }
   },
