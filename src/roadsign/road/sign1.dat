@@ -1,24 +1,3 @@
-# @text ja:[最低速度制限] 進入禁止
-# @text en:[Min speed limit] No entry
-obj=roadsign
-name=iss_sr_no_entry
-copyright=128na
-cost=1
-waytype=road
-intro_year=1900
-intro_month=1
-retire_year=2999
-retire_month=1
-min_speed=65535
-single_way=0
-offset_left=0
-icon=> sign1.0.0
-cursor=sign1.1.0,-64,-104
-image[0]=sign1.1.0,-64,-96
-image[1]=-
-image[2]=sign1.2.0,-64,-96
-image[3]=-
----
 # @text ja:[プライベート] プレーヤー専用標識舗装
 # @text en:[Private] Only player sign pavement
 obj=roadsign
@@ -33,12 +12,12 @@ retire_month=1
 is_private=1
 single_way=0
 offset_left=0
-icon=> sign1.0.1
-cursor=sign1.1.1,-64,-104
-image[0]=sign1.1.1,-64,-96
-image[1]=sign1.2.1,-64,-96
-image[2]=sign1.1.1,-64,-96
-image[3]=sign1.2.1,-64,-96
+icon=> ../../icon.6.0
+cursor=sign1.0.0,-64,-104
+image[0]=sign1.0.0,-64,-96
+image[1]=sign1.0.1,-64,-96
+image[2]=sign1.0.0,-64,-96
+image[3]=sign1.0.1,-64,-96
 ---
 # @text ja:[機能なし] 横断歩道又は自転車横断帯あり舗装
 # @text en:[No effect] Crosswalk in front pavement
@@ -53,11 +32,11 @@ retire_year=2999
 retire_month=1
 single_way=0
 offset_left=0
-icon=> sign1.0.2
-cursor=sign1.1.2,-64,-104
-image[0]=sign1.1.2,-64,-96
+icon=> ../../icon.6.1
+cursor=sign1.1.0,-64,-104
+image[0]=sign1.1.0,-64,-96
 image[1]=-
-image[2]=sign1.2.2,-64,-96
+image[2]=sign1.1.1,-64,-96
 image[3]=-
 ---
 # @text ja:[機能なし] 前方優先道路舗装
@@ -73,11 +52,11 @@ retire_year=2999
 retire_month=1
 single_way=0
 offset_left=0
-icon=> sign1.0.3
-cursor=sign1.1.3,-64,-104
-image[0]=sign1.1.3,-64,-96
+icon=> ../../icon.6.2
+cursor=sign1.2.0,-64,-104
+image[0]=sign1.2.0,-64,-96
 image[1]=-
-image[2]=sign1.2.3,-64,-96
+image[2]=sign1.2.1,-64,-96
 image[3]=-
 ---
 # @text ja:[機能なし] スクールゾーン舗装
@@ -93,11 +72,31 @@ retire_year=2999
 retire_month=1
 single_way=0
 offset_left=0
-icon=> sign1.0.4
-cursor=sign1.1.4,-64,-104
-image[0]=sign1.1.4,-64,-96
+icon=> ../../icon.6.3
+cursor=sign1.3.0,-64,-104
+image[0]=sign1.3.0,-64,-96
 image[1]=-
-image[2]=sign1.2.4,-64,-96
+image[2]=sign1.3.1,-64,-96
+image[3]=-
+---
+# @text ja:[一方通行] 横断歩道舗装
+# @text en:[One way] Crosswalk pavement
+obj=roadsign
+name=iss_sr_crosswalk
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=0
+offset_left=0
+icon=> ../../icon.6.4
+cursor=sign1.4.0,-64,-104
+image[0]=sign1.4.0,-64,-96
+image[1]=-
+image[2]=sign1.4.1,-64,-96
 image[3]=-
 ---
 # @text ja:[機能なし] 転回禁止舗装
@@ -113,91 +112,11 @@ retire_year=2999
 retire_month=1
 single_way=0
 offset_left=0
-icon=> sign1.0.5
-cursor=sign1.1.5,-64,-104
-image[0]=sign1.1.5,-64,-96
+icon=> ../../icon.6.5
+cursor=sign1.5.0,-64,-104
+image[0]=sign1.5.0,-64,-96
 image[1]=-
-image[2]=sign1.2.5,-64,-96
-image[3]=-
----
-# @text ja:[一方通行] 直進舗装
-# @text en:[One way] Go straight pavement
-obj=roadsign
-name=iss_sr_direction_straight
-copyright=128na
-cost=1
-waytype=road
-intro_year=1900
-intro_month=1
-retire_year=2999
-retire_month=1
-single_way=1
-offset_left=0
-icon=> sign1.0.6
-cursor=sign1.1.6,-64,-104
-image[0]=sign1.3.6,-64,-96
-image[1]=sign1.1.6,-64,-96
-image[2]=sign1.2.6,-64,-96
-image[3]=sign1.4.6,-64,-96
----
-# @text ja:[一方通行] 直進と右折舗装
-# @text en:[One way] Go straight and turn right pavement
-obj=roadsign
-name=iss_sr_direction_straight_right
-copyright=128na
-cost=1
-waytype=road
-intro_year=1900
-intro_month=1
-retire_year=2999
-retire_month=1
-single_way=1
-offset_left=0
-icon=> sign1.0.7
-cursor=sign1.1.7,-64,-104
-image[0]=sign1.3.7,-64,-96
-image[1]=sign1.1.7,-64,-96
-image[2]=sign1.2.7,-64,-96
-image[3]=sign1.4.7,-64,-96
----
-# @text ja:[一方通行] 直進と左折
-# @text en:[One way] Go straight and turn left
-obj=roadsign
-name=iss_sr_direction_left_straight
-copyright=128na
-cost=1
-waytype=road
-intro_year=1900
-intro_month=1
-retire_year=2999
-retire_month=1
-single_way=1
-offset_left=0
-icon=> sign1.0.8
-cursor=sign1.1.8,-64,-104
-image[0]=sign1.3.8,-64,-96
-image[1]=sign1.1.8,-64,-96
-image[2]=sign1.2.8,-64,-96
-image[3]=sign1.4.8,-64,-96
----
-# @text ja:[一方通行] 横断歩道舗装
-# @text en:[One way] Crosswalk pavement
-obj=roadsign
-name=iss_sr_crosswalk
-copyright=128na
-cost=1
-waytype=road
-intro_year=1900
-intro_month=1
-retire_year=2999
-retire_month=1
-single_way=0
-offset_left=0
-icon=> sign1.0.9
-cursor=sign1.1.9,-64,-104
-image[0]=sign1.1.9,-64,-96
-image[1]=-
-image[2]=sign1.2.9,-64,-96
+image[2]=sign1.5.1,-64,-96
 image[3]=-
 ---
 # @text ja:[最低速度制限] 30km/h舗装
@@ -214,11 +133,11 @@ retire_month=1
 single_way=0
 min_speed=30
 offset_left=0
-icon=> sign1.0.10
-cursor=sign1.1.10,-64,-104
-image[0]=sign1.1.10,-64,-96
+icon=> ../../icon.6.6
+cursor=sign1.6.0,-64,-104
+image[0]=sign1.6.0,-64,-96
 image[1]=-
-image[2]=sign1.2.10,-64,-96
+image[2]=sign1.6.1,-64,-96
 image[3]=-
 ---
 # @text ja:[最低速度制限] 50km/h舗装
@@ -235,96 +154,12 @@ retire_month=1
 single_way=0
 min_speed=50
 offset_left=0
-icon=> sign1.0.11
-cursor=sign1.1.11,-64,-104
-image[0]=sign1.1.11,-64,-96
+icon=> ../../icon.6.7
+cursor=sign1.7.0,-64,-104
+image[0]=sign1.7.0,-64,-96
 image[1]=-
-image[2]=sign1.2.11,-64,-96
+image[2]=sign1.7.1,-64,-96
 image[3]=-
----
-# @text ja:[一方通行＆最低速度制限] 100km/h舗装
-# @text en:[One way & Min speed limit] 100km/h pavement
-obj=roadsign
-name=iss_sr_min_speed_0100
-copyright=128na
-cost=1
-waytype=road
-intro_year=1900
-intro_month=1
-retire_year=2999
-retire_month=1
-single_way=1
-min_speed=100
-offset_left=0
-icon=> sign1.0.12
-cursor=sign1.1.12,-64,-104
-image[0]=sign1.3.12,-64,-96
-image[1]=sign1.1.12,-64,-96
-image[2]=sign1.2.12,-64,-96
-image[3]=sign1.4.12,-64,-96
----
-# @text ja:[一方通行＆最低速度制限] 150km/h舗装
-# @text en:[One way & Min speed limit] 150km/h pavement
-obj=roadsign
-name=iss_sr_min_speed_0150
-copyright=128na
-cost=1
-waytype=road
-intro_year=1900
-intro_month=1
-retire_year=2999
-retire_month=1
-single_way=1
-min_speed=150
-offset_left=0
-icon=> sign1.0.13
-cursor=sign1.1.13,-64,-104
-image[0]=sign1.3.13,-64,-96
-image[1]=sign1.1.13,-64,-96
-image[2]=sign1.2.13,-64,-96
-image[3]=sign1.4.13,-64,-96
----
-# @text ja:[一方通行＆最低速度制限] 200km/h舗装
-# @text en:[One way & Min speed limit] 200km/h pavement
-obj=roadsign
-name=iss_sr_min_speed_0200
-copyright=128na
-cost=1
-waytype=road
-intro_year=1900
-intro_month=1
-retire_year=2999
-retire_month=1
-single_way=1
-min_speed=200
-offset_left=0
-icon=> sign1.0.14
-cursor=sign1.1.14,-64,-104
-image[0]=sign1.3.14,-64,-96
-image[1]=sign1.1.14,-64,-96
-image[2]=sign1.2.14,-64,-96
-image[3]=sign1.4.14,-64,-96
----
-# @text ja:[一方通行＆最低速度制限] 999km/h舗装
-# @text en:[One way & Min speed limit] 999km/h pavement
-obj=roadsign
-name=iss_sr_min_speed_0999
-copyright=128na
-cost=1
-waytype=road
-intro_year=1900
-intro_month=1
-retire_year=2999
-retire_month=1
-single_way=1
-min_speed=999
-offset_left=0
-icon=> sign1.0.15
-cursor=sign1.1.15,-64,-104
-image[0]=sign1.3.15,-64,-96
-image[1]=sign1.1.15,-64,-96
-image[2]=sign1.2.15,-64,-96
-image[3]=sign1.4.15,-64,-96
 ---
 # @text ja:[一方通行＆最低速度制限] 80km/h舗装
 # @text en:[One way & Min speed limit] 80km/h pavement
@@ -340,12 +175,33 @@ retire_month=1
 single_way=1
 min_speed=80
 offset_left=0
-icon=> sign1.0.16
-cursor=sign1.1.16,-64,-104
-image[0]=sign1.3.16,-64,-96
-image[1]=sign1.1.16,-64,-96
-image[2]=sign1.2.16,-64,-96
-image[3]=sign1.4.16,-64,-96
+icon=> ../../icon.6.8
+cursor=sign1.8.0,-64,-104
+image[0]=sign1.8.2,-64,-96
+image[1]=sign1.8.0,-64,-96
+image[2]=sign1.8.1,-64,-96
+image[3]=sign1.8.3,-64,-96
+---
+# @text ja:[一方通行＆最低速度制限] 100km/h舗装
+# @text en:[One way & Min speed limit] 100km/h pavement
+obj=roadsign
+name=iss_sr_min_speed_0100
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+min_speed=100
+offset_left=0
+icon=> ../../icon.6.9
+cursor=sign1.9.0,-64,-104
+image[0]=sign1.9.2,-64,-96
+image[1]=sign1.9.0,-64,-96
+image[2]=sign1.9.1,-64,-96
+image[3]=sign1.9.3,-64,-96
 ---
 # @text ja:[一方通行＆最低速度制限] 120km/h舗装
 # @text en:[One way & Min speed limit] 120km/h pavement
@@ -361,9 +217,213 @@ retire_month=1
 single_way=1
 min_speed=120
 offset_left=0
-icon=> sign1.0.17
-cursor=sign1.1.17,-64,-104
-image[0]=sign1.3.17,-64,-96
-image[1]=sign1.1.17,-64,-96
-image[2]=sign1.2.17,-64,-96
-image[3]=sign1.4.17,-64,-96
+icon=> ../../icon.6.10
+cursor=sign1.10.0,-64,-104
+image[0]=sign1.10.2,-64,-96
+image[1]=sign1.10.0,-64,-96
+image[2]=sign1.10.1,-64,-96
+image[3]=sign1.10.3,-64,-96
+---
+# @text ja:[一方通行＆最低速度制限] 150km/h舗装
+# @text en:[One way & Min speed limit] 150km/h pavement
+obj=roadsign
+name=iss_sr_min_speed_0150
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+min_speed=150
+offset_left=0
+icon=> ../../icon.6.11
+cursor=sign1.11.0,-64,-104
+image[0]=sign1.11.2,-64,-96
+image[1]=sign1.11.0,-64,-96
+image[2]=sign1.11.1,-64,-96
+image[3]=sign1.11.3,-64,-96
+---
+# @text ja:[一方通行＆最低速度制限] 200km/h舗装
+# @text en:[One way & Min speed limit] 200km/h pavement
+obj=roadsign
+name=iss_sr_min_speed_0200
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+min_speed=200
+offset_left=0
+icon=> ../../icon.6.12
+cursor=sign1.12.0,-64,-104
+image[0]=sign1.12.2,-64,-96
+image[1]=sign1.12.0,-64,-96
+image[2]=sign1.12.1,-64,-96
+image[3]=sign1.12.3,-64,-96
+---
+# @text ja:[一方通行＆最低速度制限] 999km/h舗装
+# @text en:[One way & Min speed limit] 999km/h pavement
+obj=roadsign
+name=iss_sr_min_speed_0999
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+min_speed=999
+offset_left=0
+icon=> ../../icon.6.13
+cursor=sign1.13.0,-64,-104
+image[0]=sign1.13.2,-64,-96
+image[1]=sign1.13.0,-64,-96
+image[2]=sign1.13.1,-64,-96
+image[3]=sign1.13.3,-64,-96
+---
+# @text ja:[一方通行] 直進舗装
+# @text en:[One way] Go straight pavement
+obj=roadsign
+name=iss_sr_direction_straight
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+offset_left=0
+icon=> ../../icon.7.0
+cursor=sign1.14.0,-64,-104
+image[0]=sign1.14.2,-64,-96
+image[1]=sign1.14.0,-64,-96
+image[2]=sign1.14.1,-64,-96
+image[3]=sign1.14.3,-64,-96
+---
+# @text ja:[一方通行] 直進と右方向舗装
+# @text en:[One way] Go straight and right direction pavement
+obj=roadsign
+name=iss_sr_direction_straight_right
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+offset_left=0
+icon=> ../../icon.7.1
+cursor=sign1.15.0,-64,-104
+image[0]=sign1.15.2,-64,-96
+image[1]=sign1.15.0,-64,-96
+image[2]=sign1.15.1,-64,-96
+image[3]=sign1.15.3,-64,-96
+---
+# @text ja:[一方通行] 直進と左方向
+# @text en:[One way] Go straight and left direction pavement
+obj=roadsign
+name=iss_sr_direction_left_straight
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+offset_left=0
+icon=> ../../icon.7.2
+cursor=sign1.16.0,-64,-104
+image[0]=sign1.16.2,-64,-96
+image[1]=sign1.16.0,-64,-96
+image[2]=sign1.16.1,-64,-96
+image[3]=sign1.16.3,-64,-96
+---
+# @text ja:[一方通行] 直進と左折及び直進
+# @text en:[One way] Go straight and turn left and go straight pavement
+obj=roadsign
+name=iss_sr_turn_left_straight_straight
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+offset_left=0
+icon=> ../../icon.7.3
+cursor=sign1.17.0,-64,-104
+image[0]=sign1.17.2,-64,-96
+image[1]=sign1.17.0,-64,-96
+image[2]=sign1.17.1,-64,-96
+image[3]=sign1.17.3,-64,-96
+---
+# @text ja:[一方通行] 直進と右折及び直進
+# @text en:[One way] Go straight and turn right and go straight pavement
+obj=roadsign
+name=iss_sr_straight_turn_right_straight
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+offset_left=0
+icon=> ../../icon.7.4
+cursor=sign1.18.0,-64,-104
+image[0]=sign1.18.2,-64,-96
+image[1]=sign1.18.0,-64,-96
+image[2]=sign1.18.1,-64,-96
+image[3]=sign1.18.3,-64,-96
+---
+# @text ja:[一方通行] 左折及び直進と右折及び直進舗装
+# @text en:[One way] Turn left and go straight and turn right and go straight pavement
+obj=roadsign
+name=iss_sr_tunr_left_straight_turn_right_straight
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+offset_left=0
+icon=> ../../icon.7.5
+cursor=sign1.19.0,-64,-104
+image[0]=sign1.19.2,-64,-96
+image[1]=sign1.19.0,-64,-96
+image[2]=sign1.19.1,-64,-96
+image[3]=sign1.19.3,-64,-96
+---
+# @text ja:[一方通行] 左折と右折舗装
+# @text en:[One way] Turn left and and turn right pavement
+obj=roadsign
+name=iss_sr_turn_left_turn_right
+copyright=128na
+cost=1
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+offset_left=0
+icon=> ../../icon.7.6
+cursor=sign1.20.0,-64,-104
+image[0]=sign1.20.2,-64,-96
+image[1]=sign1.20.0,-64,-96
+image[2]=sign1.20.1,-64,-96
+image[3]=sign1.20.3,-64,-96
+---
