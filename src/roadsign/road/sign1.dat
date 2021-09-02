@@ -79,7 +79,7 @@ image[1]=-
 image[2]=sign1.3.1,-64,-96
 image[3]=-
 ---
-# @text ja:[一方通行] 横断歩道舗装
+# @text ja:[機能なし] 横断歩道舗装
 # @text en:[One way] Crosswalk pavement
 obj=roadsign
 name=iss_sr_crosswalk
@@ -327,8 +327,8 @@ image[1]=sign1.15.0,-64,-96
 image[2]=sign1.15.3,-64,-96
 image[3]=sign1.15.1,-64,-96
 ---
-# @text ja:[一方通行] 直進と左方向
-# @text en:[One way] Go straight and left direction pavement
+# @text ja:[一方通行] 左方向と直進舗装
+# @text en:[One way] Left direction and go straight pavement
 obj=roadsign
 name=iss_sr_direction_left_straight
 copyright=128na
@@ -347,8 +347,8 @@ image[1]=sign1.16.0,-64,-96
 image[2]=sign1.16.3,-64,-96
 image[3]=sign1.16.1,-64,-96
 ---
-# @text ja:[一方通行] 直進と左折及び直進
-# @text en:[One way] Go straight and turn left and go straight pavement
+# @text ja:[一方通行] 左折及び直進と直進舗装
+# @text en:[One way] Turn left or go straight and go straight pavement
 obj=roadsign
 name=iss_sr_turn_left_straight_straight
 copyright=128na
@@ -367,8 +367,8 @@ image[1]=sign1.17.0,-64,-96
 image[2]=sign1.17.3,-64,-96
 image[3]=sign1.17.1,-64,-96
 ---
-# @text ja:[一方通行] 直進と右折及び直進
-# @text en:[One way] Go straight and turn right and go straight pavement
+# @text ja:[一方通行] 直進と右折及び直進舗装
+# @text en:[One way] Go straight and turn right or go straight pavement
 obj=roadsign
 name=iss_sr_straight_turn_right_straight
 copyright=128na
@@ -388,7 +388,7 @@ image[2]=sign1.18.3,-64,-96
 image[3]=sign1.18.1,-64,-96
 ---
 # @text ja:[一方通行] 左折及び直進と右折及び直進舗装
-# @text en:[One way] Turn left and go straight and turn right and go straight pavement
+# @text en:[One way] Turn left or go straight and turn right or go straight pavement
 obj=roadsign
 name=iss_sr_tunr_left_straight_turn_right_straight
 copyright=128na
@@ -408,7 +408,7 @@ image[2]=sign1.19.3,-64,-96
 image[3]=sign1.19.1,-64,-96
 ---
 # @text ja:[一方通行] 左折と右折舗装
-# @text en:[One way] Turn left and and turn right pavement
+# @text en:[One way] Turn left and turn right pavement
 obj=roadsign
 name=iss_sr_turn_left_turn_right
 copyright=128na
