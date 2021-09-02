@@ -84,8 +84,8 @@ image[nse]=bridge_cursor.4.1,-64,-48
 image[sew]=bridge_cursor.4.1,-64,-48
 image[nsw]=bridge_cursor.4.1,-64,-48
 ---
-# @text ja:[高架] エクストラドーズド橋（長さ５）
-# @text en:[Elevated] Extradosed bridge (length 5)
+# @text ja:[高架] エクストラドーズド橋（長さ５、橋脚）
+# @text en:[Elevated] Extradosed bridge (length 5 and pier)
 obj=way
 name=iss_wte_bridge1_length_5
 copyright=128na
