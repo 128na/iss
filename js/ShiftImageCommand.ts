@@ -1,6 +1,6 @@
 import fs from 'fs-extra';
 import { Command } from 'commander';
-import { createCanvas, Image } from 'canvas';
+import { createCanvas, Image, loadImage } from 'canvas';
 
 /**
  * npx ts-node .\js\ShiftImageCommand.ts --source=.\src\path\to\file.png
@@ -10,13 +10,13 @@ runner
   .description('画像分割')
   .option('-i, --inputSize <pixcel>', 'Split size', '128')
   .option('-o, --outputSize <pixcel>', 'Split size', '256')
-  .option('-s, --source <directory>', 'Source directory path')
+  .option('-s, --source <directory>', 'Source file path')
   .action((options: { inputSize: string, outputSize: number, source: string }) => {
     const inputSize = Number(options.inputSize);
     const outputSize = Number(options.outputSize);
     const source = options.source;
     console.log({ inputSize, outputSize, source });
-    createImage(source)
+    loadImage(source)
       .then(image =>
         shiftImage(image, inputSize, outputSize, source.replace('.png', '_shift.png')))
       .catch(e => console.log({ e }))
@@ -24,15 +24,6 @@ runner
   .showHelpAfterError()
   .parse();
 
-
-function createImage(filepath: string): Promise<Image> {
-  return new Promise((resolve, reject) => {
-    const img = new Image;
-    img.onload = () => resolve(img);
-    img.onerror = (e) => reject(e);
-    img.src = filepath;
-  });
-}
 function shiftImage(image: Image, is: number = 128, os: number = 256, output: string): void {
   const n = (image.width - is * 2) / is;
   if (!Number.isInteger(n)) {

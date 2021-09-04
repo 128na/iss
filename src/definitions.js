@@ -46,21 +46,45 @@ module.exports = [
   },
   {
     size: 256,
-    pakFile: 'iss_tram_way.pak',
-    datFiles: ['way/tram/pier.dat', 'way/tram/round_about.dat'],
+    pakFile: 'iss_track_way.pak',
+    datFiles: ['way/track/ground.dat'],
     imageSet: {
-      'way/tram/pier1.png': ['way/tram/pier1_base.png', 'way/tram/pier1.png', 'way/tram/pier1_noise.png', 'way/tram/pier1_overwrite.png'],
-      'way/tram/pier2.png': ['way/tram/pier2_base.png', 'way/tram/pier2.png', 'way/tram/pier2_noise.png', 'way/tram/pier2_overwrite.png'],
-      'way/tram/pier3.png': ['way/tram/pier3_base.png', 'way/tram/pier3.png', 'way/tram/pier3_noise.png', 'way/tram/pier3_overwrite.png'],
+      'way/track/0120.png': ['way/track/0120.png'],
+    }
+  },
+  {
+    size: 256,
+    pakFile: 'iss_tram_way.pak',
+    datFiles: ['way/tram/ground.dat'],
+    imageSet: {
+      'way/tram/0050_b.png': ['way/tram/0050_b.png'],
+      'way/tram/0050_s.png': ['way/tram/0050_s.png'],
+      'way/tram/0050_n.png': ['way/tram/0050_n.png'],
+      'way/tram/0050_bs.png': ['way/tram/0050_bs.png'],
+      'way/tram/0050_bn.png': ['way/tram/0050_bn.png'],
+      'way/tram/0050_sn.png': ['way/tram/0050_sn.png'],
+    }
+  },
+  {
+    size: 256,
+    pakFile: 'iss_util_road_decoration.pak',
+    datFiles: ['way/tram/round_about.dat'],
+    imageSet: {
       'way/tram/round_about1.png': ['way/tram/round_about1_base.png', 'way/tram/round_about1.png', 'way/tram/round_about1_noise.png'],
       'way/tram/round_about2.png': ['way/tram/round_about2_base.png', 'way/tram/round_about2.png', 'way/tram/round_about2_noise.png'],
     }
   },
   {
     size: 256,
-    pakFile: 'iss_track_way.pak',
-    datFiles: ['way/track/pier.dat'],
+    pakFile: 'iss_util_pier.pak',
+    datFiles: [
+      'way/tram/pier.dat',
+      'way/track/pier.dat',
+    ],
     imageSet: {
+      'way/tram/pier1.png': ['way/tram/pier1_base.png', 'way/tram/pier1.png', 'way/tram/pier1_noise.png', 'way/tram/pier1_overwrite.png'],
+      'way/tram/pier2.png': ['way/tram/pier2_base.png', 'way/tram/pier2.png', 'way/tram/pier2_noise.png', 'way/tram/pier2_overwrite.png'],
+      'way/tram/pier3.png': ['way/tram/pier3_base.png', 'way/tram/pier3.png', 'way/tram/pier3_noise.png', 'way/tram/pier3_overwrite.png'],
       'way/track/pier1.png': ['way/track/pier1_base.png', 'way/track/pier1.png', 'way/track/pier1_noise.png', 'way/track/pier1_overwrite.png'],
       'way/track/pier2.png': ['way/track/pier2_base.png', 'way/track/pier2.png', 'way/track/pier2_noise.png', 'way/track/pier2_overwrite.png'],
       'way/track/pier3.png': ['way/track/pier3_base.png', 'way/track/pier3.png', 'way/track/pier3_noise.png', 'way/track/pier3_overwrite.png'],
@@ -68,7 +92,7 @@ module.exports = [
   },
   {
     size: 256,
-    pakFile: 'iss_track_way_bridge.pak',
+    pakFile: 'iss_util_bridge.pak',
     datFiles: ['way/track/bridge.dat'],
     imageSet: {
       'way/track/bridge1.png': ['way/track/bridge1_base_shift.png', 'way/track/bridge1_shift.png', 'way/track/bridge1_base_shift_noise.png', 'way/track/bridge1_overwrite.png', 'way/track/bridge1_special_color.png'],
