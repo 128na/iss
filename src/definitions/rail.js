@@ -9,18 +9,18 @@ module.exports = [
     size: 256,
     pakFile: 'iss_rail_way.pak',
     datFiles: [
-      'rail/tram.dat',
-      'rail/track.dat'
+      'rail/ground/tram.dat',
+      'rail/ground/track.dat'
     ],
     imageSet: {
       'icon.png': ['icon.png'],
-      'rail/0050_b.png': ['rail/0050_b.png'],
-      'rail/0050_s.png': ['rail/0050_s.png'],
-      'rail/0050_n.png': ['rail/0050_n.png'],
-      'rail/0050_bs.png': ['rail/0050_bs.png'],
-      'rail/0050_bn.png': ['rail/0050_bn.png'],
-      'rail/0050_sn.png': ['rail/0050_sn.png'],
-      'rail/0120.png': ['rail/0120.png'],
+      'rail/ground/0050_b.png': ['rail/ground/0050_b.png'],
+      'rail/ground/0050_s.png': ['rail/ground/0050_s.png'],
+      'rail/ground/0050_n.png': ['rail/ground/0050_n.png'],
+      'rail/ground/0050_bs.png': ['rail/ground/0050_bs.png'],
+      'rail/ground/0050_bn.png': ['rail/ground/0050_bn.png'],
+      'rail/ground/0050_sn.png': ['rail/ground/0050_sn.png'],
+      'rail/ground/0120.png': ['rail/ground/0120.png'],
     }
   },
 ];
