@@ -10,10 +10,6 @@
     "translate": "npx ts-node js/GenerateTranslateCommand.ts --output=./dist/text",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/128na/iss.git"
-  },
   "bugs": {
     "url": "https://github.com/128na/iss/issues"
   },
@@ -28,6 +24,7 @@
     "fs-extra": "^10",
     "luxon": "^2.0.2",
     "require-reload": "^0.2",
+    "simutrans-dat-parser": "^1.0.0",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.2"
   },

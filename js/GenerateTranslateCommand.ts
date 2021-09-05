@@ -2,8 +2,8 @@ import templateTranslate from './templates/translate';
 import { Command } from 'commander';
 import { ListingCommandOption } from './interface';
 import { AddonCommandBase } from './AddonCommandBase';
-import { Obj } from './libs/Dat';
 import { TRANSLATE_KEY, TRANSLATE_SEPALATOR } from './util';
+import { Obj } from 'simutrans-dat-parser';
 
 interface langs {
   [index: string]: string[][]
@@ -34,7 +34,7 @@ class GenerateTranslateCommand extends AddonCommandBase {
             : langs[lang] = [[current.name, text]];
         });
         return langs;
-      }, { });
+      }, {});
   }
 
   private write(langs: langs) {

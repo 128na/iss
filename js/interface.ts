@@ -1,4 +1,4 @@
-import { Dat } from "./libs/Dat";
+import { Dat } from "simutrans-dat-parser";
 
 export interface definition {
   size: number
