@@ -4,14 +4,15 @@
 
 - v1.0 それとなく定義
 - v2.0 system_typeとobjの区別を明確に
+- v3.0 
 
 ## 命名則
 
 ### ディレクトリ名
 
-obj,waytype単位で分ける。 `{obj.name}/{waytype.name}/`
+カテゴリ、obj単位で分ける。 `{category}/{obj.name}`
 
-例 モノレールトンネル： `tunnel/monorail`
+例 モノレールトンネル： `monorail/tunnel`
 
 ビルド前ソースは管理しやすい名称でよい。
 
@@ -32,16 +33,16 @@ additional
 
 ゲーム内での表示名はメニューでの視認性を優先する。
 
-- `{_additional?}[{system_type.name?}] (iss_{obj.ID}{waytype.ID?})`
+- `[{system_type.name?}] {_additional?} (iss_{obj.ID}{waytype.ID?})`
 
-例 120km/hモノレール高架軌道 `120km/h鋼製橋脚[高架] (iss_wme_0120_pier_type_2)`
+例 120km/hモノレール高架軌道 `[高架] 鋼製橋脚 (iss_wme_0120_pier_type_2)`
 
 
 ### pakファイル
 
 ディレクトリ単位でpak化する。
 
-`iss_{waytype.name?}_{obj.name}.pak`
+`iss_{category}_{waytype.name?}_{_additional?}.pak`
 
 例 モノレールトンネル： `iss_monorail_tunnel.pak`
 
@@ -56,6 +57,19 @@ additional
 
 ## appendix
 補足資料
+
+### Category
+
+|ID|name|備考|
+|:---:|---|---|
+|road|道路||
+|rail|鉄道・トラム||
+|monorail|モノレール||
+|maglev|マグレブ||
+|narrow|ナローゲージ||
+|water|海路||
+|air|空路||
+|util|装飾専用||
 
 ### obj
 
