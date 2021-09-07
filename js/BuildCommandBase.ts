@@ -16,7 +16,7 @@ export abstract class BuildCommandBase {
 
   private fileUpdateManager: FileUpdateManager
   private imageManager: ImageManager
-  private makeobj: Makeobj
+  protected makeobj: Makeobj
 
   public constructor({ definition, source, output }: buildCommandOption) {
     this.definition = definition;

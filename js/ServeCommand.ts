@@ -35,7 +35,7 @@ class ServeCommand extends BuildCommandBase {
 
   private merge(pakFiles: string[]): string {
     const pakFileLib = `${this.output}/${this.paklib}`;
-    const result = this.makeobjManager.merge(pakFileLib, pakFiles);
+    const result = this.makeobj.merge(pakFileLib, ...pakFiles);
     logger('merge', result);
     if (result.status !== 0) {
       throw new Error('merge failed ' + pakFileLib);
