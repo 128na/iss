@@ -13,10 +13,14 @@ ${parsed.map(parseDat).join('\n')}
 const parseDat = ({ file, objs }: { file: string, objs: parsedObj[] }): string =>
   `## \`${file}\`
 
-|name|translate|obj|waytype|system_type|
-|---|---|---|---|---|
+|icon|name|translate|obj|waytype|system_type|
+|---|---|---|---|---|---|
 ${objs.map(parseObj).join('\n')}
 `;
 
-const parseObj = (obj: parsedObj): string =>
-  `|${obj.name}|${obj.translates.join('<br>')}|${obj.obj}|${obj.waytype}|${obj.system_type}|`;
+const parseObj = (obj: parsedObj): string => {
+  const icon = obj.icon.length
+    ? `<div style="background-image:url(../src/icon.png); width:32px;height:32px;background-position:left ${-obj.icon[1] * 256}px top ${-obj.icon[0] * 256}px">`
+    : '';
+  return `|${icon}|${obj.name}|${obj.translates.join('<br>')}|${obj.obj}|${obj.waytype}|${obj.system_type}|`;
+}

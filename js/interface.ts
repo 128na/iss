@@ -44,4 +44,5 @@ export interface parsedObj {
   waytype: string
   system_type: string
   translates: string[]
+  icon: number[]
 }
