@@ -18,5 +18,6 @@ const parseDat = ({ file, objs }: { file: string, objs: parsedObj[] }): string =
 ${objs.map(parseObj).join('\n')}
 `;
 
-const parseObj = (obj: parsedObj): string =>
-  `|${obj.name}|${obj.translates.join('<br>')}|${obj.obj}|${obj.waytype}|${obj.system_type}|`;
+const parseObj = (obj: parsedObj): string => {
+  return `|${obj.name}|${obj.translates.join('<br>')}|${obj.obj}|${obj.waytype}|${obj.system_type}|`;
+}

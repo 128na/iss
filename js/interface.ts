@@ -1,4 +1,4 @@
-import { Dat } from "./libs/Dat";
+import { Dat } from "simutrans-dat-parser";
 
 export interface definition {
   size: number
@@ -44,4 +44,5 @@ export interface parsedObj {
   waytype: string
   system_type: string
   translates: string[]
+  icon: number[]
 }

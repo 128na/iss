@@ -1,12 +1,12 @@
 require('dotenv').config();
 
 import fs from 'fs-extra';
+import { Makeobj } from 'simutrans-makeobj-wrapper';
 const reload = require('require-reload')(require);
 
 import { buildCommandOption, definition } from "./interface";
 import FileUpdateManager from './managers/FileUpdateManager';
 import ImageManager from './managers/ImageManager';
-import MakeobjManager from './managers/MakeobjManager';
 import { logger } from './util';
 
 export abstract class BuildCommandBase {
@@ -16,7 +16,7 @@ export abstract class BuildCommandBase {
 
   private fileUpdateManager: FileUpdateManager
   private imageManager: ImageManager
-  protected makeobjManager: MakeobjManager
+  protected makeobj: Makeobj
 
   public constructor({ definition, source, output }: buildCommandOption) {
     this.definition = definition;
@@ -24,7 +24,7 @@ export abstract class BuildCommandBase {
     this.output = output;
     this.fileUpdateManager = new FileUpdateManager();
     this.imageManager = new ImageManager();
-    this.makeobjManager = new MakeobjManager(process.env.MAKEOBJ_PATH);
+    this.makeobj = new Makeobj(process.env.MAKEOBJ_PATH);
   }
 
   public abstract run(): void;
@@ -70,9 +70,9 @@ export abstract class BuildCommandBase {
 
   private pak(definition: definition, datFiles: string[]): string {
     const pakFile = `${this.output}/${definition.pakFile}`;
-    const result = this.makeobjManager.pak(pakFile, datFiles, definition.size);
+    const result = this.makeobj.pak(definition.size, pakFile, ...datFiles);
     logger('pak', result);
-    if (result.status !== 0) {
+    if (!result.isSuccess) {
       throw new Error('pak failed ' + pakFile);
     }
 

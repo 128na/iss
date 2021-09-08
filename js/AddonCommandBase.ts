@@ -1,5 +1,5 @@
 import FileReader from './libs/FileReader';
-import { Dat } from './libs/Dat';
+import { Dat } from 'simutrans-dat-parser';
 import { AddonCommandOption, parsedDat } from './interface';
 
 export abstract class AddonCommandBase {

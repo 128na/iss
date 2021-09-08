@@ -26,6 +26,7 @@ class GenerateAddonListCommand extends AddonCommandBase {
             name: o.findParam('name')?.value || 'N/A',
             waytype: o.findParam('waytype')?.value || 'N/A',
             system_type: o.findParam('system_type')?.value || 'N/A',
+            icon: o.findParam('icon')?.valueParams || [],
             translates: o.comments
               .filter(c => c.value.startsWith(TRANSLATE_KEY))
               .map(c => c.value.replace(TRANSLATE_KEY, '').trim() || '')
