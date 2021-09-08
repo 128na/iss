@@ -13,7 +13,7 @@ module.exports = [
       // 'rail/ground/track.dat'
     ],
     imageSet: {
-      'icon.png': ['icon.png'],
+      'icon.png': ['icon.png', 'icon_erase.png'],
       'rail/ground/0050_b.png': ['rail/ground/0050_b.png'],
       'rail/ground/0050_s.png': ['rail/ground/0050_s.png'],
       'rail/ground/0050_n.png': ['rail/ground/0050_n.png'],

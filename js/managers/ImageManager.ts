@@ -1,6 +1,6 @@
 import fs from 'fs-extra';
 import { Canvas, Image, loadImage } from 'canvas';
-import { mergeImage, replaceSpecialColor, shiftImage, splitImage } from 'simutrans-image-util';
+import { eraseColor, mergeImage, replaceSpecialColor, shiftImage, splitImage } from 'simutrans-image-util';
 
 export default class ImageManager {
   static SPECIAL_KEYWORD = 'special_color.png';
@@ -30,6 +30,8 @@ export default class ImageManager {
       const ctx = canvas.getContext('2d');
       ctx.drawImage(special, 0, 0);
     }
+
+    eraseColor(canvas, ImageManager.ERASE_COLOR);
 
     return canvas;
   }
