@@ -10,7 +10,7 @@ module.exports = [
     pakFile: 'iss_rail_way.pak',
     datFiles: [
       'rail/ground/tram.dat',
-      'rail/ground/track.dat'
+      // 'rail/ground/track.dat'
     ],
     imageSet: {
       'icon.png': ['icon.png'],
@@ -20,7 +20,7 @@ module.exports = [
       'rail/ground/0050_bs.png': ['rail/ground/0050_bs.png'],
       'rail/ground/0050_bn.png': ['rail/ground/0050_bn.png'],
       'rail/ground/0050_sn.png': ['rail/ground/0050_sn.png'],
-      'rail/ground/0120.png': ['rail/ground/0120.png'],
+      // 'rail/ground/1200_slab.png': ['rail/ground/1200_slab.png'],
     }
   },
 ];
