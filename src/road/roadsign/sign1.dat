@@ -80,7 +80,7 @@ image[2]=sign1.3.1,-64,-96
 image[3]=-
 ---
 # @text ja:[機能なし] 横断歩道舗装
-# @text en:[One way] Crosswalk pavement
+# @text en:[No effect] Crosswalk pavement
 obj=roadsign
 name=iss_sr_crosswalk
 copyright=128na
@@ -426,4 +426,24 @@ image[0]=sign1.20.2,-64,-96
 image[1]=sign1.20.0,-64,-96
 image[2]=sign1.20.3,-64,-96
 image[3]=sign1.20.1,-64,-96
+---
+# @text ja:[一方通行] 横断歩道舗装
+# @text en:[One way] Crosswalk pavement
+obj=roadsign
+name=iss_sr_oneway_crosswalk
+copyright=128na
+cost=1000
+waytype=road
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+single_way=1
+offset_left=0
+icon=> ../../icon.7.7
+cursor=sign1.21.0,-64,-104
+image[0]=sign1.21.2,-64,-96
+image[1]=sign1.21.0,-64,-96
+image[2]=sign1.21.3,-64,-96
+image[3]=sign1.21.1,-64,-96
 ---

@@ -39,8 +39,9 @@ resizeobj.exe -W=128 iss*.pak
 
 # 資料
 
-- [仕様書](./docs/spec.md)
 - [アドオン一覧](./docs/addons.md)
+- [建設テクニック集](./docs/technique.md)
+- [仕様書](./docs/spec.md)
 
 
 # 開発者向け

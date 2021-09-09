@@ -223,6 +223,51 @@ diagonal[nw]=0120.9.1,-64,-96
 diagonal[ne]=0120.9.2,-64,-96
 diagonal[se]=0120.9.3,-64,-96
 ---
+# @text ja:[地上] 都市高速（赤舗装）
+# @text en:[Ground] Urban expressway (red pavement)
+obj=way
+name=iss_wrg_0060
+copyright=128na
+waytype=road
+system_type=0
+cost=50000
+maintenance=1000
+topspeed=60
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+icon=> ../../icon.1.9
+cursor=0060.1.1,-64,-104
+image[s]=0060.3.0,-64,-96
+image[w]=0060.3.1,-64,-96
+image[n]=0060.3.2,-64,-96
+image[e]=0060.3.3,-64,-96
+image[sw]=0060.4.0,-64,-96
+image[nw]=0060.4.1,-64,-96
+image[ne]=0060.4.2,-64,-96
+image[se]=0060.4.3,-64,-96
+image[ns]=0060.5.0,-64,-96
+image[ew]=0060.5.1,-64,-96
+image[nsew]=0060.2.1,-64,-96
+image[-]=0060.5.3,-64,-96
+image[new]=0060.6.0,-64,-96
+image[nse]=0060.6.1,-64,-96
+image[sew]=0060.6.2,-64,-96
+image[nsw]=0060.6.3,-64,-96
+imageup2[12]=0060.7.0,-64,-96
+imageup2[9]=0060.7.1,-64,-96
+imageup2[3]=0060.7.2,-64,-96
+imageup2[6]=0060.7.3,-64,-96
+imageup[12]=0060.8.0,-64,-96
+imageup[9]=0060.8.1,-64,-96
+imageup[3]=0060.8.2,-64,-96
+imageup[6]=0060.8.3,-64,-96
+diagonal[sw]=0060.9.0,-64,-96
+diagonal[nw]=0060.9.1,-64,-96
+diagonal[ne]=0060.9.2,-64,-96
+diagonal[se]=0060.9.3,-64,-96
+---
 # @text ja:[地上] 高速道路（南北優先）
 # @text en:[Ground] Expressway (North-south priority)
 obj=way

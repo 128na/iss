@@ -17,6 +17,15 @@ module.exports = [
   },
   {
     size: 256,
+    pakFile: 'iss_util_intersection.pak',
+    datFiles: ['util/intersection/intersection.dat'],
+    imageSet: {
+      'icon.png': ['icon.png', 'icon_erase.png'],
+      'util/intersection/intersection.png': ['util/intersection/intersection_base.png', 'util/intersection/intersection.png', 'util/intersection/intersection_noise.png'],
+    }
+  },
+  {
+    size: 256,
     pakFile: 'iss_util_pier.pak',
     datFiles: [
       'util/pier/ground/pier.dat',
