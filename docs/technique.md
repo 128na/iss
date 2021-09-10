@@ -15,3 +15,8 @@
 
 ![thumbnail](./technique_intersection.png)
 
+
+## 法面
+
+![thumbnail](./technique_embankment.png)
+
