@@ -20,3 +20,8 @@
 
 ![thumbnail](./technique_embankment.png)
 
+
+## 中央分離帯
+
+![thumbnail](./technique_center_divider.png)
+

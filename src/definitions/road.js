@@ -46,7 +46,8 @@ module.exports = [
     imageSet: {
       'icon.png': ['icon.png', 'icon_erase.png'],
       'road/way-object/wall.png': ['road/way-object/wall_base.png', 'road/way-object/wall.png', 'road/way-object/wall_noise.png'],
-      'road/way-object/center_divider.png': ['road/way-object/center_divider.png'],
+      'road/way-object/center_divider_back.png': ['road/way-object/center_divider_back.png'],
+      'road/way-object/center_divider_front.png': ['road/way-object/center_divider_front.png'],
     }
   },
 ];
