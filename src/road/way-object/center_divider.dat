@@ -1,0 +1,45 @@
+# @text ja:中央分離帯
+# @text en:Center divider
+obj=way-object
+name=iss_or_center_divider
+copyright=128na
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+waytype=road
+cost=1000
+maintenance=100
+topspeed=65535
+own_waytype=road
+icon=> ../../icon.1.2
+cursor=center_divider.0.0,-64,-96
+backimage[s]=center_divider.0.0,-64,-96
+backimage[n]=center_divider.0.0,-64,-96
+backimage[ns]=center_divider.0.0,-64,-96
+backimage[w]=center_divider.0.1,-64,-96
+backimage[e]=center_divider.0.1,-64,-96
+backimage[ew]=center_divider.0.1,-64,-96
+backimage[sw]=center_divider.2.0,-64,-96
+backimage[nw]=-
+backimage[ne]=center_divider.2.2,-64,-96
+backimage[se]=center_divider.2.3,-64,-96
+backimage[nsew]=-
+backimage[-]=-
+backimage[new]=-
+backimage[nse]=center_divider.0.0,-64,-96
+backimage[sew]=center_divider.0.1,-64,-96
+backimage[nsw]=-
+backimageUp2[12]=center_divider.5.0,-64,-96
+backimageUp2[9]=center_divider.5.1,-64,-96
+backimageUp2[3]=center_divider.5.2,-64,-96
+backimageUp2[6]=center_divider.5.3,-64,-96
+backimageUp[12]=center_divider.6.0,-64,-96
+backimageUp[9]=center_divider.6.1,-64,-96
+backimageUp[3]=center_divider.6.2,-64,-96
+backimageUp[6]=center_divider.6.3,-64,-96
+backdiagonal[sw]=-
+backdiagonal[nw]=-
+backdiagonal[ne]=-
+backdiagonal[se]=center_divider.7.3,-64,-96
+---

@@ -57,11 +57,11 @@ module.exports = [
     datFiles: ['util/embankment/embankment.dat'],
     imageSet: {
       'icon.png': ['icon.png', 'icon_erase.png'],
-      'util/embankment/embankment1.png': ['util/embankment/embankment1.png', 'util/embankment/embankment_noise.png'],
-      'util/embankment/embankment2.png': ['util/embankment/embankment2.png', 'util/embankment/embankment_noise.png'],
-      'util/embankment/embankment3.png': ['util/embankment/embankment3.png', 'util/embankment/embankment_noise.png'],
-      'util/embankment/embankment4.png': ['util/embankment/embankment4.png', 'util/embankment/embankment_noise.png'],
-      'util/embankment/embankment5.png': ['util/embankment/embankment5.png', 'util/embankment/embankment_noise.png'],
+      'util/embankment/embankment1.png': ['util/embankment/embankment_base.png', 'util/embankment/embankment1.png', 'util/embankment/embankment_noise.png'],
+      'util/embankment/embankment2.png': ['util/embankment/embankment_base.png', 'util/embankment/embankment2.png', 'util/embankment/embankment_noise.png'],
+      'util/embankment/embankment3.png': ['util/embankment/embankment_base.png', 'util/embankment/embankment3.png', 'util/embankment/embankment_noise.png'],
+      'util/embankment/embankment4.png': ['util/embankment/embankment_base.png', 'util/embankment/embankment4.png', 'util/embankment/embankment_noise.png'],
+      'util/embankment/embankment5.png': ['util/embankment/embankment_base.png', 'util/embankment/embankment5.png', 'util/embankment/embankment_noise.png'],
     }
   },
 ];
