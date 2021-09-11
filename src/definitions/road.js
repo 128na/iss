@@ -42,10 +42,15 @@ module.exports = [
   {
     size: 256,
     pakFile: 'iss_road_way-object.pak',
-    datFiles: ['road/way-object/wall.dat', 'road/way-object/center_divider.dat',],
+    datFiles: [
+      'road/way-object/wall.dat',
+      'road/way-object/center_divider.dat',
+      'road/way-object/wall_with_center_divider.dat',
+    ],
     imageSet: {
       'icon.png': ['icon.png', 'icon_erase.png'],
-      'road/way-object/wall.png': ['road/way-object/wall_base.png', 'road/way-object/wall.png', 'road/way-object/wall_noise.png'],
+      'road/way-object/wall_back.png': ['road/way-object/wall_back_base.png', 'road/way-object/wall_back.png', 'road/way-object/wall_back_noise.png'],
+      'road/way-object/wall_front.png': ['road/way-object/wall_front_base.png', 'road/way-object/wall_front.png', 'road/way-object/wall_front_noise.png'],
       'road/way-object/center_divider_back.png': ['road/way-object/center_divider_back.png'],
       'road/way-object/center_divider_front.png': ['road/way-object/center_divider_front.png'],
     }
