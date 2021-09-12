@@ -8,6 +8,14 @@ export interface definition {
     [index: string]: string[]
   }
 }
+export interface definitionWithDat {
+  size: number
+  pakFile: string
+  datFiles: { datFile: string, dat: Dat }[]
+  imageSet: {
+    [index: string]: string[]
+  }
+}
 
 export interface buildCommandOption {
   definition: string
@@ -23,8 +31,8 @@ export interface AddonCommandOption {
   source: string
   output: string
 }
-export interface ListingCommandOption extends AddonCommandOption {
-  format: string
+export interface ListingCommandOption {
+  output: string
 }
 
 export interface makeojbResponse {
