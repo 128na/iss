@@ -1,33 +1,39 @@
 require('dotenv').config();
 
 import fs from 'fs-extra';
+import path from 'path';
 import { Makeobj } from 'simutrans-makeobj-wrapper';
 const reload = require('require-reload')(require);
 
-import { buildCommandOption, definition } from "./interface";
-import FileUpdateManager from './managers/FileUpdateManager';
-import ImageManager from './managers/ImageManager';
-import { logger } from './util';
+import { buildCommandOption, definition } from "../interface";
+import ImageManager from '../managers/ImageManager';
+import { logger } from '../util';
 
-export abstract class BuildCommandBase {
+export class Builder {
   private definition: string
   protected source: string
   protected output: string
+  private changedFile: string
 
-  private fileUpdateManager: FileUpdateManager
   private imageManager: ImageManager
   protected makeobj: Makeobj
 
   public constructor({ definition, source, output }: buildCommandOption) {
     this.definition = definition;
+    this.changedFile = '';
     this.source = source;
     this.output = output;
-    this.fileUpdateManager = new FileUpdateManager();
     this.imageManager = new ImageManager();
     this.makeobj = new Makeobj(process.env.MAKEOBJ_PATH);
   }
 
-  public abstract run(): void;
+  public async run(changedFile?: string): Promise<string[]> {
+    this.changedFile = changedFile || '';
+    if (!this.changedFile) {
+      fs.emptyDirSync(this.output);
+    }
+    return await this.handleDefinitions();
+  }
 
   protected async handleDefinitions(): Promise<string[]> {
     const definitions = this.loadDefinitions();
@@ -39,23 +45,35 @@ export abstract class BuildCommandBase {
   }
 
   private loadDefinitions(): definition[] {
-    logger('loadDefinitions', this.definition);
-    return reload(this.definition);
+    const def = path.resolve(process.cwd(), this.definition);
+    logger('loadDefinitions', def);
+    return reload(def);
   }
 
   private async handleDefinition(definition: definition): Promise<string> {
-    await this.mergeImageIfUpdated(definition);
+    if (!this.shouldBuild(definition)) {
+      logger('skip build', definition.pakFile);
+      return definition.pakFile;
+    }
+
+    logger('build', definition.pakFile);
+    await this.merge(definition);
     const datFiles = this.copyDatFiles(definition);
     return this.pak(definition, datFiles);
   }
 
-  private async mergeImageIfUpdated(definition: definition) {
+  private shouldBuild(definition: definition): boolean {
+    if (!this.changedFile) {
+      return true;
+    }
+    return definition.datFiles.some(d => this.changedFile.includes(d))
+      || Object.entries(definition.imageSet).some(([k, images]) => images.some(i => this.changedFile.includes(i)))
+  }
+
+  private async merge(definition: definition) {
     for (const [key, value] of Object.entries(definition.imageSet)) {
-      if (value.some(v => this.fileUpdateManager.updated(`${this.source}/${v}`))) {
-        value.map(v => this.fileUpdateManager.put(`${this.source}/${v}`));
-        logger('mergeImages', key, value);
-        await this.imageManager.merge(`${this.output}/${key}`, value.map(v => `${this.source}/${v}`))
-      }
+      logger('mergeImages', key, value);
+      await this.imageManager.merge(`${this.output}/${key}`, value.map(v => `${this.source}/${v}`))
     }
   }
 
