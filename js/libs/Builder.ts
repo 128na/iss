@@ -14,6 +14,7 @@ export class Builder {
   private source: string;
   private output: string;
   private changedFile: string;
+  private mergedImages: string[] = [];
 
   private imageManager: ImageManager
   private makeobj: Makeobj
@@ -29,6 +30,7 @@ export class Builder {
 
   public async run(changedFile?: string): Promise<string[]> {
     this.changedFile = changedFile || '';
+    this.mergedImages = [];
     if (!this.changedFile) {
       fs.emptyDirSync(this.output);
     }
@@ -72,8 +74,12 @@ export class Builder {
 
   private async merge(definition: definition) {
     for (const [key, value] of Object.entries(definition.imageSet)) {
-      logger('mergeImages', key, value);
-      await this.imageManager.merge(`${this.output}/${key}`, value.map(v => `${this.source}/${v}`))
+      const filename = `${this.output}/${key}`;
+      if (!this.mergedImages.includes(filename)) {
+        logger('mergeImages', key, value);
+        await this.imageManager.merge(filename, value.map(v => `${this.source}/${v}`));
+        this.mergedImages.push(filename);
+      }
     }
   }
 
