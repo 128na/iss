@@ -46,10 +46,10 @@ jobs:
       - name: make release file
         run: |
           cp ./text/README.txt ./dist
-            && cp ./docs/thumbnail.png ./dist
-            && cp LICENSE ./dist
-            && cp ./src/compat.tab ./dist
-            && zip -r release.zip ./dist
+          && cp ./docs/thumbnail.png ./dist
+          && cp LICENSE ./dist
+          && cp ./src/compat.tab ./dist
+          && zip -r release.zip ./dist
 
       - name: Release
         uses: softprops/action-gh-release@v1
