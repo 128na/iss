@@ -7,11 +7,11 @@ import SimutransManager from "../managers/SimutransManager";
 
 export default class Serve {
   static watchExt = ['dat', 'png', 'js', 'tab'];
-  protected source: string
-  protected output: string
-  private paklib?: string;
+  private source: string
+  private output: string
+  private paklib: string;
   private simutransjManager: SimutransManager
-  protected makeobj: Makeobj
+  private makeobj: Makeobj
   private builder: Builder
 
   public constructor({ definition, source, output, paklib }: serveCommandOption) {

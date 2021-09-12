@@ -10,13 +10,13 @@ import ImageManager from '../managers/ImageManager';
 import { logger } from '../util';
 
 export class Builder {
-  private definition: string
-  protected source: string
-  protected output: string
-  private changedFile: string
+  private definition: string;
+  private source: string;
+  private output: string;
+  private changedFile: string;
 
   private imageManager: ImageManager
-  protected makeobj: Makeobj
+  private makeobj: Makeobj
 
   public constructor({ definition, source, output }: buildCommandOption) {
     this.definition = definition;
@@ -35,7 +35,7 @@ export class Builder {
     return await this.handleDefinitions();
   }
 
-  protected async handleDefinitions(): Promise<string[]> {
+  private async handleDefinitions(): Promise<string[]> {
     const definitions = this.loadDefinitions();
     const pakFiles = [];
     for (const definition of definitions) {
