@@ -64,4 +64,13 @@ module.exports = [
       'util/embankment/embankment5.png': ['util/embankment/embankment_base.png', 'util/embankment/embankment5.png', 'util/embankment/embankment_noise.png'],
     }
   },
+  {
+    size: 256,
+    pakFile: 'iss_util_sidewalk.pak',
+    datFiles: ['util/sidewalk/sidewalk.dat'],
+    imageSet: {
+      'icon.png': ['icon.png', 'icon_erase.png'],
+      'util/sidewalk/sidewalk.png': ['util/sidewalk/sidewalk.png'],
+    }
+  },
 ];
