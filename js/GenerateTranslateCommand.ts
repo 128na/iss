@@ -1,24 +1,27 @@
-import templateTranslate from './templates/translate';
+import fs from 'fs-extra';
 import { Command } from 'commander';
-import { ListingCommandOption } from './interface';
-import { AddonCommandBase } from './AddonCommandBase';
+import { AddonCommandOption, definitionWithDat } from './interface';
+import { AddonCommandBase } from './libs/AddonCommandBase';
+import templateTranslate from './templates/translate';
+import { Dat, Obj } from 'simutrans-dat-parser';
 import { TRANSLATE_KEY, TRANSLATE_SEPALATOR } from './util';
-import { Obj } from 'simutrans-dat-parser';
 
 interface langs {
   [index: string]: string[][]
 }
 
 class GenerateTranslateCommand extends AddonCommandBase {
+
   public run() {
-    const langs = this.createData();
-    this.write(langs);
+    const data = this.createData();
+    this.render(data);
   }
 
   private createData(): langs {
-    return this.parsed
-      .flatMap(({ dat }): Obj[] => dat.objs)
-      .map((obj) => {
+    return this.loadDefinitions()
+      .flatMap((def) => def.datFiles.map(d => d.dat))
+      .flatMap((dat): Obj[] => dat.objs)
+      .map(obj => {
         return {
           name: obj.findParam('name')?.value || '',
           langs: obj.comments
@@ -37,11 +40,12 @@ class GenerateTranslateCommand extends AddonCommandBase {
       }, {});
   }
 
-  private write(langs: langs) {
+  private render(langs: langs) {
     for (const [lang, texts] of Object.entries(langs)) {
       const content = templateTranslate(lang, texts);
       const filename = `${this.output}/${lang}.iss.tab`;
-      this.fileReader.writeFile(filename, content);
+      fs.ensureFileSync(filename);
+      fs.writeFileSync(filename, content);
     }
   }
 }
@@ -51,7 +55,7 @@ runner
   .description('obj一覧を出力します。')
   .option('-s, --source <directory>', 'Source directory path', './src')
   .option('-o, --output <directory>', 'Output directory path', './src/text')
-  .action((options: ListingCommandOption) => {
+  .action((options: AddonCommandOption) => {
     const command = new GenerateTranslateCommand(options);
     try {
       command.run();

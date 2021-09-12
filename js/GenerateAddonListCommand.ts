@@ -1,37 +1,16 @@
-import templateAddons from './templates/addons';
-import { Command } from 'commander';
-import { definition, definitionWithDat, ListingCommandOption, parsedObj } from './interface';
-import { TRANSLATE_KEY } from './util';
 import path from 'path';
 import fs from 'fs-extra';
-import { Dat } from 'simutrans-dat-parser';
-import addons from './templates/addons';
+import { Command } from 'commander';
+import { AddonCommandOption, definitionWithDat } from './interface';
+import { AddonCommandBase } from './libs/AddonCommandBase';
+import templateAddons from './templates/addons';
 
-class GenerateAddonListCommand {
-  private output: string
-
-  public constructor({ output }: ListingCommandOption) {
-    this.output = output;
-  }
-
+class GenerateAddonListCommand extends AddonCommandBase {
   public run() {
-    const filepath = path.resolve(process.cwd(), './src/definitions.js');
-    const definitions: definition[] = require(filepath);
-
-    const data = definitions.map(def => Object.assign(def, {
-      datFiles: def.datFiles.map(this.parseDatFile)
-    }));
     this.copyIconImage();
 
+    const data = this.loadDefinitions();
     this.render(data);
-  }
-
-  private parseDatFile(datFile: string): { datFile: string, dat: Dat } {
-    const filepath = path.resolve(process.cwd(), './src', datFile);
-    return {
-      datFile,
-      dat: new Dat(fs.readFileSync(filepath).toString())
-    }
   }
 
   private copyIconImage(): void {
@@ -41,17 +20,17 @@ class GenerateAddonListCommand {
 
   }
 
-  private render(data: definitionWithDat[]) {
-    fs.writeFileSync(this.output, addons(data));
+  private render(data: definitionWithDat[]): void {
+    fs.ensureFileSync(this.output);
+    fs.writeFileSync(this.output, templateAddons(data));
   }
-
 }
 
 const runner = new Command('build');
 runner
   .description('obj一覧を出力します。')
   .option('-o, --output <directory>', 'Output directory path', './docs/addons/index.md')
-  .action((options: ListingCommandOption) => {
+  .action((options: AddonCommandOption) => {
     const command = new GenerateAddonListCommand(options);
     try {
       command.run();
