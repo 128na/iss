@@ -53,7 +53,7 @@ export class Builder {
   private async handleDefinition(definition: definition): Promise<string> {
     if (!this.shouldBuild(definition)) {
       logger('skip build', definition.pakFile);
-      return definition.pakFile;
+      return `${this.output}/${definition.pakFile}`;
     }
 
     logger('build', definition.pakFile);
