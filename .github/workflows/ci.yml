@@ -44,7 +44,7 @@ jobs:
         run: npm ci && npm run prod
 
       - name: make release file
-        run: cp README.md ./dist && cp LICENSE ./dist && cp -r ./docs ./dist && zip -r release.zip ./dist
+        run: cp LICENSE ./dist && cp -r ./docs ./dist && zip -r release.zip ./dist
 
       - name: Release
         uses: softprops/action-gh-release@v1

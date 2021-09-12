@@ -1,8 +1,7 @@
 # Infrastructure of Sorenarini Soreppoi series
+それなりにそれっぽいインフラアドオン集
 
-![thumbnail](./docs/thumbnail.png)
-
-それなりにそれっぽい感じのインフラアドオンになる予定（未定
+![thumbnail](./thumbnail.png)
 
 ## 導入
 
@@ -14,6 +13,12 @@ https://github.com/128na/iss/releases
   - `dist/pak***/***.pak` -> `addons/pak***/`
 - 翻訳ファイル（日本語、英語のみ対応）
   - `dist/text/***.tab` -> `addons/pak***/text/***.tab`
+
+## 資料
+
+- [アドオン一覧](./addons)
+- [建設テクニック集](./technique)
+- [仕様書](./spec)
 
 
 ## リリースバージョン
@@ -36,12 +41,6 @@ https://github.com/wa-st/resizeobj/releases/tag/v1.6.0
 ```
 resizeobj.exe -W=128 iss*.pak
 ```
-
-## 資料
-
-- [アドオン一覧](./docs/addons.md)
-- [建設テクニック集](./docs/technique.md)
-- [仕様書](./docs/spec.md)
 
 
 ## 開発者向け

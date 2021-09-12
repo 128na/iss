@@ -51,7 +51,7 @@ runner
   .description('obj一覧を出力します。')
   .option('-f, --format <format>', 'Output format', 'markdown')
   .option('-s, --source <directory>', 'Source directory path', './src')
-  .option('-o, --output <directory>', 'Output directory path', './docs/addons.md')
+  .option('-o, --output <directory>', 'Output directory path', './www/addons/index.md')
   .action((options: ListingCommandOption) => {
     const command = new GenerateAddonListCommand(options);
     try {
