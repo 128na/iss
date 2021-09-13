@@ -1,5 +1,3 @@
-# @text ja:[トンネル] 高速道路
-# @text en:[Tunnel] Expressway
 obj=way
 name=iss_wru_0120
 copyright=128na
@@ -41,8 +39,6 @@ diagonal[nw]=0120_under.9.1,-64,-96
 diagonal[ne]=0120_under.9.2,-64,-96
 diagonal[se]=0120_under.9.3,-64,-96
 ---
-# @text ja:[トンネル] 高速道路
-# @text en:[Tunnel] Expressway
 obj=way
 name=iss_wru_1200
 copyright=128na
