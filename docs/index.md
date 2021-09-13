@@ -7,7 +7,8 @@
 
 以下のリリース一覧から `release.zip` をダウンロードし、解凍したファイルを指定フォルダにコピーして下さい。
 
-https://github.com/128na/iss/releases
+[https://github.com/128na/iss/releases](https://github.com/128na/iss/releases)
+
 
 - アドオン本体
   - `dist/pak***/***.pak` -> `addons/pak***/`
@@ -27,7 +28,8 @@ https://github.com/128na/iss/releases
 ## 64で使用する場合
 
 waさん作成の `resizeobj` （v1.6以上）を使用することで64用に変換できます。
-https://github.com/wa-st/resizeobj/releases/tag/v1.6.0
+[https://github.com/wa-st/resizeobj/releases/tag/v1.6.0](https://github.com/wa-st/resizeobj/releases/tag/v1.6.0)
+
 
 内部的には256サイズでpak化されているため、返還後のサイズには128を指定します。
 ```
