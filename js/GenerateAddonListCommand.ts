@@ -2,14 +2,22 @@ import path from 'path';
 import fs from 'fs-extra';
 import { Command } from 'commander';
 import { AddonCommandOption, definitionWithDat } from './interface';
-import { AddonCommandBase } from './libs/AddonCommandBase';
+import { DefinitionLoader } from './libs/DefinitionLoader';
 import templateAddons from './templates/addons';
 
-class GenerateAddonListCommand extends AddonCommandBase {
+class GenerateAddonListCommand {
+  private output: string
+  private definitionLoader: DefinitionLoader
+
+  public constructor({ output }: AddonCommandOption) {
+    this.output = output;
+    this.definitionLoader = new DefinitionLoader();
+  }
+
   public run() {
     this.copyIconImage();
 
-    const data = this.loadDefinitions();
+    const data = this.definitionLoader.loadWithDat();
     this.render(data);
   }
 

@@ -1,16 +1,23 @@
 import fs from 'fs-extra';
 import { Command } from 'commander';
-import { AddonCommandOption, definitionWithDat } from './interface';
-import { AddonCommandBase } from './libs/AddonCommandBase';
+import { AddonCommandOption } from './interface';
+import { DefinitionLoader } from './libs/DefinitionLoader';
 import templateTranslate from './templates/translate';
-import { Dat, Obj } from 'simutrans-dat-parser';
+import { Obj } from 'simutrans-dat-parser';
 import { TRANSLATE_KEY, TRANSLATE_SEPALATOR } from './util';
 
 interface langs {
   [index: string]: string[][]
 }
 
-class GenerateTranslateCommand extends AddonCommandBase {
+class GenerateTranslateCommand {
+  private output: string
+  private definitionLoader: DefinitionLoader
+
+  public constructor({ output }: AddonCommandOption) {
+    this.output = output;
+    this.definitionLoader = new DefinitionLoader();
+  }
 
   public run() {
     const data = this.createData();
@@ -18,7 +25,7 @@ class GenerateTranslateCommand extends AddonCommandBase {
   }
 
   private createData(): langs {
-    return this.loadDefinitions()
+    return this.definitionLoader.loadWithDat()
       .flatMap((def) => def.datFiles.map(d => d.dat))
       .flatMap((dat): Obj[] => dat.objs)
       .map(obj => {

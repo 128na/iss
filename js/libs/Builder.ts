@@ -1,13 +1,12 @@
 require('dotenv').config();
 
 import fs from 'fs-extra';
-import path from 'path';
 import { Makeobj } from 'simutrans-makeobj-wrapper';
-const reload = require('require-reload')(require);
 
 import { buildCommandOption, definition } from "../interface";
 import ImageManager from '../managers/ImageManager';
 import { logger } from '../util';
+import { DefinitionLoader } from './DefinitionLoader';
 
 export class Builder {
   private definition: string;
@@ -18,6 +17,7 @@ export class Builder {
 
   private imageManager: ImageManager
   private makeobj: Makeobj
+  private definitionLoader: DefinitionLoader
 
   public constructor({ definition, source, output }: buildCommandOption) {
     this.definition = definition;
@@ -26,6 +26,7 @@ export class Builder {
     this.output = output;
     this.imageManager = new ImageManager();
     this.makeobj = new Makeobj(process.env.MAKEOBJ_PATH);
+    this.definitionLoader = new DefinitionLoader();
   }
 
   public async run(changedFile?: string): Promise<string[]> {
@@ -38,18 +39,12 @@ export class Builder {
   }
 
   private async handleDefinitions(): Promise<string[]> {
-    const definitions = this.loadDefinitions();
+    const definitions = this.definitionLoader.load(this.definition);
     const pakFiles = [];
     for (const definition of definitions) {
       pakFiles.push(await this.handleDefinition(definition));
     }
     return pakFiles;
-  }
-
-  private loadDefinitions(): definition[] {
-    const def = path.resolve(process.cwd(), this.definition);
-    logger('loadDefinitions', def);
-    return reload(def);
   }
 
   private async handleDefinition(definition: definition): Promise<string> {
