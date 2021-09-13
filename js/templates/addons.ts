@@ -28,6 +28,10 @@ const renderDat = ({ datFile, dat }: { datFile: string, dat: Dat }): string =>
     <th>obj</th>
     <th>waytype</th>
     <th>system_type</th>
+    <th>購入費</th>
+    <th>維持費</th>
+    <th>登場年月</th>
+    <th>引退年月</th>
   </thead>
   <tbody>
   ${dat.objs.map(renderObj).join('\n')}
@@ -42,7 +46,11 @@ const renderObj = (obj: Obj): string =>
   <td>${obj.obj}</td>
   <td>${obj.findParam('waytype')?.value || 'N/A'}</td>
   <td>${obj.findParam('system_type')?.value || 'N/A'}</td>
-</tr>`;
+  <td>${obj.findParam('cost')?.value || 'N/A'}</td>
+  <td>${obj.findParam('maintenance')?.value || 'N/A'}</td>
+  <td>${obj.findParam('intro_year')?.value || '?'}/${obj.findParam('intro_month')?.value || '?'}</td>
+  <td>${obj.findParam('retire_year')?.value || '?'}/${obj.findParam('retire_month')?.value || '?'}</td>
+  </tr>`;
 
 const renderIcon = (obj: Obj): string => {
   const icon = obj.findParam('icon');
