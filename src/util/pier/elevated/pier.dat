@@ -149,7 +149,7 @@ frontdiagonal[se]=pier2.7.7,-64,-64
 # @text ja:[高架] 橋脚３
 # @text en:[Elevated] Pier type 3
 obj=way
-name=iss_wtg_pier3
+name=iss_wte_pier3
 copyright=128na
 intro_year=1900
 intro_month=1
