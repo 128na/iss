@@ -5,8 +5,8 @@ const reload = require('require-reload')(require);
   imageSet: {obj.name}/{waytype.name}/something
  */
 
-module.exports = [
+module.exports = (() => [
   ...reload('./definitions/road'),
   ...reload('./definitions/rail'),
   ...reload('./definitions/util'),
-];
+])();

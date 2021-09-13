@@ -22,11 +22,16 @@ module.exports = [
   {
     size: 256,
     pakFile: 'iss_road_tunnel.pak',
-    datFiles: ['road/tunnel/tunnel.dat'],
+    datFiles: [
+      'road/tunnel/tunnel.dat',
+      'road/tunnel/underground.dat',
+    ],
     imageSet: {
       'icon.png': ['icon.png', 'icon_erase.png'],
       'road/tunnel/1200.png': ['road/tunnel/1200_base.png', 'road/tunnel/1200.png', 'road/tunnel/1200_noise.png'],
       'road/tunnel/0120.png': ['road/tunnel/0120_base.png', 'road/tunnel/0120.png', 'road/tunnel/0120_noise.png'],
+      'road/tunnel/0120_under.png': ['road/tunnel/0120_under_base.png', 'road/tunnel/0120_under.png', 'road/tunnel/0120_under_noise.png'],
+      'road/tunnel/1200_under.png': ['road/tunnel/1200_under_base.png', 'road/tunnel/1200_under.png', 'road/tunnel/1200_under_noise.png'],
     }
   },
   {

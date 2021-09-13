@@ -27,7 +27,7 @@ const renderDat = ({ datFile, dat }: { datFile: string, dat: Dat }): string =>
     <th>翻訳</th>
     <th>obj</th>
     <th>waytype</th>
-    <th>syste_type</th>
+    <th>system_type</th>
   </thead>
   <tbody>
   ${dat.objs.map(renderObj).join('\n')}
@@ -41,7 +41,7 @@ const renderObj = (obj: Obj): string =>
   <td>${renderTranslate(obj)}</td>
   <td>${obj.obj}</td>
   <td>${obj.findParam('waytype')?.value || 'N/A'}</td>
-  <td>${obj.findParam('syste_type')?.value || 'N/A'}</td>
+  <td>${obj.findParam('system_type')?.value || 'N/A'}</td>
 </tr>`;
 
 const renderIcon = (obj: Obj): string => {
