@@ -7,7 +7,8 @@ export class DefinitionLoader {
 
   public load(definitionpath?: string): definition[] {
     const filepath = path.resolve(process.cwd(), definitionpath || './src/definitions.js');
-    return require(filepath);
+    const reload = require('require-reload')(require);
+    return reload(filepath);
   }
 
   public loadWithDat(): definitionWithDat[] {

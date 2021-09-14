@@ -33,9 +33,9 @@ additional
 
 ゲーム内での表示名はメニューでの視認性を優先する。
 
-- `[{system_type.name?}] {_additional?} (iss_{obj.ID}{waytype.ID?})`
+- `[{system_type.name?}] {_additional?}`
 
-例 120km/hモノレール高架軌道 `[高架] 鋼製橋脚 (iss_wme_0120_pier_type_2)`
+例 120km/hモノレール高架軌道 `[高架] 鋼製橋脚`
 
 
 ### pakファイル
@@ -55,8 +55,15 @@ additional
 
 管理しやすい名称でよい。
 
+## 諸元
+
+- [way](./way)
+
 ## appendix
 補足資料
+
+
+
 
 ### Category
 
