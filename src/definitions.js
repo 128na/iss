@@ -70,7 +70,7 @@ module.exports = [
       'rail/ground/track_brown.dat',
     ],
     imageSet: {
-      'icon1.png': ['icon1.png', 'icon_erase.png'],
+      'icon2.png': ['icon2.png', 'icon_erase.png'],
       'rail/ground/narrow.png': ['rail/ground/narrow.png'],
       'rail/ground/standard.png': ['rail/ground/standard.png'],
       'rail/ground/standard_brown_center.png': ['rail/ground/barrast_brown.png', 'rail/ground/barrast_noise.png', 'rail/ground/barrast_noise2.png', 'rail/ground/standard_brown.png', 'rail/ground/erase_center.png',],
