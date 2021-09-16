@@ -57,8 +57,8 @@ const renderIcon = (obj: Obj): string => {
   if (!icon) {
     return 'N/A';
   }
-
-  const baseStyle = "width:32px;height:32px;background-image:url(./icon.png);";
+  const file = icon.valueVal.split('/').pop();
+  const baseStyle = `width:32px;height:32px;background-image:url(./${file}.png);`;
   const position = `background-position:left ${-icon.valueParams[1] * 256}px top ${-icon.valueParams[0] * 256}px`;
   return `<div style="${baseStyle}${position}"></div>`;
 };

@@ -30,7 +30,7 @@ export class Builder {
   }
 
   public async run(changedFile?: string): Promise<string[]> {
-    this.changedFile = changedFile || '';
+    this.changedFile = changedFile?.includes(this.definition) ? '' : changedFile || '';
     this.mergedImages = [];
     if (!this.changedFile) {
       fs.emptyDirSync(this.output);

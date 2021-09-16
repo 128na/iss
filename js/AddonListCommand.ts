@@ -22,10 +22,12 @@ class GenerateAddonListCommand {
   }
 
   private copyIconImage(): void {
-    const src = path.resolve(process.cwd(), './src/icon.png');
-    const dest = path.resolve(path.dirname(this.output), './icon.png');
-    fs.copyFileSync(src, dest);
-
+    const icons = ['icon1.png', 'icon2.png'];
+    icons.map(icon => {
+      const src = path.resolve(process.cwd(), `./src/${icon}`);
+      const dest = path.resolve(path.dirname(this.output), `./${icon}`);
+      fs.copyFileSync(src, dest);
+    });
   }
 
   private render(data: definitionWithDat[]): void {

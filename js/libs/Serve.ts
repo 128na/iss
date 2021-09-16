@@ -29,7 +29,7 @@ export default class Serve {
   public async run() {
     const target = Serve.watchExt.map(ext => `${this.source}/**/*.${ext}`);
     watcher(target, async (file) => {
-      file = file?.replace(/\\/gi, '/').replace(this.source, '')
+      file = file?.replace(/\\/gi, '/').replace(this.source, '');
       logger('changed file', { file });
       const pakFiles = await this.builder.run(file);
       const mergePakFile = this.merge(pakFiles);
