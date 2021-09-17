@@ -66,26 +66,35 @@ module.exports = [
     datFiles: [
       'rail/way/narrow.dat',
       'rail/way/tram.dat',
-      'rail/way/track_brown.dat',
-      'rail/way/track_gray.dat',
+      'rail/way/track_wood.dat',
+      'rail/way/track_concrete.dat',
       'rail/way/track_ladder.dat',
+      'rail/way/track_ffu.dat',
     ],
     imageSet: {
       'icon2.png': ['icon2.png', 'icon_erase.png'],
       'rail/way/narrow.png': ['rail/way/narrow.png'],
       'rail/way/standard.png': ['rail/way/standard.png'],
-      'rail/way/standard_brown_single.png': ['rail/way/barrast_brown.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_brown.png', 'rail/way/erase_single.png'],
-      'rail/way/standard_brown_front.png': ['rail/way/barrast_brown.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_brown.png', 'rail/way/erase_front.png'],
-      'rail/way/standard_brown_center.png': ['rail/way/barrast_brown.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_brown.png', 'rail/way/erase_center.png'],
-      'rail/way/standard_brown_back.png': ['rail/way/barrast_brown.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_brown.png', 'rail/way/erase_back.png'],
-      'rail/way/standard_gray_single.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_gray.png', 'rail/way/erase_single.png'],
-      'rail/way/standard_gray_front.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_gray.png', 'rail/way/erase_front.png'],
-      'rail/way/standard_gray_center.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_gray.png', 'rail/way/erase_center.png'],
-      'rail/way/standard_gray_back.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_gray.png', 'rail/way/erase_back.png'],
+      'rail/way/standard_wood_single.png': ['rail/way/barrast_brown.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_wood.png', 'rail/way/erase_single.png'],
+      'rail/way/standard_wood_front.png': ['rail/way/barrast_brown.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_wood.png', 'rail/way/erase_front.png'],
+      'rail/way/standard_wood_center.png': ['rail/way/barrast_brown.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_wood.png', 'rail/way/erase_center.png'],
+      'rail/way/standard_wood_back.png': ['rail/way/barrast_brown.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_wood.png', 'rail/way/erase_back.png'],
+      'rail/way/standard_concrete_single.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_concrete.png', 'rail/way/erase_single.png'],
+      'rail/way/standard_concrete_front.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_concrete.png', 'rail/way/erase_front.png'],
+      'rail/way/standard_concrete_center.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_concrete.png', 'rail/way/erase_center.png'],
+      'rail/way/standard_concrete_back.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_concrete.png', 'rail/way/erase_back.png'],
+      'rail/way/standard_ffu_single.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_ffu.png', 'rail/way/erase_single.png'],
+      'rail/way/standard_ffu_front.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_ffu.png', 'rail/way/erase_front.png'],
+      'rail/way/standard_ffu_center.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_ffu.png', 'rail/way/erase_center.png'],
+      'rail/way/standard_ffu_back.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_ffu.png', 'rail/way/erase_back.png'],
       'rail/way/standard_ladder_single.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_ladder.png', 'rail/way/erase_single.png'],
       'rail/way/standard_ladder_front.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_ladder.png', 'rail/way/erase_front.png'],
       'rail/way/standard_ladder_center.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_ladder.png', 'rail/way/erase_center.png'],
       'rail/way/standard_ladder_back.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_ladder.png', 'rail/way/erase_back.png'],
+      // 'rail/way/standard_slab_single.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_slab.png', 'rail/way/erase_single.png'],
+      // 'rail/way/standard_slab_front.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_slab.png', 'rail/way/erase_front.png'],
+      // 'rail/way/standard_slab_center.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_slab.png', 'rail/way/erase_center.png'],
+      // 'rail/way/standard_slab_back.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_slab.png', 'rail/way/erase_back.png'],
     }
   },
   {
@@ -154,6 +163,15 @@ module.exports = [
     imageSet: {
       'icon1.png': ['icon1.png', 'icon_erase.png'],
       'util/sidewalk/sidewalk.png': ['util/sidewalk/sidewalk.png'],
+    }
+  },
+  {
+    size: 512,
+    pakFile: 'iss_util_gently-point.pak',
+    datFiles: ['util/gently-point/point.dat'],
+    imageSet: {
+      'icon3.png': ['icon3.png', 'icon_erase.png'],
+      'util/gently-point/point.png': ['util/gently-point/point_barrast.png', 'util/gently-point/point_noise1.png', 'util/gently-point/point_noise2.png', 'util/gently-point/point.png', 'util/gently-point/point_erase.png'],
     }
   },
 ];
