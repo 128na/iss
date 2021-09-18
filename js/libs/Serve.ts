@@ -7,12 +7,13 @@ import SimutransManager from "../managers/SimutransManager";
 
 export default class Serve {
   static watchExt = ['dat', 'png', 'js', 'tab'];
-  private source: string
-  private output: string
+  private source: string;
+  private output: string;
   private paklib: string;
-  private simutransjManager: SimutransManager
-  private makeobj: Makeobj
-  private builder: Builder
+  private simutransjManager: SimutransManager;
+  private makeobj: Makeobj;
+  private builder: Builder;
+  private successFirstTime = false;
 
   public constructor({ definition, source, output, paklib }: serveCommandOption) {
     this.builder = new Builder({ definition, source, output });
@@ -29,13 +30,21 @@ export default class Serve {
   public async run() {
     const target = Serve.watchExt.map(ext => `${this.source}/**/*.${ext}`);
     watcher(target, async (file) => {
-      file = file?.replace(/\\/gi, '/').replace(this.source, '');
       logger('changed file', { file });
-      const pakFiles = await this.builder.run(file);
+      const pakFiles = await this.builder.run(this.handleFile(file));
       const mergePakFile = this.merge(pakFiles);
       this.copyToPakDirectory(mergePakFile);
       this.reRunSimutrans();
+      this.successFirstTime = true;
     });
+  }
+
+  private handleFile(file: string): string | undefined {
+    if (!this.successFirstTime) {
+      return undefined;
+    }
+    file = file?.replace(/\\/gi, '/').replace(this.source, '');
+    return file;
   }
 
   private merge(pakFiles: string[]): string {
