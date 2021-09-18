@@ -100,6 +100,21 @@ module.exports = [
   },
   {
     size: 256,
+    pakFile: 'iss_maglev.pak',
+    datFiles: [
+      'maglev/way/maglev.dat',
+      'maglev/way/linear.dat',
+    ],
+    imageSet: {
+      'icon2.png': ['icon2.png', 'icon_erase.png'],
+      'maglev/way/maglev_g.png': ['maglev/way/maglev_g.png'],
+      'maglev/way/maglev_e.png': ['maglev/way/maglev_e.png'],
+      'maglev/way/linear_front.png': ['maglev/way/linear_front.png'],
+      'maglev/way/linear_back.png': ['maglev/way/linear_back.png'],
+    }
+  },
+  {
+    size: 256,
     pakFile: 'iss_util_round-about.pak',
     datFiles: ['util/round-about/round_about.dat'],
     imageSet: {
