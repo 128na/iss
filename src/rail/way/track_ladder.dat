@@ -1,7 +1,7 @@
 # @text ja:[地上] フローティングラダー軌道（単線用）
 # @text en:[ground] Floating ladder barrast track (single track)
 obj=way
-name=iss_wtg_0480_ladder_single
+name=iss_wtg_0360_ladder_single
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -10,7 +10,7 @@ retire_month=1
 waytype=track
 cost=150000
 maintenance=3000
-topspeed=480
+topspeed=360
 system_type=0
 icon=> ../../icon2.2.0
 cursor=standard_ladder_single.1.0,-64,-104
@@ -58,7 +58,7 @@ image[nsew2][0]=standard_ladder_single.7.9,-64,-96
 # @text ja:[地上] フローティングラダー軌道（複線手前用）
 # @text en:[ground] Floating ladder barrast track (front side of multiple track)
 obj=way
-name=iss_wtg_0480_ladder_front
+name=iss_wtg_0360_ladder_front
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -67,7 +67,7 @@ retire_month=1
 waytype=track
 cost=150000
 maintenance=3000
-topspeed=480
+topspeed=360
 system_type=0
 icon=> ../../icon2.2.1
 cursor=standard_ladder_front.1.0,-64,-104
@@ -115,7 +115,7 @@ image[nsew2][0]=standard_ladder_front.7.4,-64,-96
 # @text ja:[地上] フローティングラダー軌道（複線中央用）
 # @text en:[ground] Floating ladder barrast track (center of multiple track)
 obj=way
-name=iss_wtg_0480_ladder_center
+name=iss_wtg_0360_ladder_center
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -124,7 +124,7 @@ retire_month=1
 waytype=track
 cost=150000
 maintenance=3000
-topspeed=480
+topspeed=360
 system_type=0
 icon=> ../../icon2.2.2
 cursor=standard_ladder_center.1.0,-64,-104
@@ -162,7 +162,7 @@ image[nsew][0]=standard_ladder_center.5.4,-64,-96
 # @text ja:[地上] フローティングラダー軌道（複線奥用）
 # @text en:[ground] Floating ladder barrast track (back side of multiple track)
 obj=way
-name=iss_wtg_0480_ladder_back
+name=iss_wtg_0360_ladder_back
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -171,7 +171,7 @@ retire_month=1
 waytype=track
 cost=150000
 maintenance=3000
-topspeed=480
+topspeed=360
 system_type=0
 icon=> ../../icon2.2.3
 cursor=standard_ladder_back.1.0,-64,-104
@@ -219,7 +219,7 @@ image[nsew2][0]=standard_ladder_back.7.4,-64,-96
 # @text ja:[高架] フローティングラダー軌道（単線用）
 # @text en:[elevated] Floating ladder barrast track (single track)
 obj=way
-name=iss_wte_0480_ladder_single
+name=iss_wte_0360_ladder_single
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -228,7 +228,7 @@ retire_month=1
 waytype=track
 cost=300000
 maintenance=6000
-topspeed=480
+topspeed=360
 system_type=1
 icon=> ../../icon2.3.0
 cursor=standard_ladder_single.1.0,-64,-104
@@ -276,7 +276,7 @@ image[nsew2][0]=standard_ladder_single.7.9,-64,-96
 # @text ja:[高架] フローティングラダー軌道（複線手前用）
 # @text en:[elevated] Floating ladder barrast track (front side of multiple track)
 obj=way
-name=iss_wte_0480_ladder_front
+name=iss_wte_0360_ladder_front
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -285,7 +285,7 @@ retire_month=1
 waytype=track
 cost=300000
 maintenance=6000
-topspeed=480
+topspeed=360
 system_type=1
 icon=> ../../icon2.3.1
 cursor=standard_ladder_front.1.0,-64,-104
@@ -333,7 +333,7 @@ image[nsew2][0]=standard_ladder_front.7.4,-64,-96
 # @text ja:[高架] フローティングラダー軌道（複線中央用）
 # @text en:[elevated] Floating ladder barrast track (center of multiple track)
 obj=way
-name=iss_wte_0480_ladder_center
+name=iss_wte_0360_ladder_center
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -342,7 +342,7 @@ retire_month=1
 waytype=track
 cost=300000
 maintenance=6000
-topspeed=480
+topspeed=360
 system_type=1
 icon=> ../../icon2.3.2
 cursor=standard_ladder_center.1.0,-64,-104
@@ -380,7 +380,7 @@ image[nsew][0]=standard_ladder_center.5.4,-64,-96
 # @text ja:[高架] フローティングラダー軌道（複線奥用）
 # @text en:[elevated] Floating ladder barrast track (back side of multiple track)
 obj=way
-name=iss_wte_0480_ladder_back
+name=iss_wte_0360_ladder_back
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -389,7 +389,7 @@ retire_month=1
 waytype=track
 cost=300000
 maintenance=6000
-topspeed=480
+topspeed=360
 system_type=1
 icon=> ../../icon2.3.3
 cursor=standard_ladder_back.1.0,-64,-104

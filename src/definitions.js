@@ -70,6 +70,7 @@ module.exports = [
       'rail/way/track_concrete.dat',
       'rail/way/track_ladder.dat',
       'rail/way/track_ffu.dat',
+      'rail/way/track_slab.dat',
     ],
     imageSet: {
       'icon2.png': ['icon2.png', 'icon_erase.png'],
@@ -91,10 +92,10 @@ module.exports = [
       'rail/way/standard_ladder_front.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_ladder.png', 'rail/way/erase_front.png'],
       'rail/way/standard_ladder_center.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_ladder.png', 'rail/way/erase_center.png'],
       'rail/way/standard_ladder_back.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_ladder.png', 'rail/way/erase_back.png'],
-      // 'rail/way/standard_slab_single.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_slab.png', 'rail/way/erase_single.png'],
-      // 'rail/way/standard_slab_front.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_slab.png', 'rail/way/erase_front.png'],
-      // 'rail/way/standard_slab_center.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_slab.png', 'rail/way/erase_center.png'],
-      // 'rail/way/standard_slab_back.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_slab.png', 'rail/way/erase_back.png'],
+      'rail/way/standard_slab_single.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_slab.png', 'rail/way/erase_single.png'],
+      'rail/way/standard_slab_front.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_slab.png', 'rail/way/erase_front.png'],
+      'rail/way/standard_slab_center.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_slab.png', 'rail/way/erase_center.png'],
+      'rail/way/standard_slab_back.png': ['rail/way/barrast_gray.png', 'rail/way/barrast_noise.png', 'rail/way/barrast_noise2.png', 'rail/way/standard_slab.png', 'rail/way/erase_back.png'],
     }
   },
   {
