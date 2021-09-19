@@ -11,12 +11,12 @@ module.exports = [
     datFiles: ['road/way/ground.dat', 'road/way/elevated.dat'],
     imageSet: {
       'icon1.png': ['icon1.png', 'icon_erase_color.png'],
-      'road/way/0030.png': ['road/way/0030_base.png', 'road/way/0030.png', 'road/way/0030_noise.png', 'road/way/overwrite.png'],
-      'road/way/0050.png': ['road/way/0050_base.png', 'road/way/0050.png', 'road/way/0050_noise.png', 'road/way/overwrite.png'],
-      'road/way/0060.png': ['road/way/0060_base.png', 'road/way/0060.png', 'road/way/0100_noise.png', 'road/way/overwrite.png'],
-      'road/way/0080.png': ['road/way/0100_base.png', 'road/way/0080.png', 'road/way/0100_noise.png', 'road/way/overwrite.png'],
-      'road/way/0120.png': ['road/way/0100_base.png', 'road/way/0120.png', 'road/way/0100_noise.png', 'road/way/overwrite.png'],
-      'road/way/1200.png': ['road/way/1200_base.png', 'road/way/1200.png', 'road/way/1200_noise.png', 'road/way/overwrite.png'],
+      'road/way/0030.png': ['road/way/0030_base.png', 'road/way/0030.png', 'road/way/0030_noise.png', 'road/way/erase_color.png'],
+      'road/way/0050.png': ['road/way/0050_base.png', 'road/way/0050.png', 'road/way/0050_noise.png', 'road/way/erase_color.png'],
+      'road/way/0060.png': ['road/way/0060_base.png', 'road/way/0060.png', 'road/way/0100_noise.png', 'road/way/erase_color.png'],
+      'road/way/0080.png': ['road/way/0100_base.png', 'road/way/0080.png', 'road/way/0100_noise.png', 'road/way/erase_color.png'],
+      'road/way/0120.png': ['road/way/0100_base.png', 'road/way/0120.png', 'road/way/0100_noise.png', 'road/way/erase_color.png'],
+      'road/way/1200.png': ['road/way/1200_base.png', 'road/way/1200.png', 'road/way/1200_noise.png', 'road/way/erase_color.png'],
     }
   },
   {
@@ -110,10 +110,10 @@ module.exports = [
       'maglev/way/transrapid_g.png': ['maglev/way/transrapid_g.png'],
       'maglev/way/transrapid_e.png': ['maglev/way/transrapid_e.png'],
 
-      'maglev/way/linear_single_back.png': ['maglev/way/linear_base.png', 'maglev/way/single_erase_color.png', 'maglev/way/linear_back.png'],
-      'maglev/way/linear_front_back.png': ['maglev/way/linear_base.png', 'maglev/way/front_erase_color.png', 'maglev/way/linear_back.png'],
-      'maglev/way/linear_center_back.png': ['maglev/way/linear_base.png', 'maglev/way/center_erase_color.png', 'maglev/way/linear_back.png'],
-      'maglev/way/linear_back_back.png': ['maglev/way/linear_base.png', 'maglev/way/back_erase_color.png', 'maglev/way/linear_back.png'],
+      'maglev/way/linear_single_back.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/single_erase_color.png', 'maglev/way/linear_back.png'],
+      'maglev/way/linear_front_back.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/front_erase_color.png', 'maglev/way/linear_back.png'],
+      'maglev/way/linear_center_back.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/center_erase_color.png', 'maglev/way/linear_back.png'],
+      'maglev/way/linear_back_back.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/back_erase_color.png', 'maglev/way/linear_back.png'],
       'maglev/way/linear_front.png': ['maglev/way/linear_front.png'],
     }
   },
@@ -145,12 +145,12 @@ module.exports = [
     ],
     imageSet: {
       'icon1.png': ['icon1.png', 'icon_erase_color.png'],
-      'util/pier/ground/pier1.png': ['util/pier/ground/pier1_base.png', 'util/pier/ground/pier1.png', 'util/pier/ground/pier1_noise.png', 'util/pier/ground/pier1_overwrite.png'],
-      'util/pier/ground/pier2.png': ['util/pier/ground/pier2_base.png', 'util/pier/ground/pier2.png', 'util/pier/ground/pier2_noise.png', 'util/pier/ground/pier2_overwrite.png'],
-      'util/pier/ground/pier3.png': ['util/pier/ground/pier3_base.png', 'util/pier/ground/pier3.png', 'util/pier/ground/pier3_noise.png', 'util/pier/ground/pier3_overwrite.png'],
-      'util/pier/elevated/pier1.png': ['util/pier/elevated/pier1_base.png', 'util/pier/elevated/pier1.png', 'util/pier/elevated/pier1_noise.png', 'util/pier/elevated/pier1_overwrite.png'],
-      'util/pier/elevated/pier2.png': ['util/pier/elevated/pier2_base.png', 'util/pier/elevated/pier2.png', 'util/pier/elevated/pier2_noise.png', 'util/pier/elevated/pier2_overwrite.png'],
-      'util/pier/elevated/pier3.png': ['util/pier/elevated/pier3_base.png', 'util/pier/elevated/pier3.png', 'util/pier/elevated/pier3_noise.png', 'util/pier/elevated/pier3_overwrite.png'],
+      'util/pier/ground/pier1.png': ['util/pier/ground/pier1_base.png', 'util/pier/ground/pier1.png', 'util/pier/ground/pier1_noise.png', 'util/pier/ground/pier1_erase_color.png'],
+      'util/pier/ground/pier2.png': ['util/pier/ground/pier2_base.png', 'util/pier/ground/pier2.png', 'util/pier/ground/pier2_noise.png', 'util/pier/ground/pier2_erase_color.png'],
+      'util/pier/ground/pier3.png': ['util/pier/ground/pier3_base.png', 'util/pier/ground/pier3.png', 'util/pier/ground/pier3_noise.png', 'util/pier/ground/pier3_erase_color.png'],
+      'util/pier/elevated/pier1.png': ['util/pier/elevated/pier1_base.png', 'util/pier/elevated/pier1.png', 'util/pier/elevated/pier1_noise.png', 'util/pier/elevated/pier1_erase_color.png'],
+      'util/pier/elevated/pier2.png': ['util/pier/elevated/pier2_base.png', 'util/pier/elevated/pier2.png', 'util/pier/elevated/pier2_noise.png', 'util/pier/elevated/pier2_erase_color.png'],
+      'util/pier/elevated/pier3.png': ['util/pier/elevated/pier3_base.png', 'util/pier/elevated/pier3.png', 'util/pier/elevated/pier3_noise.png', 'util/pier/elevated/pier3_erase_color.png'],
     }
   },
   {
@@ -159,7 +159,7 @@ module.exports = [
     datFiles: ['util/bridge/bridge.dat'],
     imageSet: {
       'icon1.png': ['icon1.png', 'icon_erase_color.png'],
-      'util/bridge/bridge1.png': ['util/bridge/bridge1_base_shift.png', 'util/bridge/bridge1_shift.png', 'util/bridge/bridge1_base_shift_noise.png', 'util/bridge/bridge1_overwrite.png', 'util/bridge/bridge1_special_color.png'],
+      'util/bridge/bridge1.png': ['util/bridge/bridge1_base_shift.png', 'util/bridge/bridge1_shift.png', 'util/bridge/bridge1_base_shift_noise.png', 'util/bridge/bridge1_erase_color.png', 'util/bridge/bridge1_special_color.png'],
       'util/bridge/bridge_cursor.png': ['util/bridge/bridge_cursor_base.png', 'util/bridge/bridge_cursor.png', 'util/bridge/bridge_cursor_noise.png'],
     }
   },
