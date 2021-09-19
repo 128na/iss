@@ -27,6 +27,7 @@ export default class ImageManager {
       }
     }
     if (canvas) {
+      // eraseTransparent(canvas, 0.5);
       this.write(output, canvas.toDataURL());
     }
   }
@@ -53,4 +54,20 @@ export default class ImageManager {
       fs.writeFileSync(filepath, canvas.toDataURL().replace(/^data:image\/png;base64,/, ''), 'base64');
     });
   }
+}
+
+function eraseTransparent(canvas: Canvas, threshold = 0.5): void {
+  const ctx = canvas.getContext('2d');
+  const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+  const data = imageData.data;
+  const t = 255 * threshold;
+  for (let i = 0; i < data.length; i += 4) {
+    if (data[i + 3] < t) {
+      data[i + 0] = 231;
+      data[i + 1] = 255;
+      data[i + 2] = 255;
+    }
+    data[i + 3] = 255;
+  }
+  ctx.putImageData(imageData, 0, 0);
 }
