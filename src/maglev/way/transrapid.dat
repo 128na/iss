@@ -1,4 +1,3 @@
----
 # @text ja:[地上] トランスラピッド軌道
 # @text en:[ground] Transrapid track
 obj=way
@@ -56,7 +55,6 @@ image[nse2][0]=transrapid_g.7.1,-64,-96
 image[sew2][0]=transrapid_g.7.2,-64,-96
 image[nsw2][0]=transrapid_g.7.3,-64,-96
 image[nsew2][0]=transrapid_g.7.4,-64,-96
----
 ---
 # @text ja:[高架] トランスラピッド軌道
 # @text en:[elevated] Transrapid track

@@ -104,6 +104,7 @@ module.exports = [
     datFiles: [
       'maglev/way/transrapid.dat',
       'maglev/way/linear.dat',
+      'maglev/way/marine.dat',
     ],
     imageSet: {
       'icon2.png': ['icon2.png', 'icon_erase_color.png'],
@@ -115,6 +116,9 @@ module.exports = [
       'maglev/way/linear_center_back.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/center_erase_color.png', 'maglev/way/linear_back.png'],
       'maglev/way/linear_back_back.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/back_erase_color.png', 'maglev/way/linear_back.png'],
       'maglev/way/linear_front.png': ['maglev/way/linear_front.png'],
+
+      'maglev/way/marine_g.png': ['maglev/way/marine_g.png'],
+      'maglev/way/marine_e.png': ['maglev/way/marine_e.png'],
     }
   },
   {
