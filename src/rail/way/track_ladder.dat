@@ -55,7 +55,7 @@ image[sew2][0]=standard_ladder_single.7.7,-64,-96
 image[nsw2][0]=standard_ladder_single.7.8,-64,-96
 image[nsew2][0]=standard_ladder_single.7.9,-64,-96
 ---
-# @text ja:[地上] フローティングラダー軌道（複線手前）
+# @text ja:[地上] フローティングラダー軌道（複線前）
 # @text en:[ground] Floating ladder barrast track (front side)
 obj=way
 name=iss_wtg_0360_ladder_front
@@ -112,7 +112,7 @@ image[sew2][0]=standard_ladder_front.7.2,-64,-96
 image[nsw2][0]=standard_ladder_front.7.3,-64,-96
 image[nsew2][0]=standard_ladder_front.7.4,-64,-96
 ---
-# @text ja:[地上] フローティングラダー軌道（複線中央）
+# @text ja:[地上] フローティングラダー軌道（複線中）
 # @text en:[ground] Floating ladder barrast track (center)
 obj=way
 name=iss_wtg_0360_ladder_center
@@ -273,7 +273,7 @@ image[sew2][0]=standard_ladder_single.7.7,-64,-96
 image[nsw2][0]=standard_ladder_single.7.8,-64,-96
 image[nsew2][0]=standard_ladder_single.7.9,-64,-96
 ---
-# @text ja:[高架] フローティングラダー軌道（複線手前）
+# @text ja:[高架] フローティングラダー軌道（複線前）
 # @text en:[elevated] Floating ladder barrast track (front side)
 obj=way
 name=iss_wte_0360_ladder_front
@@ -330,7 +330,7 @@ image[sew2][0]=standard_ladder_front.7.2,-64,-96
 image[nsw2][0]=standard_ladder_front.7.3,-64,-96
 image[nsew2][0]=standard_ladder_front.7.4,-64,-96
 ---
-# @text ja:[高架] フローティングラダー軌道（複線中央）
+# @text ja:[高架] フローティングラダー軌道（複線中）
 # @text en:[elevated] Floating ladder barrast track (center)
 obj=way
 name=iss_wte_0360_ladder_center

@@ -55,7 +55,7 @@ image[sew2][0]=standard_slab_single.7.7,-64,-96
 image[nsw2][0]=standard_slab_single.7.8,-64,-96
 image[nsew2][0]=standard_slab_single.7.9,-64,-96
 ---
-# @text ja:[地上] スラブ軌道（複線手前）
+# @text ja:[地上] スラブ軌道（複線前）
 # @text en:[ground] Slab barrast track (front side)
 obj=way
 name=iss_wtg_0360_slab_front
@@ -112,7 +112,7 @@ image[sew2][0]=standard_slab_front.7.2,-64,-96
 image[nsw2][0]=standard_slab_front.7.3,-64,-96
 image[nsew2][0]=standard_slab_front.7.4,-64,-96
 ---
-# @text ja:[地上] スラブ軌道（複線中央）
+# @text ja:[地上] スラブ軌道（複線中）
 # @text en:[ground] Slab barrast track (center)
 obj=way
 name=iss_wtg_0360_slab_center
@@ -273,7 +273,7 @@ image[sew2][0]=standard_slab_single.7.7,-64,-96
 image[nsw2][0]=standard_slab_single.7.8,-64,-96
 image[nsew2][0]=standard_slab_single.7.9,-64,-96
 ---
-# @text ja:[高架] スラブ軌道（複線手前）
+# @text ja:[高架] スラブ軌道（複線前）
 # @text en:[elevated] Slab barrast track (front side)
 obj=way
 name=iss_wte_0360_slab_front
@@ -330,7 +330,7 @@ image[sew2][0]=standard_slab_front.7.2,-64,-96
 image[nsw2][0]=standard_slab_front.7.3,-64,-96
 image[nsew2][0]=standard_slab_front.7.4,-64,-96
 ---
-# @text ja:[高架] スラブ軌道（複線中央）
+# @text ja:[高架] スラブ軌道（複線中）
 # @text en:[elevated] Slab barrast track (center)
 obj=way
 name=iss_wte_0360_slab_center

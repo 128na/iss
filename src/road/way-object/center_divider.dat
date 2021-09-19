@@ -71,7 +71,7 @@ frontdiagonal[nw]=-
 frontdiagonal[ne]=-
 frontdiagonal[se]=-
 ---
-# @text ja:中央分離帯（手前）
+# @text ja:中央分離帯（前）
 # @text en:Center divider (front side)
 obj=way-object
 name=iss_or_center_divider_front

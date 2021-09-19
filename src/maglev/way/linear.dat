@@ -93,7 +93,7 @@ frontimage[sew2][0]=linear_front.7.2,-64,-96
 frontimage[nsw2][0]=linear_front.7.3,-64,-96
 frontimage[nsew2][0]=linear_front.7.4,-64,-96
 ---
-# @text ja:[地上] 超電導リニア軌道（複線手前）
+# @text ja:[地上] 超電導リニア軌道（複線前）
 # @text en:[ground] Superconducting maglev track (front side)
 obj=way
 name=iss_wmg_1200_linear_front
@@ -187,7 +187,7 @@ frontimage[sew2][0]=linear_front.7.2,-64,-96
 frontimage[nsw2][0]=linear_front.7.3,-64,-96
 frontimage[nsew2][0]=linear_front.7.4,-64,-96
 ---
-# @text ja:[地上] 超電導リニア軌道（複線中央）
+# @text ja:[地上] 超電導リニア軌道（複線中）
 # @text en:[ground] Superconducting maglev track (center)
 obj=way
 name=iss_wmg_1200_linear_center
@@ -450,7 +450,7 @@ frontimage[sew2][0]=linear_front.7.2,-64,-96
 frontimage[nsw2][0]=linear_front.7.3,-64,-96
 frontimage[nsew2][0]=linear_front.7.4,-64,-96
 ---
-# @text ja:[高架] 超電導リニア軌道（複線手前）
+# @text ja:[高架] 超電導リニア軌道（複線前）
 # @text en:[elevated] Superconducting maglev track (front side)
 obj=way
 name=iss_wme_1200_linear_front
@@ -544,7 +544,7 @@ frontimage[sew2][0]=linear_front.7.2,-64,-96
 frontimage[nsw2][0]=linear_front.7.3,-64,-96
 frontimage[nsew2][0]=linear_front.7.4,-64,-96
 ---
-# @text ja:[高架] 超電導リニア軌道（複線中央）
+# @text ja:[高架] 超電導リニア軌道（複線中）
 # @text en:[elevated] Superconducting maglev track (center)
 obj=way
 name=iss_wme_1200_linear_center

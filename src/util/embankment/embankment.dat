@@ -40,7 +40,7 @@ image[nse]=embankment1.0.1,-64,-64
 image[sew]=embankment1.0.1,-64,-64
 image[nsw]=embankment1.0.1,-64,-64
 ---
-# @text ja:コンクリート法面（手前）
+# @text ja:コンクリート法面（前）
 # @text en:Concrete embankment(front side)
 obj=way
 name=iss_wte_embankment1-front
@@ -124,7 +124,7 @@ image[nse]=embankment1.4.1,-64,-64
 image[sew]=embankment1.4.1,-64,-64
 image[nsw]=embankment1.4.1,-64,-64
 ---
-# @text ja:コンクリート法面（手前、低）
+# @text ja:コンクリート法面（前、低）
 # @text en:Concrete embankment(front side, half height)
 obj=way
 name=iss_wte_embankment1-harf-front
@@ -208,7 +208,7 @@ image[nse]=embankment2.0.1,-64,-64
 image[sew]=embankment2.0.1,-64,-64
 image[nsw]=embankment2.0.1,-64,-64
 ---
-# @text ja:緑化コンクリート法面（手前）
+# @text ja:緑化コンクリート法面（前）
 # @text en:Grassy concrete embankment(front side)
 obj=way
 name=iss_wte_embankment2-front
@@ -292,7 +292,7 @@ image[nse]=embankment2.4.1,-64,-64
 image[sew]=embankment2.4.1,-64,-64
 image[nsw]=embankment2.4.1,-64,-64
 ---
-# @text ja:緑化コンクリート法面（手前、低）
+# @text ja:緑化コンクリート法面（前、低）
 # @text en:Grassy concrete embankment(front side, half height)
 obj=way
 name=iss_wte_embankment2-harf-front
@@ -376,7 +376,7 @@ image[nse]=embankment3.0.1,-64,-64
 image[sew]=embankment3.0.1,-64,-64
 image[nsw]=embankment3.0.1,-64,-64
 ---
-# @text ja:コンクリートブロック法面（手前）
+# @text ja:コンクリートブロック法面（前）
 # @text en:Concrete block embankment(front side)
 obj=way
 name=iss_wte_embankment3-front
@@ -460,7 +460,7 @@ image[nse]=embankment3.4.1,-64,-64
 image[sew]=embankment3.4.1,-64,-64
 image[nsw]=embankment3.4.1,-64,-64
 ---
-# @text ja:コンクリートブロック法面（手前、低）
+# @text ja:コンクリートブロック法面（前、低）
 # @text en:Concrete block embankment(front side, half height)
 obj=way
 name=iss_wte_embankment3-harf-front
@@ -544,7 +544,7 @@ image[nse]=embankment4.0.1,-64,-64
 image[sew]=embankment4.0.1,-64,-64
 image[nsw]=embankment4.0.1,-64,-64
 ---
-# @text ja:養生中緑化コンクリート法面（手前）
+# @text ja:養生中緑化コンクリート法面（前）
 # @text en:Curing grass concrete embankment(front side)
 obj=way
 name=iss_wte_embankment4-front
@@ -628,7 +628,7 @@ image[nse]=embankment4.4.1,-64,-64
 image[sew]=embankment4.4.1,-64,-64
 image[nsw]=embankment4.4.1,-64,-64
 ---
-# @text ja:養生中緑化コンクリート法面（手前、低）
+# @text ja:養生中緑化コンクリート法面（前、低）
 # @text en:Curing grass concrete embankment(front side, half height)
 obj=way
 name=iss_wte_embankment4-harf-front
@@ -712,7 +712,7 @@ image[nse]=embankment5.0.1,-64,-64
 image[sew]=embankment5.0.1,-64,-64
 image[nsw]=embankment5.0.1,-64,-64
 ---
-# @text ja:アンカーブロック法面（手前）
+# @text ja:アンカーブロック法面（前）
 # @text en:Anchor block embankment(front side)
 obj=way
 name=iss_wte_embankment5-front
@@ -796,7 +796,7 @@ image[nse]=embankment5.4.1,-64,-64
 image[sew]=embankment5.4.1,-64,-64
 image[nsw]=embankment5.4.1,-64,-64
 ---
-# @text ja:アンカーブロック法面（手前、低）
+# @text ja:アンカーブロック法面（前、低）
 # @text en:Anchor block embankment(front side, half height)
 obj=way
 name=iss_wte_embankment5-harf-front

@@ -144,7 +144,7 @@ frontdiagonal[nw]=-
 frontdiagonal[ne]=-
 frontdiagonal[se]=-
 ---
-# @text ja:側壁（手前）
+# @text ja:側壁（前）
 # @text en:Sound barrier(front side)
 obj=way-object
 name=iss_or_side_wall_front

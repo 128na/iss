@@ -55,7 +55,7 @@ image[sew2][0]=standard_concrete_single.7.7,-64,-96
 image[nsw2][0]=standard_concrete_single.7.8,-64,-96
 image[nsew2][0]=standard_concrete_single.7.9,-64,-96
 ---
-# @text ja:[地上] コンクリートまくらぎバラスト軌道（複線手前）
+# @text ja:[地上] コンクリートまくらぎバラスト軌道（複線前）
 # @text en:[ground] Concrete barrast track (front side)
 obj=way
 name=iss_wtg_0240_front
@@ -112,7 +112,7 @@ image[sew2][0]=standard_concrete_front.7.2,-64,-96
 image[nsw2][0]=standard_concrete_front.7.3,-64,-96
 image[nsew2][0]=standard_concrete_front.7.4,-64,-96
 ---
-# @text ja:[地上] コンクリートまくらぎバラスト軌道（複線中央）
+# @text ja:[地上] コンクリートまくらぎバラスト軌道（複線中）
 # @text en:[ground] Concrete barrast track (center)
 obj=way
 name=iss_wtg_0240_center
@@ -273,7 +273,7 @@ image[sew2][0]=standard_concrete_single.7.7,-64,-96
 image[nsw2][0]=standard_concrete_single.7.8,-64,-96
 image[nsew2][0]=standard_concrete_single.7.9,-64,-96
 ---
-# @text ja:[高架] コンクリートまくらぎバラスト軌道（複線手前）
+# @text ja:[高架] コンクリートまくらぎバラスト軌道（複線前）
 # @text en:[elevated] Concrete barrast track (front side)
 obj=way
 name=iss_wte_0240_front
@@ -330,7 +330,7 @@ image[sew2][0]=standard_concrete_front.7.2,-64,-96
 image[nsw2][0]=standard_concrete_front.7.3,-64,-96
 image[nsew2][0]=standard_concrete_front.7.4,-64,-96
 ---
-# @text ja:[高架] コンクリートまくらぎバラスト軌道（複線中央）
+# @text ja:[高架] コンクリートまくらぎバラスト軌道（複線中）
 # @text en:[elevated] Concrete barrast track (center)
 obj=way
 name=iss_wte_0240_center
