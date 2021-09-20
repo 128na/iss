@@ -1,7 +1,7 @@
 # @text ja:側壁（単）
-# @text en:Sound barrier (both sides)
+# @text en:Sound barrier (single)
 obj=way-object
-name=iss_or_side_wall_both
+name=iss_or_side_wall_single
 copyright=128na
 intro_year=1900
 intro_month=1
