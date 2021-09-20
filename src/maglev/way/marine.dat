@@ -1,5 +1,5 @@
 # @text ja:[地上] マリンエクスプレス軌道
-# @text en:[ground] Marine express track
+# @text en:[Ground] Marine express track
 obj=way
 name=iss_wmg_1200_marine
 copyright=128na
@@ -12,7 +12,6 @@ cost=500000
 maintenance=10000
 topspeed=1200
 system_type=0
-draw_as_ding=1
 icon=> ../../icon2.4.5
 cursor=marine_g.1.0,-64,-104
 frontimage[w][0]=marine_g.0.1,-64,-96
@@ -57,7 +56,7 @@ image[nsw2][0]=marine_g.7.3,-64,-96
 image[nsew2][0]=marine_g.7.4,-64,-96
 ---
 # @text ja:[高架] マリンエクスプレス軌道
-# @text en:[elevated] Marine express track
+# @text en:[Elevated] Marine express track
 obj=way
 name=iss_wme_1200_marine
 copyright=128na
@@ -70,7 +69,6 @@ cost=1000000
 maintenance=20000
 topspeed=1200
 system_type=1
-draw_as_ding=1
 icon=> ../../icon2.5.5
 cursor=marine_e.1.0,-64,-104
 frontimage[w][0]=marine_e.0.1,-64,-96

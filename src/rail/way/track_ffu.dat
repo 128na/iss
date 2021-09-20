@@ -1,5 +1,5 @@
-# @text ja:[地上] 合成樹脂まくらぎバラスト軌道（単線）
-# @text en:[ground] Fiber reinforced formed urethane barrast track (single track)
+# @text ja:[地上] 合成樹脂まくらぎ軌道（単）
+# @text en:[Ground] FFU tie track (single)
 obj=way
 name=iss_wtg_360_ffu_single
 copyright=128na
@@ -55,8 +55,8 @@ image[sew2][0]=standard_ffu_single.7.7,-64,-96
 image[nsw2][0]=standard_ffu_single.7.8,-64,-96
 image[nsew2][0]=standard_ffu_single.7.9,-64,-96
 ---
-# @text ja:[地上] 合成樹脂まくらぎバラスト軌道（複線前）
-# @text en:[ground] Fiber reinforced formed urethane barrast track (front side)
+# @text ja:[地上] 合成樹脂まくらぎ軌道（前）
+# @text en:[Ground] FFU tie track (front)
 obj=way
 name=iss_wtg_360_ffu_front
 copyright=128na
@@ -112,8 +112,8 @@ image[sew2][0]=standard_ffu_front.7.2,-64,-96
 image[nsw2][0]=standard_ffu_front.7.3,-64,-96
 image[nsew2][0]=standard_ffu_front.7.4,-64,-96
 ---
-# @text ja:[地上] 合成樹脂まくらぎバラスト軌道（複線中）
-# @text en:[ground] Fiber reinforced formed urethane barrast track (center)
+# @text ja:[地上] 合成樹脂まくらぎ軌道（中）
+# @text en:[Ground] FFU tie track (center)
 obj=way
 name=iss_wtg_360_ffu_center
 copyright=128na
@@ -159,8 +159,8 @@ image[sew][0]=standard_ffu_center.5.2,-64,-96
 image[nsw][0]=standard_ffu_center.5.3,-64,-96
 image[nsew][0]=standard_ffu_center.5.4,-64,-96
 ---
-# @text ja:[地上] 合成樹脂まくらぎバラスト軌道（複線奥）
-# @text en:[ground] Fiber reinforced formed urethane barrast track (back side)
+# @text ja:[地上] 合成樹脂まくらぎ軌道（後）
+# @text en:[Ground] FFU tie track (back)
 obj=way
 name=iss_wtg_360_ffu_back
 copyright=128na
@@ -216,8 +216,8 @@ image[sew2][0]=standard_ffu_back.7.2,-64,-96
 image[nsw2][0]=standard_ffu_back.7.3,-64,-96
 image[nsew2][0]=standard_ffu_back.7.4,-64,-96
 ---
-# @text ja:[高架] 合成樹脂まくらぎバラスト軌道（単線）
-# @text en:[elevated] Fiber reinforced formed urethane barrast track (single track)
+# @text ja:[高架] 合成樹脂まくらぎ軌道（単）
+# @text en:[Elevated] FFU tie track (single)
 obj=way
 name=iss_wte_360_ffu_single
 copyright=128na
@@ -273,8 +273,8 @@ image[sew2][0]=standard_ffu_single.7.7,-64,-96
 image[nsw2][0]=standard_ffu_single.7.8,-64,-96
 image[nsew2][0]=standard_ffu_single.7.9,-64,-96
 ---
-# @text ja:[高架] 合成樹脂まくらぎバラスト軌道（複線前）
-# @text en:[elevated] Fiber reinforced formed urethane barrast track (front side)
+# @text ja:[高架] 合成樹脂まくらぎ軌道（前）
+# @text en:[Elevated] FFU tie track (front)
 obj=way
 name=iss_wte_360_ffu_front
 copyright=128na
@@ -330,8 +330,8 @@ image[sew2][0]=standard_ffu_front.7.2,-64,-96
 image[nsw2][0]=standard_ffu_front.7.3,-64,-96
 image[nsew2][0]=standard_ffu_front.7.4,-64,-96
 ---
-# @text ja:[高架] 合成樹脂まくらぎバラスト軌道（複線中）
-# @text en:[elevated] Fiber reinforced formed urethane barrast track (center)
+# @text ja:[高架] 合成樹脂まくらぎ軌道（中）
+# @text en:[Elevated] FFU tie track (center)
 obj=way
 name=iss_wte_360_ffu_center
 copyright=128na
@@ -377,8 +377,8 @@ image[sew][0]=standard_ffu_center.5.2,-64,-96
 image[nsw][0]=standard_ffu_center.5.3,-64,-96
 image[nsew][0]=standard_ffu_center.5.4,-64,-96
 ---
-# @text ja:[高架] 合成樹脂まくらぎバラスト軌道（複線奥）
-# @text en:[elevated] Fiber reinforced formed urethane barrast track (back side)
+# @text ja:[高架] 合成樹脂まくらぎ軌道（後）
+# @text en:[Elevated] FFU tie track (back)
 obj=way
 name=iss_wte_360_ffu_back
 copyright=128na

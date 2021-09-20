@@ -1,5 +1,5 @@
-# @text ja:中央分離帯（奥）
-# @text en:Center divider (back side)
+# @text ja:中央分離帯（後）
+# @text en:Center divider (back)
 obj=way-object
 name=iss_or_center_divider_back
 copyright=128na
@@ -72,7 +72,7 @@ frontdiagonal[ne]=-
 frontdiagonal[se]=-
 ---
 # @text ja:中央分離帯（前）
-# @text en:Center divider (front side)
+# @text en:Center divider (front)
 obj=way-object
 name=iss_or_center_divider_front
 copyright=128na

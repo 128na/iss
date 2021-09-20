@@ -1,5 +1,5 @@
 # @text ja:[2x2] 交差点パーツ１
-# @text en:[2x2] Intersection parts1
+# @text en:[2x2] Intersection parts 1
 obj=way
 name=iss_wsg_intersection2-1
 copyright=128na
@@ -37,7 +37,7 @@ imageUp[3]=intersection.5.1,-64,-96
 imageUp[6]=intersection.5.1,-64,-96
 ---
 # @text ja:[2x2] 交差点パーツ２
-# @text en:[2x2] Intersection parts2
+# @text en:[2x2] Intersection parts 2
 obj=way
 name=iss_wsg_intersection2-2
 copyright=128na

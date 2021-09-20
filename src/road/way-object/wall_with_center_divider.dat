@@ -1,5 +1,5 @@
-# @text ja:側壁（奥）と中央分離帯（前）
-# @text en:Sound barrier(back side) and center divider (front side)
+# @text ja:側壁（後）と中央分離帯（前）
+# @text en:Sound barrier (back) and center divider (front)
 obj=way-object
 name=iss_or_side_wall_back_and_center_divider_front
 copyright=128na
@@ -71,8 +71,8 @@ frontdiagonal[nw]=center_divider_front.9.1,-64,-96
 frontdiagonal[ne]=center_divider_front.9.2,-64,-96
 frontdiagonal[se]=center_divider_front.9.3,-64,-96
 ---
-# @text ja:側壁（前）と中央分離帯（奥）
-# @text en:Sound barrier(front side) and center divider (back side)
+# @text ja:側壁（前）と中央分離帯（後）
+# @text en:Sound barrier (front) and center divider (back)
 obj=way-object
 name=iss_or_side_wall_front_and_center_divider_back
 copyright=128na

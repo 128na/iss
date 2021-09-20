@@ -1,5 +1,5 @@
 # @text ja:[地上] 橋脚１
-# @text en:[ground] Pier type 1
+# @text en:[Ground] Pier type 1
 obj=way
 name=iss_wsg_pier1
 copyright=128na
@@ -72,7 +72,7 @@ frontdiagonal[ne]=pier1.7.2,-64,-96
 frontdiagonal[se]=pier1.7.3,-64,-96
 ---
 # @text ja:[地上] 橋脚２
-# @text en:[ground] Pier type 2
+# @text en:[Ground] Pier type 2
 obj=way
 name=iss_wsg_pier2
 copyright=128na
@@ -145,7 +145,7 @@ frontdiagonal[ne]=pier2.7.6,-64,-96
 frontdiagonal[se]=pier2.7.7,-64,-96
 ---
 # @text ja:[地上] 橋脚３
-# @text en:[ground] Pier type 3
+# @text en:[Ground] Pier type 3
 obj=way
 name=iss_wsg_pier3
 copyright=128na

@@ -122,7 +122,7 @@ imageUp2[3]=sidewalk.2.8,-64,-96
 imageUp2[6]=sidewalk.2.9,-64,-96
 ---
 # @text ja:歩道（破れ目地パターン２）
-# @text en:Sidewark(brickwork pattern)
+# @text en:Sidewark (brickwork pattern)
 obj=way
 name=iss_wwg_sidewalk4
 copyright=128na

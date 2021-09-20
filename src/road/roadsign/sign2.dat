@@ -1,5 +1,5 @@
-# @text ja:[最低速度制限] 進入禁止
-# @text en:[Min speed limit] No entry
+# @text ja:[速度制限] 進入禁止
+# @text en:[Speed limit] No entry
 obj=roadsign
 name=iss_sr_no_entry
 copyright=128na
@@ -19,7 +19,7 @@ image[1]=-
 image[2]=sign2.0.2,-64,-96
 image[3]=-
 ---
-# @text ja:[一方通行] 出口案内
+# @text ja:[一通] 出口案内
 # @text en:[One way] Exit info
 obj=roadsign
 name=iss_sr_exit_info
@@ -40,7 +40,7 @@ image[1]=sign2.1.2,-64,-96
 image[2]=sign2.1.3,-64,-96
 image[3]=sign2.1.4,-64,-96
 ---
-# @text ja:[一方通行] 経路案内１
+# @text ja:[一通] 経路案内１
 # @text en:[One way] Route info 1
 obj=roadsign
 name=iss_sr_route_info_1
@@ -61,7 +61,7 @@ image[1]=sign2.2.2,-64,-96
 image[2]=sign2.2.3,-64,-96
 image[3]=sign2.2.4,-64,-96
 ---
-# @text ja:[一方通行] 経路案内２
+# @text ja:[一通] 経路案内２
 # @text en:[One way] Route info 2
 obj=roadsign
 name=iss_sr_route_info_2
@@ -82,7 +82,7 @@ image[1]=sign2.3.2,-64,-96
 image[2]=sign2.3.3,-64,-96
 image[3]=sign2.3.4,-64,-96
 ---
-# @text ja:[一方通行] 経路案内３
+# @text ja:[一通] 経路案内３
 # @text en:[One way] Route info 3
 obj=roadsign
 name=iss_sr_route_info_3
@@ -103,7 +103,7 @@ image[1]=sign2.4.2,-64,-96
 image[2]=sign2.4.3,-64,-96
 image[3]=sign2.4.4,-64,-96
 ---
-# @text ja:[一方通行] 経路案内４
+# @text ja:[一通] 経路案内４
 # @text en:[One way] Route info 4
 obj=roadsign
 name=iss_sr_route_info_4
@@ -124,7 +124,7 @@ image[1]=sign2.5.2,-64,-96
 image[2]=sign2.5.3,-64,-96
 image[3]=sign2.5.4,-64,-96
 ---
-# @text ja:[一方通行] 入口案内
+# @text ja:[一通] 入口案内
 # @text en:[One way] Entrance info
 obj=roadsign
 name=iss_sr_entrance_info
@@ -145,7 +145,7 @@ image[1]=sign2.6.2,-64,-96
 image[2]=sign2.6.3,-64,-96
 image[3]=sign2.6.4,-64,-96
 ---
-# @text ja:[一方通行] 方面予告１
+# @text ja:[一通] 方面予告１
 # @text en:[One way] Direction info 1
 obj=roadsign
 name=iss_sr_direction_info_1
@@ -166,7 +166,7 @@ image[1]=sign2.7.2,-64,-96
 image[2]=sign2.7.3,-64,-96
 image[3]=sign2.7.4,-64,-96
 ---
-# @text ja:[一方通行] 方面予告２
+# @text ja:[一通] 方面予告２
 # @text en:[One way] Direction info 2
 obj=roadsign
 name=iss_sr_direction_info_2

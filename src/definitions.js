@@ -100,7 +100,7 @@ module.exports = [
   },
   {
     size: 256,
-    pakFile: 'iss_maglev.pak',
+    pakFile: 'iss_maglev_way.pak',
     datFiles: [
       'maglev/way/transrapid.dat',
       'maglev/way/linear.dat',
@@ -115,10 +115,23 @@ module.exports = [
       'maglev/way/linear_front_back.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/front_erase_color.png', 'maglev/way/linear_back.png'],
       'maglev/way/linear_center_back.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/center_erase_color.png', 'maglev/way/linear_back.png'],
       'maglev/way/linear_back_back.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/back_erase_color.png', 'maglev/way/linear_back.png'],
-      'maglev/way/linear_front.png': ['maglev/way/linear_front.png'],
 
       'maglev/way/marine_g.png': ['maglev/way/marine_g.png'],
       'maglev/way/marine_e.png': ['maglev/way/marine_e.png'],
+    }
+  },
+  {
+    size: 256,
+    pakFile: 'iss_maglev_way-object.pak',
+    datFiles: [
+      'maglev/way-object/wall.dat',
+    ],
+    imageSet: {
+      'icon2.png': ['icon2.png', 'icon_erase_color.png'],
+      'maglev/way-object/wall_single.png': ['maglev/way-object/wall_single.png'],
+      'maglev/way-object/wall_back.png': ['maglev/way-object/wall_back.png'],
+      'maglev/way-object/wall_center.png': ['maglev/way-object/wall_center.png'],
+      'maglev/way-object/wall_front.png': ['maglev/way-object/wall_front.png'],
     }
   },
   {

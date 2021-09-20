@@ -1,5 +1,5 @@
 # @text ja:[地上] 低速ナローゲージ
-# @text en:[ground] Low speed narrow gauge track
+# @text en:[Ground] Low speed narrow gauge track
 obj=way
 name=iss_wng_0030
 copyright=128na
@@ -56,7 +56,7 @@ image[nsw2][0]=narrow.7.8,-64,-96
 image[nsew2][0]=narrow.7.9,-64,-96
 ---
 # @text ja:[地上] 高速ナローゲージ
-# @text en:[ground] High speed narrow gauge track
+# @text en:[Ground] High speed narrow gauge track
 obj=way
 name=iss_wng_0060
 copyright=128na

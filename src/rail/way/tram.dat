@@ -1,5 +1,5 @@
 # @text ja:[地上] 低速トラム軌道
-# @text en:[ground] Low speed tram track
+# @text en:[Ground] Low speed tram track
 obj=way
 name=iss_wsg_0040
 copyright=128na
@@ -56,7 +56,7 @@ image[nsw2][0]=standard.7.8,-64,-96
 image[nsew2][0]=standard.7.9,-64,-96
 ---
 # @text ja:[地上] 高速トラム軌道
-# @text en:[ground] High speed tram track
+# @text en:[Ground] High speed tram track
 obj=way
 name=iss_wsg_0080
 copyright=128na

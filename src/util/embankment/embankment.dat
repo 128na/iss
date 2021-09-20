@@ -1,5 +1,5 @@
-# @text ja:コンクリート法面（奥）
-# @text en:Concrete embankment(back side)
+# @text ja:コンクリート法面（後）
+# @text en:Concrete embankment (back)
 obj=way
 name=iss_wte_embankment1-back
 copyright=128na
@@ -41,7 +41,7 @@ image[sew]=embankment1.0.1,-64,-64
 image[nsw]=embankment1.0.1,-64,-64
 ---
 # @text ja:コンクリート法面（前）
-# @text en:Concrete embankment(front side)
+# @text en:Concrete embankment (front)
 obj=way
 name=iss_wte_embankment1-front
 copyright=128na
@@ -82,8 +82,8 @@ image[nse]=embankment1.0.3,-64,-64
 image[sew]=embankment1.0.3,-64,-64
 image[nsw]=embankment1.0.3,-64,-64
 ---
-# @text ja:コンクリート法面（奥、低）
-# @text en:Concrete embankment(back side, half height)
+# @text ja:コンクリート法面（半、後）
+# @text en:Concrete embankment (back, half height)
 obj=way
 name=iss_wte_embankment1-harf-back
 copyright=128na
@@ -124,8 +124,8 @@ image[nse]=embankment1.4.1,-64,-64
 image[sew]=embankment1.4.1,-64,-64
 image[nsw]=embankment1.4.1,-64,-64
 ---
-# @text ja:コンクリート法面（前、低）
-# @text en:Concrete embankment(front side, half height)
+# @text ja:コンクリート法面（半、前）
+# @text en:Concrete embankment (front, half height)
 obj=way
 name=iss_wte_embankment1-harf-front
 copyright=128na
@@ -166,8 +166,8 @@ image[nse]=embankment1.4.3,-64,-64
 image[sew]=embankment1.4.3,-64,-64
 image[nsw]=embankment1.4.3,-64,-64
 ---
-# @text ja:緑化コンクリート法面（奥）
-# @text en:Grassy concrete embankment(back side)
+# @text ja:緑化コンクリート法面（後）
+# @text en:Grassy concrete embankment (back)
 obj=way
 name=iss_wte_embankment2-back
 copyright=128na
@@ -209,7 +209,7 @@ image[sew]=embankment2.0.1,-64,-64
 image[nsw]=embankment2.0.1,-64,-64
 ---
 # @text ja:緑化コンクリート法面（前）
-# @text en:Grassy concrete embankment(front side)
+# @text en:Grassy concrete embankment (front)
 obj=way
 name=iss_wte_embankment2-front
 copyright=128na
@@ -250,8 +250,8 @@ image[nse]=embankment2.0.3,-64,-64
 image[sew]=embankment2.0.3,-64,-64
 image[nsw]=embankment2.0.3,-64,-64
 ---
-# @text ja:緑化コンクリート法面（奥、低）
-# @text en:Grassy concrete embankment(back side, half height)
+# @text ja:緑化コンクリート法面（半、後）
+# @text en:Grassy concrete embankment (back, half height)
 obj=way
 name=iss_wte_embankment2-harf-back
 copyright=128na
@@ -292,8 +292,8 @@ image[nse]=embankment2.4.1,-64,-64
 image[sew]=embankment2.4.1,-64,-64
 image[nsw]=embankment2.4.1,-64,-64
 ---
-# @text ja:緑化コンクリート法面（前、低）
-# @text en:Grassy concrete embankment(front side, half height)
+# @text ja:緑化コンクリート法面（半、前）
+# @text en:Grassy concrete embankment (front, half height)
 obj=way
 name=iss_wte_embankment2-harf-front
 copyright=128na
@@ -334,8 +334,8 @@ image[nse]=embankment2.4.3,-64,-64
 image[sew]=embankment2.4.3,-64,-64
 image[nsw]=embankment2.4.3,-64,-64
 ---
-# @text ja:コンクリートブロック法面（奥）
-# @text en:Concrete block embankment(back side)
+# @text ja:コンクリートブロック法面（後）
+# @text en:Concrete block embankment (back)
 obj=way
 name=iss_wte_embankment3-back
 copyright=128na
@@ -377,7 +377,7 @@ image[sew]=embankment3.0.1,-64,-64
 image[nsw]=embankment3.0.1,-64,-64
 ---
 # @text ja:コンクリートブロック法面（前）
-# @text en:Concrete block embankment(front side)
+# @text en:Concrete block embankment (front)
 obj=way
 name=iss_wte_embankment3-front
 copyright=128na
@@ -418,8 +418,8 @@ image[nse]=embankment3.0.3,-64,-64
 image[sew]=embankment3.0.3,-64,-64
 image[nsw]=embankment3.0.3,-64,-64
 ---
-# @text ja:コンクリートブロック法面（奥、低）
-# @text en:Concrete block embankment(back side, half height)
+# @text ja:コンクリートブロック法面（半、後）
+# @text en:Concrete block embankment (back, half height)
 obj=way
 name=iss_wte_embankment3-harf-back
 copyright=128na
@@ -460,8 +460,8 @@ image[nse]=embankment3.4.1,-64,-64
 image[sew]=embankment3.4.1,-64,-64
 image[nsw]=embankment3.4.1,-64,-64
 ---
-# @text ja:コンクリートブロック法面（前、低）
-# @text en:Concrete block embankment(front side, half height)
+# @text ja:コンクリートブロック法面（半、前）
+# @text en:Concrete block embankment (front, half height)
 obj=way
 name=iss_wte_embankment3-harf-front
 copyright=128na
@@ -502,8 +502,8 @@ image[nse]=embankment3.4.3,-64,-64
 image[sew]=embankment3.4.3,-64,-64
 image[nsw]=embankment3.4.3,-64,-64
 ---
-# @text ja:養生中緑化コンクリート法面（奥）
-# @text en:Curing grass concrete embankment(back side)
+# @text ja:養生中緑化コンクリート法面（後）
+# @text en:Curing grass concrete embankment (back)
 obj=way
 name=iss_wte_embankment4-back
 copyright=128na
@@ -545,7 +545,7 @@ image[sew]=embankment4.0.1,-64,-64
 image[nsw]=embankment4.0.1,-64,-64
 ---
 # @text ja:養生中緑化コンクリート法面（前）
-# @text en:Curing grass concrete embankment(front side)
+# @text en:Curing grass concrete embankment (front)
 obj=way
 name=iss_wte_embankment4-front
 copyright=128na
@@ -586,8 +586,8 @@ image[nse]=embankment4.0.3,-64,-64
 image[sew]=embankment4.0.3,-64,-64
 image[nsw]=embankment4.0.3,-64,-64
 ---
-# @text ja:養生中緑化コンクリート法面（奥、低）
-# @text en:Curing grass concrete embankment(back side, half height)
+# @text ja:養生中緑化コンクリート法面（半、後）
+# @text en:Curing grass concrete embankment (back, half height)
 obj=way
 name=iss_wte_embankment4-harf-back
 copyright=128na
@@ -628,8 +628,8 @@ image[nse]=embankment4.4.1,-64,-64
 image[sew]=embankment4.4.1,-64,-64
 image[nsw]=embankment4.4.1,-64,-64
 ---
-# @text ja:養生中緑化コンクリート法面（前、低）
-# @text en:Curing grass concrete embankment(front side, half height)
+# @text ja:養生中緑化コンクリート法面（半、前）
+# @text en:Curing grass concrete embankment (front, half height)
 obj=way
 name=iss_wte_embankment4-harf-front
 copyright=128na
@@ -670,8 +670,8 @@ image[nse]=embankment4.4.3,-64,-64
 image[sew]=embankment4.4.3,-64,-64
 image[nsw]=embankment4.4.3,-64,-64
 ---
-# @text ja:アンカーブロック法面（奥）
-# @text en:Anchor block embankment(back side)
+# @text ja:アンカーブロック法面（後）
+# @text en:Anchor block embankment (back)
 obj=way
 name=iss_wte_embankment5-back
 copyright=128na
@@ -713,7 +713,7 @@ image[sew]=embankment5.0.1,-64,-64
 image[nsw]=embankment5.0.1,-64,-64
 ---
 # @text ja:アンカーブロック法面（前）
-# @text en:Anchor block embankment(front side)
+# @text en:Anchor block embankment (front)
 obj=way
 name=iss_wte_embankment5-front
 copyright=128na
@@ -754,8 +754,8 @@ image[nse]=embankment5.0.3,-64,-64
 image[sew]=embankment5.0.3,-64,-64
 image[nsw]=embankment5.0.3,-64,-64
 ---
-# @text ja:アンカーブロック法面（奥、低）
-# @text en:Anchor block embankment(back side, half height)
+# @text ja:アンカーブロック法面（半、後）
+# @text en:Anchor block embankment (back, half height)
 obj=way
 name=iss_wte_embankment5-harf-back
 copyright=128na
@@ -796,8 +796,8 @@ image[nse]=embankment5.4.1,-64,-64
 image[sew]=embankment5.4.1,-64,-64
 image[nsw]=embankment5.4.1,-64,-64
 ---
-# @text ja:アンカーブロック法面（前、低）
-# @text en:Anchor block embankment(front side, half height)
+# @text ja:アンカーブロック法面（半、前）
+# @text en:Anchor block embankment (front, half height)
 obj=way
 name=iss_wte_embankment5-harf-front
 copyright=128na

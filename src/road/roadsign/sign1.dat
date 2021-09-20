@@ -1,4 +1,4 @@
-# @text ja:[プライベート] プレーヤー専用標識舗装
+# @text ja:[プライベート] プレーヤー専用舗装
 # @text en:[Private] Only player sign pavement
 obj=roadsign
 name=iss_sr_player_only
@@ -119,8 +119,8 @@ image[1]=-
 image[2]=sign1.5.1,-64,-96
 image[3]=-
 ---
-# @text ja:[最低速度制限] 30km/h舗装
-# @text en:[Min speed limit] 30km/h pavement
+# @text ja:[速度制限] 30km/h舗装
+# @text en:[Speed limit] 30km/h pavement
 obj=roadsign
 name=iss_sr_min_speed_0030
 copyright=128na
@@ -140,8 +140,8 @@ image[1]=-
 image[2]=sign1.6.1,-64,-96
 image[3]=-
 ---
-# @text ja:[最低速度制限] 50km/h舗装
-# @text en:[Min speed limit] 50km/h pavement
+# @text ja:[速度制限] 50km/h舗装
+# @text en:[Speed limit] 50km/h pavement
 obj=roadsign
 name=iss_sr_min_speed_0050
 copyright=128na
@@ -161,8 +161,8 @@ image[1]=-
 image[2]=sign1.7.1,-64,-96
 image[3]=-
 ---
-# @text ja:[一方通行＆最低速度制限] 80km/h舗装
-# @text en:[One way & Min speed limit] 80km/h pavement
+# @text ja:[一通＆速度制限] 80km/h舗装
+# @text en:[One way & Speed limit] 80km/h pavement
 obj=roadsign
 name=iss_sr_min_speed_0080
 copyright=128na
@@ -182,8 +182,8 @@ image[1]=sign1.8.0,-64,-96
 image[2]=sign1.8.3,-64,-96
 image[3]=sign1.8.1,-64,-96
 ---
-# @text ja:[一方通行＆最低速度制限] 100km/h舗装
-# @text en:[One way & Min speed limit] 100km/h pavement
+# @text ja:[一通＆速度制限] 100km/h舗装
+# @text en:[One way & Speed limit] 100km/h pavement
 obj=roadsign
 name=iss_sr_min_speed_0100
 copyright=128na
@@ -203,8 +203,8 @@ image[1]=sign1.9.0,-64,-96
 image[2]=sign1.9.3,-64,-96
 image[3]=sign1.9.1,-64,-96
 ---
-# @text ja:[一方通行＆最低速度制限] 120km/h舗装
-# @text en:[One way & Min speed limit] 120km/h pavement
+# @text ja:[一通＆速度制限] 120km/h舗装
+# @text en:[One way & Speed limit] 120km/h pavement
 obj=roadsign
 name=iss_sr_min_speed_0120
 copyright=128na
@@ -224,8 +224,8 @@ image[1]=sign1.10.0,-64,-96
 image[2]=sign1.10.3,-64,-96
 image[3]=sign1.10.1,-64,-96
 ---
-# @text ja:[一方通行＆最低速度制限] 150km/h舗装
-# @text en:[One way & Min speed limit] 150km/h pavement
+# @text ja:[一通＆速度制限] 150km/h舗装
+# @text en:[One way & Speed limit] 150km/h pavement
 obj=roadsign
 name=iss_sr_min_speed_0150
 copyright=128na
@@ -245,8 +245,8 @@ image[1]=sign1.11.0,-64,-96
 image[2]=sign1.11.3,-64,-96
 image[3]=sign1.11.1,-64,-96
 ---
-# @text ja:[一方通行＆最低速度制限] 200km/h舗装
-# @text en:[One way & Min speed limit] 200km/h pavement
+# @text ja:[一通＆速度制限] 200km/h舗装
+# @text en:[One way & Speed limit] 200km/h pavement
 obj=roadsign
 name=iss_sr_min_speed_0200
 copyright=128na
@@ -266,8 +266,8 @@ image[1]=sign1.12.0,-64,-96
 image[2]=sign1.12.3,-64,-96
 image[3]=sign1.12.1,-64,-96
 ---
-# @text ja:[一方通行＆最低速度制限] 999km/h舗装
-# @text en:[One way & Min speed limit] 999km/h pavement
+# @text ja:[一通＆速度制限] 999km/h舗装
+# @text en:[One way & Speed limit] 999km/h pavement
 obj=roadsign
 name=iss_sr_min_speed_0999
 copyright=128na
@@ -287,7 +287,7 @@ image[1]=sign1.13.0,-64,-96
 image[2]=sign1.13.3,-64,-96
 image[3]=sign1.13.1,-64,-96
 ---
-# @text ja:[一方通行] 直進舗装
+# @text ja:[一通] 直進舗装
 # @text en:[One way] Go straight pavement
 obj=roadsign
 name=iss_sr_direction_straight
@@ -307,7 +307,7 @@ image[1]=sign1.14.0,-64,-96
 image[2]=sign1.14.3,-64,-96
 image[3]=sign1.14.1,-64,-96
 ---
-# @text ja:[一方通行] 直進と右方向舗装
+# @text ja:[一通] 直進と右方向舗装
 # @text en:[One way] Go straight and right direction pavement
 obj=roadsign
 name=iss_sr_direction_straight_right
@@ -327,7 +327,7 @@ image[1]=sign1.15.0,-64,-96
 image[2]=sign1.15.3,-64,-96
 image[3]=sign1.15.1,-64,-96
 ---
-# @text ja:[一方通行] 左方向と直進舗装
+# @text ja:[一通] 左方向と直進舗装
 # @text en:[One way] Left direction and go straight pavement
 obj=roadsign
 name=iss_sr_direction_left_straight
@@ -347,7 +347,7 @@ image[1]=sign1.16.0,-64,-96
 image[2]=sign1.16.3,-64,-96
 image[3]=sign1.16.1,-64,-96
 ---
-# @text ja:[一方通行] 左折及び直進と直進舗装
+# @text ja:[一通] 左折及び直進と直進舗装
 # @text en:[One way] Turn left or go straight and go straight pavement
 obj=roadsign
 name=iss_sr_turn_left_straight_straight
@@ -367,7 +367,7 @@ image[1]=sign1.17.0,-64,-96
 image[2]=sign1.17.3,-64,-96
 image[3]=sign1.17.1,-64,-96
 ---
-# @text ja:[一方通行] 直進と右折及び直進舗装
+# @text ja:[一通] 直進と右折及び直進舗装
 # @text en:[One way] Go straight and turn right or go straight pavement
 obj=roadsign
 name=iss_sr_straight_turn_right_straight
@@ -387,7 +387,7 @@ image[1]=sign1.18.0,-64,-96
 image[2]=sign1.18.3,-64,-96
 image[3]=sign1.18.1,-64,-96
 ---
-# @text ja:[一方通行] 左折及び直進と右折及び直進舗装
+# @text ja:[一通] 左折及び直進と右折及び直進舗装
 # @text en:[One way] Turn left or go straight and turn right or go straight pavement
 obj=roadsign
 name=iss_sr_tunr_left_straight_turn_right_straight
@@ -407,7 +407,7 @@ image[1]=sign1.19.0,-64,-96
 image[2]=sign1.19.3,-64,-96
 image[3]=sign1.19.1,-64,-96
 ---
-# @text ja:[一方通行] 左折と右折舗装
+# @text ja:[一通] 左折と右折舗装
 # @text en:[One way] Turn left and turn right pavement
 obj=roadsign
 name=iss_sr_turn_left_turn_right
@@ -427,7 +427,7 @@ image[1]=sign1.20.0,-64,-96
 image[2]=sign1.20.3,-64,-96
 image[3]=sign1.20.1,-64,-96
 ---
-# @text ja:[一方通行] 横断歩道舗装
+# @text ja:[一通] 横断歩道舗装
 # @text en:[One way] Crosswalk pavement
 obj=roadsign
 name=iss_sr_oneway_crosswalk

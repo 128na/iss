@@ -36,7 +36,8 @@ const renderDat = ({ datFile, dat }: { datFile: string, dat: Dat }, icons: { fil
   <tbody>
   ${dat.objs.map(d => renderObj(d, icons)).join('\n')}
   </tbody>
-</table>`;
+</table>
+`;
 
 const renderObj = (obj: Obj, icons: { file: string, size: number }[]): string =>
   `<tr>
