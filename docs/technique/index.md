@@ -30,6 +30,12 @@
 ![thumbnail](./gently_point.png)
 ![thumbnail](./gently_switch.png)
 
+### 転車台とトラバーサー
+
+道路ツールを使用しています。
+
+![thumbnail](./turntable.png)
+
 
 ## その他
 ### 橋
