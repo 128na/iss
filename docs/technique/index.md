@@ -10,7 +10,7 @@
 
 ![thumbnail](./intersection.png)
 
-## 中央分離帯
+### 中央分離帯
 
 ![thumbnail](./center_divider.png)
 
