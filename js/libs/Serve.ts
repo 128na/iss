@@ -31,11 +31,13 @@ export default class Serve {
     const target = Serve.watchExt.map(ext => `${this.source}/**/*.${ext}`);
     watcher(target, async (file) => {
       logger('changed file', { file });
+      console.time('serve');
       const pakFiles = await this.builder.run(this.handleFile(file));
       const mergePakFile = this.merge(pakFiles);
       this.copyToPakDirectory(mergePakFile);
       this.reRunSimutrans();
       this.successFirstTime = true;
+      console.timeEnd('serve');
     });
   }
 
