@@ -211,4 +211,13 @@ module.exports = [
       'util/gently-point/point.png': ['util/gently-point/point_barrast.png', 'util/gently-point/point_noise1.png', 'util/gently-point/point_noise2.png', 'util/gently-point/point.png', 'util/gently-point/point_erase_color.png'],
     }
   },
+  {
+    size: 256,
+    pakFile: 'iss_util_rail-yard.pak',
+    datFiles: ['util/rail-yard/table.dat'],
+    imageSet: {
+      'icon1.png': ['icon1.png', 'icon_erase_color.png'],
+      'util/rail-yard/table.png': ['util/rail-yard/table_base.png', 'util/rail-yard/table_noise.png', 'util/rail-yard/table_noise2.png', 'util/rail-yard/table_erase_color.png', 'util/rail-yard/table.png', 'util/rail-yard/table_concrete_noise.png'],
+    }
+  },
 ];
