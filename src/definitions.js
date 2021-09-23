@@ -108,20 +108,20 @@ module.exports = [
     ],
     imageSet: {
       'icon2.png': ['icon2.png', 'icon_erase_color.png'],
-      'maglev/way/linear_single_back.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/single_erase_color.png', 'maglev/way/linear_back.png'],
-      'maglev/way/linear_front_back.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/front_erase_color.png', 'maglev/way/linear_back.png'],
-      'maglev/way/linear_center_back.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/center_erase_color.png', 'maglev/way/linear_back.png'],
-      'maglev/way/linear_back_back.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/back_erase_color.png', 'maglev/way/linear_back.png'],
+      'maglev/way/linear_single.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/single_erase_color.png', 'maglev/way/linear.png'],
+      'maglev/way/linear_front.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/front_erase_color.png', 'maglev/way/linear.png'],
+      'maglev/way/linear_center.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/center_erase_color.png', 'maglev/way/linear.png'],
+      'maglev/way/linear_back.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/back_erase_color.png', 'maglev/way/linear.png'],
 
-      'maglev/way/transrapid_g.png': ['maglev/way/transrapid.png'],
-      'maglev/way/transrapid_e_front.png': ['maglev/way/pier_front.png', 'maglev/way/transrapid.png'],
-      'maglev/way/transrapid_e_center.png': ['maglev/way/pier_center.png', 'maglev/way/transrapid.png'],
-      'maglev/way/transrapid_e_back.png': ['maglev/way/pier_back.png', 'maglev/way/transrapid.png'],
+      'maglev/way/transrapid_g.png': ['maglev/way/transrapid.png', 'maglev/way/transrapid_noise.png'],
+      'maglev/way/transrapid_e_front.png': ['maglev/way/pier_front.png', 'maglev/way/transrapid.png', 'maglev/way/transrapid_noise.png'],
+      'maglev/way/transrapid_e_center.png': ['maglev/way/pier_center.png', 'maglev/way/transrapid.png', 'maglev/way/transrapid_noise.png'],
+      'maglev/way/transrapid_e_back.png': ['maglev/way/pier_back.png', 'maglev/way/transrapid.png', 'maglev/way/transrapid_noise.png'],
 
-      'maglev/way/marine_g.png': ['maglev/way/marine.png'],
-      'maglev/way/marine_e_front.png': ['maglev/way/pier_front.png', 'maglev/way/marine.png'],
-      'maglev/way/marine_e_center.png': ['maglev/way/pier_center.png', 'maglev/way/marine.png'],
-      'maglev/way/marine_e_back.png': ['maglev/way/pier_back.png', 'maglev/way/marine.png'],
+      'maglev/way/marine_g.png': ['maglev/way/marine.png', 'maglev/way/marine_noise.png'],
+      'maglev/way/marine_e_front.png': ['maglev/way/pier_front.png', 'maglev/way/marine.png', 'maglev/way/marine_noise.png'],
+      'maglev/way/marine_e_center.png': ['maglev/way/pier_center.png', 'maglev/way/marine.png', 'maglev/way/marine_noise.png'],
+      'maglev/way/marine_e_back.png': ['maglev/way/pier_back.png', 'maglev/way/marine.png', 'maglev/way/marine_noise.png'],
     }
   },
   {
@@ -132,10 +132,10 @@ module.exports = [
     ],
     imageSet: {
       'icon2.png': ['icon2.png', 'icon_erase_color.png'],
-      'maglev/way-object/wall_single.png': ['maglev/way-object/wall_single.png'],
-      'maglev/way-object/wall_back.png': ['maglev/way-object/wall_back.png'],
-      'maglev/way-object/wall_center.png': ['maglev/way-object/wall_center.png'],
-      'maglev/way-object/wall_front.png': ['maglev/way-object/wall_front.png'],
+      'maglev/way-object/wall_single.png': ['maglev/way-object/wall_single.png', 'maglev/way-object/wall_single_noise.png'],
+      'maglev/way-object/wall_back.png': ['maglev/way-object/wall_back.png', 'maglev/way-object/wall_back_noise.png'],
+      'maglev/way-object/wall_center.png': ['maglev/way-object/wall_center.png', 'maglev/way-object/wall_center_noise.png'],
+      'maglev/way-object/wall_front.png': ['maglev/way-object/wall_front.png', 'maglev/way-object/wall_front_noise.png'],
     }
   },
   {
@@ -147,10 +147,10 @@ module.exports = [
     ],
     imageSet: {
       'icon2.png': ['icon2.png', 'icon_erase_color.png'],
-      'monorail/way/straddle_g.png': ['monorail/way/straddle.png'],
-      'monorail/way/straddle_e_front.png': ['maglev/way/pier_front.png', 'monorail/way/straddle.png'],
-      'monorail/way/straddle_e_center.png': ['maglev/way/pier_center.png', 'monorail/way/straddle.png'],
-      'monorail/way/straddle_e_back.png': ['maglev/way/pier_back.png', 'monorail/way/straddle.png'],
+      'monorail/way/straddle_g.png': ['monorail/way/straddle.png', 'monorail/way/straddle_noise.png'],
+      'monorail/way/straddle_e_front.png': ['maglev/way/pier_front.png', 'monorail/way/straddle.png', 'monorail/way/straddle_noise.png'],
+      'monorail/way/straddle_e_center.png': ['maglev/way/pier_center.png', 'monorail/way/straddle.png', 'monorail/way/straddle_noise.png'],
+      'monorail/way/straddle_e_back.png': ['maglev/way/pier_back.png', 'monorail/way/straddle.png', 'monorail/way/straddle_noise.png'],
 
       'monorail/way/suspended_g_back_surface.png': ['monorail/way/suspended_back_surface.png'],
       'monorail/way/suspended_g_back_rear.png': ['monorail/way/suspended_back_rear.png'],
@@ -209,7 +209,7 @@ module.exports = [
     datFiles: ['util/bridge/bridge.dat'],
     imageSet: {
       'icon1.png': ['icon1.png', 'icon_erase_color.png'],
-      'util/bridge/bridge1.png': ['util/bridge/bridge1_base_shift.png', 'util/bridge/bridge1_shift.png', 'util/bridge/bridge1_base_shift_noise.png', 'util/bridge/bridge1_erase_color.png', 'util/bridge/bridge1_special_color.png'],
+      'util/bridge/bridge1_keep_transparent.png': ['util/bridge/bridge1_base_shift.png', 'util/bridge/bridge1_shift.png', 'util/bridge/bridge1_base_shift_noise.png', 'util/bridge/bridge1_erase_color.png', 'util/bridge/bridge1_special_color.png'],
       'util/bridge/bridge_cursor.png': ['util/bridge/bridge_cursor_base.png', 'util/bridge/bridge_cursor.png', 'util/bridge/bridge_cursor_noise.png'],
     }
   },
