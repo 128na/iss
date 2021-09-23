@@ -1,10 +1,11 @@
 import fs from 'fs-extra';
 import { Image, loadImage } from 'canvas';
-import { mergeImage, shiftImage, splitImage } from 'simutrans-image-util';
+import { eraseTransparent, mergeImage, shiftImage, splitImage } from 'simutrans-image-util';
 
 export default class ImageManager {
   static SPECIAL_KEYWORD = 'special_color.png';
   static ERASE_KEYWORD = 'erase_color.png';
+  static KEEP_TRANSPARENT_KEYWORD = 'keep_transparent.png';
   static ERASE_COLOR = '255,0,0';
 
   public async merge(output: string, sources: string[]): Promise<void> {
@@ -31,10 +32,12 @@ export default class ImageManager {
         canvas,
         replaceSpecialColor: true,
         eraseColor: ImageManager.ERASE_COLOR,
-        eraseTransparent: false
       });
     }
     if (canvas) {
+      if (!output.endsWith(ImageManager.KEEP_TRANSPARENT_KEYWORD)) {
+        eraseTransparent(canvas);
+      }
       this.write(output, canvas.toDataURL());
     } else {
       throw new Error("missing canvas");

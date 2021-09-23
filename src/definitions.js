@@ -40,7 +40,7 @@ module.exports = [
     datFiles: ['road/roadsign/sign1.dat', 'road/roadsign/sign2.dat'],
     imageSet: {
       'icon1.png': ['icon1.png', 'icon_erase_color.png'],
-      'road/roadsign/sign1.png': ['road/roadsign/sign1.png'],
+      'road/roadsign/sign1_keep_transparent.png': ['road/roadsign/sign1.png'],
       'road/roadsign/sign2.png': ['road/roadsign/sign2.png'],
     }
   },
@@ -54,8 +54,8 @@ module.exports = [
     ],
     imageSet: {
       'icon1.png': ['icon1.png', 'icon_erase_color.png'],
-      'road/way-object/wall_back.png': ['road/way-object/wall_back_base.png', 'road/way-object/wall_back.png', 'road/way-object/wall_back_noise.png'],
-      'road/way-object/wall_front.png': ['road/way-object/wall_front_base.png', 'road/way-object/wall_front.png', 'road/way-object/wall_front_noise.png'],
+      'road/way-object/wall_back_keep_transparent.png': ['road/way-object/wall_back_base.png', 'road/way-object/wall_back.png', 'road/way-object/wall_back_noise.png'],
+      'road/way-object/wall_front_keep_transparent.png': ['road/way-object/wall_front_base.png', 'road/way-object/wall_front.png', 'road/way-object/wall_front_noise.png'],
       'road/way-object/center_divider_back.png': ['road/way-object/center_divider_back.png'],
       'road/way-object/center_divider_front.png': ['road/way-object/center_divider_front.png'],
     }

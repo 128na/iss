@@ -13,11 +13,11 @@ is_private=1
 single_way=0
 offset_left=0
 icon=> ../../icon1.6.0
-cursor=sign1.0.0,-64,-104
-image[0]=sign1.0.0,-64,-96
-image[1]=sign1.0.1,-64,-96
-image[2]=sign1.0.0,-64,-96
-image[3]=sign1.0.1,-64,-96
+cursor=sign1_keep_transparent.0.0,-64,-104
+image[0]=sign1_keep_transparent.0.0,-64,-96
+image[1]=sign1_keep_transparent.0.1,-64,-96
+image[2]=sign1_keep_transparent.0.0,-64,-96
+image[3]=sign1_keep_transparent.0.1,-64,-96
 ---
 # @text ja:[機能なし] 横断歩道又は自転車横断帯あり舗装
 # @text en:[No effect] Crosswalk in front pavement
@@ -33,10 +33,10 @@ retire_month=1
 single_way=0
 offset_left=0
 icon=> ../../icon1.6.1
-cursor=sign1.1.0,-64,-104
-image[0]=sign1.1.0,-64,-96
+cursor=sign1_keep_transparent.1.0,-64,-104
+image[0]=sign1_keep_transparent.1.0,-64,-96
 image[1]=-
-image[2]=sign1.1.1,-64,-96
+image[2]=sign1_keep_transparent.1.1,-64,-96
 image[3]=-
 ---
 # @text ja:[機能なし] 前方優先道路舗装
@@ -53,10 +53,10 @@ retire_month=1
 single_way=0
 offset_left=0
 icon=> ../../icon1.6.2
-cursor=sign1.2.0,-64,-104
-image[0]=sign1.2.0,-64,-96
+cursor=sign1_keep_transparent.2.0,-64,-104
+image[0]=sign1_keep_transparent.2.0,-64,-96
 image[1]=-
-image[2]=sign1.2.1,-64,-96
+image[2]=sign1_keep_transparent.2.1,-64,-96
 image[3]=-
 ---
 # @text ja:[機能なし] スクールゾーン舗装
@@ -73,10 +73,10 @@ retire_month=1
 single_way=0
 offset_left=0
 icon=> ../../icon1.6.3
-cursor=sign1.3.0,-64,-104
-image[0]=sign1.3.0,-64,-96
+cursor=sign1_keep_transparent.3.0,-64,-104
+image[0]=sign1_keep_transparent.3.0,-64,-96
 image[1]=-
-image[2]=sign1.3.1,-64,-96
+image[2]=sign1_keep_transparent.3.1,-64,-96
 image[3]=-
 ---
 # @text ja:[機能なし] 横断歩道舗装
@@ -93,10 +93,10 @@ retire_month=1
 single_way=0
 offset_left=0
 icon=> ../../icon1.6.4
-cursor=sign1.4.0,-64,-104
-image[0]=sign1.4.0,-64,-96
+cursor=sign1_keep_transparent.4.0,-64,-104
+image[0]=sign1_keep_transparent.4.0,-64,-96
 image[1]=-
-image[2]=sign1.4.1,-64,-96
+image[2]=sign1_keep_transparent.4.1,-64,-96
 image[3]=-
 ---
 # @text ja:[機能なし] 転回禁止舗装
@@ -113,10 +113,10 @@ retire_month=1
 single_way=0
 offset_left=0
 icon=> ../../icon1.6.5
-cursor=sign1.5.0,-64,-104
-image[0]=sign1.5.0,-64,-96
+cursor=sign1_keep_transparent.5.0,-64,-104
+image[0]=sign1_keep_transparent.5.0,-64,-96
 image[1]=-
-image[2]=sign1.5.1,-64,-96
+image[2]=sign1_keep_transparent.5.1,-64,-96
 image[3]=-
 ---
 # @text ja:[速度制限] 30km/h舗装
@@ -134,10 +134,10 @@ single_way=0
 min_speed=30
 offset_left=0
 icon=> ../../icon1.6.6
-cursor=sign1.6.0,-64,-104
-image[0]=sign1.6.0,-64,-96
+cursor=sign1_keep_transparent.6.0,-64,-104
+image[0]=sign1_keep_transparent.6.0,-64,-96
 image[1]=-
-image[2]=sign1.6.1,-64,-96
+image[2]=sign1_keep_transparent.6.1,-64,-96
 image[3]=-
 ---
 # @text ja:[速度制限] 50km/h舗装
@@ -155,10 +155,10 @@ single_way=0
 min_speed=50
 offset_left=0
 icon=> ../../icon1.6.7
-cursor=sign1.7.0,-64,-104
-image[0]=sign1.7.0,-64,-96
+cursor=sign1_keep_transparent.7.0,-64,-104
+image[0]=sign1_keep_transparent.7.0,-64,-96
 image[1]=-
-image[2]=sign1.7.1,-64,-96
+image[2]=sign1_keep_transparent.7.1,-64,-96
 image[3]=-
 ---
 # @text ja:[一通＆速度制限] 80km/h舗装
@@ -176,11 +176,11 @@ single_way=1
 min_speed=80
 offset_left=0
 icon=> ../../icon1.6.8
-cursor=sign1.8.0,-64,-104
-image[0]=sign1.8.2,-64,-96
-image[1]=sign1.8.0,-64,-96
-image[2]=sign1.8.3,-64,-96
-image[3]=sign1.8.1,-64,-96
+cursor=sign1_keep_transparent.8.0,-64,-104
+image[0]=sign1_keep_transparent.8.2,-64,-96
+image[1]=sign1_keep_transparent.8.0,-64,-96
+image[2]=sign1_keep_transparent.8.3,-64,-96
+image[3]=sign1_keep_transparent.8.1,-64,-96
 ---
 # @text ja:[一通＆速度制限] 100km/h舗装
 # @text en:[One way & Speed limit] 100km/h pavement
@@ -197,11 +197,11 @@ single_way=1
 min_speed=100
 offset_left=0
 icon=> ../../icon1.6.9
-cursor=sign1.9.0,-64,-104
-image[0]=sign1.9.2,-64,-96
-image[1]=sign1.9.0,-64,-96
-image[2]=sign1.9.3,-64,-96
-image[3]=sign1.9.1,-64,-96
+cursor=sign1_keep_transparent.9.0,-64,-104
+image[0]=sign1_keep_transparent.9.2,-64,-96
+image[1]=sign1_keep_transparent.9.0,-64,-96
+image[2]=sign1_keep_transparent.9.3,-64,-96
+image[3]=sign1_keep_transparent.9.1,-64,-96
 ---
 # @text ja:[一通＆速度制限] 120km/h舗装
 # @text en:[One way & Speed limit] 120km/h pavement
@@ -218,11 +218,11 @@ single_way=1
 min_speed=120
 offset_left=0
 icon=> ../../icon1.6.10
-cursor=sign1.10.0,-64,-104
-image[0]=sign1.10.2,-64,-96
-image[1]=sign1.10.0,-64,-96
-image[2]=sign1.10.3,-64,-96
-image[3]=sign1.10.1,-64,-96
+cursor=sign1_keep_transparent.10.0,-64,-104
+image[0]=sign1_keep_transparent.10.2,-64,-96
+image[1]=sign1_keep_transparent.10.0,-64,-96
+image[2]=sign1_keep_transparent.10.3,-64,-96
+image[3]=sign1_keep_transparent.10.1,-64,-96
 ---
 # @text ja:[一通＆速度制限] 150km/h舗装
 # @text en:[One way & Speed limit] 150km/h pavement
@@ -239,11 +239,11 @@ single_way=1
 min_speed=150
 offset_left=0
 icon=> ../../icon1.6.11
-cursor=sign1.11.0,-64,-104
-image[0]=sign1.11.2,-64,-96
-image[1]=sign1.11.0,-64,-96
-image[2]=sign1.11.3,-64,-96
-image[3]=sign1.11.1,-64,-96
+cursor=sign1_keep_transparent.11.0,-64,-104
+image[0]=sign1_keep_transparent.11.2,-64,-96
+image[1]=sign1_keep_transparent.11.0,-64,-96
+image[2]=sign1_keep_transparent.11.3,-64,-96
+image[3]=sign1_keep_transparent.11.1,-64,-96
 ---
 # @text ja:[一通＆速度制限] 200km/h舗装
 # @text en:[One way & Speed limit] 200km/h pavement
@@ -260,11 +260,11 @@ single_way=1
 min_speed=200
 offset_left=0
 icon=> ../../icon1.6.12
-cursor=sign1.12.0,-64,-104
-image[0]=sign1.12.2,-64,-96
-image[1]=sign1.12.0,-64,-96
-image[2]=sign1.12.3,-64,-96
-image[3]=sign1.12.1,-64,-96
+cursor=sign1_keep_transparent.12.0,-64,-104
+image[0]=sign1_keep_transparent.12.2,-64,-96
+image[1]=sign1_keep_transparent.12.0,-64,-96
+image[2]=sign1_keep_transparent.12.3,-64,-96
+image[3]=sign1_keep_transparent.12.1,-64,-96
 ---
 # @text ja:[一通＆速度制限] 999km/h舗装
 # @text en:[One way & Speed limit] 999km/h pavement
@@ -281,11 +281,11 @@ single_way=1
 min_speed=999
 offset_left=0
 icon=> ../../icon1.6.13
-cursor=sign1.13.0,-64,-104
-image[0]=sign1.13.2,-64,-96
-image[1]=sign1.13.0,-64,-96
-image[2]=sign1.13.3,-64,-96
-image[3]=sign1.13.1,-64,-96
+cursor=sign1_keep_transparent.13.0,-64,-104
+image[0]=sign1_keep_transparent.13.2,-64,-96
+image[1]=sign1_keep_transparent.13.0,-64,-96
+image[2]=sign1_keep_transparent.13.3,-64,-96
+image[3]=sign1_keep_transparent.13.1,-64,-96
 ---
 # @text ja:[一通] 直進舗装
 # @text en:[One way] Go straight pavement
@@ -301,11 +301,11 @@ retire_month=1
 single_way=1
 offset_left=0
 icon=> ../../icon1.7.0
-cursor=sign1.14.0,-64,-104
-image[0]=sign1.14.2,-64,-96
-image[1]=sign1.14.0,-64,-96
-image[2]=sign1.14.3,-64,-96
-image[3]=sign1.14.1,-64,-96
+cursor=sign1_keep_transparent.14.0,-64,-104
+image[0]=sign1_keep_transparent.14.2,-64,-96
+image[1]=sign1_keep_transparent.14.0,-64,-96
+image[2]=sign1_keep_transparent.14.3,-64,-96
+image[3]=sign1_keep_transparent.14.1,-64,-96
 ---
 # @text ja:[一通] 直進と右方向舗装
 # @text en:[One way] Go straight and right direction pavement
@@ -321,11 +321,11 @@ retire_month=1
 single_way=1
 offset_left=0
 icon=> ../../icon1.7.1
-cursor=sign1.15.0,-64,-104
-image[0]=sign1.15.2,-64,-96
-image[1]=sign1.15.0,-64,-96
-image[2]=sign1.15.3,-64,-96
-image[3]=sign1.15.1,-64,-96
+cursor=sign1_keep_transparent.15.0,-64,-104
+image[0]=sign1_keep_transparent.15.2,-64,-96
+image[1]=sign1_keep_transparent.15.0,-64,-96
+image[2]=sign1_keep_transparent.15.3,-64,-96
+image[3]=sign1_keep_transparent.15.1,-64,-96
 ---
 # @text ja:[一通] 左方向と直進舗装
 # @text en:[One way] Left direction and go straight pavement
@@ -341,11 +341,11 @@ retire_month=1
 single_way=1
 offset_left=0
 icon=> ../../icon1.7.2
-cursor=sign1.16.0,-64,-104
-image[0]=sign1.16.2,-64,-96
-image[1]=sign1.16.0,-64,-96
-image[2]=sign1.16.3,-64,-96
-image[3]=sign1.16.1,-64,-96
+cursor=sign1_keep_transparent.16.0,-64,-104
+image[0]=sign1_keep_transparent.16.2,-64,-96
+image[1]=sign1_keep_transparent.16.0,-64,-96
+image[2]=sign1_keep_transparent.16.3,-64,-96
+image[3]=sign1_keep_transparent.16.1,-64,-96
 ---
 # @text ja:[一通] 左折及び直進と直進舗装
 # @text en:[One way] Turn left or go straight and go straight pavement
@@ -361,11 +361,11 @@ retire_month=1
 single_way=1
 offset_left=0
 icon=> ../../icon1.7.3
-cursor=sign1.17.0,-64,-104
-image[0]=sign1.17.2,-64,-96
-image[1]=sign1.17.0,-64,-96
-image[2]=sign1.17.3,-64,-96
-image[3]=sign1.17.1,-64,-96
+cursor=sign1_keep_transparent.17.0,-64,-104
+image[0]=sign1_keep_transparent.17.2,-64,-96
+image[1]=sign1_keep_transparent.17.0,-64,-96
+image[2]=sign1_keep_transparent.17.3,-64,-96
+image[3]=sign1_keep_transparent.17.1,-64,-96
 ---
 # @text ja:[一通] 直進と右折及び直進舗装
 # @text en:[One way] Go straight and turn right or go straight pavement
@@ -381,11 +381,11 @@ retire_month=1
 single_way=1
 offset_left=0
 icon=> ../../icon1.7.4
-cursor=sign1.18.0,-64,-104
-image[0]=sign1.18.2,-64,-96
-image[1]=sign1.18.0,-64,-96
-image[2]=sign1.18.3,-64,-96
-image[3]=sign1.18.1,-64,-96
+cursor=sign1_keep_transparent.18.0,-64,-104
+image[0]=sign1_keep_transparent.18.2,-64,-96
+image[1]=sign1_keep_transparent.18.0,-64,-96
+image[2]=sign1_keep_transparent.18.3,-64,-96
+image[3]=sign1_keep_transparent.18.1,-64,-96
 ---
 # @text ja:[一通] 左折及び直進と右折及び直進舗装
 # @text en:[One way] Turn left or go straight and turn right or go straight pavement
@@ -401,11 +401,11 @@ retire_month=1
 single_way=1
 offset_left=0
 icon=> ../../icon1.7.5
-cursor=sign1.19.0,-64,-104
-image[0]=sign1.19.2,-64,-96
-image[1]=sign1.19.0,-64,-96
-image[2]=sign1.19.3,-64,-96
-image[3]=sign1.19.1,-64,-96
+cursor=sign1_keep_transparent.19.0,-64,-104
+image[0]=sign1_keep_transparent.19.2,-64,-96
+image[1]=sign1_keep_transparent.19.0,-64,-96
+image[2]=sign1_keep_transparent.19.3,-64,-96
+image[3]=sign1_keep_transparent.19.1,-64,-96
 ---
 # @text ja:[一通] 左折と右折舗装
 # @text en:[One way] Turn left and turn right pavement
@@ -421,11 +421,11 @@ retire_month=1
 single_way=1
 offset_left=0
 icon=> ../../icon1.7.6
-cursor=sign1.20.0,-64,-104
-image[0]=sign1.20.2,-64,-96
-image[1]=sign1.20.0,-64,-96
-image[2]=sign1.20.3,-64,-96
-image[3]=sign1.20.1,-64,-96
+cursor=sign1_keep_transparent.20.0,-64,-104
+image[0]=sign1_keep_transparent.20.2,-64,-96
+image[1]=sign1_keep_transparent.20.0,-64,-96
+image[2]=sign1_keep_transparent.20.3,-64,-96
+image[3]=sign1_keep_transparent.20.1,-64,-96
 ---
 # @text ja:[一通] 横断歩道舗装
 # @text en:[One way] Crosswalk pavement
@@ -441,9 +441,9 @@ retire_month=1
 single_way=1
 offset_left=0
 icon=> ../../icon1.7.7
-cursor=sign1.21.0,-64,-104
-image[0]=sign1.21.2,-64,-96
-image[1]=sign1.21.0,-64,-96
-image[2]=sign1.21.3,-64,-96
-image[3]=sign1.21.1,-64,-96
+cursor=sign1_keep_transparent.21.0,-64,-104
+image[0]=sign1_keep_transparent.21.2,-64,-96
+image[1]=sign1_keep_transparent.21.0,-64,-96
+image[2]=sign1_keep_transparent.21.3,-64,-96
+image[3]=sign1_keep_transparent.21.1,-64,-96
 ---
