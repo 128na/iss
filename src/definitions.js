@@ -108,16 +108,20 @@ module.exports = [
     ],
     imageSet: {
       'icon2.png': ['icon2.png', 'icon_erase_color.png'],
-      'maglev/way/transrapid_g.png': ['maglev/way/transrapid_g.png'],
-      'maglev/way/transrapid_e.png': ['maglev/way/transrapid_e.png'],
-
       'maglev/way/linear_single_back.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/single_erase_color.png', 'maglev/way/linear_back.png'],
       'maglev/way/linear_front_back.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/front_erase_color.png', 'maglev/way/linear_back.png'],
       'maglev/way/linear_center_back.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/center_erase_color.png', 'maglev/way/linear_back.png'],
       'maglev/way/linear_back_back.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/back_erase_color.png', 'maglev/way/linear_back.png'],
 
-      'maglev/way/marine_g.png': ['maglev/way/marine_g.png'],
-      'maglev/way/marine_e.png': ['maglev/way/marine_e.png'],
+      'maglev/way/transrapid_g.png': ['maglev/way/transrapid.png'],
+      'maglev/way/transrapid_e_front.png': ['maglev/way/pier_front.png', 'maglev/way/transrapid.png'],
+      'maglev/way/transrapid_e_center.png': ['maglev/way/pier_center.png', 'maglev/way/transrapid.png'],
+      'maglev/way/transrapid_e_back.png': ['maglev/way/pier_back.png', 'maglev/way/transrapid.png'],
+
+      'maglev/way/marine_g.png': ['maglev/way/marine.png'],
+      'maglev/way/marine_e_front.png': ['maglev/way/pier_front.png', 'maglev/way/marine.png'],
+      'maglev/way/marine_e_center.png': ['maglev/way/pier_center.png', 'maglev/way/marine.png'],
+      'maglev/way/marine_e_back.png': ['maglev/way/pier_back.png', 'maglev/way/marine.png'],
     }
   },
   {
@@ -132,6 +136,35 @@ module.exports = [
       'maglev/way-object/wall_back.png': ['maglev/way-object/wall_back.png'],
       'maglev/way-object/wall_center.png': ['maglev/way-object/wall_center.png'],
       'maglev/way-object/wall_front.png': ['maglev/way-object/wall_front.png'],
+    }
+  },
+  {
+    size: 256,
+    pakFile: 'iss_monorail_way.pak',
+    datFiles: [
+      'monorail/way/straddle.dat',
+      'monorail/way/suspended.dat',
+    ],
+    imageSet: {
+      'icon2.png': ['icon2.png', 'icon_erase_color.png'],
+      'monorail/way/straddle_g.png': ['monorail/way/straddle.png'],
+      'monorail/way/straddle_e_front.png': ['maglev/way/pier_front.png', 'monorail/way/straddle.png'],
+      'monorail/way/straddle_e_center.png': ['maglev/way/pier_center.png', 'monorail/way/straddle.png'],
+      'monorail/way/straddle_e_back.png': ['maglev/way/pier_back.png', 'monorail/way/straddle.png'],
+
+      'monorail/way/suspended_g_back_surface.png': ['monorail/way/suspended_back_surface.png'],
+      'monorail/way/suspended_g_back_rear.png': ['monorail/way/suspended_back_rear.png'],
+      'monorail/way/suspended_g_center_surface.png': ['monorail/way/suspended_back_surface.png', 'monorail/way/suspended_front_surface.png'],
+      'monorail/way/suspended_g_center_rear.png': ['monorail/way/suspended_back_rear.png', 'monorail/way/suspended_front_rear.png'],
+      'monorail/way/suspended_g_front_surface.png': ['monorail/way/suspended_front_surface.png'],
+      'monorail/way/suspended_g_front_rear.png': ['monorail/way/suspended_front_rear.png'],
+
+      'monorail/way/suspended_e_back_surface.png': ['monorail/way/suspended_back_surface.png'],
+      'monorail/way/suspended_e_back_rear.png': ['monorail/way/suspended_pier_back.png', 'monorail/way/suspended_back_rear.png'],
+      'monorail/way/suspended_e_center_surface.png': ['monorail/way/suspended_pier_front.png', 'monorail/way/suspended_back_surface.png', 'monorail/way/suspended_front_surface.png'],
+      'monorail/way/suspended_e_center_rear.png': ['monorail/way/suspended_pier_back.png', 'monorail/way/suspended_back_rear.png', 'monorail/way/suspended_front_rear.png'],
+      'monorail/way/suspended_e_front_surface.png': ['monorail/way/suspended_pier_front.png', 'monorail/way/suspended_front_surface.png'],
+      'monorail/way/suspended_e_front_rear.png': ['monorail/way/suspended_front_rear.png'],
     }
   },
   {
