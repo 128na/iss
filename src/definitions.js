@@ -140,6 +140,18 @@ module.exports = [
   },
   {
     size: 256,
+    pakFile: 'iss_maglev_tunnel.pak',
+    datFiles: [
+      'maglev/tunnel/marine.dat',
+    ],
+    imageSet: {
+      'icon2.png': ['icon2.png', 'icon_erase_color.png'],
+      'maglev/tunnel/marine_u_rear_keep_transparent.png': ['maglev/tunnel/marine_u_rear_keep_transparent.png'],
+      'maglev/tunnel/marine_u_surface_keep_transparent.png': ['maglev/tunnel/marine_u_surface_keep_transparent.png'],
+    }
+  },
+  {
+    size: 256,
     pakFile: 'iss_monorail_way.pak',
     datFiles: [
       'monorail/way/straddle.dat',
