@@ -3,9 +3,9 @@ import { Image, loadImage } from 'canvas';
 import { eraseTransparent, mergeImage, shiftImage, splitImage } from 'simutrans-image-util';
 
 export default class ImageManager {
-  static SPECIAL_KEYWORD = 'special_color.png';
-  static ERASE_KEYWORD = 'erase_color.png';
-  static KEEP_TRANSPARENT_KEYWORD = 'keep_transparent.png';
+  static SPECIAL_KEYWORD = '_sc.png';
+  static ERASE_KEYWORD = '_ec.png';
+  static KEEP_TRANSPARENT_KEYWORD = '_kt.png';
   static ERASE_COLOR = '255,0,0';
 
   public async merge(output: string, sources: string[]): Promise<void> {

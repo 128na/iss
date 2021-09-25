@@ -58,6 +58,7 @@ additional
 ## 諸元
 
 - [way](./way)
+- [definition](./definition)
 
 ## appendix
 補足資料
