@@ -94,6 +94,18 @@ module.exports = [
   },
   {
     size: 256,
+    pakFile: 'iss_rail_tunnel.pak',
+    datFiles: [
+      'rail/tunnel/tunnel.dat',
+    ],
+    imageSet: {
+      'icon2.png': ['icon2.png', 'icon_ec.png'],
+      'rail/tunnel/tunnel_surface.png': ['maglev/tunnel/tunnel_surface.png'],
+      'rail/tunnel/tunnel_rear.png': ['maglev/tunnel/tunnel_rear.png'],
+    }
+  },
+  {
+    size: 256,
     pakFile: 'iss_maglev_way.pak',
     datFiles: [
       'maglev/way/transrapid.dat',
@@ -137,11 +149,14 @@ module.exports = [
     pakFile: 'iss_maglev_tunnel.pak',
     datFiles: [
       'maglev/tunnel/marine.dat',
+      'maglev/tunnel/tunnel.dat',
     ],
     imageSet: {
       'icon2.png': ['icon2.png', 'icon_ec.png'],
       'maglev/tunnel/marine_u_rear_kt.png': ['maglev/tunnel/marine_u_rear.png'],
       'maglev/tunnel/marine_u_surface_kt.png': ['maglev/tunnel/marine_u_surface.png'],
+      'maglev/tunnel/tunnel_surface.png': ['maglev/tunnel/tunnel_surface.png'],
+      'maglev/tunnel/tunnel_rear.png': ['maglev/tunnel/tunnel_rear.png'],
     }
   },
   {
@@ -171,6 +186,18 @@ module.exports = [
       'monorail/way/suspended_e_center_rear.png': ['monorail/way/suspended_pier_back.png', 'monorail/way/suspended_back_rear.png', 'monorail/way/suspended_front_rear.png'],
       'monorail/way/suspended_e_front_surface.png': ['monorail/way/suspended_pier_front.png', 'monorail/way/suspended_front_surface.png'],
       'monorail/way/suspended_e_front_rear.png': ['monorail/way/suspended_front_rear.png'],
+    }
+  },
+  {
+    size: 256,
+    pakFile: 'iss_monorail_tunnel.pak',
+    datFiles: [
+      'monorail/tunnel/tunnel.dat',
+    ],
+    imageSet: {
+      'icon2.png': ['icon2.png', 'icon_ec.png'],
+      'monorail/tunnel/tunnel_surface.png': ['maglev/tunnel/tunnel_surface.png'],
+      'monorail/tunnel/tunnel_rear.png': ['maglev/tunnel/tunnel_rear.png'],
     }
   },
   {
