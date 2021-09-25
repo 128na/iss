@@ -5,8 +5,8 @@ module.exports = [
     datFiles: ['road/way/ground.dat', 'road/way/elevated.dat'],
     imageSet: {
       'icon1.png': ['icon1.png', 'icon_ec.png'],
-      'road/way/0030.png': ['road/way/0030_base.png', 'road/way/0030.png', 'road/way/0030_noise.png', 'road/way/road_ec.png'],
-      'road/way/0050.png': ['road/way/0050_base.png', 'road/way/0050.png', 'road/way/0050_noise.png', 'road/way/road_ec.png'],
+      'road/way/0030.png': ['road/way/0030_base.png', 'road/way/0030.png', 'road/way/0030_noise.png', 'road/way/road2_ec.png'],
+      'road/way/0050.png': ['road/way/0050_base.png', 'road/way/0050.png', 'road/way/0050_noise.png', 'road/way/road2_ec.png'],
       'road/way/0060.png': ['road/way/0060_base.png', 'road/way/0060.png', 'road/way/0100_noise.png', 'road/way/road_ec.png'],
       'road/way/0080.png': ['road/way/0100_base.png', 'road/way/0080.png', 'road/way/0100_noise.png', 'road/way/road_ec.png'],
       'road/way/0120.png': ['road/way/0100_base.png', 'road/way/0120.png', 'road/way/0100_noise.png', 'road/way/road_ec.png'],
@@ -125,9 +125,10 @@ module.exports = [
       'maglev/way/transrapid_e_back.png': ['maglev/way/pier_back.png', 'maglev/way/transrapid.png', 'maglev/way/transrapid_noise.png'],
 
       'maglev/way/marine_g.png': ['maglev/way/marine.png', 'maglev/way/marine_noise.png'],
-      'maglev/way/marine_e_front.png': ['maglev/way/pier_front.png', 'maglev/way/marine.png', 'maglev/way/marine_noise.png'],
-      'maglev/way/marine_e_center.png': ['maglev/way/pier_center.png', 'maglev/way/marine.png', 'maglev/way/marine_noise.png'],
-      'maglev/way/marine_e_back.png': ['maglev/way/pier_back.png', 'maglev/way/marine.png', 'maglev/way/marine_noise.png'],
+      'maglev/way/marine_e_front_kt.png': ['maglev/way/pier_front.png', 'maglev/way/marine_rear.png', 'maglev/way/marine_noise.png'],
+      'maglev/way/marine_e_center_kt.png': ['maglev/way/pier_center.png', 'maglev/way/marine_rear.png', 'maglev/way/marine_noise.png'],
+      'maglev/way/marine_e_back_kt.png': ['maglev/way/pier_back.png', 'maglev/way/marine_rear.png', 'maglev/way/marine_noise.png'],
+      'maglev/way/marine_e_surface_kt.png': ['maglev/way/marine_surface.png'],
     }
   },
   {
@@ -148,15 +149,15 @@ module.exports = [
     size: 256,
     pakFile: 'iss_maglev_tunnel.pak',
     datFiles: [
-      'maglev/tunnel/marine.dat',
       'maglev/tunnel/tunnel.dat',
     ],
     imageSet: {
       'icon2.png': ['icon2.png', 'icon_ec.png'],
-      'maglev/tunnel/marine_u_rear_kt.png': ['maglev/tunnel/marine_u_rear.png'],
-      'maglev/tunnel/marine_u_surface_kt.png': ['maglev/tunnel/marine_u_surface.png'],
       'maglev/tunnel/tunnel_surface.png': ['maglev/tunnel/tunnel_surface.png'],
       'maglev/tunnel/tunnel_rear.png': ['maglev/tunnel/tunnel_rear.png'],
+
+      'maglev/tunnel/marine_u_rear_kt.png': ['maglev/way/marine_rear.png'],
+      'maglev/tunnel/marine_u_surface_kt.png': ['maglev/way/marine_surface.png'],
     }
   },
   {

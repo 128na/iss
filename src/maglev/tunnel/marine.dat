@@ -1,5 +1,3 @@
-# @text ja:[地上] マリンエクスプレス軌道
-# @text en:[Ground] Marine express track
 obj=way
 name=iss_wgu_1200_marine
 copyright=128na
