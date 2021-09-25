@@ -2,7 +2,7 @@
 # @text ja:[地上] 超電導リニア軌道（単）
 # @text en:[Ground] Superconducting maglev track (single)
 obj=way
-name=iss_wmg_1200_linear_single
+name=iss_wgg_1200_linear_single
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -57,7 +57,7 @@ image[nsew2][0]=linear_single.7.4,-64,-96
 # @text ja:[地上] 超電導リニア軌道（前）
 # @text en:[Ground] Superconducting maglev track (front)
 obj=way
-name=iss_wmg_1200_linear_front
+name=iss_wgg_1200_linear_front
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -112,7 +112,7 @@ image[nsew2][0]=linear_front.7.4,-64,-96
 # @text ja:[地上] 超電導リニア軌道（中）
 # @text en:[Ground] Superconducting maglev track (center)
 obj=way
-name=iss_wmg_1200_linear_center
+name=iss_wgg_1200_linear_center
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -157,7 +157,7 @@ image[nsew][0]=linear_center.5.4,-64,-96
 # @text ja:[地上] 超電導リニア軌道（後）
 # @text en:[Ground] Superconducting maglev track (back)
 obj=way
-name=iss_wmg_1200_linear_back
+name=iss_wgg_1200_linear_back
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -213,7 +213,7 @@ image[nsew2][0]=linear_back.7.4,-64,-96
 # @text ja:[高架] 超電導リニア軌道（単）
 # @text en:[Elevated] Superconducting maglev track (single)
 obj=way
-name=iss_wme_1200_linear_single
+name=iss_wge_1200_linear_single
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -268,7 +268,7 @@ image[nsew2][0]=linear_single.7.4,-64,-96
 # @text ja:[高架] 超電導リニア軌道（前）
 # @text en:[Elevated] Superconducting maglev track (front)
 obj=way
-name=iss_wme_1200_linear_front
+name=iss_wge_1200_linear_front
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -323,7 +323,7 @@ image[nsew2][0]=linear_front.7.4,-64,-96
 # @text ja:[高架] 超電導リニア軌道（中）
 # @text en:[Elevated] Superconducting maglev track (center)
 obj=way
-name=iss_wme_1200_linear_center
+name=iss_wge_1200_linear_center
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -368,7 +368,7 @@ image[nsew][0]=linear_center.5.4,-64,-96
 # @text ja:[高架] 超電導リニア軌道（後）
 # @text en:[Elevated] Superconducting maglev track (back)
 obj=way
-name=iss_wme_1200_linear_back
+name=iss_wge_1200_linear_back
 copyright=128na
 intro_year=1900
 intro_month=1

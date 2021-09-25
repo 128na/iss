@@ -1,7 +1,7 @@
 # @text ja:[地上] マリンエクスプレス軌道
 # @text en:[Ground] Marine express track
 obj=way
-name=iss_wmg_1200_marine
+name=iss_wgg_1200_marine
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -58,7 +58,7 @@ image[nsew2][0]=marine_g.7.4,-64,-32
 # @text ja:[高架] マリンエクスプレス軌道（後）
 # @text en:[Elevated] Marine express track (back)
 obj=way
-name=iss_wme_1200_marine_back
+name=iss_wge_1200_marine_back
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -115,7 +115,7 @@ image[nsew2][0]=marine_e_back.7.4,-64,-32
 # @text ja:[高架] マリンエクスプレス軌道（中）
 # @text en:[Elevated] Marine express track (center)
 obj=way
-name=iss_wme_1200_marine_e_center
+name=iss_wge_1200_marine_center
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -172,7 +172,7 @@ image[nsew2][0]=marine_e_center.7.4,-64,-32
 # @text ja:[高架] マリンエクスプレス軌道（前）
 # @text en:[Elevated] Marine express track (front)
 obj=way
-name=iss_wme_1200_marine_front
+name=iss_wge_1200_marine_front
 copyright=128na
 intro_year=1900
 intro_month=1
