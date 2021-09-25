@@ -1,7 +1,7 @@
 # @text ja:[トンネル] 鉄道
 # @text en:[Tunnel] track
 obj=tunnel
-name=iss_tt_0360_linear
+name=iss_tt_0360_ffu
 copyright=128na
 intro_year=1900
 intro_month=1
@@ -11,8 +11,8 @@ waytype=track
 cost=1200000
 maintenance=24000
 topspeed=360
-way=iss_wtg_360_ffu_center
-icon=> ../../icon1.1.0
+way=iss_wtu_0360_ffu
+icon=> ../../icon2.0.10
 cursor=tunnel_rear.0.1,-64,-104
 backImage[n]=tunnel_rear.0.0,-64,-96
 backImage[w]=tunnel_rear.0.1,-64,-96

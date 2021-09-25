@@ -97,11 +97,13 @@ module.exports = [
     pakFile: 'iss_rail_tunnel.pak',
     datFiles: [
       'rail/tunnel/tunnel.dat',
+      'rail/tunnel/under_way.dat',
     ],
     imageSet: {
       'icon2.png': ['icon2.png', 'icon_ec.png'],
-      'rail/tunnel/tunnel_surface.png': ['maglev/tunnel/tunnel_surface.png'],
-      'rail/tunnel/tunnel_rear.png': ['maglev/tunnel/tunnel_rear.png'],
+      'rail/tunnel/tunnel_surface.png': ['maglev/tunnel/tunnel_surface.png', 'maglev/tunnel/tunnel_surface_noise.png'],
+      'rail/tunnel/tunnel_rear.png': ['maglev/tunnel/tunnel_rear.png', 'maglev/tunnel/tunnel_rear_noise.png'],
+      'rail/tunnel/rail.png': ['rail/tunnel/rail.png'],
     }
   },
   {
@@ -150,11 +152,12 @@ module.exports = [
     pakFile: 'iss_maglev_tunnel.pak',
     datFiles: [
       'maglev/tunnel/tunnel.dat',
+      'maglev/tunnel/under_way.dat',
     ],
     imageSet: {
       'icon2.png': ['icon2.png', 'icon_ec.png'],
-      'maglev/tunnel/tunnel_surface.png': ['maglev/tunnel/tunnel_surface.png'],
-      'maglev/tunnel/tunnel_rear.png': ['maglev/tunnel/tunnel_rear.png'],
+      'maglev/tunnel/tunnel_surface.png': ['maglev/tunnel/tunnel_surface.png', 'maglev/tunnel/tunnel_surface_noise.png'],
+      'maglev/tunnel/tunnel_rear.png': ['maglev/tunnel/tunnel_rear.png', 'maglev/tunnel/tunnel_rear_noise.png'],
 
       'maglev/tunnel/marine_u_rear_kt.png': ['maglev/way/marine_rear.png'],
       'maglev/tunnel/marine_u_surface_kt.png': ['maglev/way/marine_surface.png'],
@@ -197,8 +200,8 @@ module.exports = [
     ],
     imageSet: {
       'icon2.png': ['icon2.png', 'icon_ec.png'],
-      'monorail/tunnel/tunnel_surface.png': ['maglev/tunnel/tunnel_surface.png'],
-      'monorail/tunnel/tunnel_rear.png': ['maglev/tunnel/tunnel_rear.png'],
+      'monorail/tunnel/tunnel_surface.png': ['maglev/tunnel/tunnel_surface.png', 'maglev/tunnel/tunnel_surface_noise.png'],
+      'monorail/tunnel/tunnel_rear.png': ['maglev/tunnel/tunnel_rear.png', 'maglev/tunnel/tunnel_rear_noise.png'],
     }
   },
   {
