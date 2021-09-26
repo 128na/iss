@@ -44,7 +44,7 @@ jobs:
         run: npm ci && npm run release
 
       - name: make release file
-        run: cp ./extra/* ./release && cp ./docs/thumbnail.png ./release && cp LICENSE ./release && cp ./src/compat.tab ./release && zip -jr release.zip ./release
+        run: cp -r ./extra/* ./release && cp ./docs/thumbnail.png ./release && cp LICENSE ./release && cp ./src/compat.tab ./release && zip -jr release.zip ./release
 
       - name: Release
         uses: softprops/action-gh-release@v1
