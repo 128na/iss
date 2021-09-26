@@ -1,5 +1,6 @@
 /refs/
 .env
+/dist/
 /release/
 /node_modules/
 /package/
