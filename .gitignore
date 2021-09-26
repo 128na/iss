@@ -1,7 +1,6 @@
 /refs/
-*.pak
 .env
-/dist/
+/release/
 /node_modules/
 /package/
 todo.md

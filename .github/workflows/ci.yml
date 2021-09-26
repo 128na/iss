@@ -41,10 +41,10 @@ jobs:
         run: cp .env.ci .env
 
       - name: make pak files
-        run: npm ci && npm run prod
+        run: npm ci && npm run release
 
       - name: make release file
-        run: cp ./text/README.txt ./dist && cp ./docs/thumbnail.png ./dist && cp LICENSE ./dist && cp ./src/compat.tab ./dist && zip -r release.zip ./dist
+        run: cp ./extra/* ./release && cp ./docs/thumbnail.png ./release && cp LICENSE ./release && cp ./src/compat.tab ./release && zip -jr release.zip ./release
 
       - name: Release
         uses: softprops/action-gh-release@v1

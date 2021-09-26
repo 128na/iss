@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "それなりにそれっぽい感じのインフラアドオンになる予定（未定",
   "scripts": {
-    "prod": "npm run build && npm run translate",
+    "release": "npm run build && npm run translate",
     "serve": "npx ts-node js/ServeCommand.ts",
-    "build": "npx ts-node js/BuildCommand.ts --output=./dist/pak128",
+    "build": "npx ts-node js/BuildCommand.ts --output=./release/pak128",
+    "translate": "npx ts-node js/TranslateCommand.ts --output=./release/text",
     "listing": "npx ts-node js/AddonListCommand.ts",
-    "translate": "npx ts-node js/TranslateCommand.ts --output=./dist/text",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bugs": {
