@@ -40,6 +40,9 @@ export class Builder {
 
   private async handleDefinitions(): Promise<string[]> {
     const definitions = this.definitionLoader.load(this.definition);
+
+    // return Promise.all(definitions.map(d => this.handleDefinition(d)));
+
     const pakFiles = [];
     for (const definition of definitions) {
       pakFiles.push(await this.handleDefinition(definition));
@@ -68,14 +71,22 @@ export class Builder {
   }
 
   private async merge(definition: definition) {
-    for (const [key, value] of Object.entries(definition.imageSet)) {
+    return Promise.all(Object.entries(definition.imageSet).map(async ([key, value]) => {
       const filename = `${this.output}/${key}`;
       if (!this.mergedImages.includes(filename)) {
         logger('mergeImages', key, value);
         await this.imageManager.merge(filename, value.map(v => `${this.source}/${v}`));
         this.mergedImages.push(filename);
       }
-    }
+    }));
+    // for (const [key, value] of Object.entries(definition.imageSet)) {
+    //   const filename = `${this.output}/${key}`;
+    //   if (!this.mergedImages.includes(filename)) {
+    //     logger('mergeImages', key, value);
+    //     await this.imageManager.merge(filename, value.map(v => `${this.source}/${v}`));
+    //     this.mergedImages.push(filename);
+    //   }
+    // }
   }
 
   private copyDatFiles(definition: definition): string[] {
