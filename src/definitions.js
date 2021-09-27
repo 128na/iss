@@ -5,12 +5,17 @@ module.exports = [
     datFiles: ['road/way/ground.dat', 'road/way/elevated.dat'],
     imageSet: {
       'icon1.png': ['icon1.png', 'icon_ec.png'],
-      'road/way/0030.png': ['road/way/0030_base.png', 'road/way/0030.png', 'road/way/0030_noise.png', 'road/way/road2_ec.png'],
-      'road/way/0050.png': ['road/way/0050_base.png', 'road/way/0050.png', 'road/way/0050_noise.png', 'road/way/road2_ec.png'],
-      'road/way/0060.png': ['road/way/0060_base.png', 'road/way/0060.png', 'road/way/0100_noise.png', 'road/way/road_ec.png'],
-      'road/way/0080.png': ['road/way/0100_base.png', 'road/way/0080.png', 'road/way/0100_noise.png', 'road/way/road_ec.png'],
-      'road/way/0120.png': ['road/way/0100_base.png', 'road/way/0120.png', 'road/way/0100_noise.png', 'road/way/road_ec.png'],
-      'road/way/1200.png': ['road/way/1200_base.png', 'road/way/1200.png', 'road/way/1200_noise.png', 'road/way/road_ec.png'],
+      'road/way/0030.png': ['road/way/base_low.png', 'road/way/base_noise.png', 'road/way/line_lowest.png', 'road/way/base_ec.png', 'road/way/barrier.png'],
+      'road/way/0050.png': ['road/way/base_mid.png', 'road/way/base_noise.png', 'road/way/line_low.png', 'road/way/base_ec.png', 'road/way/barrier.png'],
+      'road/way/0060.png': ['road/way/base_high.png', 'road/way/line_red.png', 'road/way/base_noise.png', 'road/way/line_yellow.png', 'road/way/base_ec.png', 'road/way/barrier.png'],
+      'road/way/0080.png': ['road/way/base_high.png', 'road/way/base_noise.png', 'road/way/line_yellow.png', 'road/way/base_ec.png', 'road/way/barrier.png'],
+      'road/way/0120.png': ['road/way/base_high.png', 'road/way/base_noise.png', 'road/way/line_mid.png', 'road/way/base_ec.png', 'road/way/barrier.png'],
+      'road/way/1200.png': ['road/way/base_high.png', 'road/way/base_noise.png', 'road/way/line_high.png', 'road/way/base_ec.png', 'road/way/barrier.png'],
+
+      'road/way/low.png': ['road/way/base_low.png', 'road/way/base_noise.png', 'road/way/base_ec.png'],
+      'road/way/mid.png': ['road/way/base_mid.png', 'road/way/base_noise.png', 'road/way/base_ec.png'],
+      'road/way/high.png': ['road/way/base_high.png', 'road/way/base_noise.png', 'road/way/base_ec.png'],
+
     }
   },
   {
