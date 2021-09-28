@@ -223,8 +223,8 @@ module.exports = [
     datFiles: ['util/round-about/round_about.dat'],
     imageSet: {
       'icon1.png': ['icon1.png', 'icon_ec.png'],
-      'util/round-about/round_about1.png': ['util/round-about/round_about1_base.png', 'util/round-about/round_about1.png', 'util/round-about/round_about1_noise.png'],
-      'util/round-about/round_about2.png': ['util/round-about/round_about2_base.png', 'util/round-about/round_about2.png', 'util/round-about/round_about2_noise.png'],
+      'util/round-about/round_about1_kt.png': ['util/round-about/round_about1.png', 'util/round-about/round_about1_ec.png'],
+      'util/round-about/round_about2_kt.png': ['util/round-about/round_about2.png', 'util/round-about/round_about2_ec.png'],
     }
   },
   {
@@ -233,7 +233,7 @@ module.exports = [
     datFiles: ['util/intersection/intersection.dat'],
     imageSet: {
       'icon1.png': ['icon1.png', 'icon_ec.png'],
-      'util/intersection/intersection.png': ['util/intersection/intersection_base.png', 'util/intersection/intersection.png', 'util/intersection/intersection_noise.png'],
+      'util/intersection/intersection_kt.png': ['util/intersection/intersection.png', 'util/intersection/intersection_ec.png'],
     }
   },
   {

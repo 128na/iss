@@ -443,10 +443,10 @@ diagonal[sw]=mid.6.0,-64,-96
 diagonal[nw]=mid.6.1,-64,-96
 diagonal[ne]=mid.6.2,-64,-96
 diagonal[se]=mid.6.3,-64,-96
-image[sw]=mid.6.0,-64,-96
-image[nw]=mid.6.1,-64,-96
-image[ne]=mid.6.2,-64,-96
-image[se]=mid.6.3,-64,-96
+image[sw]=mid.7.0,-64,-96
+image[nw]=mid.7.1,-64,-96
+image[ne]=mid.7.2,-64,-96
+image[se]=mid.7.3,-64,-96
 ---
 # @text ja:[地上] 幹線タイル
 # @text en:[Ground] Main road tile
