@@ -303,4 +303,13 @@ module.exports = [
       'util/rail-yard/table.png': ['util/rail-yard/table_base.png', 'util/rail-yard/table_noise.png', 'util/rail-yard/table_noise2.png', 'util/rail-yard/table_ec.png', 'util/rail-yard/table.png', 'util/rail-yard/table_concrete_noise.png'],
     }
   },
+  {
+    size: 256,
+    pakFile: 'iss_util_electric.pak',
+    datFiles: ['util/electric/pole.dat'],
+    imageSet: {
+      'icon1.png': ['icon1.png', 'icon_ec.png'],
+      'util/electric/pole_kt.png': ['util/electric/pole.png'],
+    }
+  },
 ];
