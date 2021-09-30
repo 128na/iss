@@ -3,27 +3,41 @@ import { Image, loadImage } from 'canvas';
 import { eraseTransparent, mergeImage, shiftImage, splitImage } from 'simutrans-image-util';
 
 export default class ImageManager {
-  static SPECIAL_KEYWORD = '_sc.png';
-  static ERASE_KEYWORD = '_ec.png';
-  static KEEP_TRANSPARENT_KEYWORD = '_kt.png';
-  static ERASE_COLOR = '255,0,0';
+  private specialKeyword: string;
+  private eraseKeyword: string;
+  private eraseColor: string;
+  private keepTransparentKeyword: string;
+  private eraseTransparentThreshold: number;
+
+  constructor(
+    specialKeyword = '_sc.png',
+    eraseKeyword = '_ec.png',
+    eraseColor = '255,0,0',
+    keepTransparentKeyword = '_kt.png',
+    eraseTransparentThreshold: string | number = 0.1
+  ) {
+    this.specialKeyword = specialKeyword;
+    this.eraseKeyword = eraseKeyword;
+    this.eraseColor = eraseColor;
+    this.keepTransparentKeyword = keepTransparentKeyword;
+    this.eraseTransparentThreshold = Number(eraseTransparentThreshold);
+  }
 
   public async merge(output: string, sources: string[]): Promise<void> {
     let images: Image[] = [];
     let canvas;
-    const eraseTransparentThreshold = 0.1;
 
     for (const source of sources) {
       images.push(await loadImage(source));
-      const special = source.endsWith(ImageManager.SPECIAL_KEYWORD);
-      const erase = source.endsWith(ImageManager.ERASE_KEYWORD);
+      const special = source.endsWith(this.specialKeyword);
+      const erase = source.endsWith(this.eraseKeyword);
 
       if (special || erase) {
         canvas = mergeImage(images, {
           canvas,
           replaceSpecialColor: special,
-          eraseColor: erase ? ImageManager.ERASE_COLOR : undefined,
-          eraseTransparentThreshold,
+          eraseColor: erase ? this.eraseColor : undefined,
+          eraseTransparentThreshold: this.eraseTransparentThreshold,
         });
         images = [];
       }
@@ -33,12 +47,12 @@ export default class ImageManager {
       canvas = mergeImage(images, {
         canvas,
         replaceSpecialColor: true,
-        eraseColor: ImageManager.ERASE_COLOR,
+        eraseColor: this.eraseColor,
       });
     }
     if (canvas) {
-      if (!output.endsWith(ImageManager.KEEP_TRANSPARENT_KEYWORD)) {
-        eraseTransparent(canvas, eraseTransparentThreshold);
+      if (!output.endsWith(this.keepTransparentKeyword)) {
+        eraseTransparent(canvas, this.eraseTransparentThreshold);
       }
       this.write(output, canvas.toDataURL());
     } else {

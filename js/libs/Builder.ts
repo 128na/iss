@@ -24,7 +24,13 @@ export class Builder {
     this.changedFile = '';
     this.source = source;
     this.output = output;
-    this.imageManager = new ImageManager();
+    this.imageManager = new ImageManager(
+      process.env.IMAGE_SPECIAL_KEYWORD,
+      process.env.IMAGE_ERASE_KEYWORD,
+      process.env.IMAGE_KEEP_TRANSPARENT_KEYWORD,
+      process.env.IMAGE_ERASE_COLOR,
+      process.env.IMAGE_ERASE_TRANSPARENT_THRESHOLD
+    );
     this.makeobj = new Makeobj(process.env.MAKEOBJ_PATH);
     this.definitionLoader = new DefinitionLoader();
   }
