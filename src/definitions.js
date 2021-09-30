@@ -291,7 +291,7 @@ module.exports = [
     datFiles: ['util/gently-point/point.dat'],
     imageSet: {
       'icon3.png': ['icon3.png', 'icon_ec.png'],
-      'util/gently-point/point.png': ['util/gently-point/point_barrast.png', 'util/gently-point/point_noise1.png', 'util/gently-point/point_noise2.png', 'util/gently-point/point.png', 'util/gently-point/point_ec.png'],
+      'util/gently-point/point.png': ['util/gently-point/point_barrast.png', 'util/gently-point/point_noise.png', 'util/gently-point/point.png', 'util/gently-point/point_fix.png', 'util/gently-point/point_ec.png'],
     }
   },
   {
@@ -300,7 +300,7 @@ module.exports = [
     datFiles: ['util/rail-yard/table.dat'],
     imageSet: {
       'icon1.png': ['icon1.png', 'icon_ec.png'],
-      'util/rail-yard/table.png': ['util/rail-yard/table_base.png', 'util/rail-yard/table_noise.png', 'util/rail-yard/table_noise2.png', 'util/rail-yard/table_ec.png', 'util/rail-yard/table.png', 'util/rail-yard/table_concrete_noise.png'],
+      'util/rail-yard/table.png': ['util/rail-yard/table_base.png', 'util/rail-yard/barrast_noise.png', 'util/rail-yard/table_ec.png', 'util/rail-yard/table.png', 'util/rail-yard/table_concrete_noise.png'],
     }
   },
   {
