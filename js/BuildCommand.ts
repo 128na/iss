@@ -1,6 +1,8 @@
 import { Builder } from "./libs/Builder";
 import { Command } from 'commander';
 import { buildCommandOption } from './interface';
+require('dotenv').config();
+
 const runner = new Command('build');
 runner
   .description('ソースファイルをビルドします。')

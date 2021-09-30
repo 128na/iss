@@ -2,6 +2,8 @@ import { Command } from 'commander';
 import { serveCommandOption } from './interface';
 import Serve from './libs/Serve';
 
+require('dotenv').config();
+
 const runner = new Command('build');
 runner
   .description('ソースファイルの更新を監視して自動ビルド、検証用シムトラを起動します。')
