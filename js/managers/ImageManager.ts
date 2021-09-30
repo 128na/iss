@@ -11,6 +11,7 @@ export default class ImageManager {
   public async merge(output: string, sources: string[]): Promise<void> {
     let images: Image[] = [];
     let canvas;
+    const eraseTransparentThreshold = 0.1;
 
     for (const source of sources) {
       images.push(await loadImage(source));
@@ -22,6 +23,7 @@ export default class ImageManager {
           canvas,
           replaceSpecialColor: special,
           eraseColor: erase ? ImageManager.ERASE_COLOR : undefined,
+          eraseTransparentThreshold,
         });
         images = [];
       }
@@ -36,7 +38,7 @@ export default class ImageManager {
     }
     if (canvas) {
       if (!output.endsWith(ImageManager.KEEP_TRANSPARENT_KEYWORD)) {
-        eraseTransparent(canvas);
+        eraseTransparent(canvas, eraseTransparentThreshold);
       }
       this.write(output, canvas.toDataURL());
     } else {
