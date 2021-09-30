@@ -3,7 +3,7 @@ import watcher from './watcher';
 import { Builder } from "./Builder";
 import { serveCommandOption } from "../interface";
 import { Makeobj } from 'simutrans-makeobj-wrapper';
-import SimutransManager from "../managers/SimutransManager";
+import SimutransManager from "./SimutransManager";
 
 export default class Serve {
   static watchExt = ['dat', 'png', 'js', 'tab'];

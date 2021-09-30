@@ -1,5 +1,5 @@
 import { Command } from 'commander';
-import ImageManager from './managers/ImageManager';
+import ImageManager from './libs/ImageManager';
 
 /**
  * npx ts-node .\js\ShiftImageCommand.ts --source=.\src\path\to\file.png

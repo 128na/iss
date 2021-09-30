@@ -4,7 +4,7 @@ import fs from 'fs-extra';
 import { Makeobj } from 'simutrans-makeobj-wrapper';
 
 import { buildCommandOption, definition } from "../interface";
-import ImageManager from '../managers/ImageManager';
+import ImageManager from './ImageManager';
 import { logger } from '../util';
 import { DefinitionLoader } from './DefinitionLoader';
 
