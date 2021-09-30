@@ -40,7 +40,7 @@ module.exports = [
     imageSet: {
       'icon1.png': ['icon1.png', 'icon_ec.png'],
       'road/roadsign/sign1_kt.png': ['road/roadsign/sign1.png'],
-      'road/roadsign/sign2.png': ['road/roadsign/sign2.png'],
+      'road/roadsign/sign2_kt.png': ['road/roadsign/sign2.png'],
     }
   },
   {
@@ -73,8 +73,8 @@ module.exports = [
     ],
     imageSet: {
       'icon2.png': ['icon2.png', 'icon_ec.png'],
-      'rail/way/narrow.png': ['rail/way/narrow.png', 'rail/way/center_ec.png'],
-      'rail/way/standard.png': ['rail/way/standard.png', 'rail/way/center_ec.png'],
+      'rail/way/narrow_kt.png': ['rail/way/narrow.png', 'rail/way/center_ec.png'],
+      'rail/way/standard_kt.png': ['rail/way/standard.png', 'rail/way/center_ec.png'],
       'rail/way/standard_wood_single.png': ['rail/way/barrast_brown.png', 'rail/way/barrast_noise.png', 'rail/way/standard_wood.png', 'rail/way/standard_fix.png', 'rail/way/single_ec.png'],
       'rail/way/standard_wood_front.png': ['rail/way/barrast_brown.png', 'rail/way/barrast_noise.png', 'rail/way/standard_wood.png', 'rail/way/standard_fix.png', 'rail/way/front_ec.png'],
       'rail/way/standard_wood_center.png': ['rail/way/barrast_brown.png', 'rail/way/barrast_noise.png', 'rail/way/standard_wood.png', 'rail/way/standard_fix.png', 'rail/way/center_ec.png'],
