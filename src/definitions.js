@@ -284,7 +284,7 @@ module.exports = [
     datFiles: ['util/sidewalk/sidewalk.dat'],
     imageSet: {
       'icon1.png': ['icon1.png', 'icon_ec.png'],
-      'util/sidewalk/sidewalk.png': ['util/sidewalk/sidewalk.png'],
+      'util/sidewalk/sidewalk.png': ['util/sidewalk/sidewalk.png', 'util/sidewalk/sidewalk_ec.png'],
     }
   },
   {

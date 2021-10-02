@@ -1,5 +1,5 @@
-# @text ja:歩道（破れ目地パターン）
-# @text en:Sidewark (brickwork pattern)
+# @text ja:歩道（レンガ目地）
+# @text en:Sidewark (brickwork)
 obj=way
 name=iss_wwg_sidewalk1
 copyright=128na
@@ -39,8 +39,8 @@ imageUp2[9]=sidewalk.0.7,-64,-96
 imageUp2[3]=sidewalk.0.8,-64,-96
 imageUp2[6]=sidewalk.0.9,-64,-96
 ---
-# @text ja:歩道（やはず張りパターン）
-# @text en:Sidewark (herringbone pattern)
+# @text ja:歩道（やはず張り）
+# @text en:Sidewark (herringbone)
 obj=way
 name=iss_wwg_sidewalk2
 copyright=128na
@@ -80,8 +80,8 @@ imageUp2[9]=sidewalk.1.7,-64,-96
 imageUp2[3]=sidewalk.1.8,-64,-96
 imageUp2[6]=sidewalk.1.9,-64,-96
 ---
-# @text ja:歩道（通し目地パターン）
-# @text en:Sidewark (grid pattern)
+# @text ja:歩道（通し目地）
+# @text en:Sidewark (grid)
 obj=way
 name=iss_wwg_sidewalk3
 copyright=128na
@@ -121,8 +121,8 @@ imageUp2[9]=sidewalk.2.7,-64,-96
 imageUp2[3]=sidewalk.2.8,-64,-96
 imageUp2[6]=sidewalk.2.9,-64,-96
 ---
-# @text ja:歩道（破れ目地パターン２）
-# @text en:Sidewark (brickwork pattern)
+# @text ja:歩道（レンガ目地２）
+# @text en:Sidewark (brickwork)
 obj=way
 name=iss_wwg_sidewalk4
 copyright=128na
@@ -162,8 +162,8 @@ imageUp2[9]=sidewalk.3.7,-64,-96
 imageUp2[3]=sidewalk.3.8,-64,-96
 imageUp2[6]=sidewalk.3.9,-64,-96
 ---
-# @text ja:歩道（バスケットパターン）
-# @text en:Sidewark (basketwave pattern)
+# @text ja:歩道（バスケット）
+# @text en:Sidewark (basketweave)
 obj=way
 name=iss_wwg_sidewalk5
 copyright=128na
@@ -202,4 +202,45 @@ imageUp2[12]=sidewalk.4.6,-64,-96
 imageUp2[9]=sidewalk.4.7,-64,-96
 imageUp2[3]=sidewalk.4.8,-64,-96
 imageUp2[6]=sidewalk.4.9,-64,-96
+---
+# @text ja:歩道（破れ目地）
+# @text en:Sidewark (brickwork square)
+obj=way
+name=iss_wwg_sidewalk6
+copyright=128na
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+waytype=water
+cost=10
+maintenance=1
+topspeed=10
+system_type=0
+icon=> ../../icon1.12.4
+cursor=sidewalk.5.0,-64,-104
+image[s]=sidewalk.5.1,-64,-96
+image[w]=sidewalk.5.1,-64,-96
+image[n]=sidewalk.5.1,-64,-96
+image[e]=sidewalk.5.1,-64,-96
+image[ns]=sidewalk.5.1,-64,-96
+image[ew]=sidewalk.5.1,-64,-96
+image[se]=sidewalk.5.1,-64,-96
+image[sw]=sidewalk.5.1,-64,-96
+image[nw]=sidewalk.5.1,-64,-96
+image[ne]=sidewalk.5.1,-64,-96
+image[nsew]=sidewalk.5.1,-64,-96
+image[-]=sidewalk.5.1,-64,-96
+image[new]=sidewalk.5.1,-64,-96
+image[nse]=sidewalk.5.1,-64,-96
+image[sew]=sidewalk.5.1,-64,-96
+image[nsw]=sidewalk.5.1,-64,-96
+imageUp[12]=sidewalk.5.2,-64,-96
+imageUp[9]=sidewalk.5.3,-64,-96
+imageUp[3]=sidewalk.5.4,-64,-96
+imageUp[6]=sidewalk.5.5,-64,-96
+imageUp2[12]=sidewalk.5.6,-64,-96
+imageUp2[9]=sidewalk.5.7,-64,-96
+imageUp2[3]=sidewalk.5.8,-64,-96
+imageUp2[6]=sidewalk.5.9,-64,-96
 ---
