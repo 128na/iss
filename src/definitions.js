@@ -73,8 +73,8 @@ module.exports = [
     ],
     imageSet: {
       'icon2.png': ['icon2.png', 'icon_ec.png'],
-      'rail/way/narrow_kt.png': ['rail/way/narrow.png', 'rail/way/center_ec.png'],
-      'rail/way/standard_kt.png': ['rail/way/standard.png', 'rail/way/center_ec.png'],
+      'rail/way/narrow_kt.png': ['rail/way/narrow.png', 'rail/way/narrow_fix.png', 'rail/way/center_ec.png'],
+      'rail/way/standard_kt.png': ['rail/way/standard.png', 'rail/way/standard_fix.png', 'rail/way/center_ec.png'],
 
       'rail/way/wall_single_surface.png': ['rail/way/rail_wall_surface.png'],
       'rail/way/wall_front_surface.png': ['rail/way/rail_wall_surface.png'],
@@ -151,10 +151,10 @@ module.exports = [
     ],
     imageSet: {
       'icon2.png': ['icon2.png', 'icon_ec.png'],
-      'maglev/way/linear_single_rear.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/single_ec.png', 'maglev/way/linear.png', 'maglev/way/wall_single_rear.png'],
-      'maglev/way/linear_front_rear.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/front_ec.png', 'maglev/way/linear.png', 'maglev/way/wall_front_rear.png'],
-      'maglev/way/linear_center_rear.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/center_ec.png', 'maglev/way/linear.png', 'maglev/way/wall_center_rear.png'],
-      'maglev/way/linear_back_rear.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/back_ec.png', 'maglev/way/linear.png', 'maglev/way/wall_back_rear.png'],
+      'maglev/way/linear_single_rear.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/linear.png', 'maglev/way/single_ec.png', 'maglev/way/wall_single_rear.png'],
+      'maglev/way/linear_front_rear.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/linear.png', 'maglev/way/front_ec.png', 'maglev/way/wall_front_rear.png'],
+      'maglev/way/linear_center_rear.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/linear.png', 'maglev/way/center_ec.png', 'maglev/way/wall_center_rear.png'],
+      'maglev/way/linear_back_rear.png': ['maglev/way/linear_base.png', 'maglev/way/linear_noise.png', 'maglev/way/linear.png', 'maglev/way/back_ec.png', 'maglev/way/wall_back_rear.png'],
       'maglev/way/linear_single_surface.png': ['maglev/way/wall_single_surface.png'],
       'maglev/way/linear_front_surface.png': ['maglev/way/wall_front_surface.png'],
       'maglev/way/linear_center_surface.png': ['maglev/way/wall_center_surface.png'],
