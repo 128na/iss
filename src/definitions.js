@@ -311,7 +311,7 @@ module.exports = [
   {
     size: 256,
     pakFile: 'iss_util_sidewalk.pak',
-    datFiles: ['util/sidewalk/sidewalk.dat'],
+    datFiles: ['util/sidewalk/ground.dat', 'util/sidewalk/elevated.dat',],
     imageSet: {
       'icon1.png': ['icon1.png', 'icon_ec.png'],
       'util/sidewalk/sidewalk.png': ['util/sidewalk/sidewalk.png', 'util/sidewalk/sidewalk_ec.png'],
