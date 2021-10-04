@@ -137,7 +137,7 @@ module.exports = [
       'icon2.png': ['icon2.png', 'icon_ec.png'],
       'tunnel/rail/tunnel_surface.png': ['tunnel/tunnel_surface.png', 'tunnel/tunnel_surface_noise.png'],
       'tunnel/rail/tunnel_rear.png': ['tunnel/tunnel_rear.png', 'tunnel/tunnel_rear_noise.png'],
-      'tunnel/rail/rail.png': ['tunnel/shield.png', 'way/rail/standard_ffu.png'],
+      'tunnel/rail/rail.png': ['tunnel/shield_base.png', 'way/rail/standard_ffu.png', 'way/center_ec.png', 'tunnel/shield.png'],
     }
   },
   {
@@ -198,8 +198,9 @@ module.exports = [
 
       'tunnel/maglev/marine_u_rear_kt.png': ['way/maglev/marine_rear.png'],
       'tunnel/maglev/marine_u_surface_kt.png': ['way/maglev/marine_surface.png'],
-      'tunnel/maglev/transrapid.png': ['tunnel/shield.png', 'way/maglev/transrapid.png'],
-      'tunnel/maglev/linear.png': ['tunnel/shield.png', 'way/maglev/linear.png'],
+
+      'tunnel/maglev/transrapid.png': ['tunnel/shield_base.png', 'tunnel/shield.png', 'way/maglev/transrapid.png'],
+      'tunnel/maglev/linear.png': ['tunnel/shield_base.png', 'way/maglev/linear.png', 'way/center_ec.png', 'tunnel/shield.png'],
     }
   },
   {
@@ -242,8 +243,9 @@ module.exports = [
       'icon2.png': ['icon2.png', 'icon_ec.png'],
       'tunnel/monorail/tunnel_surface.png': ['tunnel/tunnel_surface.png', 'tunnel/tunnel_surface_noise.png'],
       'tunnel/monorail/tunnel_rear.png': ['tunnel/tunnel_rear.png', 'tunnel/tunnel_rear_noise.png'],
-      'tunnel/monorail/straddle.png': ['tunnel/shield.png', 'way/monorail/straddle.png'],
-      'tunnel/monorail/suspended_rear.png': ['tunnel/shield.png', 'tunnel/monorail/suspended_rear.png'],
+
+      'tunnel/monorail/straddle.png': ['tunnel/shield_base.png', 'tunnel/shield.png', 'way/monorail/straddle.png'],
+      'tunnel/monorail/suspended_rear.png': ['tunnel/shield_base.png', 'tunnel/shield.png', 'tunnel/monorail/suspended_rear.png'],
       'tunnel/monorail/suspended_surface.png': ['tunnel/monorail/suspended_surface.png'],
     }
   },
