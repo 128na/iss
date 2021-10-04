@@ -1,0 +1,50 @@
+# @text ja:[トンネル] 跨座式モノレール軌道
+# @text en:[Tunnel] straddle track
+obj=tunnel
+name=iss_tm_0120_straddle
+copyright=128na
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+waytype=monorail_track
+cost=200000
+maintenance=4000
+topspeed=120
+way=iss_wmu_0120_straddle
+icon=> ../../icon2.6.4
+cursor=tunnel_rear.4.1,-64,-104
+backImage[n]=tunnel_rear.4.0,-64,-96
+backImage[w]=tunnel_rear.4.1,-64,-96
+backImage[s]=tunnel_rear.4.2,-64,-96
+backImage[e]=tunnel_rear.4.3,-64,-96
+frontImage[n]=tunnel_surface.4.0,-64,-96
+frontImage[w]=tunnel_surface.4.1,-64,-96
+frontImage[s]=tunnel_surface.4.2,-64,-96
+frontImage[e]=tunnel_surface.4.3,-64,-96
+---
+# @text ja:[トンネル] 懸垂式モノレール軌道
+# @text en:[Tunnel] suspended track
+obj=tunnel
+name=iss_tm_0120_suspended
+copyright=128na
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+waytype=monorail_track
+cost=200000
+maintenance=4000
+topspeed=120
+way=iss_wmu_0120_suspended
+icon=> ../../icon2.7.6
+cursor=tunnel_rear.5.1,-64,-104
+backImage[n]=tunnel_rear.5.0,-64,-96
+backImage[w]=tunnel_rear.5.1,-64,-96
+backImage[s]=tunnel_rear.5.2,-64,-96
+backImage[e]=tunnel_rear.5.3,-64,-96
+frontImage[n]=tunnel_surface.5.0,-64,-96
+frontImage[w]=tunnel_surface.5.1,-64,-96
+frontImage[s]=tunnel_surface.5.2,-64,-96
+frontImage[e]=tunnel_surface.5.3,-64,-96
+---
