@@ -58,7 +58,7 @@ intro_month=1
 retire_year=2999
 retire_month=1
 icon=> ../../icon1.0.2
-cursor=0030.4.5,-64,-40
+cursor=0030.5.4,-64,-40
 image[ns]=0030.0.2,-64,-32
 image[ew]=0030.0.3,-64,-32
 image[s]=0030.0.5,-64,-32
@@ -86,7 +86,7 @@ image[nse]=0030.3.0,-64,-32
 image[new]=0030.3.1,-64,-32
 image[nsw]=0030.3.2,-64,-32
 image[sew]=0030.3.3,-64,-32
-image[nsew]=0030.4.5,-64,-32
+image[nsew]=0030.5.4,-64,-32
 ---
 # @text ja:[地上] 市道
 # @text en:[Ground] City road
