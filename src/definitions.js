@@ -2,20 +2,19 @@ module.exports = [
   {
     size: 256,
     pakFile: 'iss_road_way.pak',
-    datFiles: ['road/way/ground.dat', 'road/way/elevated.dat'],
+    datFiles: ['way/road/ground.dat', 'way/road/elevated.dat'],
     imageSet: {
       'icon1.png': ['icon1.png', 'icon_ec.png'],
-      'road/way/0030.png': ['road/way/base_low.png', 'road/way/base_noise.png', 'road/way/line_lowest.png', 'road/way/base_ec.png', 'road/way/barrier.png'],
-      'road/way/0050.png': ['road/way/base_mid.png', 'road/way/base_noise.png', 'road/way/line_low.png', 'road/way/base_ec.png', 'road/way/barrier.png'],
-      'road/way/0060.png': ['road/way/base_high.png', 'road/way/line_red.png', 'road/way/base_noise.png', 'road/way/line_yellow.png', 'road/way/base_round_ec.png', 'road/way/barrier.png'],
-      'road/way/0080.png': ['road/way/base_high.png', 'road/way/base_noise.png', 'road/way/line_yellow.png', 'road/way/base_round_ec.png', 'road/way/barrier.png'],
-      'road/way/0120.png': ['road/way/base_high.png', 'road/way/base_noise.png', 'road/way/line_mid.png', 'road/way/base_round_ec.png', 'road/way/barrier.png'],
-      'road/way/1200.png': ['road/way/base_high.png', 'road/way/base_noise.png', 'road/way/line_high.png', 'road/way/base_round_ec.png', 'road/way/barrier.png'],
+      'way/road/0030.png': ['way/road/base_low.png', 'way/road/noise.png', 'way/road/line_lowest.png', 'way/center_ec.png', 'way/road/barrier.png'],
+      'way/road/0050.png': ['way/road/base_mid.png', 'way/road/noise.png', 'way/road/line_low.png', 'way/center_ec.png', 'way/road/barrier.png'],
+      'way/road/0060.png': ['way/road/base_high.png', 'way/road/line_red.png', 'way/road/noise.png', 'way/road/line_yellow.png', 'way/single_ec.png', 'way/road/barrier.png'],
+      'way/road/0080.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_yellow.png', 'way/single_ec.png', 'way/road/barrier.png'],
+      'way/road/0120.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_mid.png', 'way/single_ec.png', 'way/road/barrier.png'],
+      'way/road/1200.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_high.png', 'way/single_ec.png', 'way/road/barrier.png'],
 
-      'road/way/low.png': ['road/way/base_low.png', 'road/way/base_noise.png', 'road/way/base_ec.png'],
-      'road/way/mid.png': ['road/way/base_mid.png', 'road/way/base_noise.png', 'road/way/base_ec.png'],
-      'road/way/high.png': ['road/way/base_high.png', 'road/way/base_noise.png', 'road/way/base_ec.png'],
-
+      'way/road/low.png': ['way/road/base_low.png', 'way/road/noise.png', 'way/center_ec.png'],
+      'way/road/mid.png': ['way/road/base_mid.png', 'way/road/noise.png', 'way/center_ec.png'],
+      'way/road/high.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/center_ec.png'],
     }
   },
   {
