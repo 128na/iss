@@ -4,13 +4,18 @@ module.exports = [
     pakFile: 'iss_road_way.pak',
     datFiles: ['way/road/ground.dat', 'way/road/elevated.dat'],
     imageSet: {
-      'icon1.png': ['icon1.png', 'icon_ec.png'],
-      'way/road/0030.png': ['way/road/base_low.png', 'way/road/noise.png', 'way/road/line_lowest.png', 'way/center_ec.png', 'way/road/barrier.png'],
+      'icon_way1.png': ['icon_way1.png', 'icon_ec2.png'],
+      'way/road/0030.png': ['way/road/base_low.png', 'way/road/line_lowest.png', 'way/center_ec.png', 'way/road/barrier.png'],
       'way/road/0050.png': ['way/road/base_mid.png', 'way/road/noise.png', 'way/road/line_low.png', 'way/center_ec.png', 'way/road/barrier.png'],
-      'way/road/0060.png': ['way/road/base_high.png', 'way/road/line_red.png', 'way/road/noise.png', 'way/road/line_yellow.png', 'way/single_ec.png', 'way/road/barrier.png'],
-      'way/road/0080.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_yellow.png', 'way/single_ec.png', 'way/road/barrier.png'],
-      'way/road/0120.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_mid.png', 'way/single_ec.png', 'way/road/barrier.png'],
-      'way/road/1200.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_high.png', 'way/single_ec.png', 'way/road/barrier.png'],
+
+      'way/road/0120_single.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_mid.png', 'way/single_ec.png', 'way/road/barrier.png'],
+      'way/road/0120_front.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_mid.png', 'way/front_ec.png', 'way/road/barrier.png'],
+      'way/road/0120_center.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_mid.png', 'way/center_ec.png', 'way/road/barrier.png'],
+      'way/road/0120_back.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_mid.png', 'way/back_ec.png', 'way/road/barrier.png'],
+      'way/road/1200_single.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_high.png', 'way/single_ec.png', 'way/road/barrier.png'],
+      'way/road/1200_front.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_high.png', 'way/front_ec.png', 'way/road/barrier.png'],
+      'way/road/1200_center.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_high.png', 'way/center_ec.png', 'way/road/barrier.png'],
+      'way/road/1200_back.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_high.png', 'way/back_ec.png', 'way/road/barrier.png'],
 
       'way/road/low.png': ['way/road/base_low.png', 'way/road/noise.png', 'way/center_ec.png'],
       'way/road/mid.png': ['way/road/base_mid.png', 'way/road/noise.png', 'way/center_ec.png'],
@@ -46,16 +51,16 @@ module.exports = [
     size: 256,
     pakFile: 'iss_road_way-object.pak',
     datFiles: [
-      'road/way-object/wall.dat',
-      'road/way-object/center_divider.dat',
-      'road/way-object/wall_with_center_divider.dat',
+      'way-object/road/wall.dat',
+      'way-object/road/center_divider.dat',
+      'way-object/road/wall_with_center_divider.dat',
     ],
     imageSet: {
       'icon1.png': ['icon1.png', 'icon_ec.png'],
-      'road/way-object/wall_back_kt.png': ['road/way-object/wall_back_base.png', 'road/way-object/wall_back.png', 'road/way-object/wall_back_noise.png'],
-      'road/way-object/wall_front_kt.png': ['road/way-object/wall_front_base.png', 'road/way-object/wall_front.png', 'road/way-object/wall_front_noise.png'],
-      'road/way-object/center_divider_back.png': ['road/way-object/center_divider_back.png'],
-      'road/way-object/center_divider_front.png': ['road/way-object/center_divider_front.png'],
+      'way-object/road/wall_back_kt.png': ['way-object/road/wall_back_base.png', 'way-object/road/wall_back.png', 'way-object/road/wall_back_noise.png'],
+      'way-object/road/wall_front_kt.png': ['way-object/road/wall_front_base.png', 'way-object/road/wall_front.png', 'way-object/road/wall_front_noise.png'],
+      'way-object/road/center_divider_back.png': ['way-object/road/center_divider_back.png'],
+      'way-object/road/center_divider_front.png': ['way-object/road/center_divider_front.png'],
     }
   },
   {
@@ -71,7 +76,7 @@ module.exports = [
       'way/rail/track_slab.dat',
     ],
     imageSet: {
-      'icon2.png': ['icon2.png', 'icon_ec.png'],
+      'icon_way2.png': ['icon_way2.png', 'icon_ec2.png'],
       'way/rail/narrow_kt.png': ['way/rail/narrow.png', 'way/rail/narrow_fix.png', 'way/center_ec.png'],
       'way/rail/standard_kt.png': ['way/rail/standard.png', 'way/rail/standard_fix.png', 'way/center_ec.png'],
 
@@ -149,7 +154,7 @@ module.exports = [
       'way/maglev/marine.dat',
     ],
     imageSet: {
-      'icon2.png': ['icon2.png', 'icon_ec.png'],
+      'icon_way1.png': ['icon_way1.png', 'icon_ec2.png'],
       'way/maglev/wall_single_surface.png': ['way/wall_surface.png'],
       'way/maglev/wall_front_surface.png': ['way/wall_surface.png'],
       'way/maglev/wall_center_surface.png': ['way/wall_center_surface.png'],
@@ -211,7 +216,7 @@ module.exports = [
       'way/monorail/suspended.dat',
     ],
     imageSet: {
-      'icon2.png': ['icon2.png', 'icon_ec.png'],
+      'icon_way1.png': ['icon_way1.png', 'icon_ec2.png'],
       'way/monorail/straddle_g.png': ['way/monorail/straddle.png', 'way/monorail/straddle_noise.png'],
       'way/monorail/straddle_e_front.png': ['way/pier_front.png', 'way/monorail/straddle.png', 'way/monorail/straddle_noise.png'],
       'way/monorail/straddle_e_center.png': ['way/pier_center.png', 'way/monorail/straddle.png', 'way/monorail/straddle_noise.png'],
@@ -247,6 +252,16 @@ module.exports = [
       'tunnel/monorail/straddle.png': ['tunnel/shield_base.png', 'tunnel/shield.png', 'way/monorail/straddle.png'],
       'tunnel/monorail/suspended_rear.png': ['tunnel/shield_base.png', 'tunnel/shield.png', 'tunnel/monorail/suspended_rear.png'],
       'tunnel/monorail/suspended_surface.png': ['tunnel/monorail/suspended_surface.png'],
+    }
+  },
+  {
+    size: 256,
+    pakFile: 'iss_util_road-line.pak',
+    datFiles: ['util/road-line/line.dat'],
+    imageSet: {
+      'icon1.png': ['icon1.png', 'icon_ec.png'],
+      'util/road-line/red_kt.png': ['util/road-line/line_red.png', 'util/road-line/line_yellow.png', 'way/single_ec.png'],
+      'util/road-line/yellow_kt.png': ['util/road-line/line_yellow.png', 'way/single_ec.png'],
     }
   },
   {
