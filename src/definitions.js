@@ -30,7 +30,7 @@ module.exports = [
       'tunnel/road/underground.dat',
     ],
     imageSet: {
-      'icon1.png': ['icon1.png', 'icon_ec.png'],
+      'icon_way3.png': ['icon_way3.png', 'icon_ec2.png'],
       'tunnel/road/1200.png': ['tunnel/road/1200_base.png', 'tunnel/road/1200.png', 'tunnel/road/1200_noise.png'],
       'tunnel/road/0120.png': ['tunnel/road/0120_base.png', 'tunnel/road/0120.png', 'tunnel/road/0120_noise.png'],
       'tunnel/road/1200_under.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_high.png', 'way/single_ec.png', 'way/road/barrier.png', 'tunnel/road/shield.png'],
@@ -139,7 +139,7 @@ module.exports = [
       'tunnel/rail/under_way.dat',
     ],
     imageSet: {
-      'icon2.png': ['icon2.png', 'icon_ec.png'],
+      'icon_way3.png': ['icon_way3.png', 'icon_ec2.png'],
       'tunnel/rail/tunnel_surface.png': ['tunnel/tunnel_surface.png', 'tunnel/tunnel_surface_noise.png'],
       'tunnel/rail/tunnel_rear.png': ['tunnel/tunnel_rear.png', 'tunnel/tunnel_rear_noise.png'],
       'tunnel/rail/rail.png': ['tunnel/shield_base.png', 'way/rail/standard_ffu.png', 'way/center_ec.png', 'tunnel/shield.png'],
@@ -184,7 +184,7 @@ module.exports = [
       'way-object/maglev/linear_guide.dat',
     ],
     imageSet: {
-      'icon2.png': ['icon2.png', 'icon_ec.png'],
+      'icon_way3.png': ['icon_way3.png', 'icon_ec2.png'],
       'way-object/maglev/linear_guide_rear.png': ['way-object/maglev/linear_guide_rear.png'],
       'way-object/maglev/linear_guide_surface.png': ['way-object/maglev/linear_guide_surface.png'],
     }
@@ -197,7 +197,7 @@ module.exports = [
       'tunnel/maglev/under_way.dat',
     ],
     imageSet: {
-      'icon2.png': ['icon2.png', 'icon_ec.png'],
+      'icon_way3.png': ['icon_way3.png', 'icon_ec2.png'],
       'tunnel/maglev/tunnel_surface.png': ['tunnel/tunnel_surface.png', 'tunnel/tunnel_surface_noise.png'],
       'tunnel/maglev/tunnel_rear.png': ['tunnel/tunnel_rear.png', 'tunnel/tunnel_rear_noise.png'],
 
@@ -245,7 +245,7 @@ module.exports = [
       'tunnel/monorail/under_way.dat',
     ],
     imageSet: {
-      'icon2.png': ['icon2.png', 'icon_ec.png'],
+      'icon_way3.png': ['icon_way3.png', 'icon_ec2.png'],
       'tunnel/monorail/tunnel_surface.png': ['tunnel/tunnel_surface.png', 'tunnel/tunnel_surface_noise.png'],
       'tunnel/monorail/tunnel_rear.png': ['tunnel/tunnel_rear.png', 'tunnel/tunnel_rear_noise.png'],
 

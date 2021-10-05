@@ -1,28 +1,3 @@
-# @text ja:[トンネル] 高速道路
-# @text en:[Tunnel] Expressway
-obj=tunnel
-name=iss_tr_1200
-copyright=128na
-intro_year=1900
-intro_month=1
-retire_year=2999
-retire_month=1
-waytype=road
-cost=800000
-maintenance=16000
-topspeed=1200
-way=iss_wru_1200
-icon=> ../../icon1.1.0
-cursor=1200.1.1,-64,-104
-backImage[n]=1200.2.0,-64,-96
-frontImage[n]=1200.3.0,-64,-96
-backImage[s]=1200.2.2,-64,-96
-frontImage[s]=1200.3.2,-64,-96
-backImage[e]=1200.2.3,-64,-96
-frontImage[e]=1200.3.3,-64,-96
-backImage[w]=1200.2.1,-64,-96
-frontImage[w]=1200.3.1,-64,-96
----
 # @text ja:[トンネル] 都市高速
 # @text en:[Tunnel] Urban expressway
 obj=tunnel
@@ -37,8 +12,8 @@ cost=400000
 maintenance=8800
 topspeed=120
 way=iss_wru_0120
-icon=> ../../icon1.1.1
-cursor=0120.1.1,-64,-104
+icon=> ../../icon_way3.0.0
+cursor=../../icon_way3.0.1,-64,-40
 backImage[n]=0120.2.0,-64,-96
 frontImage[n]=0120.3.0,-64,-96
 backImage[s]=0120.2.2,-64,-96
@@ -47,3 +22,29 @@ backImage[e]=0120.2.3,-64,-96
 frontImage[e]=0120.3.3,-64,-96
 backImage[w]=0120.2.1,-64,-96
 frontImage[w]=0120.3.1,-64,-96
+---
+# @text ja:[トンネル] 高速道路
+# @text en:[Tunnel] Expressway
+obj=tunnel
+name=iss_tr_1200
+copyright=128na
+intro_year=1900
+intro_month=1
+retire_year=2999
+retire_month=1
+waytype=road
+cost=800000
+maintenance=16000
+topspeed=1200
+way=iss_wru_1200
+icon=> ../../icon_way3.0.2
+cursor=../../icon_way3.0.3,-64,-40
+backImage[n]=1200.2.0,-64,-96
+frontImage[n]=1200.3.0,-64,-96
+backImage[s]=1200.2.2,-64,-96
+frontImage[s]=1200.3.2,-64,-96
+backImage[e]=1200.2.3,-64,-96
+frontImage[e]=1200.3.3,-64,-96
+backImage[w]=1200.2.1,-64,-96
+frontImage[w]=1200.3.1,-64,-96
+---

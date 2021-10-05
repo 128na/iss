@@ -10,9 +10,12 @@ class GenerateAddonListCommand {
   private definitionLoader: DefinitionLoader
 
   static ICONS = [
-    { file: 'icon1.png', size: 256 },
-    { file: 'icon2.png', size: 256 },
-    { file: 'icon3.png', size: 512 },
+    { file: 'icon_way1.png', size: 256 },
+    { file: 'icon_way2.png', size: 256 },
+    { file: 'icon_way3.png', size: 256 },
+    { file: 'icon_util1.png', size: 256 },
+    { file: 'icon_util2.png', size: 256 },
+    { file: 'icon_util_512.png', size: 512 },
   ];
 
   public constructor({ output }: AddonCommandOption) {
