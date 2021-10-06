@@ -499,7 +499,7 @@ image[nsew]=1200_back.5.4,-64,-32
 # @text ja:[地上] 路地タイル
 # @text en:[Ground] Alley tile
 obj=way
-name=iss_wrg_0030_low
+name=iss_wrg_0030_z_low
 copyright=128na
 waytype=road
 system_type=0
@@ -544,7 +544,7 @@ image[nsew]=low.3.4,-64,-32
 # @text ja:[地上] 市道タイル
 # @text en:[Ground] city road tile
 obj=way
-name=iss_wrg_0050_mid
+name=iss_wrg_0050_z_mid
 copyright=128na
 waytype=road
 system_type=0
@@ -589,7 +589,7 @@ image[nsew]=mid.3.4,-64,-32
 # @text ja:[地上] 幹線タイル
 # @text en:[Ground] Main road tile
 obj=way
-name=iss_wrg_1200_high
+name=iss_wrg_1200_z_high
 copyright=128na
 waytype=road
 system_type=0

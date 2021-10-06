@@ -18,17 +18,17 @@ iss_or_side_wall_both
 iss_or_side_wall_single
 # v3 -> v4
 iss_wrg_0010_alley
-iss_wrg_0030_low
+iss_wrg_0030_z_low
 iss_wrg_0010_city_road
-iss_wrg_0050_mid
+iss_wrg_0050_z_mid
 iss_wrg_0010_main_road
-iss_wrg_1200_high
+iss_wrg_1200_z_high
 iss_wre_0010_alley
-iss_wre_0030_low
+iss_wre_0030_z_low
 iss_wre_0010_city_road
-iss_wre_0050_mid
+iss_wre_0050_z_mid
 iss_wre_0010_main_road
-iss_wre_1200_high
+iss_wre_1200_z_high
 iss_wrg_1200_ns
 iss_wrg_1200_front
 iss_wrg_1200_ew
