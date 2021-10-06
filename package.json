@@ -8,6 +8,7 @@
     "build": "npx ts-node js/BuildCommand.ts --output=./release/pak128",
     "translate": "npx ts-node js/TranslateCommand.ts --output=./release/text",
     "listing": "npx ts-node js/AddonListCommand.ts",
+    "shift": "npx ts-node ./js/ShiftImageCommand.ts --source=./src/util/bridge/bridge1.png",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bugs": {

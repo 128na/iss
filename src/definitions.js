@@ -4,7 +4,7 @@ module.exports = [
     pakFile: 'iss_road_way.pak',
     datFiles: ['way/road/ground.dat', 'way/road/elevated.dat'],
     imageSet: {
-      'icon_way1.png': ['icon_way1.png', 'icon_ec2.png'],
+      'icon_way1.png': ['icon_way1.png', 'icon_ec.png'],
       'way/road/0030.png': ['way/road/base_low.png', 'way/road/line_lowest.png', 'way/center_ec.png', 'way/road/barrier.png'],
       'way/road/0050.png': ['way/road/base_mid.png', 'way/road/noise.png', 'way/road/line_low.png', 'way/center_ec.png', 'way/road/barrier.png'],
 
@@ -30,7 +30,7 @@ module.exports = [
       'tunnel/road/underground.dat',
     ],
     imageSet: {
-      'icon_way3.png': ['icon_way3.png', 'icon_ec2.png'],
+      'icon_way3.png': ['icon_way3.png', 'icon_ec.png'],
       'tunnel/road/1200.png': ['tunnel/road/1200_base.png', 'tunnel/road/1200.png', 'tunnel/road/1200_noise.png'],
       'tunnel/road/0120.png': ['tunnel/road/0120_base.png', 'tunnel/road/0120.png', 'tunnel/road/0120_noise.png'],
       'tunnel/road/1200_under.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_high.png', 'way/single_ec.png', 'way/road/barrier.png', 'tunnel/road/shield.png'],
@@ -40,11 +40,11 @@ module.exports = [
   {
     size: 256,
     pakFile: 'iss_road_sign.pak',
-    datFiles: ['road/roadsign/sign1.dat', 'road/roadsign/sign2.dat'],
+    datFiles: ['sign/road/sign1.dat', 'sign/road/sign2.dat'],
     imageSet: {
-      'icon1.png': ['icon1.png', 'icon_ec.png'],
-      'road/roadsign/sign1_kt.png': ['road/roadsign/sign1.png'],
-      'road/roadsign/sign2_kt.png': ['road/roadsign/sign2.png'],
+      'icon_util1.png': ['icon_util1.png', 'icon_ec.png'],
+      'sign/road/sign1_kt.png': ['sign/road/sign1.png'],
+      'sign/road/sign2_kt.png': ['sign/road/sign2.png'],
     }
   },
   {
@@ -56,7 +56,7 @@ module.exports = [
       'way-object/road/wall_with_center_divider.dat',
     ],
     imageSet: {
-      'icon1.png': ['icon1.png', 'icon_ec.png'],
+      'icon_util1.png': ['icon_util1.png', 'icon_ec.png'],
       'way-object/road/wall_back_kt.png': ['way-object/road/wall_back_base.png', 'way-object/road/wall_back.png', 'way-object/road/wall_back_noise.png'],
       'way-object/road/wall_front_kt.png': ['way-object/road/wall_front_base.png', 'way-object/road/wall_front.png', 'way-object/road/wall_front_noise.png'],
       'way-object/road/center_divider_back.png': ['way-object/road/center_divider_back.png'],
@@ -76,7 +76,7 @@ module.exports = [
       'way/rail/track_slab.dat',
     ],
     imageSet: {
-      'icon_way2.png': ['icon_way2.png', 'icon_ec2.png'],
+      'icon_way2.png': ['icon_way2.png', 'icon_ec.png'],
       'way/rail/narrow_kt.png': ['way/rail/narrow.png', 'way/rail/narrow_fix.png', 'way/center_ec.png'],
       'way/rail/standard_kt.png': ['way/rail/standard.png', 'way/rail/standard_fix.png', 'way/center_ec.png'],
 
@@ -139,7 +139,7 @@ module.exports = [
       'tunnel/rail/under_way.dat',
     ],
     imageSet: {
-      'icon_way3.png': ['icon_way3.png', 'icon_ec2.png'],
+      'icon_way3.png': ['icon_way3.png', 'icon_ec.png'],
       'tunnel/rail/tunnel_surface.png': ['tunnel/tunnel_surface.png', 'tunnel/tunnel_surface_noise.png'],
       'tunnel/rail/tunnel_rear.png': ['tunnel/tunnel_rear.png', 'tunnel/tunnel_rear_noise.png'],
       'tunnel/rail/rail.png': ['tunnel/shield_base.png', 'way/rail/standard_ffu.png', 'way/center_ec.png', 'tunnel/shield.png'],
@@ -154,7 +154,7 @@ module.exports = [
       'way/maglev/marine.dat',
     ],
     imageSet: {
-      'icon_way1.png': ['icon_way1.png', 'icon_ec2.png'],
+      'icon_way1.png': ['icon_way1.png', 'icon_ec.png'],
       'way/maglev/wall_single_surface.png': ['way/wall_surface.png'],
       'way/maglev/wall_front_surface.png': ['way/wall_surface.png'],
       'way/maglev/wall_center_surface.png': ['way/wall_center_surface.png'],
@@ -184,7 +184,7 @@ module.exports = [
       'way-object/maglev/linear_guide.dat',
     ],
     imageSet: {
-      'icon_way3.png': ['icon_way3.png', 'icon_ec2.png'],
+      'icon_way3.png': ['icon_way3.png', 'icon_ec.png'],
       'way-object/maglev/linear_guide_rear.png': ['way-object/maglev/linear_guide_rear.png'],
       'way-object/maglev/linear_guide_surface.png': ['way-object/maglev/linear_guide_surface.png'],
     }
@@ -197,7 +197,7 @@ module.exports = [
       'tunnel/maglev/under_way.dat',
     ],
     imageSet: {
-      'icon_way3.png': ['icon_way3.png', 'icon_ec2.png'],
+      'icon_way3.png': ['icon_way3.png', 'icon_ec.png'],
       'tunnel/maglev/tunnel_surface.png': ['tunnel/tunnel_surface.png', 'tunnel/tunnel_surface_noise.png'],
       'tunnel/maglev/tunnel_rear.png': ['tunnel/tunnel_rear.png', 'tunnel/tunnel_rear_noise.png'],
 
@@ -216,7 +216,7 @@ module.exports = [
       'way/monorail/suspended.dat',
     ],
     imageSet: {
-      'icon_way1.png': ['icon_way1.png', 'icon_ec2.png'],
+      'icon_way1.png': ['icon_way1.png', 'icon_ec.png'],
       'way/monorail/straddle_g.png': ['way/monorail/straddle.png', 'way/monorail/straddle_noise.png'],
       'way/monorail/straddle_e_front.png': ['way/pier_front.png', 'way/monorail/straddle.png', 'way/monorail/straddle_noise.png'],
       'way/monorail/straddle_e_center.png': ['way/pier_center.png', 'way/monorail/straddle.png', 'way/monorail/straddle_noise.png'],
@@ -245,7 +245,7 @@ module.exports = [
       'tunnel/monorail/under_way.dat',
     ],
     imageSet: {
-      'icon_way3.png': ['icon_way3.png', 'icon_ec2.png'],
+      'icon_way3.png': ['icon_way3.png', 'icon_ec.png'],
       'tunnel/monorail/tunnel_surface.png': ['tunnel/tunnel_surface.png', 'tunnel/tunnel_surface_noise.png'],
       'tunnel/monorail/tunnel_rear.png': ['tunnel/tunnel_rear.png', 'tunnel/tunnel_rear_noise.png'],
 
@@ -256,42 +256,13 @@ module.exports = [
   },
   {
     size: 256,
-    pakFile: 'iss_util_road-line.pak',
-    datFiles: ['util/road-line/line.dat'],
-    imageSet: {
-      'icon1.png': ['icon1.png', 'icon_ec.png'],
-      'util/road-line/red_kt.png': ['util/road-line/line_red.png', 'util/road-line/line_yellow.png', 'way/single_ec.png'],
-      'util/road-line/yellow_kt.png': ['util/road-line/line_yellow.png', 'way/single_ec.png'],
-    }
-  },
-  {
-    size: 256,
-    pakFile: 'iss_util_round-about.pak',
-    datFiles: ['util/round-about/round_about.dat'],
-    imageSet: {
-      'icon1.png': ['icon1.png', 'icon_ec.png'],
-      'util/round-about/round_about1_kt.png': ['util/round-about/round_about1.png', 'util/round-about/round_about1_ec.png'],
-      'util/round-about/round_about2_kt.png': ['util/round-about/round_about2.png', 'util/round-about/round_about2_ec.png'],
-    }
-  },
-  {
-    size: 256,
-    pakFile: 'iss_util_intersection.pak',
-    datFiles: ['util/intersection/intersection.dat'],
-    imageSet: {
-      'icon1.png': ['icon1.png', 'icon_ec.png'],
-      'util/intersection/intersection_kt.png': ['util/intersection/intersection.png', 'util/intersection/intersection_ec.png'],
-    }
-  },
-  {
-    size: 256,
     pakFile: 'iss_util_pier.pak',
     datFiles: [
       'util/pier/ground/pier.dat',
       'util/pier/elevated/pier.dat',
     ],
     imageSet: {
-      'icon1.png': ['icon1.png', 'icon_ec.png'],
+      'icon_util2.png': ['icon_util2.png', 'icon_ec.png'],
       'util/pier/ground/pier1.png': ['util/pier/ground/pier1_base.png', 'util/pier/ground/pier1.png', 'util/pier/ground/pier1_noise.png', 'util/pier/ground/pier1_ec.png'],
       'util/pier/ground/pier2.png': ['util/pier/ground/pier2_base.png', 'util/pier/ground/pier2.png', 'util/pier/ground/pier2_noise.png', 'util/pier/ground/pier2_ec.png'],
       'util/pier/ground/pier3.png': ['util/pier/ground/pier3_base.png', 'util/pier/ground/pier3.png', 'util/pier/ground/pier3_noise.png', 'util/pier/ground/pier3_ec.png'],
@@ -309,17 +280,19 @@ module.exports = [
     pakFile: 'iss_util_bridge.pak',
     datFiles: ['util/bridge/bridge.dat'],
     imageSet: {
-      'icon1.png': ['icon1.png', 'icon_ec.png'],
+      'icon_util2.png': ['icon_util2.png', 'icon_ec.png'],
       'util/bridge/bridge1_kt.png': ['util/bridge/bridge1_base_shift.png', 'util/bridge/bridge1_shift.png', 'util/bridge/bridge1_base_shift_noise.png', 'util/bridge/bridge1_ec.png', 'util/bridge/bridge1_sc.png'],
-      'util/bridge/bridge_cursor.png': ['util/bridge/bridge_cursor_base.png', 'util/bridge/bridge_cursor.png', 'util/bridge/bridge_cursor_noise.png'],
     }
   },
   {
     size: 256,
     pakFile: 'iss_util_embankment.pak',
-    datFiles: ['util/embankment/embankment.dat'],
+    datFiles: [
+      'util/embankment/double.dat',
+      'util/embankment/half.dat',
+    ],
     imageSet: {
-      'icon1.png': ['icon1.png', 'icon_ec.png'],
+      'icon_util2.png': ['icon_util2.png', 'icon_ec.png'],
       'util/embankment/embankment1.png': ['util/embankment/embankment_base.png', 'util/embankment/embankment1.png', 'util/embankment/embankment_noise.png'],
       'util/embankment/embankment2.png': ['util/embankment/embankment_base.png', 'util/embankment/embankment2.png', 'util/embankment/embankment_noise.png'],
       'util/embankment/embankment3.png': ['util/embankment/embankment_base.png', 'util/embankment/embankment3.png', 'util/embankment/embankment_noise.png'],
@@ -332,35 +305,45 @@ module.exports = [
     pakFile: 'iss_util_sidewalk.pak',
     datFiles: ['util/sidewalk/ground.dat', 'util/sidewalk/elevated.dat',],
     imageSet: {
-      'icon1.png': ['icon1.png', 'icon_ec.png'],
+      'icon_util2.png': ['icon_util2.png', 'icon_ec.png'],
       'util/sidewalk/sidewalk.png': ['util/sidewalk/sidewalk.png', 'util/sidewalk/sidewalk_ec.png'],
     }
   },
   {
     size: 512,
     pakFile: 'iss_util_gently-point.pak',
-    datFiles: ['util/gently-point/point.dat'],
+    datFiles: ['util/rail_gently-point/point.dat'],
     imageSet: {
-      'icon3.png': ['icon3.png', 'icon_ec.png'],
-      'util/gently-point/point.png': ['util/gently-point/point_barrast.png', 'util/gently-point/point_noise.png', 'util/gently-point/point.png', 'util/gently-point/point_fix.png', 'util/gently-point/point_ec.png'],
+      'icon_util_512.png': ['icon_util_512.png', 'icon_512_ec.png'],
+      'util/rail_gently-point/point.png': ['util/rail_gently-point/point_barrast.png', 'util/rail_gently-point/point_noise.png', 'util/rail_gently-point/point.png', 'util/rail_gently-point/point_fix.png', 'util/rail_gently-point/point_ec.png'],
     }
   },
   {
     size: 256,
-    pakFile: 'iss_util_rail-yard.pak',
-    datFiles: ['util/rail-yard/table.dat'],
+    pakFile: 'iss_util_rail_misc.pak',
+    datFiles: ['util/rail_misc/table.dat'],
     imageSet: {
-      'icon1.png': ['icon1.png', 'icon_ec.png'],
-      'util/rail-yard/table.png': ['util/rail-yard/table_base.png', 'util/rail-yard/barrast_noise.png', 'util/rail-yard/table_ec.png', 'util/rail-yard/table.png', 'util/rail-yard/table_concrete_noise.png'],
+      'icon_util1.png': ['icon_util1.png', 'icon_ec.png'],
+      'util/rail_misc/table.png': ['util/rail_misc/table_base.png', 'util/rail_misc/barrast_noise.png', 'util/rail_misc/table_ec.png', 'util/rail_misc/table.png', 'util/rail_misc/table_concrete_noise.png'],
     }
   },
   {
     size: 256,
-    pakFile: 'iss_util_electric.pak',
-    datFiles: ['util/electric/pole.dat'],
+    pakFile: 'iss_util_road_misc.pak',
+    datFiles: [
+      'util/road_misc/pole.dat',
+      'util/road_misc/line.dat',
+      'util/road_misc/round_about.dat',
+      'util/road_misc/intersection.dat',
+    ],
     imageSet: {
-      'icon1.png': ['icon1.png', 'icon_ec.png'],
-      'util/electric/pole_kt.png': ['util/electric/pole.png'],
+      'icon_util2.png': ['icon_util2.png', 'icon_ec.png'],
+      'util/road_misc/pole_kt.png': ['util/road_misc/pole.png'],
+      'util/road_misc/red_kt.png': ['util/road_misc/line_red.png', 'util/road_misc/line_yellow.png', 'way/single_ec.png'],
+      'util/road_misc/yellow_kt.png': ['util/road_misc/line_yellow.png', 'way/single_ec.png'],
+      'util/road_misc/round_about1_kt.png': ['util/road_misc/round_about1.png', 'util/road_misc/round_about1_ec.png'],
+      'util/road_misc/round_about2_kt.png': ['util/road_misc/round_about2.png', 'util/road_misc/round_about2_ec.png'],
+      'util/road_misc/intersection_kt.png': ['util/road_misc/intersection.png', 'util/road_misc/intersection_ec.png'],
     }
   },
 ];
