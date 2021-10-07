@@ -27,14 +27,14 @@ image[s]=intersection_kt.2.1,-64,-96
 image[w]=intersection_kt.2.2,-64,-96
 image[n]=intersection_kt.2.3,-64,-96
 # unused
-image[-]=intersection_kt.5.1,-64,-96
-image[ns]=intersection_kt.5.1,-64,-96
-image[ew]=intersection_kt.5.1,-64,-96
-image[nsew]=intersection_kt.5.1,-64,-96
-imageUp[12]=intersection_kt.5.1,-64,-96
-imageUp[9]=intersection_kt.5.1,-64,-96
-imageUp[3]=intersection_kt.5.1,-64,-96
-imageUp[6]=intersection_kt.5.1,-64,-96
+image[-]=../../icon_util1.5.7,-64,-32
+image[ns]=../../icon_util1.5.7,-64,-32
+image[ew]=../../icon_util1.5.7,-64,-32
+image[nsew]=../../icon_util1.5.7,-64,-32
+imageUp[12]=../../icon_util1.5.7,-64,-32
+imageUp[9]=../../icon_util1.5.7,-64,-32
+imageUp[3]=../../icon_util1.5.7,-64,-32
+imageUp[6]=../../icon_util1.5.7,-64,-32
 ---
 # @text ja:[2x2] 交差点パーツ２
 # @text en:[2x2] Intersection parts 2
@@ -65,14 +65,14 @@ image[s]=intersection_kt.4.1,-64,-96
 image[w]=intersection_kt.4.2,-64,-96
 image[n]=intersection_kt.4.3,-64,-96
 # unused
-image[-]=intersection_kt.5.1,-64,-96
-image[ns]=intersection_kt.5.1,-64,-96
-image[ew]=intersection_kt.5.1,-64,-96
-image[nsew]=intersection_kt.5.1,-64,-96
-imageUp[12]=intersection_kt.5.1,-64,-96
-imageUp[9]=intersection_kt.5.1,-64,-96
-imageUp[3]=intersection_kt.5.1,-64,-96
-imageUp[6]=intersection_kt.5.1,-64,-96
+image[-]=../../icon_util1.5.9,-64,-32
+image[ns]=../../icon_util1.5.9,-64,-32
+image[ew]=../../icon_util1.5.9,-64,-32
+image[nsew]=../../icon_util1.5.9,-64,-32
+imageUp[12]=../../icon_util1.5.9,-64,-32
+imageUp[9]=../../icon_util1.5.9,-64,-32
+imageUp[3]=../../icon_util1.5.9,-64,-32
+imageUp[6]=../../icon_util1.5.9,-64,-32
 ---
 # @text ja:[1x1] 交差点
 # @text en:[1x1] Intersection
@@ -101,13 +101,13 @@ image[sew]=intersection_kt.7.1,-64,-96
 image[nse]=intersection_kt.7.2,-64,-96
 image[new]=intersection_kt.7.3,-64,-96
 # unused
-image[ns]=intersection_kt.5.1,-64,-96
-image[ew]=intersection_kt.5.1,-64,-96
-imageUp[12]=intersection_kt.5.1,-64,-96
-imageUp[9]=intersection_kt.5.1,-64,-96
-imageUp[3]=intersection_kt.5.1,-64,-96
-imageUp[6]=intersection_kt.5.1,-64,-96
-image[nw]=intersection_kt.5.1,-64,-96
-image[ne]=intersection_kt.5.1,-64,-96
-image[se]=intersection_kt.5.1,-64,-96
-image[sw]=intersection_kt.5.1,-64,-96
+image[ns]=../../icon_util1.5.11,-64,-32
+image[ew]=../../icon_util1.5.11,-64,-32
+imageUp[12]=../../icon_util1.5.11,-64,-32
+imageUp[9]=../../icon_util1.5.11,-64,-32
+imageUp[3]=../../icon_util1.5.11,-64,-32
+imageUp[6]=../../icon_util1.5.11,-64,-32
+image[nw]=../../icon_util1.5.11,-64,-32
+image[ne]=../../icon_util1.5.11,-64,-32
+image[se]=../../icon_util1.5.11,-64,-32
+image[sw]=../../icon_util1.5.11,-64,-32

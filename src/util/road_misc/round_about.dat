@@ -28,13 +28,13 @@ image[nse]=round_about1_kt.3.1,-64,-96
 image[sew]=round_about1_kt.3.2,-64,-96
 image[nsw]=round_about1_kt.3.3,-64,-96
 # unused
-image[ns]=round_about1_kt.0.1,-64,-96
-image[ew]=round_about1_kt.0.1,-64,-96
-image[nsew]=round_about1_kt.0.1,-64,-96
-imageUp[12]=round_about1_kt.0.1,-64,-96
-imageUp[9]=round_about1_kt.0.1,-64,-96
-imageUp[3]=round_about1_kt.0.1,-64,-96
-imageUp[6]=round_about1_kt.0.1,-64,-96
+image[ns]=../../icon_util1.5.1,-64,-32
+image[ew]=../../icon_util1.5.1,-64,-32
+image[nsew]=../../icon_util1.5.1,-64,-32
+imageUp[12]=../../icon_util1.5.1,-64,-32
+imageUp[9]=../../icon_util1.5.1,-64,-32
+imageUp[3]=../../icon_util1.5.1,-64,-32
+imageUp[6]=../../icon_util1.5.1,-64,-32
 ---
 # @text ja:[4x4] ラウンドアバウトパーツ1
 # @text en:[4x4] Round about parts 1
@@ -65,14 +65,14 @@ image[sw]=round_about2_kt.2.1,-64,-96
 image[nw]=round_about2_kt.2.2,-64,-96
 image[ne]=round_about2_kt.2.3,-64,-96
 # unused
-image[-]=round_about2_kt.6.0,-64,-96
-image[ns]=round_about2_kt.6.0,-64,-96
-image[ew]=round_about2_kt.6.0,-64,-96
-image[nsew]=round_about2_kt.6.0,-64,-96
-imageUp[12]=round_about2_kt.6.0,-64,-96
-imageUp[9]=round_about2_kt.6.0,-64,-96
-imageUp[3]=round_about2_kt.6.0,-64,-96
-imageUp[6]=round_about2_kt.6.0,-64,-96
+image[-]=../../icon_util1.5.3,-64,-32
+image[ns]=../../icon_util1.5.3,-64,-32
+image[ew]=../../icon_util1.5.3,-64,-32
+image[nsew]=../../icon_util1.5.3,-64,-32
+imageUp[12]=../../icon_util1.5.3,-64,-32
+imageUp[9]=../../icon_util1.5.3,-64,-32
+imageUp[3]=../../icon_util1.5.3,-64,-32
+imageUp[6]=../../icon_util1.5.3,-64,-32
 ---
 # @text ja:[4x4] ラウンドアバウトパーツ2
 # @text en:[4x4] Round about parts 2
@@ -103,12 +103,12 @@ image[sw]=round_about2_kt.5.1,-64,-96
 image[nw]=round_about2_kt.5.2,-64,-96
 image[ne]=round_about2_kt.5.3,-64,-96
 # unused
-image[-]=round_about2_kt.6.1,-64,-96
-image[ns]=round_about2_kt.6.1,-64,-96
-image[ew]=round_about2_kt.6.1,-64,-96
-image[nsew]=round_about2_kt.6.1,-64,-96
-imageUp[12]=round_about2_kt.6.1,-64,-96
-imageUp[9]=round_about2_kt.6.1,-64,-96
-imageUp[3]=round_about2_kt.6.1,-64,-96
-imageUp[6]=round_about2_kt.6.1,-64,-96
+image[-]=../../icon_util1.5.5,-64,-32
+image[ns]=../../icon_util1.5.5,-64,-32
+image[ew]=../../icon_util1.5.5,-64,-32
+image[nsew]=../../icon_util1.5.5,-64,-32
+imageUp[12]=../../icon_util1.5.5,-64,-32
+imageUp[9]=../../icon_util1.5.5,-64,-32
+imageUp[3]=../../icon_util1.5.5,-64,-32
+imageUp[6]=../../icon_util1.5.5,-64,-32
 ---

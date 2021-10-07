@@ -8,19 +8,19 @@ module.exports = [
       'way/road/0030.png': ['way/road/base_low.png', 'way/road/noise.png', 'way/road/line_lowest.png', 'way/center_ec.png', 'way/road/barrier.png'],
       'way/road/0050.png': ['way/road/base_mid.png', 'way/road/noise.png', 'way/road/line_low.png', 'way/center_ec.png', 'way/road/barrier.png'],
 
-      'way/road/wall_single_surface_kt.png': ['way/road/wall_surface.png'],
-      'way/road/wall_front_surface_kt.png': ['way/road/wall_surface.png'],
-      'way/road/wall_center_surface_kt.png': ['way/road/wall_center_surface.png'],
-      'way/road/wall_back_surface_kt.png': ['way/road/wall_center_surface.png'],
+      'way/road/0120_single.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_mid.png', 'way/single_ec.png', 'way/road/barrier.png'],
+      'way/road/0120_front.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_mid.png', 'way/front_ec.png', 'way/road/barrier.png'],
+      'way/road/0120_center.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_mid.png', 'way/center_ec.png', 'way/road/barrier.png'],
+      'way/road/0120_back.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_mid.png', 'way/back_ec.png', 'way/road/barrier.png'],
+      'way/road/1200_single.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_high.png', 'way/single_ec.png', 'way/road/barrier.png'],
+      'way/road/1200_front.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_high.png', 'way/front_ec.png', 'way/road/barrier.png'],
+      'way/road/1200_center.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_high.png', 'way/center_ec.png', 'way/road/barrier.png'],
+      'way/road/1200_back.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_high.png', 'way/back_ec.png', 'way/road/barrier.png'],
 
-      'way/road/0120_single_kt.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_mid.png', 'way/single_ec.png', 'way/road/barrier.png'],
-      'way/road/0120_front_kt.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_mid.png', 'way/front_ec.png', 'way/road/barrier.png'],
-      'way/road/0120_center_kt.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_mid.png', 'way/center_ec.png', 'way/road/barrier.png'],
-      'way/road/0120_back_kt.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_mid.png', 'way/back_ec.png', 'way/road/barrier.png'],
-      'way/road/1200_single_kt.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_high.png', 'way/single_ec.png', 'way/road/barrier.png'],
-      'way/road/1200_front_kt.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_high.png', 'way/front_ec.png', 'way/road/barrier.png'],
-      'way/road/1200_center_kt.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_high.png', 'way/center_ec.png', 'way/road/barrier.png'],
-      'way/road/1200_back_kt.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_high.png', 'way/back_ec.png', 'way/road/barrier.png'],
+      'way/road/wall_single_surface_kt.png': ['way/road/wall_surface.png', 'way/road/wall_surface_fix.png'],
+      'way/road/wall_front_surface_kt.png': ['way/road/wall_surface.png', 'way/road/wall_surface_fix.png'],
+      'way/road/wall_center_surface_kt.png': ['way/road/wall_center_surface.png', 'way/road/wall_center_surface_fix.png'],
+      'way/road/wall_back_surface_kt.png': ['way/road/wall_center_surface.png', 'way/road/wall_center_surface_fix.png'],
 
       'way/road/0120_e_single_kt.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_mid.png', 'way/single_ec.png', 'way/road/wall_rear.png', 'way/road/barrier.png'],
       'way/road/0120_e_front_kt.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_mid.png', 'way/front_ec.png', 'way/road/wall_center_rear.png', 'way/road/barrier.png'],
@@ -71,10 +71,12 @@ module.exports = [
     ],
     imageSet: {
       'icon_util1.png': ['icon_util1.png', 'icon_ec.png'],
-      'way-object/road/wall_back_kt.png': ['way-object/road/wall_back_base.png', 'way-object/road/wall_back.png', 'way-object/road/wall_back_noise.png'],
-      'way-object/road/wall_front_kt.png': ['way-object/road/wall_front_base.png', 'way-object/road/wall_front.png', 'way-object/road/wall_front_noise.png'],
-      'way-object/road/center_divider_back.png': ['way-object/road/center_divider_back.png'],
-      'way-object/road/center_divider_front.png': ['way-object/road/center_divider_front.png'],
+
+      'way-object/road/wall_rear_kt.png': ['way/road/wall_rear.png'],
+      'way-object/road/wall_surface_kt.png': ['way/road/wall_surface.png', 'way/road/wall_surface_fix.png'],
+      'way-object/road/center_rear.png': ['way-object/road/center_rear.png'],
+      'way-object/road/center_surface.png': ['way-object/road/center_surface.png'],
+
     }
   },
   {
@@ -326,10 +328,21 @@ module.exports = [
   {
     size: 512,
     pakFile: 'iss_util_gently-point.pak',
-    datFiles: ['util/rail_gently-point/point.dat'],
+    datFiles: [
+      'util/rail_gently-point/ground.dat',
+      'util/rail_gently-point/elevated.dat',
+    ],
     imageSet: {
       'icon_util_512.png': ['icon_util_512.png', 'icon_512_ec.png'],
-      'util/rail_gently-point/point.png': ['util/rail_gently-point/point_barrast.png', 'util/rail_gently-point/point_noise.png', 'util/rail_gently-point/point.png', 'util/rail_gently-point/point_fix.png', 'util/rail_gently-point/point_ec.png'],
+      'util/rail_gently-point/point.png': ['util/rail_gently-point/barrast.png', 'util/rail_gently-point/noise.png', 'util/rail_gently-point/point.png', 'util/rail_gently-point/point_fix.png', 'util/rail_gently-point/point_ec.png'],
+
+      'util/rail_gently-point/point_e_single.png': ['util/rail_gently-point/barrast.png', 'util/rail_gently-point/noise.png', 'util/rail_gently-point/point.png', 'util/rail_gently-point/point_fix.png', 'util/rail_gently-point/point_ec.png', 'util/rail_gently-point/wall_rear_in.png', 'util/rail_gently-point/wall_rear_out.png'],
+      'util/rail_gently-point/point_e_front.png': ['util/rail_gently-point/barrast.png', 'util/rail_gently-point/noise.png', 'util/rail_gently-point/point.png', 'util/rail_gently-point/point_fix.png', 'util/rail_gently-point/point_ec.png', 'util/rail_gently-point/wall_rear_in.png'],
+      'util/rail_gently-point/point_e_center.png': ['util/rail_gently-point/barrast.png', 'util/rail_gently-point/noise.png', 'util/rail_gently-point/point.png', 'util/rail_gently-point/point_fix.png', 'util/rail_gently-point/point_ec.png'],
+      'util/rail_gently-point/point_e_back.png': ['util/rail_gently-point/barrast.png', 'util/rail_gently-point/noise.png', 'util/rail_gently-point/point.png', 'util/rail_gently-point/point_fix.png', 'util/rail_gently-point/point_ec.png', 'util/rail_gently-point/wall_rear_out.png'],
+      'util/rail_gently-point/point_e_surface_single.png': ['util/rail_gently-point/wall_surface_in.png', 'util/rail_gently-point/wall_surface_out.png'],
+      'util/rail_gently-point/point_e_surface_front.png': ['util/rail_gently-point/wall_surface_in.png'],
+      'util/rail_gently-point/point_e_surface_back.png': ['util/rail_gently-point/wall_surface_out.png'],
     }
   },
   {
@@ -353,8 +366,10 @@ module.exports = [
     imageSet: {
       'icon_util2.png': ['icon_util2.png', 'icon_ec.png'],
       'util/road_misc/pole_kt.png': ['util/road_misc/pole.png'],
-      'util/road_misc/red_kt.png': ['util/road_misc/line_red.png', 'util/road_misc/line_yellow.png', 'way/single_ec.png'],
-      'util/road_misc/red_striped_kt.png': ['util/road_misc/line_red_striped.png', 'util/road_misc/line_yellow.png', 'way/single_ec.png'],
+      'util/road_misc/blue_kt.png': ['util/road_misc/pav_blue.png', 'way/road/line_mid.png', 'way/single_ec.png'],
+      'util/road_misc/green_kt.png': ['util/road_misc/pav_green.png', 'way/road/line_mid.png', 'way/single_ec.png'],
+      'util/road_misc/red_kt.png': ['util/road_misc/pav_red.png', 'way/road/line_mid.png', 'way/single_ec.png'],
+      'util/road_misc/red_striped_kt.png': ['util/road_misc/pav_red_striped.png', 'util/road_misc/line_yellow.png', 'way/single_ec.png'],
       'util/road_misc/yellow_kt.png': ['util/road_misc/line_yellow.png', 'way/single_ec.png'],
       'util/road_misc/round_about1_kt.png': ['util/road_misc/round_about1.png', 'util/road_misc/round_about1_ec.png'],
       'util/road_misc/round_about2_kt.png': ['util/road_misc/round_about2.png', 'util/road_misc/round_about2_ec.png'],

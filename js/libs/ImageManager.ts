@@ -8,22 +8,25 @@ export default class ImageManager {
   private eraseColor: string;
   private keepTransparentKeyword: string;
   private eraseTransparentThreshold: number;
+  private edgeOnlyKeyword: string;
 
   constructor(
     specialKeyword = '_sc.png',
     eraseKeyword = '_ec.png',
     eraseColor = '255,0,0',
     keepTransparentKeyword = '_kt.png',
-    eraseTransparentThreshold: string | number = 0.1
+    eraseTransparentThreshold: string | number = 0.1,
+    edgeOnlyKeyword = '_ed.png',
   ) {
     this.specialKeyword = specialKeyword;
     this.eraseKeyword = eraseKeyword;
     this.eraseColor = eraseColor;
     this.keepTransparentKeyword = keepTransparentKeyword;
     this.eraseTransparentThreshold = Number(eraseTransparentThreshold);
+    this.edgeOnlyKeyword = edgeOnlyKeyword;
   }
 
-  public async merge(output: string, sources: string[]): Promise<void> {
+  public async merge(output: string, sources: string[]) {
     let images: Image[] = [];
     let canvas;
 
@@ -51,9 +54,14 @@ export default class ImageManager {
       });
     }
     if (canvas) {
-      if (!output.endsWith(this.keepTransparentKeyword)) {
-        eraseTransparent(canvas, this.eraseTransparentThreshold);
+      if (output.endsWith(this.keepTransparentKeyword)) {
+        return this.write(output, canvas.toDataURL());
       }
+      if (output.endsWith(this.edgeOnlyKeyword)) {
+        eraseTransparent(canvas, this.eraseTransparentThreshold, true);
+        return this.write(output, canvas.toDataURL());
+      }
+      eraseTransparent(canvas, this.eraseTransparentThreshold);
       this.write(output, canvas.toDataURL());
     } else {
       throw new Error("missing canvas");
