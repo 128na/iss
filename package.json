@@ -30,7 +30,7 @@
     "reload": "^3.2",
     "require-reload": "^0.2",
     "simutrans-dat-parser": "^1.1",
-    "simutrans-image-util": "^1.3",
+    "simutrans-image-util": "^1",
     "simutrans-makeobj-wrapper": "^1",
     "ts-jest": "^27.0",
     "ts-node": "^10.2",
