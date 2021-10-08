@@ -45,8 +45,9 @@ module.exports = [
     ],
     imageSet: {
       'icon_way3.png': ['icon_way3.png', 'icon_ec.png'],
-      'tunnel/road/1200.png': ['tunnel/road/1200_base.png', 'tunnel/road/1200.png', 'tunnel/road/1200_noise.png'],
-      'tunnel/road/0120.png': ['tunnel/road/0120_base.png', 'tunnel/road/0120.png', 'tunnel/road/0120_noise.png'],
+      'tunnel/road/tunnel_surface.png': ['tunnel/road/tunnel_surface.png'],
+      'tunnel/road/tunnel_rear.png': ['tunnel/road/base.png', 'tunnel/road/noise.png', 'tunnel/road/tunnel_ec.png', 'tunnel/road/tunnel_rear.png'],
+
       'tunnel/road/1200_under.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_high.png', 'way/single_ec.png', 'way/road/barrier.png', 'tunnel/road/shield.png'],
       'tunnel/road/0120_under.png': ['way/road/base_high.png', 'way/road/noise.png', 'way/road/line_mid.png', 'way/single_ec.png', 'way/road/barrier.png', 'tunnel/road/box.png'],
     }
@@ -156,9 +157,10 @@ module.exports = [
     ],
     imageSet: {
       'icon_way3.png': ['icon_way3.png', 'icon_ec.png'],
-      'tunnel/rail/tunnel_surface.png': ['tunnel/tunnel_surface.png', 'tunnel/tunnel_surface_noise.png'],
-      'tunnel/rail/tunnel_rear.png': ['tunnel/tunnel_rear.png', 'tunnel/tunnel_rear_noise.png'],
-      'tunnel/rail/rail.png': ['tunnel/shield_base.png', 'way/rail/standard_ffu.png', 'way/center_ec.png', 'tunnel/shield.png'],
+      'tunnel/rail/tunnel_surface.png': ['tunnel/tunnel_surface.png'],
+      'tunnel/rail/tunnel_rear.png': ['tunnel/tunnel_rear.png'],
+      'tunnel/rail/rail.png': ['tunnel/shield_base.png', 'tunnel/rail/standard.png', 'way/rail/standard_fix.png', 'way/center_ec.png', 'tunnel/shield.png'],
+      'tunnel/rail/narrow.png': ['tunnel/shield_base.png', 'tunnel/rail/narrow.png', 'way/rail/narrow_fix.png', 'way/center_ec.png', 'tunnel/shield.png'],
     }
   },
   {
@@ -214,8 +216,8 @@ module.exports = [
     ],
     imageSet: {
       'icon_way3.png': ['icon_way3.png', 'icon_ec.png'],
-      'tunnel/maglev/tunnel_surface.png': ['tunnel/tunnel_surface.png', 'tunnel/tunnel_surface_noise.png'],
-      'tunnel/maglev/tunnel_rear.png': ['tunnel/tunnel_rear.png', 'tunnel/tunnel_rear_noise.png'],
+      'tunnel/maglev/tunnel_surface.png': ['tunnel/tunnel_surface.png'],
+      'tunnel/maglev/tunnel_rear.png': ['tunnel/tunnel_rear.png'],
 
       'tunnel/maglev/marine_u_rear_kt.png': ['way/maglev/marine_rear.png'],
       'tunnel/maglev/marine_u_surface_kt.png': ['way/maglev/marine_surface.png'],
@@ -262,8 +264,8 @@ module.exports = [
     ],
     imageSet: {
       'icon_way3.png': ['icon_way3.png', 'icon_ec.png'],
-      'tunnel/monorail/tunnel_surface.png': ['tunnel/tunnel_surface.png', 'tunnel/tunnel_surface_noise.png'],
-      'tunnel/monorail/tunnel_rear.png': ['tunnel/tunnel_rear.png', 'tunnel/tunnel_rear_noise.png'],
+      'tunnel/monorail/tunnel_surface.png': ['tunnel/tunnel_surface.png'],
+      'tunnel/monorail/tunnel_rear.png': ['tunnel/tunnel_rear.png'],
 
       'tunnel/monorail/straddle.png': ['tunnel/shield_base.png', 'tunnel/shield.png', 'way/monorail/straddle.png'],
       'tunnel/monorail/suspended_rear.png': ['tunnel/shield_base.png', 'tunnel/shield.png', 'tunnel/monorail/suspended_rear.png'],

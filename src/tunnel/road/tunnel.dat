@@ -14,14 +14,15 @@ topspeed=120
 way=iss_wru_0120
 icon=> ../../icon_way3.0.0
 cursor=../../icon_way3.0.1,-64,-40
-backImage[n]=0120.2.0,-64,-96
-frontImage[n]=0120.3.0,-64,-96
-backImage[s]=0120.2.2,-64,-96
-frontImage[s]=0120.3.2,-64,-96
-backImage[e]=0120.2.3,-64,-96
-frontImage[e]=0120.3.3,-64,-96
-backImage[w]=0120.2.1,-64,-96
-frontImage[w]=0120.3.1,-64,-96
+backImage[n]=tunnel_rear.0.0,-64,-96
+backImage[w]=tunnel_rear.0.1,-64,-96
+backImage[s]=tunnel_rear.0.2,-64,-96
+backImage[e]=tunnel_rear.0.3,-64,-96
+frontImage[n]=tunnel_surface.0.0,-64,-96
+frontImage[w]=tunnel_surface.0.1,-64,-96
+frontImage[s]=tunnel_surface.0.2,-64,-96
+frontImage[e]=tunnel_surface.0.3,-64,-96
+
 ---
 # @text ja:[トンネル] 高速道路
 # @text en:[Tunnel] Expressway
@@ -39,12 +40,13 @@ topspeed=1200
 way=iss_wru_1200
 icon=> ../../icon_way3.0.2
 cursor=../../icon_way3.0.3,-64,-40
-backImage[n]=1200.2.0,-64,-96
-frontImage[n]=1200.3.0,-64,-96
-backImage[s]=1200.2.2,-64,-96
-frontImage[s]=1200.3.2,-64,-96
-backImage[e]=1200.2.3,-64,-96
-frontImage[e]=1200.3.3,-64,-96
-backImage[w]=1200.2.1,-64,-96
-frontImage[w]=1200.3.1,-64,-96
+backImage[n]=tunnel_rear.1.0,-64,-96
+backImage[w]=tunnel_rear.1.1,-64,-96
+backImage[s]=tunnel_rear.1.2,-64,-96
+backImage[e]=tunnel_rear.1.3,-64,-96
+frontImage[n]=tunnel_surface.1.0,-64,-96
+frontImage[w]=tunnel_surface.1.1,-64,-96
+frontImage[s]=tunnel_surface.1.2,-64,-96
+frontImage[e]=tunnel_surface.1.3,-64,-96
+
 ---
