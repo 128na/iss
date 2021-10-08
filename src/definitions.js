@@ -299,7 +299,7 @@ module.exports = [
     datFiles: ['util/bridge/bridge.dat'],
     imageSet: {
       'icon_util2.png': ['icon_util2.png', 'icon_ec.png'],
-      'util/bridge/bridge1_kt.png': ['util/bridge/bridge1_base_shift.png', 'util/bridge/bridge1_shift.png', 'util/bridge/bridge1_base_shift_noise.png', 'util/bridge/bridge1_ec.png', 'util/bridge/bridge1_sc.png'],
+      'util/bridge/bridge1_kt.png': ['util/bridge/bridge1_shift.png', 'util/bridge/bridge1_sc.png'],
     }
   },
   {
