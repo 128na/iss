@@ -1,5 +1,5 @@
-# @text ja:[高架] エクストラドーズド橋（長さ１～２）
-# @text en:[Elevated] Extradosed bridge (length 1~2)
+# @text ja:[高架] エクストラドーズド橋（長さ２）
+# @text en:[Elevated] Extradosed bridge (length 2)
 obj=way
 name=iss_wte_bridge1_length_1-2
 copyright=128na
@@ -24,12 +24,11 @@ image[e]=bridge1_kt.6.0,0,-48
 imageUp2[6]=bridge1_kt.6.1,0,-48
 imageUp2[3]=bridge1_kt.6.12,0,-48
 image[s]=bridge1_kt.6.13,0,-48
-# l=1
-imageUp[6]=bridge1_kt.7.0,0,-48
-imageUp[9]=bridge1_kt.7.0,0,-48
-imageUp[3]=bridge1_kt.7.13,0,-48
-imageUp[12]=bridge1_kt.7.13,0,-48
 # unused
+imageUp[6]=../../icon_util2.0.1,-64,-40
+imageUp[9]=../../icon_util2.0.1,-64,-40
+imageUp[3]=../../icon_util2.0.1,-64,-40
+imageUp[12]=../../icon_util2.0.1,-64,-40
 image[ew]=../../icon_util2.0.1,-64,-40
 image[ns]=../../icon_util2.0.1,-64,-40
 image[se]=../../icon_util2.0.1,-64,-40
@@ -121,11 +120,12 @@ image[ns]=bridge1_kt.2.11,0,-16
 imageUp2[3]=bridge1_kt.2.12,0,-48
 imageUp[12]=bridge1_kt.2.13,0,-48
 # pier
-image[e]=bridge1_kt.8.0,-32,-48
-image[w]=bridge1_kt.8.0,-96,-80
-image[n]=bridge1_kt.8.0,-32,-80
-image[s]=bridge1_kt.8.0,-96,-48
-image[-]=bridge1_kt.8.0
+image[e]=bridge1_kt.8.0,32,-32
+image[w]=bridge1_kt.8.0,-32,-64
+
+image[n]=bridge1_kt.8.0,32,-64
+image[s]=bridge1_kt.8.0,-32,-32
+image[-]=bridge1_kt.8.0,0,-48
 # unused
 image[se]=../../icon_util2.0.5,-64,-40
 image[sw]=../../icon_util2.0.5,-64,-40
