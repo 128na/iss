@@ -274,6 +274,17 @@ module.exports = [
   },
   {
     size: 256,
+    pakFile: 'iss_water_way.pak',
+    datFiles: [
+      'way/water/canal.dat',
+    ],
+    imageSet: {
+      'icon_way2.png': ['icon_way2.png', 'icon_ec.png'],
+      'way/water/canal.png': ['way/water/canal.png', 'way/center_ec.png',],
+    }
+  },
+  {
+    size: 256,
     pakFile: 'iss_util_pier.pak',
     datFiles: [
       'util/pier/ground/pier.dat',
