@@ -308,6 +308,7 @@ module.exports = [
     datFiles: [
       'util/embankment/double.dat',
       'util/embankment/half.dat',
+      'util/embankment/step.dat',
     ],
     imageSet: {
       'icon_util2.png': ['icon_util2.png', 'icon_ec.png'],
@@ -316,6 +317,7 @@ module.exports = [
       'util/embankment/embankment3.png': ['util/embankment/embankment_base.png', 'util/embankment/embankment3.png', 'util/embankment/embankment_noise.png'],
       'util/embankment/embankment4.png': ['util/embankment/embankment_base.png', 'util/embankment/embankment4.png', 'util/embankment/embankment_noise.png'],
       'util/embankment/embankment5.png': ['util/embankment/embankment_base.png', 'util/embankment/embankment5.png', 'util/embankment/embankment_noise.png'],
+      'util/embankment/step.png': ['util/embankment/step.png'],
     }
   },
   {
@@ -328,7 +330,7 @@ module.exports = [
     ],
     imageSet: {
       'icon_util2.png': ['icon_util2.png', 'icon_ec.png'],
-      'util/sidewalk/sidewalk.png': ['util/sidewalk/sidewalk.png', 'util/sidewalk/sidewalk_ec.png'],
+      'util/sidewalk/sidewalk_kt.png': ['util/sidewalk/sidewalk.png', 'util/sidewalk/sidewalk_ec.png'],
     }
   },
   {
