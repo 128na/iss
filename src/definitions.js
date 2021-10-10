@@ -280,7 +280,7 @@ module.exports = [
     ],
     imageSet: {
       'icon_way2.png': ['icon_way2.png', 'icon_ec.png'],
-      'way/water/canal.png': ['way/water/canal.png', 'way/center_ec.png',],
+      'way/water/canal_kt.png': ['way/water/canal.png', 'way/water/water_ec.png',],
     }
   },
   {
