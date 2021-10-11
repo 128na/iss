@@ -411,6 +411,7 @@ module.exports = [
     ],
     imageSet: {
       'icon_way3.png': ['icon_way3.png', 'icon_ec.png'],
+      'way-object/rail/under.png': ['way-object/rail/under.png'],
       'way-object/rail/catenary_old_single_rear.png': ['way-object/rail/single_rear.png'],
       'way-object/rail/catenary_old_single_surface.png': ['way-object/rail/single_surface.png'],
       'way-object/rail/catenary_old_front_rear.png': ['way-object/rail/front_rear.png'],
@@ -429,6 +430,7 @@ module.exports = [
     ],
     imageSet: {
       'icon_way3.png': ['icon_way3.png', 'icon_ec.png'],
+      'way-object/rail/under.png': ['way-object/rail/under.png'],
       'way-object/rail/catenary_new_single_rear.png': ['way-object/rail/single_rear.png', 'way-object/rail/np_rear_ec.png'],
       'way-object/rail/catenary_new_single_surface.png': ['way-object/rail/single_surface.png', 'way-object/rail/np_surface_ec.png'],
       'way-object/rail/catenary_new_front_rear.png': ['way-object/rail/front_rear.png', 'way-object/rail/np_rear_ec.png'],
