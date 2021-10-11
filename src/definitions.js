@@ -289,6 +289,7 @@ module.exports = [
     datFiles: [
       'util/pier/ground/pier.dat',
       'util/pier/elevated/pier.dat',
+      'util/pier/way-object/rail.dat',
     ],
     imageSet: {
       'icon_util2.png': ['icon_util2.png', 'icon_ec.png'],
@@ -302,6 +303,13 @@ module.exports = [
       'util/pier/elevated/pier1.png': ['util/pier/elevated/pier1_base.png', 'util/pier/elevated/pier1.png', 'util/pier/elevated/pier1_noise.png', 'util/pier/elevated/pier1_ec.png'],
       'util/pier/elevated/pier2.png': ['util/pier/elevated/pier2_base.png', 'util/pier/elevated/pier2.png', 'util/pier/elevated/pier2_noise.png', 'util/pier/elevated/pier2_ec.png'],
       'util/pier/elevated/pier3.png': ['util/pier/elevated/pier3_base.png', 'util/pier/elevated/pier3.png', 'util/pier/elevated/pier3_noise.png', 'util/pier/elevated/pier3_ec.png'],
+
+      'util/pier/way-object/pier5_rear.png': ['util/pier/ground/pier5_rear.png'],
+      'util/pier/way-object/pier5_surface.png': ['util/pier/ground/pier5_surface.png'],
+      'util/pier/way-object/pier6_rear.png': ['util/pier/ground/pier6_rear.png'],
+      'util/pier/way-object/pier6_surface.png': ['util/pier/ground/pier6_surface.png'],
+      'util/pier/way-object/pier5_cat_surface.png': ['util/pier/way-object/catenary.png', 'util/pier/ground/pier5_surface.png'],
+      'util/pier/way-object/pier6_cat_surface.png': ['util/pier/way-object/catenary.png', 'util/pier/ground/pier6_surface.png'],
     }
   },
   {
@@ -393,6 +401,66 @@ module.exports = [
       'util/road_misc/round_about1_kt.png': ['util/road_misc/round_about1.png', 'util/road_misc/round_about1_ec.png'],
       'util/road_misc/round_about2_kt.png': ['util/road_misc/round_about2.png', 'util/road_misc/round_about2_ec.png'],
       'util/road_misc/intersection_kt.png': ['util/road_misc/intersection.png', 'util/road_misc/intersection_ec.png'],
+    }
+  },
+  {
+    size: 256,
+    pakFile: 'iss_rail_way-object-old_position.pak',
+    datFiles: [
+      'way-object/rail/catenary_old.dat',
+    ],
+    imageSet: {
+      'icon_way3.png': ['icon_way3.png', 'icon_ec.png'],
+      'way-object/rail/catenary_old_single_rear.png': ['way-object/rail/single_rear.png'],
+      'way-object/rail/catenary_old_single_surface.png': ['way-object/rail/single_surface.png'],
+      'way-object/rail/catenary_old_front_rear.png': ['way-object/rail/front_rear.png'],
+      'way-object/rail/catenary_old_front_surface.png': ['way-object/rail/front_surface.png'],
+      'way-object/rail/catenary_old_center_rear.png': ['way-object/rail/center_rear.png'],
+      'way-object/rail/catenary_old_center_surface.png': ['way-object/rail/center_surface.png'],
+      'way-object/rail/catenary_old_back_rear.png': ['way-object/rail/back_rear.png'],
+      'way-object/rail/catenary_old_back_surface.png': ['way-object/rail/back_surface.png'],
+    }
+  },
+  {
+    size: 256,
+    pakFile: 'iss_rail_way-object-new_position.pak',
+    datFiles: [
+      'way-object/rail/catenary_new.dat',
+    ],
+    imageSet: {
+      'icon_way3.png': ['icon_way3.png', 'icon_ec.png'],
+      'way-object/rail/catenary_new_single_rear.png': ['way-object/rail/single_rear.png', 'way-object/rail/np_rear_ec.png'],
+      'way-object/rail/catenary_new_single_surface.png': ['way-object/rail/single_surface.png', 'way-object/rail/np_surface_ec.png'],
+      'way-object/rail/catenary_new_front_rear.png': ['way-object/rail/front_rear.png', 'way-object/rail/np_rear_ec.png'],
+      'way-object/rail/catenary_new_front_surface.png': ['way-object/rail/front_surface.png', 'way-object/rail/np_surface_ec.png'],
+      'way-object/rail/catenary_new_center_rear.png': ['way-object/rail/center_rear.png', 'way-object/rail/np_rear_ec.png'],
+      'way-object/rail/catenary_new_center_surface.png': ['way-object/rail/center_surface.png', 'way-object/rail/np_surface_ec.png'],
+      'way-object/rail/catenary_new_back_rear.png': ['way-object/rail/back_rear.png', 'way-object/rail/np_rear_ec.png'],
+      'way-object/rail/catenary_new_back_surface.png': ['way-object/rail/back_surface.png', 'way-object/rail/np_surface_ec.png'],
+    }
+  },
+  {
+    size: 512,
+    pakFile: 'iss_util_gently-point-catenary-old_position.pak',
+    datFiles: [
+      'util/rail_gently-point/catenary_old.dat',
+    ],
+    imageSet: {
+      'icon_util_512.png': ['icon_util_512.png', 'icon_512_ec.png'],
+      'util/rail_gently-point/catenary_old_surface.png': ['util/rail_gently-point/catenary_surface.png'],
+      'util/rail_gently-point/catenary_old_rear.png': ['util/rail_gently-point/catenary_rear.png'],
+    }
+  },
+  {
+    size: 512,
+    pakFile: 'iss_util_gently-point-catenary-new_position.pak',
+    datFiles: [
+      'util/rail_gently-point/catenary_new.dat',
+    ],
+    imageSet: {
+      'icon_util_512.png': ['icon_util_512.png', 'icon_512_ec.png'],
+      'util/rail_gently-point/catenary_new_surface.png': ['util/rail_gently-point/catenary_surface.png', 'util/rail_gently-point/np_surface_ec.png'],
+      'util/rail_gently-point/catenary_new_rear.png': ['util/rail_gently-point/catenary_rear.png', 'util/rail_gently-point/np_rear_ec.png'],
     }
   },
 ];
