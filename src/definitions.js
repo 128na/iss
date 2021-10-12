@@ -405,6 +405,20 @@ module.exports = [
   },
   {
     size: 256,
+    pakFile: 'iss_util_dense_road.pak',
+    datFiles: [
+      'util/road_dense/line.dat',
+    ],
+    imageSet: {
+      'icon_util2.png': ['icon_util2.png', 'icon_ec.png'],
+      'util/road_dense/2p2_kt.png': ['util/road_dense/2p2.png', 'way/single_ec.png'],
+      'util/road_dense/1p3_kt.png': ['util/road_dense/1p3.png', 'way/single_ec.png'],
+      'util/road_dense/3p1_kt.png': ['util/road_dense/3p1.png', 'way/single_ec.png'],
+      'util/road_dense/4p0_kt.png': ['util/road_dense/4p0.png', 'way/single_ec.png'],
+    }
+  },
+  {
+    size: 256,
     pakFile: 'iss_rail_way-object-old_position.pak',
     datFiles: [
       'way-object/rail/catenary_old.dat',
