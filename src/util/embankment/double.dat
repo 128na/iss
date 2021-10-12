@@ -33,12 +33,12 @@ imageUp2[3]=embankment1.3.1,-64,-64
 imageUp2[9]=embankment1.3.2,-64,-64
 imageUp2[6]=embankment1.3.3,-64,-64
 # unused
-image[nsew]=embankment1.0.3,-64,-64
-image[-]=embankment1.0.3,-64,-64
-image[new]=embankment1.0.3,-64,-64
-image[nse]=embankment1.0.3,-64,-64
-image[sew]=embankment1.0.3,-64,-64
-image[nsw]=embankment1.0.3,-64,-64
+image[nsew]=embankment1.0.0,-64,-64
+image[-]=embankment1.0.0,-64,-64
+image[new]=embankment1.0.0,-64,-64
+image[nse]=embankment1.0.0,-64,-64
+image[sew]=embankment1.0.0,-64,-64
+image[nsw]=embankment1.0.0,-64,-64
 ---
 # @text ja:コンクリート法面（後）
 # @text en:Concrete embankment (back)
@@ -75,12 +75,12 @@ imageUp2[3]=embankment1.3.0,-64,-64
 imageUp2[9]=embankment1.3.1,-64,-64
 imageUp2[6]=embankment1.3.0,-64,-64
 # unused
-image[nsew]=embankment1.0.1,-64,-64
-image[-]=embankment1.0.1,-64,-64
-image[new]=embankment1.0.1,-64,-64
-image[nse]=embankment1.0.1,-64,-64
-image[sew]=embankment1.0.1,-64,-64
-image[nsw]=embankment1.0.1,-64,-64
+image[nsew]=embankment1.0.0,-64,-64
+image[-]=embankment1.0.0,-64,-64
+image[new]=embankment1.0.0,-64,-64
+image[nse]=embankment1.0.0,-64,-64
+image[sew]=embankment1.0.0,-64,-64
+image[nsw]=embankment1.0.0,-64,-64
 ---
 # @text ja:緑化コンクリート法面（前）
 # @text en:Grassy concrete embankment (front)
@@ -117,12 +117,12 @@ imageUp2[3]=embankment2.3.1,-64,-64
 imageUp2[9]=embankment2.3.2,-64,-64
 imageUp2[6]=embankment2.3.3,-64,-64
 # unused
-image[nsew]=embankment2.0.3,-64,-64
-image[-]=embankment2.0.3,-64,-64
-image[new]=embankment2.0.3,-64,-64
-image[nse]=embankment2.0.3,-64,-64
-image[sew]=embankment2.0.3,-64,-64
-image[nsw]=embankment2.0.3,-64,-64
+image[nsew]=embankment2.0.0,-64,-64
+image[-]=embankment2.0.0,-64,-64
+image[new]=embankment2.0.0,-64,-64
+image[nse]=embankment2.0.0,-64,-64
+image[sew]=embankment2.0.0,-64,-64
+image[nsw]=embankment2.0.0,-64,-64
 ---
 # @text ja:緑化コンクリート法面（後）
 # @text en:Grassy concrete embankment (back)
@@ -159,12 +159,12 @@ imageUp2[3]=embankment2.3.0,-64,-64
 imageUp2[9]=embankment2.3.1,-64,-64
 imageUp2[6]=embankment2.3.0,-64,-64
 # unused
-image[nsew]=embankment2.0.1,-64,-64
-image[-]=embankment2.0.1,-64,-64
-image[new]=embankment2.0.1,-64,-64
-image[nse]=embankment2.0.1,-64,-64
-image[sew]=embankment2.0.1,-64,-64
-image[nsw]=embankment2.0.1,-64,-64
+image[nsew]=embankment2.0.0,-64,-64
+image[-]=embankment2.0.0,-64,-64
+image[new]=embankment2.0.0,-64,-64
+image[nse]=embankment2.0.0,-64,-64
+image[sew]=embankment2.0.0,-64,-64
+image[nsw]=embankment2.0.0,-64,-64
 ---
 # @text ja:コンクリートブロック法面（前）
 # @text en:Concrete block embankment (front)
@@ -201,12 +201,12 @@ imageUp2[3]=embankment3.3.1,-64,-64
 imageUp2[9]=embankment3.3.2,-64,-64
 imageUp2[6]=embankment3.3.3,-64,-64
 # unused
-image[nsew]=embankment3.0.3,-64,-64
-image[-]=embankment3.0.3,-64,-64
-image[new]=embankment3.0.3,-64,-64
-image[nse]=embankment3.0.3,-64,-64
-image[sew]=embankment3.0.3,-64,-64
-image[nsw]=embankment3.0.3,-64,-64
+image[nsew]=embankment3.0.0,-64,-64
+image[-]=embankment3.0.0,-64,-64
+image[new]=embankment3.0.0,-64,-64
+image[nse]=embankment3.0.0,-64,-64
+image[sew]=embankment3.0.0,-64,-64
+image[nsw]=embankment3.0.0,-64,-64
 ---
 # @text ja:コンクリートブロック法面（後）
 # @text en:Concrete block embankment (back)
@@ -243,12 +243,12 @@ imageUp2[3]=embankment3.3.0,-64,-64
 imageUp2[9]=embankment3.3.1,-64,-64
 imageUp2[6]=embankment3.3.0,-64,-64
 # unused
-image[nsew]=embankment3.0.1,-64,-64
-image[-]=embankment3.0.1,-64,-64
-image[new]=embankment3.0.1,-64,-64
-image[nse]=embankment3.0.1,-64,-64
-image[sew]=embankment3.0.1,-64,-64
-image[nsw]=embankment3.0.1,-64,-64
+image[nsew]=embankment3.0.0,-64,-64
+image[-]=embankment3.0.0,-64,-64
+image[new]=embankment3.0.0,-64,-64
+image[nse]=embankment3.0.0,-64,-64
+image[sew]=embankment3.0.0,-64,-64
+image[nsw]=embankment3.0.0,-64,-64
 ---
 # @text ja:養生中緑化コンクリート法面（前）
 # @text en:Curing grass concrete embankment (front)
@@ -285,12 +285,12 @@ imageUp2[3]=embankment4.3.1,-64,-64
 imageUp2[9]=embankment4.3.2,-64,-64
 imageUp2[6]=embankment4.3.3,-64,-64
 # unused
-image[nsew]=embankment4.0.3,-64,-64
-image[-]=embankment4.0.3,-64,-64
-image[new]=embankment4.0.3,-64,-64
-image[nse]=embankment4.0.3,-64,-64
-image[sew]=embankment4.0.3,-64,-64
-image[nsw]=embankment4.0.3,-64,-64
+image[nsew]=embankment4.0.0,-64,-64
+image[-]=embankment4.0.0,-64,-64
+image[new]=embankment4.0.0,-64,-64
+image[nse]=embankment4.0.0,-64,-64
+image[sew]=embankment4.0.0,-64,-64
+image[nsw]=embankment4.0.0,-64,-64
 ---
 # @text ja:養生中緑化コンクリート法面（後）
 # @text en:Curing grass concrete embankment (back)
@@ -327,12 +327,12 @@ imageUp2[3]=embankment4.3.0,-64,-64
 imageUp2[9]=embankment4.3.1,-64,-64
 imageUp2[6]=embankment4.3.0,-64,-64
 # unused
-image[nsew]=embankment4.0.1,-64,-64
-image[-]=embankment4.0.1,-64,-64
-image[new]=embankment4.0.1,-64,-64
-image[nse]=embankment4.0.1,-64,-64
-image[sew]=embankment4.0.1,-64,-64
-image[nsw]=embankment4.0.1,-64,-64
+image[nsew]=embankment4.0.0,-64,-64
+image[-]=embankment4.0.0,-64,-64
+image[new]=embankment4.0.0,-64,-64
+image[nse]=embankment4.0.0,-64,-64
+image[sew]=embankment4.0.0,-64,-64
+image[nsw]=embankment4.0.0,-64,-64
 ---
 # @text ja:アンカーブロック法面（前）
 # @text en:Anchor block embankment (front)
@@ -369,12 +369,12 @@ imageUp2[3]=embankment5.3.1,-64,-64
 imageUp2[9]=embankment5.3.2,-64,-64
 imageUp2[6]=embankment5.3.3,-64,-64
 # unused
-image[nsew]=embankment5.0.3,-64,-64
-image[-]=embankment5.0.3,-64,-64
-image[new]=embankment5.0.3,-64,-64
-image[nse]=embankment5.0.3,-64,-64
-image[sew]=embankment5.0.3,-64,-64
-image[nsw]=embankment5.0.3,-64,-64
+image[nsew]=embankment5.0.0,-64,-64
+image[-]=embankment5.0.0,-64,-64
+image[new]=embankment5.0.0,-64,-64
+image[nse]=embankment5.0.0,-64,-64
+image[sew]=embankment5.0.0,-64,-64
+image[nsw]=embankment5.0.0,-64,-64
 ---
 # @text ja:アンカーブロック法面（後）
 # @text en:Anchor block embankment (back)
@@ -411,10 +411,10 @@ imageUp2[3]=embankment5.3.0,-64,-64
 imageUp2[9]=embankment5.3.1,-64,-64
 imageUp2[6]=embankment5.3.0,-64,-64
 # unused
-image[nsew]=embankment5.0.1,-64,-64
-image[-]=embankment5.0.1,-64,-64
-image[new]=embankment5.0.1,-64,-64
-image[nse]=embankment5.0.1,-64,-64
-image[sew]=embankment5.0.1,-64,-64
-image[nsw]=embankment5.0.1,-64,-64
+image[nsew]=embankment5.0.0,-64,-64
+image[-]=embankment5.0.0,-64,-64
+image[new]=embankment5.0.0,-64,-64
+image[nse]=embankment5.0.0,-64,-64
+image[sew]=embankment5.0.0,-64,-64
+image[nsw]=embankment5.0.0,-64,-64
 ---
