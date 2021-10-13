@@ -21,6 +21,7 @@ export interface buildCommandOption {
   definition: string
   source: string
   output: string
+  batch: boolean
 }
 
 export interface serveCommandOption extends buildCommandOption {

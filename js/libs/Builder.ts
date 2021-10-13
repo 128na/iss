@@ -10,6 +10,7 @@ export class Builder {
   private definition: string;
   private source: string;
   private output: string;
+  private batch: boolean;
   private changedFile: string;
   private mergedImages: string[] = [];
 
@@ -17,11 +18,12 @@ export class Builder {
   private makeobj: Makeobj
   private definitionLoader: DefinitionLoader
 
-  public constructor({ definition, source, output }: buildCommandOption) {
+  public constructor({ definition, source, output, batch }: buildCommandOption) {
     this.definition = definition;
     this.changedFile = '';
     this.source = source;
     this.output = output;
+    this.batch = batch;
     this.imageManager = new ImageManager(
       process.env.IMAGE_SPECIAL_KEYWORD,
       process.env.IMAGE_ERASE_KEYWORD,
@@ -42,8 +44,20 @@ export class Builder {
     return await this.handleDefinitions();
   }
 
+  private generateBuildBatchFile(definitions: definition[]) {
+    const batchFile = `${this.output}/build.bat`;
+    fs.ensureFileSync(batchFile);
+    for (const definition of definitions) {
+      fs.appendFileSync(batchFile, `makeobj pak${definition.size} ${definition.pakFile} ${definition.datFiles.join(' ')}\n`);
+    }
+  }
+
   private async handleDefinitions(): Promise<string[]> {
     const definitions = this.definitionLoader.load(this.definition);
+    if (this.batch) {
+      this.generateBuildBatchFile(definitions);
+    }
+
     const pakFiles = [];
     for (const definition of definitions) {
       pakFiles.push(await this.handleDefinition(definition));
@@ -60,6 +74,9 @@ export class Builder {
     logger('build', definition.pakFile);
     await this.merge(definition);
     const datFiles = this.copyDatFiles(definition);
+    if (this.batch) {
+      return `${this.output}/${definition.pakFile}`;
+    }
     return this.pak(definition, datFiles);
   }
 

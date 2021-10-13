@@ -16,7 +16,7 @@ export default class Serve {
   private successFirstTime = false;
 
   public constructor({ definition, source, output, paklib }: serveCommandOption) {
-    this.builder = new Builder({ definition, source, output });
+    this.builder = new Builder({ definition, source, output, batch: false });
     this.source = source;
     this.output = output;
     this.paklib = paklib;

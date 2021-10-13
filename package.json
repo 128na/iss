@@ -6,6 +6,7 @@
     "release": "npm run build && npm run translate",
     "serve": "npx ts-node js/ServeCommand.ts",
     "build": "npx ts-node js/BuildCommand.ts --output=./release/pak128",
+    "batch": "npx ts-node js/BuildCommand.ts --output=./batch -b",
     "translate": "npx ts-node js/TranslateCommand.ts --output=./release/text",
     "listing": "npx ts-node js/AddonListCommand.ts",
     "shift": "npx ts-node ./js/ShiftImageCommand.ts --source=./src/util/bridge/bridge1.png",
