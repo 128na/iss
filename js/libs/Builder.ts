@@ -50,6 +50,7 @@ export class Builder {
     for (const definition of definitions) {
       fs.appendFileSync(batchFile, `makeobj pak${definition.size} ${definition.pakFile} ${definition.datFiles.join(' ')}\n`);
     }
+    fs.appendFileSync(batchFile, `makeobj merge dev.pak ${definitions.map(d => d.pakFile).join(' ')}\n`);
   }
 
   private async handleDefinitions(): Promise<string[]> {
