@@ -286,7 +286,9 @@ module.exports = [
   {
     size: 256,
     pakFile: 'iss_depot_building.pak',
-    datFiles: ['building/depot/depot.dat'],
+    datFiles: [
+      'building/depot/depot.dat',
+    ],
     imageSet: {
       'icon_way3.png': ['icon_way3.png', 'icon_ec.png'],
       'building/depot/depot.png': ['building/depot/depot.png', 'building/depot/depot_sc.png'],
@@ -384,10 +386,15 @@ module.exports = [
   {
     size: 256,
     pakFile: 'iss_util_rail_misc.pak',
-    datFiles: ['util/rail_misc/table.dat'],
+    datFiles: [
+      'util/rail_misc/table.dat',
+      'util/rail_misc/yard.dat',
+    ],
     imageSet: {
       'icon_util1.png': ['icon_util1.png', 'icon_ec.png'],
+      'icon_way3.png': ['icon_way3.png', 'icon_ec.png'],
       'util/rail_misc/table.png': ['util/rail_misc/table_base.png', 'util/rail_misc/barrast_noise.png', 'util/rail_misc/table_ec.png', 'util/rail_misc/table.png', 'util/rail_misc/table_concrete_noise.png'],
+      'util/rail_misc/yard.png': ['util/rail_misc/yard.png'],
     }
   },
   {

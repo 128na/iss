@@ -1,5 +1,6 @@
 /refs/
 .env
+/batch/
 /dist/
 /release/
 /node_modules/
