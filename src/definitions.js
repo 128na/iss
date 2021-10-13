@@ -285,6 +285,15 @@ module.exports = [
   },
   {
     size: 256,
+    pakFile: 'iss_depot_building.pak',
+    datFiles: ['building/depot/depot.dat'],
+    imageSet: {
+      'icon_way3.png': ['icon_way3.png', 'icon_ec.png'],
+      'building/depot/depot.png': ['building/depot/depot.png', 'building/depot/depot_sc.png'],
+    }
+  },
+  {
+    size: 256,
     pakFile: 'iss_util_pier.pak',
     datFiles: [
       'util/pier/ground/pier.dat',
