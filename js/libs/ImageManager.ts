@@ -38,7 +38,7 @@ export default class ImageManager {
       if (special || erase) {
         canvas = mergeImage(images, {
           canvas,
-          replaceSpecialColor: special,
+          replaceSpecialColor: !special,
           eraseColor: erase ? this.eraseColor : undefined,
           eraseTransparentThreshold: this.eraseTransparentThreshold,
         });
