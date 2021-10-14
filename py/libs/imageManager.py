@@ -9,6 +9,7 @@ def mergeImage(inputs: list[str], output, inputDir: str = './src', outputDir: st
     keepTransparent = output.endswith('_kt.png')
 
     result = None
+    keepSpecial = False
     for index in range(len(inputs)):
         image = Image.open(inputDir+'/'+inputs[index]).convert('RGBA')
 
@@ -17,28 +18,22 @@ def mergeImage(inputs: list[str], output, inputDir: str = './src', outputDir: st
         else:
             result = Image.alpha_composite(result, image)
 
+        isLast = index >= len(inputs)-1
+
         keepSpecial = inputs[index].endswith('_sc.png') \
-            or (index < len(inputs)-1 and inputs[index+1].endswith('_sc.png'))
+            or (not isLast and inputs[index+1].endswith('_sc.png'))
         removeEraseColor = inputs[index].endswith('_ec.png')
 
-        if(removeEraseColor or keepSpecial):
+        if(removeEraseColor or keepSpecial or isLast):
             result = manipulatePixcels(
                 result,
-                True,
+                keepTransparent,
                 not keepSpecial,
                 removeEraseColor
             )
 
     if(result is None):
         raise "Image is empty"
-
-    if not (keepTransparent):
-        result = manipulatePixcels(
-            result,
-            False,
-            True,
-            False
-        )
 
     ensureDir(outputDir+'/'+output)
     result.save(outputDir+'/'+output)
