@@ -11,12 +11,13 @@ def mergeImage(inputs: list[str], output, inputDir: str = './src', outputDir: st
     result = None
     keepSpecial = False
     for index in range(len(inputs)):
-        image = Image.open(inputDir+'/'+inputs[index]).convert('RGBA')
+        image = Image.open(inputDir+'/'+inputs[index])
 
         if result is None:
             result = image
         else:
-            result = Image.alpha_composite(result, image)
+            result = Image.alpha_composite(
+                result.convert('RGBA'), image.convert('RGBA'))
 
         isLast = index >= len(inputs)-1
 
