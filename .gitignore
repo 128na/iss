@@ -6,3 +6,5 @@
 /node_modules/
 /package/
 todo.md
+
+__pycache__

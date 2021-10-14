@@ -6,9 +6,9 @@ import { Dat } from 'simutrans-dat-parser';
 export class DefinitionLoader {
 
   public load(definitionpath?: string): definition[] {
-    const filepath = path.resolve(process.cwd(), definitionpath || './src/definitions.js');
-    const reload = require('require-reload')(require);
-    return reload(filepath);
+    const filepath = path.resolve(process.cwd(), definitionpath || './src/definitions.json');
+    const file = fs.readFileSync(filepath);
+    return JSON.parse(file.toString());
   }
 
   public loadWithDat(): definitionWithDat[] {

@@ -6,7 +6,7 @@ require('dotenv').config();
 const runner = new Command('build');
 runner
   .description('ソースファイルをビルドします。')
-  .option('-d, --definition <file>', 'Definition file path', './src/definitions.js')
+  .option('-d, --definition <file>', 'Definition file path', './src/definitions.json')
   .option('-s, --source <directory>', 'Source directory path', './src')
   .option('-o, --output <directory>', 'Output directory path', './dist')
   .option('-b, --batch ', 'generate batch file', false)
