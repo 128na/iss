@@ -20,16 +20,18 @@ def handleDefinition(definition: dict, inputPath, outputPath, makeobjpath):
         if(fileManager.existsFile(outputPath+'/'+output)):
             print('skip')
             continue
-        imageManager.mergeImage(inputs, output,  inputPath, outputPath)
-    #     process = Process(
-    #         target=imageManager.mergeImage,
-    #         args=(inputs, output,  inputPath, outputPath)
-    #     )
-    #     process.start()
-    #     process_list.append(process)
+        if(os.getenv('MULTITHREAD')):
+            process = Process(
+                target=imageManager.mergeImage,
+                args=(inputs, output,  inputPath, outputPath)
+            )
+            process.start()
+            process_list.append(process)
+        else:
+            imageManager.mergeImage(inputs, output,  inputPath, outputPath)
 
-    # for process in process_list:
-    #     process.join()
+    for process in process_list:
+        process.join()
 
     for datFile in definition['datFiles']:
         fileManager.copyFile(inputPath+'/'+datFile, outputPath+'/'+datFile)
