@@ -24,6 +24,9 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: install deps
+        run: pip install pillow python-dotenv
+
       - name: make pak files
         run: npm ci && npm run build_py
 
