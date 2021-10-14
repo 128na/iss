@@ -30,8 +30,9 @@ def handleDefinition(definition: dict, inputPath, outputPath, makeobjpath):
         else:
             imageManager.mergeImage(inputs, output,  inputPath, outputPath)
 
-    for process in process_list:
-        process.join()
+    if(os.getenv('MULTITHREAD')):
+        for process in process_list:
+            process.join()
 
     for datFile in definition['datFiles']:
         fileManager.copyFile(inputPath+'/'+datFile, outputPath+'/'+datFile)
@@ -45,14 +46,14 @@ def handleDefinition(definition: dict, inputPath, outputPath, makeobjpath):
     )
 
 
-load_dotenv()
-makeobjpath = os.getenv('MAKEOBJ_PATH')
-
-definitionsPath = sys.argv[1]
-outputPath = sys.argv[2]
-inputPath = './src'
-definitions = fileManager.loadJson(definitionsPath)
-
-fileManager.removeDir(outputPath)
 if __name__ == '__main__':
+    load_dotenv()
+    makeobjpath = os.getenv('MAKEOBJ_PATH')
+
+    definitionsPath = sys.argv[1]
+    outputPath = sys.argv[2]
+    inputPath = './src'
+    definitions = fileManager.loadJson(definitionsPath)
+
+    fileManager.removeDir(outputPath)
     handleDefinitions(definitions, inputPath, outputPath, makeobjpath)
