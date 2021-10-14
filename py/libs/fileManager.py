@@ -25,6 +25,4 @@ def removeDir(path: str):
 
 def copyFile(source: str, dest: str):
     ensureDir(dest)
-    if(existsFile(dest)):
-        os.remove(dest)
     shutil.copyfile(source, dest)

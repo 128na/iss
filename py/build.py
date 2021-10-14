@@ -1,11 +1,10 @@
 import os
 import sys
 from dotenv import load_dotenv
+from multiprocessing import Process
 from libs import fileManager
 from libs import imageManager
-
 from libs import makeobjManager
-from multiprocessing import Process
 
 
 def handleDefinitions(definitions: list[dict], inputPath, outputPath, makeobjpath, multithread):
