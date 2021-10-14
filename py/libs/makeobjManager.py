@@ -7,7 +7,7 @@ def pak(makeobjpath: str, outputDir: str, size: int, pakFile: str, datFiles: lis
         str(size) + ' ' + pakFile+' ' + (' '.join(datFiles))
 
     print(command)
-    res = subprocess.call(command, cwd=outputDir)
+    res = subprocess.run(command, cwd=outputDir, shell=True).returncode
 
     if(res != 0):
         raise "makeobj failed"
