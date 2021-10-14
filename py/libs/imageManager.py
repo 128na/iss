@@ -80,9 +80,8 @@ def manipulatePixcel(
 
 
 def handleReplaceSpecialColor(pixcel: tuple, specialColors: list[tuple] = constants.specialColors) -> tuple:
-    for sp in specialColors:
-        if (pixcel[0], pixcel[1], pixcel[2]) == sp:
-            return (pixcel[0]+1, pixcel[1]+1, pixcel[2]+1, pixcel[3])
+    if (specialColors.__contains__((pixcel[0], pixcel[1], pixcel[2]))):
+        return (pixcel[0]+1, pixcel[1]+1, pixcel[2]+1, pixcel[3])
     return pixcel
 
 
