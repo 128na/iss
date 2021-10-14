@@ -20,9 +20,11 @@ def mergeImage(inputs: list[str], output, inputDir: str = './src', outputDir: st
                 result.convert('RGBA'), image.convert('RGBA'))
 
         isLast = index >= len(inputs)-1
+        if(inputs[index].endswith('_sc.png')):
+            keepSpecial = True
+        if(not isLast and not inputs[index+1].endswith('_sc.png')):
+            keepSpecial = False
 
-        keepSpecial = inputs[index].endswith('_sc.png') \
-            or (not isLast and inputs[index+1].endswith('_sc.png'))
         removeEraseColor = inputs[index].endswith('_ec.png')
 
         if(removeEraseColor or keepSpecial or isLast):
@@ -46,15 +48,14 @@ def manipulatePixcels(
     replaceSpecialColor: bool,
     eraseColor: bool
 ) -> Image:
-
-    result: list[tuple] = []
-    for pixcel in image.getdata():
-        result.append(manipulatePixcel(
-            pixcel, keepTransparent, replaceSpecialColor, eraseColor
-        ))
+    data = list(image.getdata())
+    for index in range(len(data)):
+        data[index] = manipulatePixcel(
+            data[index], keepTransparent, replaceSpecialColor, eraseColor
+        )
 
     resultImage = Image.new(image.mode, image.size)
-    resultImage.putdata(result)
+    resultImage.putdata(data)
     return resultImage
 
 
