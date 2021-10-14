@@ -20,27 +20,26 @@ def handleDefinition(definition: dict, inputPath, outputPath, makeobjpath):
         if(fileManager.existsFile(outputPath+'/'+output)):
             print('skip')
             continue
-        # imageManager.mergeImage(inputs, output,  inputPath, outputPath)
-        process = Process(
-            target=imageManager.mergeImage,
-            args=(inputs, output,  inputPath, outputPath)
-        )
-        process.start()
-        process_list.append(process)
+        imageManager.mergeImage(inputs, output,  inputPath, outputPath)
+    #     process = Process(
+    #         target=imageManager.mergeImage,
+    #         args=(inputs, output,  inputPath, outputPath)
+    #     )
+    #     process.start()
+    #     process_list.append(process)
 
-    for process in process_list:
-        process.join()
+    # for process in process_list:
+    #     process.join()
 
-    datFiles = []
     for datFile in definition['datFiles']:
         fileManager.copyFile(inputPath+'/'+datFile, outputPath+'/'+datFile)
-        datFiles.append(outputPath+'/'+datFile)
 
     makeobjManager.pak(
         makeobjpath,
+        outputPath,
         definition['size'],
-        outputPath + '/'+definition['pakFile'],
-        datFiles
+        definition['pakFile'],
+        definition['datFiles']
     )
 
 

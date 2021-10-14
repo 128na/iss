@@ -45,7 +45,6 @@ def manipulatePixcels(
     replaceSpecialColor: bool,
     eraseColor: bool
 ) -> Image:
-    print('manipulatePixcels')
 
     result: list[tuple] = []
     for pixcel in image.getdata():
