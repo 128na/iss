@@ -10,7 +10,7 @@ def mergeImage(inputs: list[str], output, inputDir: str = './src', outputDir: st
 
     result = None
     for i in inputs:
-        image = Image.open(inputDir+'/'+i)
+        image = Image.open(inputDir+'/'+i).convert('RGBA')
 
         if result is None:
             result = image
