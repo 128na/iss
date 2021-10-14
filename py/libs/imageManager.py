@@ -30,7 +30,7 @@ def mergeImage(inputs: list[str], output, inputDir: str = './src', outputDir: st
 
         if(removeEraseColor or not keepSpecial or isLast):
             result = manipulatePixcels(
-                result,
+                result.convert('RGBA'),
                 keepTransparent,
                 not keepSpecial,
                 removeEraseColor
