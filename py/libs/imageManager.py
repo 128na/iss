@@ -19,15 +19,16 @@ def mergeImage(inputs: list[str], output, inputDir: str = './src', outputDir: st
             result = Image.alpha_composite(
                 result.convert('RGBA'), image.convert('RGBA'))
 
-        isLast = index >= len(inputs)-1
         if(inputs[index].endswith('_sc.png')):
             keepSpecial = True
+
+        isLast = index >= len(inputs)-1
         if(not isLast and not inputs[index+1].endswith('_sc.png')):
             keepSpecial = False
 
         removeEraseColor = inputs[index].endswith('_ec.png')
 
-        if(removeEraseColor or keepSpecial or isLast):
+        if(removeEraseColor or not keepSpecial or isLast):
             result = manipulatePixcels(
                 result,
                 keepTransparent,
