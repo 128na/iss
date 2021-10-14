@@ -49,6 +49,7 @@ def handleDefinition(definition: dict, inputPath, outputPath, makeobjpath):
 if __name__ == '__main__':
     load_dotenv()
     makeobjpath = os.getenv('MAKEOBJ_PATH')
+    print('MULTITHREAD', os.getenv('MULTITHREAD'))
 
     definitionsPath = sys.argv[1]
     outputPath = sys.argv[2]
