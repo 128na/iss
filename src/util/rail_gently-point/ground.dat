@@ -205,10 +205,10 @@ waytype=track
 system_type=0
 icon=> ../../icon_util_512.0.0
 cursor=../../icon_util_512.0.1,-192,-168
-image[ns]=point.4.0,-192,-288
-image[ew]=point.4.1 ,-192,-288
-image[nw]=point.4.2,-192,-288
-image[ne]=point.4.3 ,-192,-288
+image[ns]=curve.0.0,-192,-288
+image[ew]=curve.0.1 ,-192,-288
+image[nw]=curve.0.2,-192,-288
+image[ne]=curve.0.3 ,-192,-288
 image[-]=-
 -----------------------------------------------
 # @text ja:[地上] ゆるめのカーブパーツ２
@@ -228,8 +228,8 @@ waytype=track
 system_type=0
 icon=> ../../icon_util_512.0.0
 cursor=../../icon_util_512.0.1,-192,-168
-image[ns]=point.5.0,-192,-288
-image[ew]=point.5.1 ,-192,-288
-image[sw]=point.5.2 ,-192,-288
-image[nw]=point.5.3,-192,-288
+image[ns]=curve.1.0,-192,-288
+image[ew]=curve.1.1 ,-192,-288
+image[sw]=curve.1.2 ,-192,-288
+image[nw]=curve.1.3,-192,-288
 image[-]=-

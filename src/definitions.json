@@ -1131,6 +1131,12 @@
         "util/rail_gently-point/point_ec.png",
         "util/rail_gently-point/wall_rear_out.png"
       ],
+      "util/rail_gently-point/curve.png": [
+        "util/rail_gently-point/barrast.png",
+        "util/rail_gently-point/noise.png",
+        "util/rail_gently-point/curve.png",
+        "util/rail_gently-point/curve_ec.png"
+      ],
       "util/rail_gently-point/point_e_surface_single.png": [
         "util/rail_gently-point/wall_surface_in.png",
         "util/rail_gently-point/wall_surface_out.png"
