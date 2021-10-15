@@ -35,10 +35,10 @@ export default class ImageManager {
       const special = source.endsWith(this.specialKeyword);
       const erase = source.endsWith(this.eraseKeyword);
 
-      if (special || erase) {
+      if (/* special || */ erase) {
         canvas = mergeImage(images, {
           canvas,
-          replaceSpecialColor: !special,
+          // replaceSpecialColor: !special,
           eraseColor: erase ? this.eraseColor : undefined,
           eraseTransparentThreshold: this.eraseTransparentThreshold,
         });
@@ -49,8 +49,8 @@ export default class ImageManager {
     if (images.length) {
       canvas = mergeImage(images, {
         canvas,
-        replaceSpecialColor: true,
-        eraseColor: this.eraseColor,
+        // replaceSpecialColor: true,
+        // eraseColor: this.eraseColor,
       });
     }
     if (canvas) {
