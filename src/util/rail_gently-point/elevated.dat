@@ -1,5 +1,5 @@
-# @text ja:[高架] ゆるめの片分岐パーツ１
-# @text en:[Elevated] Gently point parts 1
+# @text ja:[高架] ゆるめの片分岐パーツ１（単）
+# @text en:[Elevated] Gently point parts 1 (single)
 obj=way
 name=iss_wte_gently_point_1_single
 copyright=128na
@@ -19,29 +19,14 @@ image[new]=point_e_single.1.0,-192,-288
 image[sw]=point_e_single.1.2,-192,-288
 image[nsw]=point_e_single.0.3,-192,-288
 image[nw]=point_e_single.0.1 ,-192,-288
-image[w]=-
-image[n]=-
-image[e]=-
-image[s]=-
-image[ne]=-
-image[se]=-
-image[ew]=-
-image[ns]=-
 image[-]=-
-image[nsew]=-
-image[sew]=-
-image[nse]=-
-imageup[9]=-
-imageup[12]=-
-imageup[6]=-
-imageup[3]=-
 frontimage[new]=point_e_surface_single.1.0,-192,-288
 frontimage[sw]=point_e_surface_single.1.2,-192,-288
 frontimage[nsw]=point_e_surface_single.0.3,-192,-288
 frontimage[nw]=point_e_surface_single.0.1 ,-192,-288
 -----------------------------------------------
-# @text ja:[高架] ゆるめの片分岐パーツ２
-# @text en:[Elevated] Gently point parts 2
+# @text ja:[高架] ゆるめの片分岐パーツ２（単）
+# @text en:[Elevated] Gently point parts 2 (single)
 obj=way
 name=iss_wte_gently_point_2_single
 copyright=128na
@@ -61,29 +46,14 @@ image[new]=point_e_single.0.0,-192,-288
 image[nsw]=point_e_single.1.3,-192,-288
 image[ne]=point_e_single.1.1,-192,-288
 image[nw]=point_e_single.0.2,-192,-288
-image[w]=-
-image[n]=-
-image[e]=-
-image[s]=-
-image[ew]=-
-image[ns]=-
 image[-]=-
-image[nsew]=-
-image[sw]=-
-image[se]=-
-image[sew]=
-image[nse]=-
-imageup[9]=-
-imageup[12]=-
-imageup[6]=-
-imageup[3]=-
 frontimage[new]=point_e_surface_single.0.0,-192,-288
 frontimage[nsw]=point_e_surface_single.1.3,-192,-288
 frontimage[ne]=point_e_surface_single.1.1,-192,-288
 frontimage[nw]=point_e_surface_single.0.2,-192,-288
 -----------------------------------------------
-# @text ja:[高架] ゆるめの片渡りパーツ１
-# @text en:[Elevated] Gently single switch parts 1
+# @text ja:[高架] ゆるめの片渡りパーツ１（単）
+# @text en:[Elevated] Gently single switch parts 1 (single)
 obj=way
 name=iss_wte_gently_single_switch_1_single
 copyright=128na
@@ -99,31 +69,22 @@ waytype=track
 system_type=1
 icon=> ../../icon_util_512.2.2
 cursor=../../icon_util_512.2.3,-192,-168
-image[w]=-
-image[n]=-
-image[e]=-
-image[s]=-
-image[ne]=-
-image[se]=-
-image[ew]=-
-image[ns]=-
 image[-]=-
-image[nsew]=-
 image[new]=point_e_single.2.1,-192,-288
-image[sw]=-
 image[nsw]=point_e_single.2.0,-192,-288
-image[sew]=-
-image[nse]=-
-image[nw]=-
-imageup[9]=-
-imageup[12]=-
-imageup[6]=-
-imageup[3]=-
+image[ns]=curve_e_surf.0.0,-192,-288
+image[ew]=curve_e_surf.0.1 ,-192,-288
+image[nw]=curve_e_surf.0.2,-192,-288
+image[ne]=curve_e_surf.0.3 ,-192,-288
 frontimage[new]=point_e_surface_single.2.1,-192,-288
 frontimage[nsw]=point_e_surface_single.2.0,-192,-288
+frontimage[ns]=curve_e_rear.0.0,-192,-288
+frontimage[ew]=curve_e_rear.0.1 ,-192,-288
+frontimage[nw]=curve_e_rear.0.2,-192,-288
+frontimage[ne]=curve_e_rear.0.3 ,-192,-288
 -----------------------------------------------
-# @text ja:[高架] ゆるめの片渡りパーツ２
-# @text en:[Elevated] Gently single switch parts 2
+# @text ja:[高架] ゆるめの片渡りパーツ２（単）
+# @text en:[Elevated] Gently single switch parts 2 (single)
 obj=way
 name=iss_wte_gently_single_switch_2_single
 copyright=128na
@@ -139,31 +100,22 @@ waytype=track
 system_type=1
 icon=> ../../icon_util_512.3.2
 cursor=../../icon_util_512.3.3,-192,-168
-image[w]=-
-image[n]=-
-image[e]=-
-image[s]=-
-image[ew]=-
-image[ns]=-
 image[-]=-
-image[nsew]=-
 image[new]=point_e_single.2.3,-192,-288
-image[sw]=-
 image[nsw]=point_e_single.2.2,-192,-288
-image[ne]=-
-image[se]=-
-image[sew]=
-image[nw]=-
-image[nse]=-
-imageup[9]=-
-imageup[12]=-
-imageup[6]=-
-imageup[3]=-
+image[ns]=curve.1.0,-192,-288
+image[ew]=curve.1.1 ,-192,-288
+image[sw]=curve.1.2 ,-192,-288
+image[nw]=curve.1.3,-192,-288
 frontimage[new]=point_e_surface_single.2.3,-192,-288
 frontimage[nsw]=point_e_surface_single.2.2,-192,-288
+frontimage[ns]=curve.1.0,-192,-288
+frontimage[ew]=curve.1.1 ,-192,-288
+frontimage[sw]=curve.1.2 ,-192,-288
+frontimage[nw]=curve.1.3,-192,-288
 -----------------------------------------------
-# @text ja:[高架] ゆるめの両渡り
-# @text en:[Elevated] Gently double switch
+# @text ja:[高架] ゆるめの両渡り（単）
+# @text en:[Elevated] Gently double switch (single)
 obj=way
 name=iss_wte_gently_double_switch_single
 copyright=128na
@@ -179,31 +131,14 @@ waytype=track
 system_type=1
 icon=> ../../icon_util_512.4.2
 cursor=../../icon_util_512.4.3,-192,-168
-image[w]=-
-image[n]=-
-image[e]=-
-image[s]=-
-image[ew]=-
-image[ns]=-
 image[-]=-
-image[nsew]=-
 image[new]=point_e_single.3.1,-192,-288
-image[sw]=-
 image[nsw]=point_e_single.3.0,-192,-288
-image[ne]=-
-image[se]=-
-image[sew]=
-image[nw]=-
-image[nse]=-
-imageup[9]=-
-imageup[12]=-
-imageup[6]=-
-imageup[3]=-
 frontimage[new]=point_e_surface_single.3.1,-192,-288
 frontimage[nsw]=point_e_surface_single.3.0,-192,-288
 -----------------------------------------------
-# @text ja:[高架] ゆるめの片分岐パーツ１
-# @text en:[Elevated] Gently point parts 1
+# @text ja:[高架] ゆるめの片分岐パーツ１（前）
+# @text en:[Elevated] Gently point parts 1 (front)
 obj=way
 name=iss_wte_gently_point_1_front
 copyright=128na
@@ -223,29 +158,14 @@ image[new]=point_e_front.1.0,-192,-288
 image[sw]=point_e_front.1.2,-192,-288
 image[nsw]=point_e_front.0.3,-192,-288
 image[nw]=point_e_front.0.1 ,-192,-288
-image[w]=-
-image[n]=-
-image[e]=-
-image[s]=-
-image[ne]=-
-image[se]=-
-image[ew]=-
-image[ns]=-
 image[-]=-
-image[nsew]=-
-image[sew]=-
-image[nse]=-
-imageup[9]=-
-imageup[12]=-
-imageup[6]=-
-imageup[3]=-
 frontimage[new]=point_e_surface_front.1.0,-192,-288
 frontimage[sw]=point_e_surface_front.1.2,-192,-288
 frontimage[nsw]=point_e_surface_front.0.3,-192,-288
 frontimage[nw]=point_e_surface_front.0.1 ,-192,-288
 -----------------------------------------------
-# @text ja:[高架] ゆるめの片分岐パーツ２
-# @text en:[Elevated] Gently point parts 2
+# @text ja:[高架] ゆるめの片分岐パーツ２（前）
+# @text en:[Elevated] Gently point parts 2 (front)
 obj=way
 name=iss_wte_gently_point_2_front
 copyright=128na
@@ -265,29 +185,14 @@ image[new]=point_e_front.0.0,-192,-288
 image[nsw]=point_e_front.1.3,-192,-288
 image[ne]=point_e_front.1.1,-192,-288
 image[nw]=point_e_front.0.2,-192,-288
-image[w]=-
-image[n]=-
-image[e]=-
-image[s]=-
-image[ew]=-
-image[ns]=-
 image[-]=-
-image[nsew]=-
-image[sw]=-
-image[se]=-
-image[sew]=
-image[nse]=-
-imageup[9]=-
-imageup[12]=-
-imageup[6]=-
-imageup[3]=-
 frontimage[new]=point_e_surface_front.0.0,-192,-288
 frontimage[nsw]=point_e_surface_front.1.3,-192,-288
 frontimage[ne]=point_e_surface_front.1.1,-192,-288
 frontimage[nw]=point_e_surface_front.0.2,-192,-288
 -----------------------------------------------
-# @text ja:[高架] ゆるめの片渡りパーツ１
-# @text en:[Elevated] Gently single switch parts 1
+# @text ja:[高架] ゆるめの片渡りパーツ１（前）
+# @text en:[Elevated] Gently single switch parts 1 (front)
 obj=way
 name=iss_wte_gently_single_switch_1_front
 copyright=128na
@@ -303,31 +208,14 @@ waytype=track
 system_type=1
 icon=> ../../icon_util_512.2.4
 cursor=../../icon_util_512.2.5,-192,-168
-image[w]=-
-image[n]=-
-image[e]=-
-image[s]=-
-image[ne]=-
-image[se]=-
-image[ew]=-
-image[ns]=-
 image[-]=-
-image[nsew]=-
 image[new]=point_e_front.2.1,-192,-288
-image[sw]=-
 image[nsw]=point_e_front.2.0,-192,-288
-image[sew]=-
-image[nse]=-
-image[nw]=-
-imageup[9]=-
-imageup[12]=-
-imageup[6]=-
-imageup[3]=-
 frontimage[new]=point_e_surface_front.2.1,-192,-288
 frontimage[nsw]=point_e_surface_front.2.0,-192,-288
 -----------------------------------------------
-# @text ja:[高架] ゆるめの片渡りパーツ２
-# @text en:[Elevated] Gently single switch parts 2
+# @text ja:[高架] ゆるめの片渡りパーツ２（前）
+# @text en:[Elevated] Gently single switch parts 2 (front)
 obj=way
 name=iss_wte_gently_single_switch_2_front
 copyright=128na
@@ -343,31 +231,14 @@ waytype=track
 system_type=1
 icon=> ../../icon_util_512.3.4
 cursor=../../icon_util_512.3.5,-192,-168
-image[w]=-
-image[n]=-
-image[e]=-
-image[s]=-
-image[ew]=-
-image[ns]=-
 image[-]=-
-image[nsew]=-
 image[new]=point_e_front.2.3,-192,-288
-image[sw]=-
 image[nsw]=point_e_front.2.2,-192,-288
-image[ne]=-
-image[se]=-
-image[sew]=
-image[nw]=-
-image[nse]=-
-imageup[9]=-
-imageup[12]=-
-imageup[6]=-
-imageup[3]=-
 frontimage[new]=point_e_surface_front.2.3,-192,-288
 frontimage[nsw]=point_e_surface_front.2.2,-192,-288
 -----------------------------------------------
-# @text ja:[高架] ゆるめの両渡り
-# @text en:[Elevated] Gently double switch
+# @text ja:[高架] ゆるめの両渡り（前）
+# @text en:[Elevated] Gently double switch (front)
 obj=way
 name=iss_wte_gently_double_switch_front
 copyright=128na
@@ -383,31 +254,14 @@ waytype=track
 system_type=1
 icon=> ../../icon_util_512.4.4
 cursor=../../icon_util_512.4.5,-192,-168
-image[w]=-
-image[n]=-
-image[e]=-
-image[s]=-
-image[ew]=-
-image[ns]=-
 image[-]=-
-image[nsew]=-
 image[new]=point_e_front.3.1,-192,-288
-image[sw]=-
 image[nsw]=point_e_front.3.0,-192,-288
-image[ne]=-
-image[se]=-
-image[sew]=
-image[nw]=-
-image[nse]=-
-imageup[9]=-
-imageup[12]=-
-imageup[6]=-
-imageup[3]=-
 frontimage[new]=point_e_surface_front.3.1,-192,-288
 frontimage[nsw]=point_e_surface_front.3.0,-192,-288
 -----------------------------------------------
-# @text ja:[高架] ゆるめの片分岐パーツ１
-# @text en:[Elevated] Gently point parts 1
+# @text ja:[高架] ゆるめの片分岐パーツ１（中）
+# @text en:[Elevated] Gently point parts 1 (center)
 obj=way
 name=iss_wte_gently_point_1_center
 copyright=128na
@@ -427,25 +281,10 @@ image[new]=point_e_center.1.0,-192,-288
 image[sw]=point_e_center.1.2,-192,-288
 image[nsw]=point_e_center.0.3,-192,-288
 image[nw]=point_e_center.0.1 ,-192,-288
-image[w]=-
-image[n]=-
-image[e]=-
-image[s]=-
-image[ne]=-
-image[se]=-
-image[ew]=-
-image[ns]=-
 image[-]=-
-image[nsew]=-
-image[sew]=-
-image[nse]=-
-imageup[9]=-
-imageup[12]=-
-imageup[6]=-
-imageup[3]=-
 -----------------------------------------------
-# @text ja:[高架] ゆるめの片分岐パーツ２
-# @text en:[Elevated] Gently point parts 2
+# @text ja:[高架] ゆるめの片分岐パーツ２（中）
+# @text en:[Elevated] Gently point parts 2 (center)
 obj=way
 name=iss_wte_gently_point_2_center
 copyright=128na
@@ -465,25 +304,10 @@ image[new]=point_e_center.0.0,-192,-288
 image[nsw]=point_e_center.1.3,-192,-288
 image[ne]=point_e_center.1.1,-192,-288
 image[nw]=point_e_center.0.2,-192,-288
-image[w]=-
-image[n]=-
-image[e]=-
-image[s]=-
-image[ew]=-
-image[ns]=-
 image[-]=-
-image[nsew]=-
-image[sw]=-
-image[se]=-
-image[sew]=
-image[nse]=-
-imageup[9]=-
-imageup[12]=-
-imageup[6]=-
-imageup[3]=-
 -----------------------------------------------
-# @text ja:[高架] ゆるめの片渡りパーツ１
-# @text en:[Elevated] Gently single switch parts 1
+# @text ja:[高架] ゆるめの片渡りパーツ１（中）
+# @text en:[Elevated] Gently single switch parts 1 (center)
 obj=way
 name=iss_wte_gently_single_switch_1_center
 copyright=128na
@@ -499,29 +323,16 @@ waytype=track
 system_type=1
 icon=> ../../icon_util_512.2.6
 cursor=../../icon_util_512.2.7,-192,-168
-image[w]=-
-image[n]=-
-image[e]=-
-image[s]=-
-image[ne]=-
-image[se]=-
-image[ew]=-
-image[ns]=-
 image[-]=-
-image[nsew]=-
 image[new]=point_e_center.2.1,-192,-288
-image[sw]=-
 image[nsw]=point_e_center.2.0,-192,-288
-image[sew]=-
-image[nse]=-
-image[nw]=-
-imageup[9]=-
-imageup[12]=-
-imageup[6]=-
-imageup[3]=-
+image[ns]=curve.2.0,-192,-288
+image[ew]=curve.2.1 ,-192,-288
+image[nw]=curve.2.2,-192,-288
+image[ne]=curve.2.3 ,-192,-288
 -----------------------------------------------
-# @text ja:[高架] ゆるめの片渡りパーツ２
-# @text en:[Elevated] Gently single switch parts 2
+# @text ja:[高架] ゆるめの片渡りパーツ２（中）
+# @text en:[Elevated] Gently single switch parts 2 (center)
 obj=way
 name=iss_wte_gently_single_switch_2_center
 copyright=128na
@@ -537,29 +348,16 @@ waytype=track
 system_type=1
 icon=> ../../icon_util_512.3.6
 cursor=../../icon_util_512.3.7,-192,-168
-image[w]=-
-image[n]=-
-image[e]=-
-image[s]=-
-image[ew]=-
-image[ns]=-
 image[-]=-
-image[nsew]=-
 image[new]=point_e_center.2.3,-192,-288
-image[sw]=-
 image[nsw]=point_e_center.2.2,-192,-288
-image[ne]=-
-image[se]=-
-image[sew]=
-image[nw]=-
-image[nse]=-
-imageup[9]=-
-imageup[12]=-
-imageup[6]=-
-imageup[3]=-
+image[ns]=curve.3.0,-192,-288
+image[ew]=curve.3.1 ,-192,-288
+image[sw]=curve.3.2 ,-192,-288
+image[nw]=curve.3.3,-192,-288
 -----------------------------------------------
-# @text ja:[高架] ゆるめの両渡り
-# @text en:[Elevated] Gently double switch
+# @text ja:[高架] ゆるめの両渡り（中）
+# @text en:[Elevated] Gently double switch (center)
 obj=way
 name=iss_wte_gently_double_switch_center
 copyright=128na
@@ -575,29 +373,12 @@ waytype=track
 system_type=1
 icon=> ../../icon_util_512.4.6
 cursor=../../icon_util_512.4.7,-192,-168
-image[w]=-
-image[n]=-
-image[e]=-
-image[s]=-
-image[ew]=-
-image[ns]=-
 image[-]=-
-image[nsew]=-
 image[new]=point_e_center.3.1,-192,-288
-image[sw]=-
 image[nsw]=point_e_center.3.0,-192,-288
-image[ne]=-
-image[se]=-
-image[sew]=
-image[nw]=-
-image[nse]=-
-imageup[9]=-
-imageup[12]=-
-imageup[6]=-
-imageup[3]=-
 -----------------------------------------------
-# @text ja:[高架] ゆるめの片分岐パーツ１
-# @text en:[Elevated] Gently point parts 1
+# @text ja:[高架] ゆるめの片分岐パーツ１（後）
+# @text en:[Elevated] Gently point parts 1 (back)
 obj=way
 name=iss_wte_gently_point_1_back
 copyright=128na
@@ -617,29 +398,14 @@ image[new]=point_e_back.1.0,-192,-288
 image[sw]=point_e_back.1.2,-192,-288
 image[nsw]=point_e_back.0.3,-192,-288
 image[nw]=point_e_back.0.1 ,-192,-288
-image[w]=-
-image[n]=-
-image[e]=-
-image[s]=-
-image[ne]=-
-image[se]=-
-image[ew]=-
-image[ns]=-
 image[-]=-
-image[nsew]=-
-image[sew]=-
-image[nse]=-
-imageup[9]=-
-imageup[12]=-
-imageup[6]=-
-imageup[3]=-
 frontimage[new]=point_e_surface_back.1.0,-192,-288
 frontimage[sw]=point_e_surface_back.1.2,-192,-288
 frontimage[nsw]=point_e_surface_back.0.3,-192,-288
 frontimage[nw]=point_e_surface_back.0.1 ,-192,-288
 -----------------------------------------------
-# @text ja:[高架] ゆるめの片分岐パーツ２
-# @text en:[Elevated] Gently point parts 2
+# @text ja:[高架] ゆるめの片分岐パーツ２（後）
+# @text en:[Elevated] Gently point parts 2 (back)
 obj=way
 name=iss_wte_gently_point_2_back
 copyright=128na
@@ -659,29 +425,14 @@ image[new]=point_e_back.0.0,-192,-288
 image[nsw]=point_e_back.1.3,-192,-288
 image[ne]=point_e_back.1.1,-192,-288
 image[nw]=point_e_back.0.2,-192,-288
-image[w]=-
-image[n]=-
-image[e]=-
-image[s]=-
-image[ew]=-
-image[ns]=-
 image[-]=-
-image[nsew]=-
-image[sw]=-
-image[se]=-
-image[sew]=
-image[nse]=-
-imageup[9]=-
-imageup[12]=-
-imageup[6]=-
-imageup[3]=-
 frontimage[new]=point_e_surface_back.0.0,-192,-288
 frontimage[nsw]=point_e_surface_back.1.3,-192,-288
 frontimage[ne]=point_e_surface_back.1.1,-192,-288
 frontimage[nw]=point_e_surface_back.0.2,-192,-288
 -----------------------------------------------
-# @text ja:[高架] ゆるめの片渡りパーツ１
-# @text en:[Elevated] Gently single switch parts 1
+# @text ja:[高架] ゆるめの片渡りパーツ１（後）
+# @text en:[Elevated] Gently single switch parts 1 (back)
 obj=way
 name=iss_wte_gently_single_switch_1_back
 copyright=128na
@@ -697,31 +448,14 @@ waytype=track
 system_type=1
 icon=> ../../icon_util_512.2.8
 cursor=../../icon_util_512.2.9,-192,-168
-image[w]=-
-image[n]=-
-image[e]=-
-image[s]=-
-image[ne]=-
-image[se]=-
-image[ew]=-
-image[ns]=-
 image[-]=-
-image[nsew]=-
 image[new]=point_e_back.2.1,-192,-288
-image[sw]=-
 image[nsw]=point_e_back.2.0,-192,-288
-image[sew]=-
-image[nse]=-
-image[nw]=-
-imageup[9]=-
-imageup[12]=-
-imageup[6]=-
-imageup[3]=-
 frontimage[new]=point_e_surface_back.2.1,-192,-288
 frontimage[nsw]=point_e_surface_back.2.0,-192,-288
 -----------------------------------------------
-# @text ja:[高架] ゆるめの片渡りパーツ２
-# @text en:[Elevated] Gently single switch parts 2
+# @text ja:[高架] ゆるめの片渡りパーツ２（後）
+# @text en:[Elevated] Gently single switch parts 2 (back)
 obj=way
 name=iss_wte_gently_single_switch_2_back
 copyright=128na
@@ -737,31 +471,14 @@ waytype=track
 system_type=1
 icon=> ../../icon_util_512.3.8
 cursor=../../icon_util_512.3.9,-192,-168
-image[w]=-
-image[n]=-
-image[e]=-
-image[s]=-
-image[ew]=-
-image[ns]=-
 image[-]=-
-image[nsew]=-
 image[new]=point_e_back.2.3,-192,-288
-image[sw]=-
 image[nsw]=point_e_back.2.2,-192,-288
-image[ne]=-
-image[se]=-
-image[sew]=
-image[nw]=-
-image[nse]=-
-imageup[9]=-
-imageup[12]=-
-imageup[6]=-
-imageup[3]=-
 frontimage[new]=point_e_surface_back.2.3,-192,-288
 frontimage[nsw]=point_e_surface_back.2.2,-192,-288
 -----------------------------------------------
-# @text ja:[高架] ゆるめの両渡り
-# @text en:[Elevated] Gently double switch
+# @text ja:[高架] ゆるめの両渡り（後）
+# @text en:[Elevated] Gently double switch (back)
 obj=way
 name=iss_wte_gently_double_switch_back
 copyright=128na
@@ -777,26 +494,8 @@ waytype=track
 system_type=1
 icon=> ../../icon_util_512.4.8
 cursor=../../icon_util_512.4.9,-192,-168
-image[w]=-
-image[n]=-
-image[e]=-
-image[s]=-
-image[ew]=-
-image[ns]=-
 image[-]=-
-image[nsew]=-
 image[new]=point_e_back.3.1,-192,-288
-image[sw]=-
 image[nsw]=point_e_back.3.0,-192,-288
-image[ne]=-
-image[se]=-
-image[sew]=
-image[nw]=-
-image[nse]=-
-imageup[9]=-
-imageup[12]=-
-imageup[6]=-
-imageup[3]=-
 frontimage[new]=point_e_surface_back.3.1,-192,-288
 frontimage[nsw]=point_e_surface_back.3.0,-192,-288
------------------------------------------------
