@@ -943,8 +943,16 @@
       "crossing/rail-road/crossing.dat"
     ],
     "imageSet": {
-      "crossing/rail-road/crossing.png": [
-        "crossing/rail-road/crossing.png"
+      "crossing/rail-road/crossing_rear.png": [
+        "crossing/rail-road/base.png",
+        "crossing/rail-road/noise.png",
+        "crossing/rail-road/base_ec.png",
+        "crossing/rail-road/rail.png",
+        "crossing/rail-road/crossing_rear.png"
+      ],
+      "crossing/rail-road/crossing_surf.png": [
+        "crossing/rail-road/crossing_surf.png",
+        "crossing/rail-road/crossing_surf_sp.png"
       ]
     }
   },
