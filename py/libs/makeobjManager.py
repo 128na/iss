@@ -10,4 +10,4 @@ def pak(makeobjpath: str, outputDir: str, size: int, pakFile: str, datFiles: lis
     res = subprocess.run(command, cwd=outputDir, shell=True).returncode
 
     if(res != 0):
-        raise "makeobj failed"
+        raise Exception("makeobj failed")

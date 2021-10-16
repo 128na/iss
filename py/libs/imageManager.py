@@ -34,7 +34,7 @@ def mergeImage(inputs: list[str], output, inputDir: str = './src', outputDir: st
             )
 
     if(result is None):
-        raise "Image is empty"
+        raise Exception("Image is empty")
 
     ensureDir(outputDir+'/'+output)
     result.save(outputDir+'/'+output)

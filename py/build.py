@@ -1,11 +1,10 @@
-import time
 import os
 import sys
 from dotenv import load_dotenv
-from multiprocessing import Process
 from libs import fileManager
 from libs import imageManager
 from libs import makeobjManager
+import concurrent.futures
 
 
 def handleDefinitions(definitions: list[dict], inputPath, outputPath, makeobjpath, multithread):
@@ -29,23 +28,19 @@ def handleDefinitions(definitions: list[dict], inputPath, outputPath, makeobjpat
 
 def handleImagesMulti(definition: dict, inputPath, outputPath):
     print('handleImagesMulti')
-    process_list = []
+    executor = concurrent.futures.ProcessPoolExecutor(max_workers=4)
+    processList = []
     for output, inputs in definition['imageSet'].items():
         print('mergeImage', output, inputs)
         if(fileManager.existsFile(outputPath+'/'+output)):
             print('skip')
             continue
-        process = Process(
-            target=imageManager.mergeImage,
-            args=(inputs, output,  inputPath, outputPath)
-        )
-        process.start()
-        process_list.append(process)
 
-    for process in process_list:
-        process.join()
+        processList.append(executor.submit(
+            imageManager.mergeImage, inputs, output,  inputPath, outputPath))
 
-    time.sleep(1)
+    for process in processList:
+        process.result()
 
 
 def handleImages(definition: dict, inputPath, outputPath):
