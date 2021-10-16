@@ -44,8 +44,8 @@ image[ne]=point.1.1,-192,-288
 image[nw]=point.0.2,-192,-288
 image[-]=-
 -----------------------------------------------
-# @text ja:[地上] ゆるめの片渡りパーツ１
-# @text en:[Ground] Gently single switch parts 1
+# @text ja:[地上] ゆるめの片渡りとカーブパーツ１
+# @text en:[Ground] Gently single switch and curve parts 1
 obj=way
 name=iss_wtg_gently_single_switch_1
 copyright=128na
@@ -69,8 +69,8 @@ image[ew]=curve.0.1 ,-192,-288
 image[nw]=curve.0.2,-192,-288
 image[ne]=curve.0.3 ,-192,-288
 -----------------------------------------------
-# @text ja:[地上] ゆるめの片渡りパーツ２
-# @text en:[Ground] Gently single switch parts 2
+# @text ja:[地上] ゆるめの片渡りとカーブパーツ２
+# @text en:[Ground] Gently single switch and curve parts 2
 obj=way
 name=iss_wtg_gently_single_switch_2
 copyright=128na
