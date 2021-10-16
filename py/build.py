@@ -7,10 +7,13 @@ from libs import makeobjManager
 import concurrent.futures
 
 
-def handleDefinitions(definitions: list[dict], inputPath, outputPath, makeobjpath, multithread):
+def handleDefinitions(definitions: list[dict], inputPath, outputPath, makeobjpath):
+    multithread = os.getenv('MULTITHREAD').lower() in ('true', '1', 't')
+    threads = int(os.getenv('THREADS'))
+
     for definition in definitions:
         if(multithread):
-            handleImagesMulti(definition, inputPath, outputPath)
+            handleImagesMulti(definition, inputPath, outputPath, threads)
         else:
             handleImages(definition, inputPath, outputPath)
 
@@ -26,9 +29,9 @@ def handleDefinitions(definitions: list[dict], inputPath, outputPath, makeobjpat
         )
 
 
-def handleImagesMulti(definition: dict, inputPath, outputPath):
+def handleImagesMulti(definition: dict, inputPath, outputPath, threads):
     print('handleImagesMulti')
-    executor = concurrent.futures.ProcessPoolExecutor(max_workers=4)
+    executor = concurrent.futures.ProcessPoolExecutor(max_workers=threads)
     processList = []
     for output, inputs in definition['imageSet'].items():
         print('mergeImage', output, inputs)
@@ -56,8 +59,6 @@ def handleImages(definition: dict, inputPath, outputPath):
 if __name__ == '__main__':
     load_dotenv()
     makeobjpath = os.getenv('MAKEOBJ_PATH')
-    multithread = os.getenv(
-        'MULTITHREAD', 'False').lower() in ('true', '1', 't')
 
     definitionsPath = sys.argv[1]
     outputPath = sys.argv[2]
@@ -65,5 +66,4 @@ if __name__ == '__main__':
     definitions = fileManager.loadJson(definitionsPath)
 
     fileManager.removeDir(outputPath)
-    handleDefinitions(definitions, inputPath, outputPath,
-                      makeobjpath, multithread)
+    handleDefinitions(definitions, inputPath, outputPath, makeobjpath)
