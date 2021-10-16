@@ -6,10 +6,9 @@ from libs.fileManager import ensureDir
 
 
 def mergeImage(inputs: list[str], output, inputDir: str = './src', outputDir: str = './dev'):
-    keepTransparent = output.endswith('_kt.png')
+    eraseTransparent = not output.endswith('_kt.png')
 
     result = None
-    keepSpecial = False
     for index in range(len(inputs)):
         image = Image.open(inputDir+'/'+inputs[index])
 
@@ -19,18 +18,28 @@ def mergeImage(inputs: list[str], output, inputDir: str = './src', outputDir: st
             result = Image.alpha_composite(
                 result.convert('RGBA'), image.convert('RGBA'))
 
-        nextIsLast = index+1 == len(inputs)-1
-        keepSpecial = nextIsLast and inputs[index+1].endswith('_sc.png')
-        if(keepSpecial):
-            continue
+        eraseColor = False
+        replaceSpecialColor = False
 
-        removeEraseColor = inputs[index].endswith('_ec.png')
-        if(removeEraseColor):
+        # 最終画像がSP指定のときは1つ前の画像までで特殊色除去をする
+        nextIsLast = index+1 == len(inputs)-1
+        if nextIsLast and inputs[index+1].endswith('_sc.png'):
+            replaceSpecialColor = True
+
+        # 最終画像がSP指定以外のときは特殊色除去をする
+        isLast = index == len(inputs)-1
+        if isLast and not inputs[index].endswith('_sc.png'):
+            replaceSpecialColor = True
+
+        # EC指定のときは指定色を削除する
+        eraseColor = inputs[index].endswith('_ec.png')
+
+        if(eraseColor or replaceSpecialColor or (isLast and eraseTransparent)):
             result = manipulatePixcels(
                 result.convert('RGBA'),
-                keepTransparent,
-                True,
-                removeEraseColor
+                eraseTransparent,
+                replaceSpecialColor,
+                eraseColor
             )
 
     if(result is None):
@@ -42,15 +51,14 @@ def mergeImage(inputs: list[str], output, inputDir: str = './src', outputDir: st
 
 def manipulatePixcels(
     image: Image,
-    keepTransparent: bool,
+    eraseTransparent: bool,
     replaceSpecialColor: bool,
     eraseColor: bool
 ) -> Image:
-    # print('manipulatePixcels', f"kt:{'T'if keepTransparent else 'F'} sp:{'T'if replaceSpecialColor else 'F'} ec:{'T'if eraseColor else 'F'} ")
     resultImage = Image.new(image.mode, image.size)
     resultImage.putdata(list(map(
         lambda d: manipulatePixcel(
-            d, keepTransparent, replaceSpecialColor, eraseColor),
+            d, eraseTransparent, replaceSpecialColor, eraseColor),
         image.getdata()
     )))
     return resultImage
@@ -58,7 +66,7 @@ def manipulatePixcels(
 
 def manipulatePixcel(
     pixcel: tuple,
-    keepTransparent: bool,
+    eraseTransparent: bool,
     replaceSpecialColor: bool,
     eraseColor: bool
 ) -> tuple:
@@ -68,7 +76,7 @@ def manipulatePixcel(
     if(eraseColor):
         pixcel = handleEraseColor(pixcel)
 
-    if not (keepTransparent):
+    if (eraseTransparent):
         pixcel = handleTransparent(pixcel)
 
     return pixcel
