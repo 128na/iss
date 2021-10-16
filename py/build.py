@@ -1,3 +1,4 @@
+import time
 import os
 import sys
 from dotenv import load_dotenv
@@ -43,6 +44,8 @@ def handleImagesMulti(definition: dict, inputPath, outputPath):
 
     for process in process_list:
         process.join()
+
+    time.sleep(1)
 
 
 def handleImages(definition: dict, inputPath, outputPath):
