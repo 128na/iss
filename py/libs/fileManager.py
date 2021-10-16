@@ -11,7 +11,10 @@ def loadJson(path: str):
 def ensureDir(path: str):
     dir = Path(path).parent
     if not os.path.exists(dir):
-        os.makedirs(dir)
+        try:
+            os.makedirs(dir)
+        except FileExistsError:
+            pass
 
 
 def existsFile(path: str) -> bool:
