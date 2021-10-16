@@ -46,8 +46,7 @@ def manipulatePixcels(
     replaceSpecialColor: bool,
     eraseColor: bool
 ) -> Image:
-    print('manipulatePixcels',
-          f"kt:{'T'if keepTransparent else 'F'} sp:{'T'if replaceSpecialColor else 'F'} ec:{'T'if eraseColor else 'F'} ")
+    # print('manipulatePixcels', f"kt:{'T'if keepTransparent else 'F'} sp:{'T'if replaceSpecialColor else 'F'} ec:{'T'if eraseColor else 'F'} ")
     resultImage = Image.new(image.mode, image.size)
     resultImage.putdata(list(map(
         lambda d: manipulatePixcel(

@@ -1,0 +1,16 @@
+obj=crossing
+name=iss_ctr_0120x0030
+copyright=128na
+sound=-1
+waytype[0]=road
+speed[0]=30
+waytype[1]=track
+speed[1]=120
+openimage[ew][0]=crossing.0.0,-64,-32
+# front_openimage[ew][0]=crossing.0.0,-64,-32
+closedimage[ew][0]=crossing.0.2,-64,-32
+# front_closedimage[ew][0]=crossing.0.0,-64,-32
+openimage[ns][0]=crossing.0.1,-64,-32
+# front_openimage[ns][0]=crossing.0.0,-64,-32
+closedimage[ns][0]=crossing.0.3,-64,-32
+# front_closedimage[ns][0]=crossing.0.0,-64,-32

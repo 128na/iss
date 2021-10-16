@@ -938,6 +938,18 @@
   },
   {
     "size": 256,
+    "pakFile": "iss_crossing.pak",
+    "datFiles": [
+      "crossing/rail-road/crossing.dat"
+    ],
+    "imageSet": {
+      "crossing/rail-road/crossing.png": [
+        "crossing/rail-road/crossing.png"
+      ]
+    }
+  },
+  {
+    "size": 256,
     "pakFile": "iss_util_pier.pak",
     "datFiles": [
       "util/pier/ground/pier.dat",
