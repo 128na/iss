@@ -940,19 +940,26 @@
     "size": 256,
     "pakFile": "iss_crossing.pak",
     "datFiles": [
-      "crossing/rail-road/crossing.dat"
+      "crossing/rail/crossing.dat",
+      "crossing/water/crossing.dat"
     ],
     "imageSet": {
-      "crossing/rail-road/crossing_rear.png": [
-        "crossing/rail-road/base.png",
-        "crossing/rail-road/noise.png",
-        "crossing/rail-road/base_ec.png",
-        "crossing/rail-road/rail.png",
-        "crossing/rail-road/crossing_rear.png"
+      "crossing/rail/crossing_rear.png": [
+        "crossing/rail/base.png",
+        "crossing/rail/noise.png",
+        "crossing/rail/base_ec.png",
+        "crossing/rail/rail.png",
+        "crossing/rail/crossing_rear.png"
       ],
-      "crossing/rail-road/crossing_surf.png": [
-        "crossing/rail-road/crossing_surf.png",
-        "crossing/rail-road/crossing_surf_sp.png"
+      "crossing/rail/crossing_surf.png": [
+        "crossing/rail/crossing_surf.png",
+        "crossing/rail/crossing_surf_sp.png"
+      ],
+      "crossing/water/crossing_surf_kt.png": [
+        "crossing/water/crossing_surf.png"
+      ],
+      "crossing/water/crossing_rear_kt.png": [
+        "crossing/water/crossing_rear.png"
       ]
     }
   },
