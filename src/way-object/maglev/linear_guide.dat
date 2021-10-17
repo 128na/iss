@@ -12,7 +12,6 @@ cost=1000
 maintenance=100
 topspeed=65535
 own_waytype=electrified_track
-draw_as_ding=1
 icon=> ../../icon_way3.5.0
 cursor=../../icon_way3.5.1,-64,-40
 backimage[ns]=linear_guide_rear.0.2,-64,-32
