@@ -915,7 +915,11 @@
       ],
       "way/water/canal_kt.png": [
         "way/water/canal.png",
-        "way/water/water_ec.png"
+        "way/water/canal_ec.png"
+      ],
+      "way/water/water.png": [
+        "way/water/water.png",
+        "way/center_ec.png"
       ]
     }
   },
@@ -1094,7 +1098,8 @@
     "datFiles": [
       "util/sidewalk/ground.dat",
       "util/sidewalk/ground_road.dat",
-      "util/sidewalk/elevated.dat"
+      "util/sidewalk/elevated.dat",
+      "util/sidewalk/wall.dat"
     ],
     "imageSet": {
       "icon_util2.png": [
@@ -1104,6 +1109,14 @@
       "util/sidewalk/sidewalk_kt.png": [
         "util/sidewalk/sidewalk.png",
         "util/sidewalk/sidewalk_ec.png"
+      ],
+      "util/sidewalk/wall_rear_kt.png": [
+        "util/sidewalk/wall_rear.png",
+        "util/sidewalk/wall_up2.png"
+      ],
+      "util/sidewalk/wall_surface_kt.png": [
+        "util/sidewalk/wall_surface.png",
+        "util/sidewalk/wall_up2.png"
       ]
     }
   },

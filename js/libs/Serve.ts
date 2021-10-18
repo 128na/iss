@@ -6,7 +6,7 @@ import { Makeobj } from 'simutrans-makeobj-wrapper';
 import SimutransManager from "./SimutransManager";
 
 export default class Serve {
-  static watchExt = ['dat', 'png', 'js', 'tab'];
+  static watchExt = ['dat', 'png', 'json'];
   private source: string;
   private output: string;
   private paklib: string;
