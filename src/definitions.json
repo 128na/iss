@@ -241,7 +241,7 @@
     "size": 256,
     "pakFile": "iss_road_way-object.pak",
     "datFiles": [
-      "way-object/road/wall.dat",
+      "way-object/road/wall_nyo.dat",
       "way-object/road/center_divider.dat",
       "way-object/road/wall_with_center_divider.dat"
     ],
