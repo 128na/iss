@@ -30,7 +30,7 @@ def handleDefinitions(definitions: list[dict], inputPath, outputPath, makeobjpat
 
 
 def handleImagesMulti(definition: dict, inputPath, outputPath, threads):
-    print('handleImagesMulti')
+    # print('handleImagesMulti')
     executor = concurrent.futures.ProcessPoolExecutor(max_workers=threads)
     processList = []
     for output, inputs in definition['imageSet'].items():
@@ -47,7 +47,7 @@ def handleImagesMulti(definition: dict, inputPath, outputPath, threads):
 
 
 def handleImages(definition: dict, inputPath, outputPath):
-    print('handleImages')
+    # print('handleImages')
     for output, inputs in definition['imageSet'].items():
         print('mergeImage', output, inputs)
         if(fileManager.existsFile(outputPath+'/'+output)):

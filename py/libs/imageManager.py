@@ -35,12 +35,12 @@ def mergeImage(inputs: list[str], output, inputDir: str = './src', outputDir: st
         eraseColor = inputs[index].endswith('_ec.png')
 
         if(eraseColor or replaceSpecialColor or (isLast and eraseTransparent)):
-            print('image', inputs[index])
-            print('nextIsLast', nextIsLast)
-            print('isLast', isLast)
-            print('eraseTransparent', eraseTransparent)
-            print('replaceSpecialColor', replaceSpecialColor)
-            print('eraseColor', eraseColor)
+            # print('image', inputs[index])
+            # print('nextIsLast', nextIsLast)
+            # print('isLast', isLast)
+            # print('eraseTransparent', eraseTransparent)
+            # print('replaceSpecialColor', replaceSpecialColor)
+            # print('eraseColor', eraseColor)
             result = manipulatePixcels(
                 result.convert('RGBA'),
                 isLast and eraseTransparent,
