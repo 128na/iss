@@ -219,6 +219,103 @@
   },
   {
     "size": 256,
+    "pakFile": "iss_road_bridge.pak",
+    "datFiles": [
+      "bridge/road/bridge.dat"
+    ],
+    "imageSet": {
+      "icon_bridge.png": [
+        "icon_bridge.png",
+        "icon_ec.png"
+      ],
+      "bridge/road/0030_bridge1.png": [
+        "bridge/road/base_low.png",
+        "bridge/road/noise.png",
+        "bridge/road/line_low.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge1.png"
+      ],
+      "bridge/road/0030_bridge2.png": [
+        "bridge/road/base_low.png",
+        "bridge/road/noise.png",
+        "bridge/road/line_low.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge2.png"
+      ],
+      "bridge/road/0030_bridge3.png": [
+        "bridge/road/base_low.png",
+        "bridge/road/noise.png",
+        "bridge/road/line_low.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge3.png"
+      ],
+      "bridge/road/0050_bridge1.png": [
+        "bridge/road/base_mid.png",
+        "bridge/road/noise.png",
+        "bridge/road/line_mid.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge1.png"
+      ],
+      "bridge/road/0050_bridge2.png": [
+        "bridge/road/base_mid.png",
+        "bridge/road/noise.png",
+        "bridge/road/line_mid.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge2.png"
+      ],
+      "bridge/road/0050_bridge3.png": [
+        "bridge/road/base_mid.png",
+        "bridge/road/noise.png",
+        "bridge/road/line_mid.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge3.png"
+      ],
+      "bridge/road/0120_bridge1.png": [
+        "bridge/road/base_high.png",
+        "bridge/road/noise.png",
+        "bridge/road/line_mid.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge1.png"
+      ],
+      "bridge/road/0120_bridge2.png": [
+        "bridge/road/base_high.png",
+        "bridge/road/noise.png",
+        "bridge/road/line_mid.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge2.png"
+      ],
+      "bridge/road/0120_bridge3.png": [
+        "bridge/road/base_high.png",
+        "bridge/road/noise.png",
+        "bridge/road/line_mid.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge3.png"
+      ],
+      "bridge/road/1200_bridge1.png": [
+        "bridge/road/base_high.png",
+        "bridge/road/noise.png",
+        "bridge/road/line_high.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge1.png"
+      ],
+      "bridge/road/1200_bridge2.png": [
+        "bridge/road/base_high.png",
+        "bridge/road/noise.png",
+        "bridge/road/line_high.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge2.png"
+      ],
+      "bridge/road/1200_bridge3.png": [
+        "bridge/road/base_high.png",
+        "bridge/road/noise.png",
+        "bridge/road/line_high.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge3.png"
+      ]
+    }
+  },
+  {
+    "size": 256,
     "pakFile": "iss_road_sign.pak",
     "datFiles": [
       "sign/road/sign1.dat",

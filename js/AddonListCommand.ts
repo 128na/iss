@@ -13,6 +13,7 @@ class GenerateAddonListCommand {
     { file: 'icon_way1.png', size: 256 },
     { file: 'icon_way2.png', size: 256 },
     { file: 'icon_way3.png', size: 256 },
+    { file: 'icon_bridge.png', size: 256 },
     { file: 'icon_util1.png', size: 256 },
     { file: 'icon_util2.png', size: 256 },
     { file: 'icon_util_512.png', size: 512 },
