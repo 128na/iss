@@ -739,6 +739,82 @@
   },
   {
     "size": 256,
+    "pakFile": "iss_rail_bridge.pak",
+    "datFiles": [
+      "bridge/rail/bridge.dat"
+    ],
+    "imageSet": {
+      "icon_bridge.png": [
+        "icon_bridge.png",
+        "icon_ec.png"
+      ],
+      "bridge/rail/0120_bridge1.png": [
+        "bridge/rail/base_brown.png",
+        "bridge/rail/noise.png",
+        "bridge/rail/rail_wood.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge1.png"
+      ],
+      "bridge/rail/0120_bridge2.png": [
+        "bridge/rail/base_brown.png",
+        "bridge/rail/noise.png",
+        "bridge/rail/rail_wood.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge2.png"
+      ],
+      "bridge/rail/0120_bridge3.png": [
+        "bridge/rail/base_brown.png",
+        "bridge/rail/noise.png",
+        "bridge/rail/rail_wood.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge3.png"
+      ],
+      "bridge/rail/0240_bridge1.png": [
+        "bridge/rail/base_gray.png",
+        "bridge/rail/noise.png",
+        "bridge/rail/rail_concrete.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge1.png"
+      ],
+      "bridge/rail/0240_bridge2.png": [
+        "bridge/rail/base_gray.png",
+        "bridge/rail/noise.png",
+        "bridge/rail/rail_concrete.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge2.png"
+      ],
+      "bridge/rail/0240_bridge3.png": [
+        "bridge/rail/base_gray.png",
+        "bridge/rail/noise.png",
+        "bridge/rail/rail_concrete.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge3.png"
+      ],
+      "bridge/rail/0360_bridge1.png": [
+        "bridge/rail/base_gray.png",
+        "bridge/rail/noise.png",
+        "bridge/rail/rail_ffu.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge1.png"
+      ],
+      "bridge/rail/0360_bridge2.png": [
+        "bridge/rail/base_gray.png",
+        "bridge/rail/noise.png",
+        "bridge/rail/rail_ffu.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge2.png"
+      ],
+      "bridge/rail/0360_bridge3.png": [
+        "bridge/rail/base_gray.png",
+        "bridge/rail/noise.png",
+        "bridge/rail/rail_ffu.png",
+        "bridge/road/bridge_ec.png",
+        "bridge/road/bridge3.png"
+      ]
+    }
+  },
+  {
+    "size": 256,
     "pakFile": "iss_maglev_way.pak",
     "datFiles": [
       "way/maglev/transrapid.dat",
