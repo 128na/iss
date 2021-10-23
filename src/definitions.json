@@ -1622,5 +1622,17 @@
         "util/rail_gently-point/np_rear_ec.png"
       ]
     }
+  },
+  {
+    "size": 256,
+    "pakFile": "iss_ship.pak",
+    "datFiles": [
+      "vehicle/ship/vale_brasil.dat"
+    ],
+    "imageSet": {
+      "vehicle/ship/vale_brasil.png": [
+        "vehicle/ship/vale_brasil.png"
+      ]
+    }
   }
 ]
