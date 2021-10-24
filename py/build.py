@@ -1,3 +1,4 @@
+import time
 import os
 import sys
 from dotenv import load_dotenv
@@ -66,4 +67,7 @@ if __name__ == '__main__':
     definitions = fileManager.loadJson(definitionsPath)
 
     fileManager.removeDir(outputPath)
+    beginAt = time.perf_counter()
     handleDefinitions(definitions, inputPath, outputPath, makeobjpath)
+    endAt = time.perf_counter()
+    print(endAt-beginAt)
