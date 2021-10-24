@@ -4,13 +4,29 @@ from PIL import Image
 
 from libs.fileManager import ensureDir
 
+imageCache = {}
+
+
+def hasCache(key: tuple):
+    return key in imageCache
+
+
+def getCache(key: tuple):
+    return imageCache[key]
+
+
+def putCache(key: tuple, image: Image):
+    imageCache[key] = image
+
 
 def mergeImage(inputs: list[str], output, inputDir: str = './src', outputDir: str = './dev'):
     eraseTransparent = not output.endswith('_kt.png')
 
     result = None
+    key = ()
     for index in range(len(inputs)):
         image = Image.open(inputDir+'/'+inputs[index])
+        key += (inputDir+'/'+inputs[index],)
 
         if result is None:
             result = image
@@ -45,7 +61,8 @@ def mergeImage(inputs: list[str], output, inputDir: str = './src', outputDir: st
                 result.convert('RGBA'),
                 isLast and eraseTransparent,
                 replaceSpecialColor,
-                eraseColor
+                eraseColor,
+                key
             )
 
     if(result is None):
@@ -59,14 +76,22 @@ def manipulatePixcels(
     image: Image,
     eraseTransparent: bool,
     replaceSpecialColor: bool,
-    eraseColor: bool
+    eraseColor: bool,
+    key: tuple
 ) -> Image:
+
+    if(hasCache(key)):
+        print('using cache', key)
+        return getCache(key)
+
     resultImage = Image.new(image.mode, image.size)
     resultImage.putdata(list(map(
         lambda d: manipulatePixcel(
             d, eraseTransparent, replaceSpecialColor, eraseColor),
         image.getdata()
     )))
+    putCache(key, resultImage)
+
     return resultImage
 
 
@@ -89,7 +114,7 @@ def manipulatePixcel(
 
 
 def handleReplaceSpecialColor(pixcel: tuple, specialColors: list[tuple] = constants.specialColors) -> tuple:
-    if (specialColors.__contains__((pixcel[0], pixcel[1], pixcel[2]))):
+    if ((pixcel[0], pixcel[1], pixcel[2]) in specialColors):
         return (pixcel[0]+1, pixcel[1]+1, pixcel[2]+1, pixcel[3])
     return pixcel
 
