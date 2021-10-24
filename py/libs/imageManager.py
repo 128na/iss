@@ -81,6 +81,7 @@ def manipulatePixcels(
 ) -> Image:
 
     if(hasCache(key)):
+        print('using cache', key)
         return getCache(key)
 
     resultImage = Image.new(image.mode, image.size)
