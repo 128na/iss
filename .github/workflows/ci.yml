@@ -26,7 +26,7 @@ jobs:
           python-version: "3.x"
 
       - name: install python deps
-        run: pip install pillow python-dotenv
+        run: pip install -r python_dependencies.txt
 
       - name: make pak files
         run: npm ci && npm run build_py
@@ -50,7 +50,7 @@ jobs:
           python-version: "3.x"
 
       - name: install python deps
-        run: pip install pillow python-dotenv
+        run: pip install -r python_dependencies.txt
 
       - name: make pak files
         run: npm ci && npm run release
