@@ -1295,22 +1295,87 @@
     "pakFile": "iss_util_gently-point.pak",
     "datFiles": [
       "util/rail_gently-point/ground.dat",
-      "util/rail_gently-point/elevated.dat"
+      "util/rail_gently-point/elevated.dat",
+      "util/rail_gently-point/ground_wood.dat",
+      "util/rail_gently-point/elevated_wood.dat"
     ],
     "imageSet": {
       "icon_util_512.png": [
         "icon_util_512.png",
         "icon_512_ec.png"
       ],
+      "icon_util2_512.png": [
+        "icon_util2_512.png",
+        "icon_512_ec.png"
+      ],
+      "util/rail_gently-point/point_wood.png": [
+        "util/rail_gently-point/base_brown.png",
+        "util/rail_gently-point/noise.png",
+        "util/rail_gently-point/point_wood.png",
+        "util/rail_gently-point/point_fix.png",
+        "util/rail_gently-point/point_ec.png"
+      ],
+      "util/rail_gently-point/point_wood_e_single.png": [
+        "util/rail_gently-point/base_brown.png",
+        "util/rail_gently-point/noise.png",
+        "util/rail_gently-point/point_wood.png",
+        "util/rail_gently-point/point_fix.png",
+        "util/rail_gently-point/point_ec.png",
+        "util/rail_gently-point/wall_rear_in.png",
+        "util/rail_gently-point/wall_rear_out.png"
+      ],
+      "util/rail_gently-point/point_wood_e_front.png": [
+        "util/rail_gently-point/base_brown.png",
+        "util/rail_gently-point/noise.png",
+        "util/rail_gently-point/point_wood.png",
+        "util/rail_gently-point/point_fix.png",
+        "util/rail_gently-point/point_ec.png",
+        "util/rail_gently-point/wall_rear_in.png"
+      ],
+      "util/rail_gently-point/point_wood_e_center.png": [
+        "util/rail_gently-point/base_brown.png",
+        "util/rail_gently-point/noise.png",
+        "util/rail_gently-point/point_wood.png",
+        "util/rail_gently-point/point_fix.png",
+        "util/rail_gently-point/point_center_ec.png"
+      ],
+      "util/rail_gently-point/point_wood_e_back.png": [
+        "util/rail_gently-point/base_brown.png",
+        "util/rail_gently-point/noise.png",
+        "util/rail_gently-point/point_wood.png",
+        "util/rail_gently-point/point_fix.png",
+        "util/rail_gently-point/point_ec.png",
+        "util/rail_gently-point/wall_rear_out.png"
+      ],
+      "util/rail_gently-point/curve_wood.png": [
+        "util/rail_gently-point/base_brown.png",
+        "util/rail_gently-point/noise.png",
+        "util/rail_gently-point/curve_wood.png",
+        "util/rail_gently-point/curve_ec.png"
+      ],
+      "util/rail_gently-point/curve_wood_e.png": [
+        "util/rail_gently-point/base_brown.png",
+        "util/rail_gently-point/noise.png",
+        "util/rail_gently-point/curve_wood.png",
+        "util/rail_gently-point/curve_ec.png",
+        "util/rail_gently-point/curve_wall_rear.png"
+      ],
+      "util/rail_gently-point/curve_wood_e_single.png": [
+        "util/rail_gently-point/base_brown.png",
+        "util/rail_gently-point/noise.png",
+        "util/rail_gently-point/curve_wood.png",
+        "util/rail_gently-point/curve_ec.png",
+        "util/rail_gently-point/curve_wall_single_rear.png"
+      ],
       "util/rail_gently-point/point.png": [
-        "util/rail_gently-point/barrast.png",
+        "util/rail_gently-point/base_gray.png",
         "util/rail_gently-point/noise.png",
         "util/rail_gently-point/point.png",
         "util/rail_gently-point/point_fix.png",
         "util/rail_gently-point/point_ec.png"
       ],
       "util/rail_gently-point/point_e_single.png": [
-        "util/rail_gently-point/barrast.png",
+        "util/rail_gently-point/base_gray.png",
         "util/rail_gently-point/noise.png",
         "util/rail_gently-point/point.png",
         "util/rail_gently-point/point_fix.png",
@@ -1319,7 +1384,7 @@
         "util/rail_gently-point/wall_rear_out.png"
       ],
       "util/rail_gently-point/point_e_front.png": [
-        "util/rail_gently-point/barrast.png",
+        "util/rail_gently-point/base_gray.png",
         "util/rail_gently-point/noise.png",
         "util/rail_gently-point/point.png",
         "util/rail_gently-point/point_fix.png",
@@ -1327,14 +1392,14 @@
         "util/rail_gently-point/wall_rear_in.png"
       ],
       "util/rail_gently-point/point_e_center.png": [
-        "util/rail_gently-point/barrast.png",
+        "util/rail_gently-point/base_gray.png",
         "util/rail_gently-point/noise.png",
         "util/rail_gently-point/point.png",
         "util/rail_gently-point/point_fix.png",
         "util/rail_gently-point/point_center_ec.png"
       ],
       "util/rail_gently-point/point_e_back.png": [
-        "util/rail_gently-point/barrast.png",
+        "util/rail_gently-point/base_gray.png",
         "util/rail_gently-point/noise.png",
         "util/rail_gently-point/point.png",
         "util/rail_gently-point/point_fix.png",
@@ -1342,20 +1407,20 @@
         "util/rail_gently-point/wall_rear_out.png"
       ],
       "util/rail_gently-point/curve.png": [
-        "util/rail_gently-point/barrast.png",
+        "util/rail_gently-point/base_gray.png",
         "util/rail_gently-point/noise.png",
         "util/rail_gently-point/curve.png",
         "util/rail_gently-point/curve_ec.png"
       ],
       "util/rail_gently-point/curve_e.png": [
-        "util/rail_gently-point/barrast.png",
+        "util/rail_gently-point/base_gray.png",
         "util/rail_gently-point/noise.png",
         "util/rail_gently-point/curve.png",
         "util/rail_gently-point/curve_ec.png",
         "util/rail_gently-point/curve_wall_rear.png"
       ],
       "util/rail_gently-point/curve_e_single.png": [
-        "util/rail_gently-point/barrast.png",
+        "util/rail_gently-point/base_gray.png",
         "util/rail_gently-point/noise.png",
         "util/rail_gently-point/curve.png",
         "util/rail_gently-point/curve_ec.png",
