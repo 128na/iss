@@ -1223,6 +1223,7 @@
     "size": 256,
     "pakFile": "iss_util_embankment.pak",
     "datFiles": [
+      "util/embankment/distorted.dat",
       "util/embankment/double.dat",
       "util/embankment/half.dat",
       "util/embankment/step.dat"
@@ -1234,13 +1235,13 @@
       ],
       "util/embankment/embankment1.png": [
         "util/embankment/1.png",
-        "util/embankment/noise.png",
-        "util/embankment/embankment_ec.png"
+        "util/embankment/noise_d.png",
+        "util/embankment/embankment_d_ec.png"
       ],
       "util/embankment/embankment2.png": [
         "util/embankment/2.png",
-        "util/embankment/noise.png",
-        "util/embankment/embankment_ec.png"
+        "util/embankment/noise_d.png",
+        "util/embankment/embankment_d_ec.png"
       ],
       "util/embankment/embankment3.png": [
         "util/embankment/3.png",
